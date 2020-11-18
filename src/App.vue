@@ -1,19 +1,40 @@
 <template>
-  <div class="justify-center flex-1">
-    <div class="container pt-8 mx-auto">
-      <HelloWorld msg="Hello Vue 3 + Vite + Tailwind CSS" />
-    </div>
+  <div class="flex flex-col h-full w-full justify-between">
+    <Header />
+    <main class="mb-auto bg-gray-900">
+      <router-view />
+    </main>
+    <Footer class="h-10 bg-blue-500" />
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, toRef } from 'vue'
+import { globalState } from './store'
 
-import HelloWorld from './components/HelloWorld.vue'
+import Header from '../src/components/Header.vue'
+import Footer from '../src/components/Footer.vue'
 
 export default defineComponent({
   components: {
-    HelloWorld,
+    Header,
+    Footer,
+  },
+
+  setup() {
+    return {
+      isDark: toRef(globalState, 'isDark'),
+    }
+  },
+
+  mounted() {
+    document.documentElement.classList.toggle('dark', this.isDark)
+  },
+
+  watch: {
+    isDark(newVal: boolean) {
+      document.documentElement.classList.toggle('dark', newVal)
+    },
   },
 })
 </script>
