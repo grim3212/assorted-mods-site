@@ -134,7 +134,7 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-decor"
                   >
                     <span>Download</span>
@@ -165,13 +165,48 @@
                 <li>
                   <router-link
                     class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
-                    :to="{ name: 'Colorizer' }"
-                    >Colorizer</router-link
+                    :to="{ name: 'Pokeball' }"
+                    >Pokeball</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Wands' }"
+                    >Wands</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'ChickenSuit' }"
+                    >Chicken Suit</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Boomerang' }"
+                    >Boomerangs</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Hammers' }"
+                    >Hammers</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'MultiTools' }"
+                    >MultiTools</router-link
                   >
                 </li>
                 <li>
                   <a
-                    class="flex items-center text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-tools"
                   >
                     <span>Download</span>
@@ -202,13 +237,27 @@
                 <li>
                   <router-link
                     class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
-                    :to="{ name: 'Colorizer' }"
-                    >Colorizer</router-link
+                    :to="{ name: 'Locksmith' }"
+                    >Locksmith</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'LockeableStorage' }"
+                    >Lockeable Storage</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'ItemTower' }"
+                    >Item Tower</router-link
                   >
                 </li>
                 <li>
                   <a
-                    class="flex items-center text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-storage"
                   >
                     <span>Download</span>

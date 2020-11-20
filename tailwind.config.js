@@ -9,6 +9,6 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   variants: {
-    textColor: ['group-hover'],
+    textColor: ['group-hover', 'hover'],
   },
 }

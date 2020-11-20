@@ -39,9 +39,27 @@
       together.
     </p>
     <ul class="list-disc list-inside">
-      <li><router-link class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600" :to="{ name: 'Furniture' }">Furniture</router-link></li>
-      <li>Fireplaces</li>
-      <li>Slopes</li>
+      <li>
+        <router-link
+          class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
+          :to="{ name: 'Furniture' }"
+          >Furniture</router-link
+        >
+      </li>
+      <li>
+        <router-link
+          class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
+          :to="{ name: 'Fireplaces' }"
+          >Fireplaces</router-link
+        >
+      </li>
+      <li>
+        <router-link
+          class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
+          :to="{ name: 'Slopes' }"
+          >Slopes</router-link
+        >
+      </li>
     </ul>
   </div>
 </template>
