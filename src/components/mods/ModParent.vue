@@ -3,11 +3,14 @@
 </template>
 
 <style lang="postcss">
-h2 {
+#content h1 {
+  @apply text-gray-200 text-3xl py-2;
+}
+#content h2 {
   @apply text-gray-200 text-2xl py-2;
 }
-img {
-  @apply mx-auto rounded py-2;
+#content img {
+  @apply mx-auto rounded-lg my-2;
 }
 #content {
   @apply text-gray-400;

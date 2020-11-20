@@ -1,6 +1,12 @@
 <template>
   <div>
-    <mod-home mod="storage"></mod-home>
+    <mod-home mod="tools"></mod-home>
+    <div class="flex justify-center">
+      <img
+        class="border-black border-2 py-0"
+        src="src\assets\mods\tools\tools.png"
+      />
+    </div>
   </div>
 </template>
 

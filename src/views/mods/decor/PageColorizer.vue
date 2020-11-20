@@ -1,6 +1,6 @@
 <template>
   <div id="content">
-    <h2><a name="colorizer">Colorizer</a></h2>
+    <h1><a name="colorizer">Colorizer</a></h1>
     <p>
       Colorizers are blocks that can take on the appearance of most blocks. There are many different
       colorizers available from variants of already existing blocks like Doors, Stairs, or Fences.

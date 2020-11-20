@@ -78,7 +78,7 @@
           <div class="block overflow-y-auto pt-8 pb-4">
             <div class="mb-6">
               <router-link
-                class="text-gray-300 hover:text-gray-500 text-xs uppercase font-bold block py-1 px-4 no-underline"
+                class="text-gray-300 hover:text-gray-500 text-xs uppercase font-bold block py-1 px-4 no-underline toplevel-route"
                 :to="{ name: 'DecorHome' }"
                 >Assorted Decor</router-link
               >
@@ -98,9 +98,118 @@
                   >
                 </li>
                 <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Slopes' }"
+                    >Slopes</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Fireplaces' }"
+                    >Fireplaces</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Planter' }"
+                    >Planter Pot</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Wallpaper' }"
+                    >Wallpaper</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Frames' }"
+                    >Frames</router-link
+                  >
+                </li>
+                <li>
                   <a
                     class="flex items-center text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-decor"
+                  >
+                    <span>Download</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="fill-current w-5 h-5 ml-2"
+                    >
+                      <path
+                        d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                      />
+                      <path
+                        d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-6">
+              <router-link
+                class="text-gray-300 hover:text-gray-500 text-xs uppercase font-bold block py-1 px-4 no-underline toplevel-route"
+                :to="{ name: 'ToolsHome' }"
+                >Assorted Tools</router-link
+              >
+              <ul class="block flex-wrap list-none pl-0 mb-0 mt-0">
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Colorizer' }"
+                    >Colorizer</router-link
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    href="https://www.curseforge.com/minecraft/mc-mods/assorted-tools"
+                  >
+                    <span>Download</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="fill-current w-5 h-5 ml-2"
+                    >
+                      <path
+                        d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                      />
+                      <path
+                        d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-6">
+              <router-link
+                class="text-gray-300 hover:text-gray-500 text-xs uppercase font-bold block py-1 px-4 no-underline toplevel-route"
+                :to="{ name: 'StorageHome' }"
+                >Assorted Storage</router-link
+              >
+              <ul class="block flex-wrap list-none pl-0 mb-0 mt-0">
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Colorizer' }"
+                    >Colorizer</router-link
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    href="https://www.curseforge.com/minecraft/mc-mods/assorted-storage"
                   >
                     <span>Download</span>
                     <svg
@@ -152,7 +261,10 @@ export default defineComponent({
 </script>
 
 <style lang="postcss">
-.router-link-exact-active {
+.router-link-exact-active:not(.toplevel-route) {
   @apply text-blue-600 border-l-2 border-solid border-blue-600 pl-1;
+}
+.toplevel-route.router-link-exact-active {
+  @apply text-blue-600;
 }
 </style>

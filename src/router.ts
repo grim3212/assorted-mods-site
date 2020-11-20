@@ -1,15 +1,20 @@
 import { createWebHistory, createRouter, RouteRecordRaw } from 'vue-router'
-import SimpleLayout from './layouts/SimpleLayout.vue'
-import ModLayout from './layouts/ModLayout.vue'
-import Home from './views/Home.vue'
-import About from './views/About.vue'
-import NotFound from './views/NotFound.vue'
-import ModParent from './components/mods/ModParent.vue'
-import PageDecorHome from './views/mods/decor/PageHome.vue'
-import PageColorizer from './views/mods/decor/PageColorizer.vue'
-import PageFurniture from './views/mods/decor/PageFurniture.vue'
-import StorageHome from './views/mods/storage/StorageHome.vue'
-import ToolsHome from './views/mods/tools/ToolsHome.vue'
+const SimpleLayout = () => import('./layouts/SimpleLayout.vue')
+const ModLayout = () => import('./layouts/ModLayout.vue')
+const Home = () => import('./views/Home.vue')
+const About = () => import('./views/About.vue')
+const NotFound = () => import('./views/NotFound.vue')
+const ModParent = () => import('./components/mods/ModParent.vue')
+const PageDecorHome = () => import('./views/mods/decor/PageDecorHome.vue')
+const PageColorizer = () => import('./views/mods/decor/PageColorizer.vue')
+const PageFurniture = () => import('./views/mods/decor/PageFurniture.vue')
+const PageFireplaces = () => import('./views/mods/decor/PageFireplaces.vue')
+const PageSlopes = () => import('./views/mods/decor/PageSlopes.vue')
+const PagePlanterPot = () => import('./views/mods/decor/PagePlanterPot.vue')
+const PageFrames = () => import('./views/mods/decor/PageFrames.vue')
+const PageWallpaper = () => import('./views/mods/decor/PageWallpaper.vue')
+const PageStorageHome = () => import('./views/mods/storage/PageStorageHome.vue')
+const PageToolsHome = () => import('./views/mods/tools/PageToolsHome.vue')
 
 const routes: RouteRecordRaw[] = [
   {
@@ -56,17 +61,54 @@ const routes: RouteRecordRaw[] = [
             name: 'Furniture',
             component: PageFurniture,
           },
+          {
+            path: 'slopes',
+            name: 'Slopes',
+            component: PageSlopes,
+          },
+          {
+            path: 'fireplaces',
+            name: 'Fireplaces',
+            component: PageFireplaces,
+          },
+          {
+            path: 'planter',
+            name: 'Planter',
+            component: PagePlanterPot,
+          },
+          {
+            path: 'wallpaper',
+            name: 'Wallpaper',
+            component: PageWallpaper,
+          },
+          {
+            path: 'frames',
+            name: 'Frames',
+            component: PageFrames,
+          },
         ],
       },
       {
         path: 'storage',
-        name: 'StorageHome',
-        component: StorageHome,
+        component: ModParent,
+        children: [
+          {
+            path: '',
+            name: 'StorageHome',
+            component: PageStorageHome,
+          },
+        ],
       },
       {
         path: 'tools',
-        name: 'ToolsHome',
-        component: ToolsHome,
+        component: ModParent,
+        children: [
+          {
+            path: '',
+            name: 'ToolsHome',
+            component: PageToolsHome,
+          },
+        ],
       },
     ],
   },
