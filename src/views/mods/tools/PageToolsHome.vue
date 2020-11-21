@@ -4,7 +4,7 @@
     <div class="flex justify-center">
       <img
         class="border-black border-2 py-0"
-        src="src\assets\mods\tools\tools.png"
+        src="\mods\tools\tools.png"
       />
     </div>
   </div>

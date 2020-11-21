@@ -6,6 +6,6 @@
       again the mob will be released. Be aware these do not tame the mob and that this saves the
       mobs data when captured and will be released exactly as before.
     </p>
-    <img src="\src\assets\mods\tools\pokeball_recipe.png" />
+    <img src="\mods\tools\pokeball_recipe.png" />
   </div>
 </template>

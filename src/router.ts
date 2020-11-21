@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter, RouteRecordRaw } from 'vue-router'
+import { createWebHistory, createRouter, RouteRecordRaw, NavigationGuardNext } from 'vue-router'
 const SimpleLayout = () => import('./layouts/SimpleLayout.vue')
 const ModLayout = () => import('./layouts/ModLayout.vue')
 const Home = () => import('./views/Home.vue')
@@ -39,11 +39,17 @@ const routes: RouteRecordRaw[] = [
         path: 'about',
         name: 'About',
         component: About,
+        meta: {
+          title: 'About',
+        },
       },
       {
         path: ':catchAll(.*)',
         name: 'NotFound',
         component: NotFound,
+        meta: {
+          title: '404',
+        },
       },
     ],
   },
@@ -59,41 +65,65 @@ const routes: RouteRecordRaw[] = [
             path: '',
             name: 'DecorHome',
             component: PageDecorHome,
+            meta: {
+              title: 'Decor',
+            },
           },
           {
             path: 'colorizer',
             name: 'Colorizer',
             component: PageColorizer,
+            meta: {
+              title: 'Decor | Colorizer',
+            },
           },
           {
             path: 'furniture',
             name: 'Furniture',
             component: PageFurniture,
+            meta: {
+              title: 'Decor | Furniture',
+            },
           },
           {
             path: 'slopes',
             name: 'Slopes',
             component: PageSlopes,
+            meta: {
+              title: 'Decor | Slopes',
+            },
           },
           {
             path: 'fireplaces',
             name: 'Fireplaces',
             component: PageFireplaces,
+            meta: {
+              title: 'Decor | Fireplaces',
+            },
           },
           {
             path: 'planter',
             name: 'Planter',
             component: PagePlanterPot,
+            meta: {
+              title: 'Decor | Planter Pot',
+            },
           },
           {
             path: 'wallpaper',
             name: 'Wallpaper',
             component: PageWallpaper,
+            meta: {
+              title: 'Decor | Wallpaper',
+            },
           },
           {
             path: 'frames',
             name: 'Frames',
             component: PageFrames,
+            meta: {
+              title: 'Decor | Frames',
+            },
           },
         ],
       },
@@ -105,21 +135,33 @@ const routes: RouteRecordRaw[] = [
             path: '',
             name: 'StorageHome',
             component: PageStorageHome,
+            meta: {
+              title: 'Storage',
+            },
           },
           {
             path: 'locksmith',
             name: 'Locksmith',
             component: PageLocksmith,
+            meta: {
+              title: 'Storage | Locksmith',
+            },
           },
           {
             path: 'lockeable',
             name: 'LockeableStorage',
             component: PageLockeableStorage,
+            meta: {
+              title: 'Storage | Lockeable Storage',
+            },
           },
           {
             path: 'itemtower',
             name: 'ItemTower',
             component: PageItemTower,
+            meta: {
+              title: 'Storage | Item Tower',
+            },
           },
         ],
       },
@@ -131,36 +173,57 @@ const routes: RouteRecordRaw[] = [
             path: '',
             name: 'ToolsHome',
             component: PageToolsHome,
+            meta: {
+              title: 'Tools',
+            },
           },
           {
             path: 'hammers',
             name: 'Hammers',
             component: PageHammers,
+            meta: {
+              title: 'Tools | Hammers',
+            },
           },
           {
             path: 'multitools',
             name: 'MultiTools',
             component: PageMultiTools,
+            meta: {
+              title: 'Tools | MultiTools',
+            },
           },
           {
             path: 'boomerang',
             name: 'Boomerang',
             component: PageBoomerang,
+            meta: {
+              title: 'Tools | Boomerangs',
+            },
           },
           {
             path: 'pokeball',
             name: 'Pokeball',
             component: PagePokeball,
+            meta: {
+              title: 'Tools | Pokeball',
+            },
           },
           {
             path: 'chickensuit',
             name: 'ChickenSuit',
             component: PageChickenSuit,
+            meta: {
+              title: 'Tools | Chicken Suit',
+            },
           },
           {
             path: 'wands',
             name: 'Wands',
             component: PageWands,
+            meta: {
+              title: 'Tools | Wands',
+            },
           },
         ],
       },
@@ -171,6 +234,14 @@ const routes: RouteRecordRaw[] = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+})
+
+router.beforeEach((to) => {
+  if (to.meta.title) {
+    document.title = 'Assorted Mods - ' + to.meta.title
+  } else {
+    document.title = 'Assorted Mods'
+  }
 })
 
 export default router

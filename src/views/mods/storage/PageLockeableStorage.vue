@@ -16,26 +16,26 @@
     </p>
 
     <div class="grid grid-cols-3 gap-4">
-      <img src="\src\assets\mods\storage\oak_crate_recipe.png" />
-      <img src="\src\assets\mods\storage\birch_crate_recipe.png" />
-      <img src="\src\assets\mods\storage\spruce_crate_recipe.png" />
-      <img src="\src\assets\mods\storage\jungle_crate_recipe.png" />
-      <img src="\src\assets\mods\storage\acacia_crate_recipe.png" />
-      <img src="\src\assets\mods\storage\dark_oak_crate_recipe.png" />
-      <img src="\src\assets\mods\storage\warped_crate_recipe.png" />
-      <img src="\src\assets\mods\storage\crimson_crate_recipe.png" />
+      <img src="\mods\storage\oak_crate_recipe.png" />
+      <img src="\mods\storage\birch_crate_recipe.png" />
+      <img src="\mods\storage\spruce_crate_recipe.png" />
+      <img src="\mods\storage\jungle_crate_recipe.png" />
+      <img src="\mods\storage\acacia_crate_recipe.png" />
+      <img src="\mods\storage\dark_oak_crate_recipe.png" />
+      <img src="\mods\storage\warped_crate_recipe.png" />
+      <img src="\mods\storage\crimson_crate_recipe.png" />
     </div>
 
     <h2><a name="obsidian_safe">Obsidian Safe</a></h2>
     <p>The obsidian safe is resitant to explosions and has 27 slots for storage.</p>
-    <img src="\src\assets\mods\storage\obsidian_safe_recipe.png" />
+    <img src="\mods\storage\obsidian_safe_recipe.png" />
 
     <h2><a name="gold_safe">Gold Safe</a></h2>
     <p>
       The gold safe will in the future <i>(WIP)</i> work as it once did and be able to keep its
       items when broken so you can bring them along. Currently it works just as a Warehouse Crate.
     </p>
-    <img src="\src\assets\mods\storage\gold_safe_recipe.png" />
+    <img src="\mods\storage\gold_safe_recipe.png" />
 
     <h2><a name="cabinets">Cabinets</a></h2>
     <p>
@@ -43,8 +43,8 @@
       and can be locked but they come in two varieties and open from the front instead of the top.
     </p>
     <div class="grid grid-cols-2 gap-4">
-      <img src="\src\assets\mods\storage\wood_cabinet_recipe.png" />
-      <img src="\src\assets\mods\storage\glass_cabinet_recipe.png" />
+      <img src="\mods\storage\wood_cabinet_recipe.png" />
+      <img src="\mods\storage\glass_cabinet_recipe.png" />
     </div>
 
     <h2><a name="lockers">Lockers</a></h2>
@@ -53,7 +53,7 @@
       items. Similar to a double chest but on it's side. The inventory for the locker scrolls and
       you can use the right side buttons to navigate as well.
     </p>
-    <img src="\src\assets\mods\storage\locker_recipe.png" />
-    <img src="\src\assets\mods\storage\locker.png" />
+    <img src="\mods\storage\locker_recipe.png" />
+    <img src="\mods\storage\locker.png" />
   </div>
 </template>

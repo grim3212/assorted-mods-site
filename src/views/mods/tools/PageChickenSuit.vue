@@ -7,10 +7,10 @@
       than falling to your death.
     </p>
     <div class="grid grid-cols-2 gap-4">
-      <img src="\src\assets\mods\tools\chicken_hat_recipe.png" />
-      <img src="\src\assets\mods\tools\chicken_chest_recipe.png" />
-      <img src="\src\assets\mods\tools\chicken_legs_recipe.png" />
-      <img src="\src\assets\mods\tools\chicken_boots_recipe.png" />
+      <img src="\mods\tools\chicken_hat_recipe.png" />
+      <img src="\mods\tools\chicken_chest_recipe.png" />
+      <img src="\mods\tools\chicken_legs_recipe.png" />
+      <img src="\mods\tools\chicken_boots_recipe.png" />
     </div>
     <h2><a name="enchantment">Chicken Jump Enchantment</a></h2>
     <p>
@@ -20,8 +20,8 @@
       armor of the same type.
     </p>
     <div class="grid grid-cols-2 gap-4">
-      <img src="\src\assets\mods\tools\chicken_jump_enchantment_book.png" />
-      <img src="\src\assets\mods\tools\chicken_jump_enchantment_armor.png" />
+      <img src="\mods\tools\chicken_jump_enchantment_book.png" />
+      <img src="\mods\tools\chicken_jump_enchantment_armor.png" />
     </div>
   </div>
 </template>

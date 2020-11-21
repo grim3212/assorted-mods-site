@@ -7,8 +7,8 @@
       them from the one you open. When hoppers or pipes are involved they also have access to all of
       the towers.
     </p>
-    <img src="\src\assets\mods\storage\item_tower_recipe.png" />
-    <img src="\src\assets\mods\storage\item_tower_inventory.png" />
-    <img src="\src\assets\mods\storage\item_tower.png" />
+    <img src="\mods\storage\item_tower_recipe.png" />
+    <img src="\mods\storage\item_tower_inventory.png" />
+    <img src="\mods\storage\item_tower.png" />
   </div>
 </template>

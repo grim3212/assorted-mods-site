@@ -21,9 +21,9 @@
       Wand helps you build with different modes for different ways to fill in the area given.
     </p>
     <div class="grid grid-cols-3 gap-4">
-      <img src="\src\assets\mods\tools\building_wand_recipe.png" />
-      <img src="\src\assets\mods\tools\breaking_wand_recipe.png" />
-      <img src="\src\assets\mods\tools\mining_wand_recipe.png" />
+      <img src="\mods\tools\building_wand_recipe.png" />
+      <img src="\mods\tools\breaking_wand_recipe.png" />
+      <img src="\mods\tools\mining_wand_recipe.png" />
     </div>
     <h2><a name="basic">Reinforced Wands</a></h2>
     <p>
@@ -31,9 +31,9 @@
       giving the wands more uses as well as adding extras to the possible modes.
     </p>
     <div class="grid grid-cols-3 gap-4">
-      <img src="\src\assets\mods\tools\reinforced_building_wand_recipe.png" />
-      <img src="\src\assets\mods\tools\reinforced_breaking_wand_recipe.png" />
-      <img src="\src\assets\mods\tools\reinforced_mining_wand_recipe.png" />
+      <img src="\mods\tools\reinforced_building_wand_recipe.png" />
+      <img src="\mods\tools\reinforced_breaking_wand_recipe.png" />
+      <img src="\mods\tools\reinforced_mining_wand_recipe.png" />
     </div>
   </div>
 </template>

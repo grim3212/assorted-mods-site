@@ -8,12 +8,12 @@
       if you would like to clear the wallpaper use Bonemeal. If your house even catches on fire
       remember that you can remove the burned look from wallpaper.
     </p>
-    <img src="\src\assets\mods\decor\wallpaper_recipe.png" />
+    <img src="\mods\decor\wallpaper_recipe.png" />
     <p>
       Once placed right click on it again and it will cycle through the available options. When
       placed next to other wallpaper it will try and take on the texture of the surrounding
       wallpaper.
     </p>
-    <img src="\src\assets\mods\decor\wallpaper.png" />
+    <img src="\mods\decor\wallpaper.png" />
   </div>
 </template>

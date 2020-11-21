@@ -3,7 +3,7 @@
     <main class="mb-auto bg-gray-900">
       <router-view />
     </main>
-    <Footer class="h-10" />
+    <Footer />
   </div>
 </template>
 
