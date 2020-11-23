@@ -11,4 +11,12 @@ module.exports = {
   variants: {
     textColor: ['group-hover', 'hover'],
   },
+  theme: {
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+    },
+  },
 }

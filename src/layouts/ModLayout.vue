@@ -205,6 +205,13 @@
                   >
                 </li>
                 <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'MaterialConfig' }"
+                    >Material Config</router-link
+                  >
+                </li>
+                <li>
                   <a
                     class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-tools"

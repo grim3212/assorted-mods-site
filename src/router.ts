@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter, RouteRecordRaw, NavigationGuardNext } from 'vue-router'
+import { createWebHistory, createRouter, RouteRecordRaw } from 'vue-router'
 const SimpleLayout = () => import('./layouts/SimpleLayout.vue')
 const ModLayout = () => import('./layouts/ModLayout.vue')
 const Home = () => import('./views/Home.vue')
@@ -24,6 +24,7 @@ const PageBoomerang = () => import('./views/mods/tools/PageBoomerang.vue')
 const PagePokeball = () => import('./views/mods/tools/PagePokeball.vue')
 const PageChickenSuit = () => import('./views/mods/tools/PageChickenSuit.vue')
 const PageWands = () => import('./views/mods/tools/PageWands.vue')
+const PageMaterialConfig = () => import('./views/mods/tools/PageMaterialConfig.vue')
 
 const routes: RouteRecordRaw[] = [
   {
@@ -223,6 +224,14 @@ const routes: RouteRecordRaw[] = [
             component: PageWands,
             meta: {
               title: 'Tools | Wands',
+            },
+          },
+          {
+            path: 'matconfig',
+            name: 'MaterialConfig',
+            component: PageMaterialConfig,
+            meta: {
+              title: 'Tools | Material Config',
             },
           },
         ],
