@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-200">
-    <div class="max-w-6xl mx-auto px-5 py-24">
+    <div class="max-w-6xl mx-auto px-5 py-10">
       <div class="flex flex-wrap w-full mb-6 flex-col items-center text-center">
         <h2
           class="title-font mb-2 text-4xl font-extrabold leading-10 tracking-tight text-left sm:text-5xl sm:leading-none md:text-6xl"
