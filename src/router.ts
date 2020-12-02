@@ -12,6 +12,7 @@ const PageFireplaces = () => import('./views/mods/decor/PageFireplaces.vue')
 const PageSlopes = () => import('./views/mods/decor/PageSlopes.vue')
 const PagePlanterPot = () => import('./views/mods/decor/PagePlanterPot.vue')
 const PageFrames = () => import('./views/mods/decor/PageFrames.vue')
+const PageNeonSign = () => import('./views/mods/decor/PageNeonSign.vue')
 const PageWallpaper = () => import('./views/mods/decor/PageWallpaper.vue')
 const PageStorageHome = () => import('./views/mods/storage/PageStorageHome.vue')
 const PageLockeableStorage = () => import('./views/mods/storage/PageLockeableStorage.vue')
@@ -126,6 +127,14 @@ const routes: RouteRecordRaw[] = [
               title: 'Decor | Frames',
             },
           },
+          {
+            path: 'neon-sign',
+            name: 'NeonSign',
+            component: PageNeonSign,
+            meta: {
+              title: 'Decor | Neon Sign',
+            },
+          },
         ],
       },
       {
@@ -157,7 +166,7 @@ const routes: RouteRecordRaw[] = [
             },
           },
           {
-            path: 'itemtower',
+            path: 'item-tower',
             name: 'ItemTower',
             component: PageItemTower,
             meta: {
@@ -211,7 +220,7 @@ const routes: RouteRecordRaw[] = [
             },
           },
           {
-            path: 'chickensuit',
+            path: 'chicken-suit',
             name: 'ChickenSuit',
             component: PageChickenSuit,
             meta: {
@@ -227,7 +236,7 @@ const routes: RouteRecordRaw[] = [
             },
           },
           {
-            path: 'matconfig',
+            path: 'material-config',
             name: 'MaterialConfig',
             component: PageMaterialConfig,
             meta: {
