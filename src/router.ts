@@ -6,6 +6,7 @@ const About = () => import('./views/About.vue')
 const NotFound = () => import('./views/NotFound.vue')
 const ModParent = () => import('./components/mods/ModParent.vue')
 const PageDecorHome = () => import('./views/mods/decor/PageDecorHome.vue')
+const PageDecorChangelog = () => import('./views/mods/decor/PageDecorChangelog.vue')
 const PageColorizer = () => import('./views/mods/decor/PageColorizer.vue')
 const PageFurniture = () => import('./views/mods/decor/PageFurniture.vue')
 const PageFireplaces = () => import('./views/mods/decor/PageFireplaces.vue')
@@ -15,10 +16,12 @@ const PageFrames = () => import('./views/mods/decor/PageFrames.vue')
 const PageNeonSign = () => import('./views/mods/decor/PageNeonSign.vue')
 const PageWallpaper = () => import('./views/mods/decor/PageWallpaper.vue')
 const PageStorageHome = () => import('./views/mods/storage/PageStorageHome.vue')
+const PageStorageChangelog = () => import('./views/mods/storage/PageStorageChangelog.vue')
 const PageLockeableStorage = () => import('./views/mods/storage/PageLockeableStorage.vue')
 const PageItemTower = () => import('./views/mods/storage/PageItemTower.vue')
 const PageLocksmith = () => import('./views/mods/storage/PageLocksmith.vue')
 const PageToolsHome = () => import('./views/mods/tools/PageToolsHome.vue')
+const PageToolsChangelog = () => import('./views/mods/tools/PageToolsChangelog.vue')
 const PageHammers = () => import('./views/mods/tools/PageHammers.vue')
 const PageMultiTools = () => import('./views/mods/tools/PageMultiTools.vue')
 const PageBoomerang = () => import('./views/mods/tools/PageBoomerang.vue')
@@ -69,6 +72,14 @@ const routes: RouteRecordRaw[] = [
             component: PageDecorHome,
             meta: {
               title: 'Decor',
+            },
+          },
+          {
+            path: 'changelog',
+            name: 'DecorChangelog',
+            component: PageDecorChangelog,
+            meta: {
+              title: 'Decor | Changelog',
             },
           },
           {
@@ -150,6 +161,14 @@ const routes: RouteRecordRaw[] = [
             },
           },
           {
+            path: 'changelog',
+            name: 'StorageChangelog',
+            component: PageStorageChangelog,
+            meta: {
+              title: 'Storage | Changelog',
+            },
+          },
+          {
             path: 'locksmith',
             name: 'Locksmith',
             component: PageLocksmith,
@@ -185,6 +204,14 @@ const routes: RouteRecordRaw[] = [
             component: PageToolsHome,
             meta: {
               title: 'Tools',
+            },
+          },
+          {
+            path: 'changelog',
+            name: 'ToolsChangelog',
+            component: PageToolsChangelog,
+            meta: {
+              title: 'Tools | Changelog',
             },
           },
           {

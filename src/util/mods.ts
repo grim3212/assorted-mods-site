@@ -4,6 +4,7 @@ export type ModDetails = {
   downloadLink: String
   githubLink: String
   homeRoute: String
+  changelogName: String
 }
 
 const EMPTY: ModDetails = {
@@ -12,6 +13,7 @@ const EMPTY: ModDetails = {
   downloadLink: '',
   githubLink: '',
   homeRoute: '/',
+  changelogName: '',
 }
 
 const DECOR: ModDetails = {
@@ -20,6 +22,7 @@ const DECOR: ModDetails = {
   downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor',
   githubLink: 'https://github.com/grim3212/AssortedDecor',
   homeRoute: '/decor',
+  changelogName: 'DecorChangelog',
 }
 
 const STORAGE: ModDetails = {
@@ -28,6 +31,7 @@ const STORAGE: ModDetails = {
   downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage',
   githubLink: 'https://github.com/grim3212/AssortedStorage',
   homeRoute: '/storage',
+  changelogName: 'StorageChangelog',
 }
 
 const TOOLS: ModDetails = {
@@ -36,6 +40,7 @@ const TOOLS: ModDetails = {
   downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools',
   githubLink: 'https://github.com/grim3212/AssortedTools',
   homeRoute: '/tools',
+  changelogName: 'ToolsChangelog',
 }
 
 export const MODS = {
