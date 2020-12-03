@@ -2,8 +2,18 @@ import { ChangelogEntry } from './changelog'
 
 export const StorageChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.4-2.1.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3129182',
+    date: '12/03/2020 7:30 AM',
+    changes: [
+      'Gold safe is now just as resistant and hard as the Obsidian Safe',
+      'The gold safe now keeps its inventory when broken',
+      'The gold safe now has 36 slots instead of 9',
+    ],
+  },
+  {
     name: '1.16.4-2.0.1',
-    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3110485',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3117823',
     date: '11/20/2020 6:37 AM',
     changes: ['Fix missing recipe for Locksmith Workbench'],
   },

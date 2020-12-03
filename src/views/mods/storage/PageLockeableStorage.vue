@@ -32,8 +32,9 @@
 
     <h2><a name="gold_safe">Gold Safe</a></h2>
     <p>
-      The gold safe will in the future <i>(WIP)</i> work as it once did and be able to keep its
-      items when broken so you can bring them along. Currently it works just as a Warehouse Crate.
+      The gold safe works just like Shulker boxes where when you break it, it will keeps its
+      inventory. Once placed again the invetory will still remain when you open it up. The gold safe
+      is an upgrade to the Obsidian Safe so is just as strong as well as has 36 slots instead of 27.
     </p>
     <img src="\mods\storage\gold_safe_recipe.png" />
 
