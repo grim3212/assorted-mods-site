@@ -2,6 +2,18 @@ import { ChangelogEntry } from './changelog'
 
 export const ToolsChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.4-2.1.4',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3132813',
+    date: '12/06/2020 10:02 PM',
+    changes: ['Re-add advancements for recipes'],
+  },
+  {
+    name: '1.16.4-2.1.3',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3132640',
+    date: '12/06/2020 4:23 PM',
+    changes: ['Fix missing Pokeball recipe'],
+  },
+  {
     name: '1.16.4-2.1.2',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3127381',
     date: '11/30/2020 11:51 AM',
