@@ -2,6 +2,18 @@ import { ChangelogEntry } from './changelog'
 
 export const ToolsChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.4-2.2.1',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3135232',
+    date: '12/09/2020 9:29 PM',
+    changes: ['Slight adjustment to allow more range on armor and tool configs'],
+  },
+  {
+    name: '1.16.4-2.2.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3134698',
+    date: '12/09/2020 5:58 AM',
+    changes: ['Add support for Assorted Core materials'],
+  },
+  {
     name: '1.16.4-2.1.4',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3132813',
     date: '12/06/2020 10:02 PM',

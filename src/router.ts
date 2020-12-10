@@ -5,6 +5,10 @@ const Home = () => import('./views/Home.vue')
 const About = () => import('./views/About.vue')
 const NotFound = () => import('./views/NotFound.vue')
 const ModParent = () => import('./components/mods/ModParent.vue')
+const PageCoreHome = () => import('./views/mods/core/PageCoreHome.vue')
+const PageCoreChangelog = () => import('./views/mods/core/PageCoreChangelog.vue')
+const PageMachines = () => import('./views/mods/core/PageMachines.vue')
+const PageMaterials = () => import('./views/mods/core/PageMaterials.vue')
 const PageDecorHome = () => import('./views/mods/decor/PageDecorHome.vue')
 const PageDecorChangelog = () => import('./views/mods/decor/PageDecorChangelog.vue')
 const PageColorizer = () => import('./views/mods/decor/PageColorizer.vue')
@@ -23,6 +27,7 @@ const PageLocksmith = () => import('./views/mods/storage/PageLocksmith.vue')
 const PageToolsHome = () => import('./views/mods/tools/PageToolsHome.vue')
 const PageToolsChangelog = () => import('./views/mods/tools/PageToolsChangelog.vue')
 const PageHammers = () => import('./views/mods/tools/PageHammers.vue')
+const PageCoreSupport = () => import('./views/mods/tools/PageCoreSupport.vue')
 const PageMultiTools = () => import('./views/mods/tools/PageMultiTools.vue')
 const PageBoomerang = () => import('./views/mods/tools/PageBoomerang.vue')
 const PagePokeball = () => import('./views/mods/tools/PagePokeball.vue')
@@ -62,6 +67,44 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     component: ModLayout,
     children: [
+      {
+        path: 'core',
+        component: ModParent,
+        children: [
+          {
+            path: '',
+            name: 'CoreHome',
+            component: PageCoreHome,
+            meta: {
+              title: 'Core',
+            },
+          },
+          {
+            path: 'changelog',
+            name: 'CoreChangelog',
+            component: PageCoreChangelog,
+            meta: {
+              title: 'Core | Changelog',
+            },
+          },
+          {
+            path: 'machines',
+            name: 'Machines',
+            component: PageMachines,
+            meta: {
+              title: 'Core | Machines',
+            },
+          },
+          {
+            path: 'materials',
+            name: 'Materials',
+            component: PageMaterials,
+            meta: {
+              title: 'Core | Materials',
+            },
+          },
+        ]
+      },
       {
         path: 'decor',
         component: ModParent,
@@ -260,6 +303,14 @@ const routes: RouteRecordRaw[] = [
             component: PageWands,
             meta: {
               title: 'Tools | Wands',
+            },
+          },
+          {
+            path: 'core-support',
+            name: 'CoreSupport',
+            component: PageCoreSupport,
+            meta: {
+              title: 'Tools | Core Support',
             },
           },
           {

@@ -19,7 +19,9 @@
     <img src="\mods\decor\chairs_tables.png" />
     <h2><a name="stool">Colorizer Stool</a></h2>
     <p>
-      Stools are smaller than chairs and go quite well when a <router-link class="text-blue-300" :to="{ name: 'Planter' }">Planter Pot</router-link> is placed on top of them.
+      Stools are smaller than chairs and go quite well when a
+      <router-link class="text-blue-300" :to="{ name: 'Planter' }">Planter Pot</router-link> is
+      placed on top of them.
     </p>
     <img src="\mods\decor\stool_recipe.png" />
     <img src="\mods\decor\stool_pot.png" />
@@ -52,5 +54,12 @@
     <img src="\mods\decor\stairs_recipe.png" />
     <h2><a name="slab">Colorizer Slab</a></h2>
     <img src="\mods\decor\slab_recipe.png" />
+    <h2><a name="vertical_slab">Colorizer Vertical Slab</a></h2>
+    <p>
+      Lastly there is a new block which is just a Vertical version of a normal vanilla slab. You can
+      place these on the sides of blocks as well as combine them if you want into a full block like
+      normal.
+    </p>
+    <img src="\mods\decor\vertical_slab_recipe.png" />
   </div>
 </template>

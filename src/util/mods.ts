@@ -16,6 +16,15 @@ const EMPTY: ModDetails = {
   changelogName: '',
 }
 
+const CORE: ModDetails = {
+  name: 'Assorted Core',
+  description: 'Adds an assortment of items and blocks to be used by the other Assorted Mods.',
+  downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-core',
+  githubLink: 'https://github.com/grim3212/AssortedCore',
+  homeRoute: '/core',
+  changelogName: 'CoreChangelog',
+}
+
 const DECOR: ModDetails = {
   name: 'Assorted Decor',
   description: 'An assortment of various decorations to improve the look of your Minecraft world.',
@@ -44,6 +53,7 @@ const TOOLS: ModDetails = {
 }
 
 export const MODS = {
+  core: CORE,
   decor: DECOR,
   storage: STORAGE,
   tools: TOOLS,
@@ -51,6 +61,8 @@ export const MODS = {
 
 export function getModDetails(mod: String) {
   switch (mod) {
+    case 'core':
+      return CORE
     case 'decor':
       return DECOR
     case 'storage':

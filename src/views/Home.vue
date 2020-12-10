@@ -12,6 +12,7 @@
         </p>
       </div>
       <div class="flex flex-wrap -m-4">
+        <mod-card mod="core"></mod-card>
         <mod-card mod="decor"></mod-card>
         <mod-card mod="storage"></mod-card>
         <mod-card mod="tools"></mod-card>

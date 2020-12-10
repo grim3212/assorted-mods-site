@@ -2,6 +2,12 @@ import { ChangelogEntry } from './changelog'
 
 export const DecorChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.4-2.0.6',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3135234',
+    date: '12/09/2020 9:30 PM',
+    changes: ['Add in new block Colorizer Vertical Slab'],
+  },
+  {
     name: '1.16.4-2.0.5',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3128524',
     date: '12/02/2020 7:21 AM',
