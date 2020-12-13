@@ -18,6 +18,7 @@ const PageSlopes = () => import('./views/mods/decor/PageSlopes.vue')
 const PagePlanterPot = () => import('./views/mods/decor/PagePlanterPot.vue')
 const PageFrames = () => import('./views/mods/decor/PageFrames.vue')
 const PageNeonSign = () => import('./views/mods/decor/PageNeonSign.vue')
+const PageFluro = () => import('./views/mods/decor/PageFluro.vue')
 const PageWallpaper = () => import('./views/mods/decor/PageWallpaper.vue')
 const PageStorageHome = () => import('./views/mods/storage/PageStorageHome.vue')
 const PageStorageChangelog = () => import('./views/mods/storage/PageStorageChangelog.vue')
@@ -103,7 +104,7 @@ const routes: RouteRecordRaw[] = [
               title: 'Core | Materials',
             },
           },
-        ]
+        ],
       },
       {
         path: 'decor',
@@ -187,6 +188,14 @@ const routes: RouteRecordRaw[] = [
             component: PageNeonSign,
             meta: {
               title: 'Decor | Neon Sign',
+            },
+          },
+          {
+            path: 'fluro',
+            name: 'Fluro',
+            component: PageFluro,
+            meta: {
+              title: 'Decor | Fluro',
             },
           },
         ],
