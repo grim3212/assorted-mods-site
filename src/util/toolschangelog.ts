@@ -2,6 +2,21 @@ import { ChangelogEntry } from './changelog'
 
 export const ToolsChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.4-2.2.5',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3152418',
+    date: '12/29/2020 8:33 AM',
+    changes: [
+      'MultiTools prefer whichever tool does the damage (usually axes) to determine damage to use',
+      'Diamond MultiTools can be used in the Smithing Table with a Netherite Block to upgrade a Netherite MultiTool',
+    ],
+  },
+  {
+    name: '1.16.4-2.2.2',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3139449',
+    date: '12/17/2020 7:07 AM',
+    changes: ['Add in support for Enchantment Descriptions mod for the Chicken Jump enchantment'],
+  },
+  {
     name: '1.16.4-2.2.1',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3135232',
     date: '12/09/2020 9:29 PM',
