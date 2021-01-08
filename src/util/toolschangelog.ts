@@ -2,6 +2,18 @@ import { ChangelogEntry } from './changelog'
 
 export const ToolsChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.4-2.2.7',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3158826',
+    date: '01/04/2021 6:10 PM',
+    changes: ['Fixed tool models to now be handheld', 'Some texture improvements from WenXin20'],
+  },
+  {
+    name: '1.16.4-2.2.6',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3154381',
+    date: '12/31/2020 8:30 AM',
+    changes: ['Add golden hammer and multitool to piglin_loved tag'],
+  },
+  {
     name: '1.16.4-2.2.5',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3152418',
     date: '12/29/2020 8:33 AM',

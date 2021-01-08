@@ -2,6 +2,18 @@ import { ChangelogEntry } from './changelog'
 
 export const DecorChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.4-2.0.8',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3161941',
+    date: '01/07/2021 9:06 PM',
+    changes: ['Add in Quartz Door'],
+  },
+  {
+    name: '1.16.4-2.0.7',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3137700',
+    date: '12/13/2020 10:54 AM',
+    changes: ['Add in Illumination Tube and Fluro Color Blocks'],
+  },
+  {
     name: '1.16.4-2.0.6',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3135234',
     date: '12/09/2020 9:30 PM',

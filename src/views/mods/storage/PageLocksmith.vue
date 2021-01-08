@@ -25,5 +25,29 @@
       storage blocks that are locked with its code.
     </p>
     <img src="\mods\storage\key_recipe.png" />
+    <h2><a name="doors">Locking Doors</a></h2>
+    <p>
+      Using the <i>Locksmith Lock</i> you are also able to lock all of the Vanilla doors so that you
+      require the correct key with the correct combination to open them.
+      <u>If they are locked they will no longer be able to be activated by redstone.</u>
+      If you have
+      <router-link
+        class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
+        :to="{ name: 'ExtraDecor' }"
+        >Assorted Decor</router-link
+      >
+      installed you will also be able to lock the <i>Quartz Door</i>.
+    </p>
+    <img src="\mods\storage\locked_doors.png" />
+    <p>
+      To lock the Iron and Quartz doors you can either right click with a <i>Locksmith Lock</i> that
+      has a combination or shift-right click.
+      <b>To lock all of the wooden doors you will need to shift-right click</b>.
+    </p>
+    <br />
+    <p>
+      To remove the lock from a door shift-right click on the locked door with an empty hand. Make
+      sure yo have a key in your inventory with the combination.
+    </p>
   </div>
 </template>

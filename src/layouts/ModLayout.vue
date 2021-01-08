@@ -212,6 +212,13 @@
                 </li>
                 <li>
                   <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'ExtraDecor' }"
+                    >Extras</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
                     class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
                     :to="{ name: 'DecorChangelog' }"
                     ><span>Changelog</span>

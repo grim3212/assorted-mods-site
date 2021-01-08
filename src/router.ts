@@ -20,6 +20,7 @@ const PageFrames = () => import('./views/mods/decor/PageFrames.vue')
 const PageNeonSign = () => import('./views/mods/decor/PageNeonSign.vue')
 const PageFluro = () => import('./views/mods/decor/PageFluro.vue')
 const PageWallpaper = () => import('./views/mods/decor/PageWallpaper.vue')
+const PageExtraDecor = () => import('./views/mods/decor/PageExtraDecor.vue')
 const PageStorageHome = () => import('./views/mods/storage/PageStorageHome.vue')
 const PageStorageChangelog = () => import('./views/mods/storage/PageStorageChangelog.vue')
 const PageLockeableStorage = () => import('./views/mods/storage/PageLockeableStorage.vue')
@@ -196,6 +197,14 @@ const routes: RouteRecordRaw[] = [
             component: PageFluro,
             meta: {
               title: 'Decor | Fluro',
+            },
+          },
+          {
+            path: 'extras',
+            name: 'ExtraDecor',
+            component: PageExtraDecor,
+            meta: {
+              title: 'Decor | Extras',
             },
           },
         ],

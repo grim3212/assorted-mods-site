@@ -2,6 +2,32 @@ import { ChangelogEntry } from './changelog'
 
 export const StorageChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.4-2.1.6',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3161946',
+    date: '01/07/2021 9:17 PM',
+    changes: [
+      'Add in support to be able to lock all vanilla doors using the Locksmith tools, the Quartz Door from Assorted Decor is supported as well',
+    ],
+  },
+  {
+    name: '1.16.4-2.1.3',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3158830',
+    date: '01/04/2021 6:11 PM',
+    changes: ['Some texture improvements from WenXin20'],
+  },
+  {
+    name: '1.16.4-2.1.2',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3154394',
+    date: '12/31/2020 8:43 AM',
+    changes: ['Add gold safe to piglin_loved tag'],
+  },
+  {
+    name: '1.16.4-2.1.1',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3154375',
+    date: '12/31/2020 8:25 AM',
+    changes: ['Add storage blocks to the gaurded by piglins tag list'],
+  },
+  {
     name: '1.16.4-2.1.0',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3129182',
     date: '12/03/2020 7:30 AM',
