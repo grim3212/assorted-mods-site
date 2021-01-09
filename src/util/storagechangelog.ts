@@ -2,6 +2,12 @@ import { ChangelogEntry } from './changelog'
 
 export const StorageChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.4-2.1.7',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3163330',
+    date: '01/08/2021 7:53 AM',
+    changes: ['Fix crash from shift-clicking in Locksmith Workbench'],
+  },
+  {
     name: '1.16.4-2.1.6',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3161946',
     date: '01/07/2021 9:17 PM',
