@@ -2,6 +2,18 @@ import { ChangelogEntry } from './changelog'
 
 export const DecorChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.5-2.0.12',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3317983',
+    date: '05/21/2021 7:29 AM',
+    changes: ['Add in two hangeables. Calendar and Wall Clock'],
+  },
+  {
+    name: '1.16.5-2.0.10',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3292413',
+    date: '04/28/2021 4:06 PM',
+    changes: ['Upgrade to 1.16.5 mappings and fix twilight forest compatibility.'],
+  },
+  {
     name: '1.16.4-2.0.8',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3161941',
     date: '01/07/2021 9:06 PM',

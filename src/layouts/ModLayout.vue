@@ -99,7 +99,7 @@
                 </li>
                 <li>
                   <router-link
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
+                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
                     :to="{ name: 'CoreChangelog' }"
                     ><span>Changelog</span>
                     <svg
@@ -119,7 +119,7 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
+                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-core"
                   >
                     <span>Download</span>
@@ -206,6 +206,13 @@
                 <li>
                   <router-link
                     class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Hangeables' }"
+                    >Hangeables</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
                     :to="{ name: 'Fluro' }"
                     >Fluro</router-link
                   >
@@ -219,7 +226,7 @@
                 </li>
                 <li>
                   <router-link
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
+                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
                     :to="{ name: 'DecorChangelog' }"
                     ><span>Changelog</span>
                     <svg
@@ -239,7 +246,7 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
+                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-decor"
                   >
                     <span>Download</span>
@@ -325,7 +332,7 @@
                 </li>
                 <li>
                   <router-link
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
+                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
                     :to="{ name: 'ToolsChangelog' }"
                     ><span>Changelog</span>
                     <svg
@@ -345,7 +352,7 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
+                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-tools"
                   >
                     <span>Download</span>
@@ -396,7 +403,7 @@
                 </li>
                 <li>
                   <router-link
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
+                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
                     :to="{ name: 'StorageChangelog' }"
                     ><span>Changelog</span>
                     <svg
@@ -416,7 +423,7 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm block mb-2 mx-4 no-underline"
+                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-storage"
                   >
                     <span>Download</span>

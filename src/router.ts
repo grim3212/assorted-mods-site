@@ -18,6 +18,7 @@ const PageSlopes = () => import('./views/mods/decor/PageSlopes.vue')
 const PagePlanterPot = () => import('./views/mods/decor/PagePlanterPot.vue')
 const PageFrames = () => import('./views/mods/decor/PageFrames.vue')
 const PageNeonSign = () => import('./views/mods/decor/PageNeonSign.vue')
+const PageHangeable = () => import('./views/mods/decor/PageHangeable.vue')
 const PageFluro = () => import('./views/mods/decor/PageFluro.vue')
 const PageWallpaper = () => import('./views/mods/decor/PageWallpaper.vue')
 const PageExtraDecor = () => import('./views/mods/decor/PageExtraDecor.vue')
@@ -189,6 +190,14 @@ const routes: RouteRecordRaw[] = [
             component: PageNeonSign,
             meta: {
               title: 'Decor | Neon Sign',
+            },
+          },
+          {
+            path: 'hangeables',
+            name: 'Hangeables',
+            component: PageHangeable,
+            meta: {
+              title: 'Decor | Hangeables',
             },
           },
           {
