@@ -52,11 +52,22 @@ const TOOLS: ModDetails = {
   changelogName: 'ToolsChangelog',
 }
 
+const WORLD: ModDetails = {
+  name: 'Assorted World',
+  description:
+    'An assortment of various additions based around world generation that are added to the Minecraft world.',
+  downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-world',
+  githubLink: 'https://github.com/grim3212/AssortedWorld',
+  homeRoute: '/world',
+  changelogName: 'WorldChangelog',
+}
+
 export const MODS = {
   core: CORE,
   decor: DECOR,
   storage: STORAGE,
   tools: TOOLS,
+  world: WORLD,
 }
 
 export function getModDetails(mod: String) {
@@ -69,6 +80,8 @@ export function getModDetails(mod: String) {
       return STORAGE
     case 'tools':
       return TOOLS
+    case 'world':
+      return WORLD
     default:
       return EMPTY
   }

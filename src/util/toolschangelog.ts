@@ -2,6 +2,36 @@ import { ChangelogEntry } from './changelog'
 
 export const ToolsChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.5-2.2.13',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3391845',
+    date: '07/17/2021 9:22 AM',
+    changes: ['Add in spears. Flint, Iron, Diamond, Explosive, Fire, Light, Lightning, Slime'],
+  },
+  {
+    name: '1.16.5-2.2.11',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3389175',
+    date: '07/14/2021 5:29 PM',
+    changes: ['Fix Chicken Jump enchantment not respecting if it should be disabled or not'],
+  },
+  {
+    name: '1.16.4-2.2.10',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3182070',
+    date: '01/26/2021 6:18 AM',
+    changes: ['Upgrade emerald harvest level by 1'],
+  },
+  {
+    name: '1.16.4-2.2.9',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3165859',
+    date: '01/11/2021 5:03 PM',
+    changes: ['Add support for custom names for captured entities in Pokeballs'],
+  },
+  {
+    name: '1.16.4-2.2.8',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3165224',
+    date: '01/11/2021 7:25 AM',
+    changes: ['Add building wands to piglin_loved tag'],
+  },
+  {
     name: '1.16.4-2.2.7',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3158826',
     date: '01/04/2021 6:10 PM',

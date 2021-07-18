@@ -2,6 +2,12 @@ import { ChangelogEntry } from './changelog'
 
 export const StorageChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.4-2.1.8',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3166313',
+    date: '01/12/2021 6:22 AM',
+    changes: ['Fix Locksmith Workbench not working'],
+  },
+  {
     name: '1.16.4-2.1.7',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3163330',
     date: '01/08/2021 7:53 AM',

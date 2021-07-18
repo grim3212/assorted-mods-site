@@ -1,19 +1,55 @@
 <template>
   <div>
     <nav
-      class="fixed z-50 w-full bg-gray-800 top-0 flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg shadow-lg"
+      class="
+        fixed
+        z-50
+        w-full
+        bg-gray-800
+        top-0
+        flex flex-wrap
+        items-center
+        justify-between
+        px-2
+        py-3
+        navbar-expand-lg
+        shadow-lg
+      "
     >
       <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div
           class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
         >
           <router-link
-            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-gray-300"
+            class="
+              text-sm
+              font-bold
+              leading-relaxed
+              inline-block
+              mr-4
+              py-2
+              whitespace-no-wrap
+              uppercase
+              text-gray-300
+            "
             to="/"
             >Assorted Mods</router-link
           >
           <button
-            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            class="
+              cursor-pointer
+              text-xl
+              leading-none
+              px-3
+              py-1
+              border border-solid border-transparent
+              rounded
+              bg-transparent
+              block
+              lg:hidden
+              outline-none
+              focus:outline-none
+            "
             type="button"
             @click="toggleMenu"
           >
@@ -37,7 +73,17 @@
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li class="nav-item">
               <a
-                class="px-3 py-2 flex items-center text-xs uppercase font-bold text-gray-300 hover:text-gray-500"
+                class="
+                  px-3
+                  py-2
+                  flex
+                  items-center
+                  text-xs
+                  uppercase
+                  font-bold
+                  text-gray-300
+                  hover:text-gray-500
+                "
                 href="https://github.com/grim3212"
                 ><svg
                   class="fill-current w-5 h-5"
@@ -53,7 +99,17 @@
             </li>
             <li class="nav-item">
               <a
-                class="px-3 py-2 flex items-center text-xs uppercase font-bold text-gray-300 hover:text-gray-500"
+                class="
+                  px-3
+                  py-2
+                  flex
+                  items-center
+                  text-xs
+                  uppercase
+                  font-bold
+                  text-gray-300
+                  hover:text-gray-500
+                "
                 href="https://twitter.com/grim3212"
                 ><svg
                   class="fill-current w-5 h-5"
@@ -78,7 +134,18 @@
           <div class="block overflow-y-auto pt-8 pb-4">
             <div class="mb-6">
               <router-link
-                class="text-gray-300 hover:text-gray-500 text-xs uppercase font-bold block py-1 px-4 no-underline toplevel-route"
+                class="
+                  text-gray-300
+                  hover:text-gray-500
+                  text-xs
+                  uppercase
+                  font-bold
+                  block
+                  py-1
+                  px-4
+                  no-underline
+                  toplevel-route
+                "
                 :to="{ name: 'CoreHome' }"
                 >Assorted Core</router-link
               >
@@ -99,7 +166,16 @@
                 </li>
                 <li>
                   <router-link
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
                     :to="{ name: 'CoreChangelog' }"
                     ><span>Changelog</span>
                     <svg
@@ -119,7 +195,16 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-core"
                   >
                     <span>Download</span>
@@ -142,7 +227,18 @@
             </div>
             <div class="mb-6">
               <router-link
-                class="text-gray-300 hover:text-gray-500 text-xs uppercase font-bold block py-1 px-4 no-underline toplevel-route"
+                class="
+                  text-gray-300
+                  hover:text-gray-500
+                  text-xs
+                  uppercase
+                  font-bold
+                  block
+                  py-1
+                  px-4
+                  no-underline
+                  toplevel-route
+                "
                 :to="{ name: 'DecorHome' }"
                 >Assorted Decor</router-link
               >
@@ -226,7 +322,16 @@
                 </li>
                 <li>
                   <router-link
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
                     :to="{ name: 'DecorChangelog' }"
                     ><span>Changelog</span>
                     <svg
@@ -246,7 +351,16 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-decor"
                   >
                     <span>Download</span>
@@ -269,7 +383,18 @@
             </div>
             <div class="mb-6">
               <router-link
-                class="text-gray-300 hover:text-gray-500 text-xs uppercase font-bold block py-1 px-4 no-underline toplevel-route"
+                class="
+                  text-gray-300
+                  hover:text-gray-500
+                  text-xs
+                  uppercase
+                  font-bold
+                  block
+                  py-1
+                  px-4
+                  no-underline
+                  toplevel-route
+                "
                 :to="{ name: 'ToolsHome' }"
                 >Assorted Tools</router-link
               >
@@ -286,6 +411,13 @@
                     class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
                     :to="{ name: 'Wands' }"
                     >Wands</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Spears' }"
+                    >Spears</router-link
                   >
                 </li>
                 <li>
@@ -332,7 +464,16 @@
                 </li>
                 <li>
                   <router-link
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
                     :to="{ name: 'ToolsChangelog' }"
                     ><span>Changelog</span>
                     <svg
@@ -352,7 +493,16 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-tools"
                   >
                     <span>Download</span>
@@ -375,7 +525,18 @@
             </div>
             <div class="mb-6">
               <router-link
-                class="text-gray-300 hover:text-gray-500 text-xs uppercase font-bold block py-1 px-4 no-underline toplevel-route"
+                class="
+                  text-gray-300
+                  hover:text-gray-500
+                  text-xs
+                  uppercase
+                  font-bold
+                  block
+                  py-1
+                  px-4
+                  no-underline
+                  toplevel-route
+                "
                 :to="{ name: 'StorageHome' }"
                 >Assorted Storage</router-link
               >
@@ -403,7 +564,16 @@
                 </li>
                 <li>
                   <router-link
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
                     :to="{ name: 'StorageChangelog' }"
                     ><span>Changelog</span>
                     <svg
@@ -423,8 +593,110 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center text-indigo-500 hover:text-indigo-800 text-sm mb-2 mx-4 no-underline"
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
                     href="https://www.curseforge.com/minecraft/mc-mods/assorted-storage"
+                  >
+                    <span>Download</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="fill-current w-5 h-5 ml-2"
+                    >
+                      <path
+                        d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                      />
+                      <path
+                        d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-6">
+              <router-link
+                class="
+                  text-gray-300
+                  hover:text-gray-500
+                  text-xs
+                  uppercase
+                  font-bold
+                  block
+                  py-1
+                  px-4
+                  no-underline
+                  toplevel-route
+                "
+                :to="{ name: 'WorldHome' }"
+                >Assorted World</router-link
+              >
+              <ul class="block flex-wrap list-none pl-0 mb-0 mt-0">
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Randomite' }"
+                    >Randomite</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Ruins' }"
+                    >Ruins</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
+                    :to="{ name: 'WorldChangelog' }"
+                    ><span>Changelog</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="fill-current w-5 h-5 ml-2"
+                    >
+                      <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </router-link>
+                </li>
+                <li>
+                  <a
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
+                    href="https://www.curseforge.com/minecraft/mc-mods/assorted-world"
                   >
                     <span>Download</span>
                     <svg

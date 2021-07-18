@@ -16,6 +16,7 @@
         <mod-card mod="decor"></mod-card>
         <mod-card mod="storage"></mod-card>
         <mod-card mod="tools"></mod-card>
+        <mod-card mod="world"></mod-card>
       </div>
     </div>
   </section>

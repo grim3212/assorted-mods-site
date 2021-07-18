@@ -36,7 +36,12 @@ const PageBoomerang = () => import('./views/mods/tools/PageBoomerang.vue')
 const PagePokeball = () => import('./views/mods/tools/PagePokeball.vue')
 const PageChickenSuit = () => import('./views/mods/tools/PageChickenSuit.vue')
 const PageWands = () => import('./views/mods/tools/PageWands.vue')
+const PageSpears = () => import('./views/mods/tools/PageSpears.vue')
 const PageMaterialConfig = () => import('./views/mods/tools/PageMaterialConfig.vue')
+const PageWorldHome = () => import('./views/mods/world/PageWorldHome.vue')
+const PageWorldChangelog = () => import('./views/mods/world/PageWorldChangelog.vue')
+const PageRandomite = () => import('./views/mods/world/PageRandomite.vue')
+const PageRuins = () => import('./views/mods/world/PageRuins.vue')
 
 const routes: RouteRecordRaw[] = [
   {
@@ -333,6 +338,14 @@ const routes: RouteRecordRaw[] = [
             },
           },
           {
+            path: 'spears',
+            name: 'Spears',
+            component: PageSpears,
+            meta: {
+              title: 'Tools | Spears',
+            },
+          },
+          {
             path: 'core-support',
             name: 'CoreSupport',
             component: PageCoreSupport,
@@ -346,6 +359,44 @@ const routes: RouteRecordRaw[] = [
             component: PageMaterialConfig,
             meta: {
               title: 'Tools | Material Config',
+            },
+          },
+        ],
+      },
+      {
+        path: 'world',
+        component: ModParent,
+        children: [
+          {
+            path: '',
+            name: 'WorldHome',
+            component: PageWorldHome,
+            meta: {
+              title: 'World',
+            },
+          },
+          {
+            path: 'changelog',
+            name: 'WorldChangelog',
+            component: PageWorldChangelog,
+            meta: {
+              title: 'World | Changelog',
+            },
+          },
+          {
+            path: 'randomite',
+            name: 'Randomite',
+            component: PageRandomite,
+            meta: {
+              title: 'World | Randomite',
+            },
+          },
+          {
+            path: 'ruins',
+            name: 'Ruins',
+            component: PageRuins,
+            meta: {
+              title: 'World | Ruins',
             },
           },
         ],

@@ -2,6 +2,12 @@ import { ChangelogEntry } from './changelog'
 
 export const DecorChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.5-2.0.13',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3323558',
+    date: '05/24/2021 1:55 PM',
+    changes: ['Fix translucent blocks not rendering correctly for Colorizers.'],
+  },
+  {
     name: '1.16.5-2.0.12',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3317983',
     date: '05/21/2021 7:29 AM',

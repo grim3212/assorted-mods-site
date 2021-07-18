@@ -24,6 +24,13 @@
         <li>
           <router-link
             class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            :to="{ name: 'Spears' }"
+            >Spears</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
             :to="{ name: 'ChickenSuit' }"
             >Chicken Suit</router-link
           >
