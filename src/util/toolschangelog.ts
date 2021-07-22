@@ -2,6 +2,12 @@ import { ChangelogEntry } from './changelog'
 
 export const ToolsChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.5-2.2.15',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3397298',
+    date: '07/22/2021 10:14 AM',
+    changes: ['Deprecated the spears just added and replaced them with new spears in many different materials. Each spear is able to be enchanted as well.'],
+  },
+  {
     name: '1.16.5-2.2.13',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3391845',
     date: '07/17/2021 9:22 AM',
