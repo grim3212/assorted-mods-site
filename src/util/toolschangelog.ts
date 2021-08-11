@@ -2,10 +2,28 @@ import { ChangelogEntry } from './changelog'
 
 export const ToolsChangelog: ChangelogEntry[] = [
   {
+    name: '1.17.1-3.0.1',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3406996',
+    date: '07/30/2021 5:13 PM',
+    changes: [
+      'Update textures for Amethyst and Copper to be closer to vanilla.',
+      'Add in recipes for copper and amethyst tools/armor since they are now apart of vanilla.',
+      'Add in support for new material Peridot from Assorted Core.',
+    ],
+  },
+  {
+    name: '1.17.1-3.0.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3402441',
+    date: '07/26/2021 7:15 PM',
+    changes: ['Initial release to 1.17.1.'],
+  },
+  {
     name: '1.16.5-2.2.15',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3397298',
     date: '07/22/2021 10:14 AM',
-    changes: ['Deprecated the spears just added and replaced them with new spears in many different materials. Each spear is able to be enchanted as well.'],
+    changes: [
+      'Deprecated the spears just added and replaced them with new spears in many different materials. Each spear is able to be enchanted as well.',
+    ],
   },
   {
     name: '1.16.5-2.2.13',

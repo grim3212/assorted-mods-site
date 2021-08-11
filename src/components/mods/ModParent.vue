@@ -15,4 +15,7 @@
 #content {
   @apply text-gray-400;
 }
+#content .muted {
+  @apply text-gray-600;
+}
 </style>

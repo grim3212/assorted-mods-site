@@ -2,7 +2,8 @@
   <div id="content">
     <h1><a name="core_support">Core Support</a></h1>
     <p>
-      Assorted Tools supports every material that Assorted Core adds as well as adding in Emerald
+      Assorted Tools supports every material that
+      <router-link to="Materials">Assorted Core</router-link> adds as well as adding in Emerald
       tools and armor as well. If enabled Assorted Tools will create Pickaxes, Axes, Shovels, Hoes,
       Swords, Hammers, MultiTools, Helmets, Chestplates, Leggings, and Boots for each material.
     </p>

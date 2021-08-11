@@ -2,6 +2,12 @@ import { ChangelogEntry } from './changelog'
 
 export const StorageChangelog: ChangelogEntry[] = [
   {
+    name: '1.17.1-3.0.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3406455',
+    date: '07/30/2021 6:58 AM',
+    changes: ['Initial update to 1.17.1'],
+  },
+  {
     name: '1.16.4-2.1.8',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3166313',
     date: '01/12/2021 6:22 AM',

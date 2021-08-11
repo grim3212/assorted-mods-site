@@ -637,6 +637,113 @@
                   no-underline
                   toplevel-route
                 "
+                :to="{ name: 'TechHome' }"
+                >Assorted Tech</router-link
+              >
+              <ul class="block flex-wrap list-none pl-0 mb-0 mt-0">
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Fans' }"
+                    >Fans</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Sensors' }"
+                    >Sensors</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Spikes' }"
+                    >Spikes</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Torches' }"
+                    >Torches</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
+                    :to="{ name: 'TechChangelog' }"
+                    ><span>Changelog</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="fill-current w-5 h-5 ml-2"
+                    >
+                      <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </router-link>
+                </li>
+                <li>
+                  <a
+                    class="
+                      flex
+                      items-center
+                      text-indigo-500
+                      hover:text-indigo-800
+                      text-sm
+                      mb-2
+                      mx-4
+                      no-underline
+                    "
+                    href="https://www.curseforge.com/minecraft/mc-mods/assorted-tech"
+                  >
+                    <span>Download</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="fill-current w-5 h-5 ml-2"
+                    >
+                      <path
+                        d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
+                      />
+                      <path
+                        d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-6">
+              <router-link
+                class="
+                  text-gray-300
+                  hover:text-gray-500
+                  text-xs
+                  uppercase
+                  font-bold
+                  block
+                  py-1
+                  px-4
+                  no-underline
+                  toplevel-route
+                "
                 :to="{ name: 'WorldHome' }"
                 >Assorted World</router-link
               >

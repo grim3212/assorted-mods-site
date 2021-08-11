@@ -43,6 +43,16 @@ const STORAGE: ModDetails = {
   changelogName: 'StorageChangelog',
 }
 
+const TECH: ModDetails = {
+  name: 'Assorted Tech',
+  description:
+    'Contains an assorted group of additions based around technology, machines, and logic.',
+  downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tech',
+  githubLink: 'https://github.com/grim3212/AssortedTech',
+  homeRoute: '/tech',
+  changelogName: 'TechChangelog',
+}
+
 const TOOLS: ModDetails = {
   name: 'Assorted Tools',
   description: 'An assortment of various helpful tools to add to your Minecraft world.',
@@ -66,6 +76,7 @@ export const MODS = {
   core: CORE,
   decor: DECOR,
   storage: STORAGE,
+  tech: TECH,
   tools: TOOLS,
   world: WORLD,
 }
@@ -78,6 +89,8 @@ export function getModDetails(mod: String) {
       return DECOR
     case 'storage':
       return STORAGE
+    case 'tech':
+      return TECH
     case 'tools':
       return TOOLS
     case 'world':

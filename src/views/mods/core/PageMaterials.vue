@@ -7,9 +7,21 @@
     </p>
     <h2><a name="metals">Metals</a></h2>
     <h3><b>Ores</b></h3>
+    <p>
+      <span class="muted"
+        >In <b>1.17.1</b> for each ore below they have been modified to reflect the vanilla changes.
+        There are now deepslate variants of each ore. They now drop the row ores instead of the
+        blocks. And you are able to create raw ore blocks from each one.</span
+      >
+    </p>
     <ul class="list-disc list-inside">
       <li>Tin</li>
-      <li>Copper</li>
+      <li>
+        Copper
+        <span class="muted"
+          >- No longer added in the <b>1.17.1</b> version since it is now in vanilla</span
+        >
+      </li>
       <li>Silver</li>
       <li>Aluminum</li>
       <li>Nickel</li>
@@ -34,9 +46,21 @@
     <h2><a name="gems">Gems</a></h2>
     <ul class="list-disc list-inside">
       <li>Ruby</li>
-      <li>Amethyst</li>
+      <li>
+        Amethyst
+        <span class="muted"
+          >- No longer added in the <b>1.17.1</b> version since it is now in vanilla</span
+        >
+      </li>
       <li>Sapphire</li>
       <li>Topaz</li>
+      <li>
+        Peridot
+        <span class="muted"
+          >- Only available in the <b>1.17.1</b> version as a <u>pseudo</u>-replacement for
+          Amethyst</span
+        >
+      </li>
     </ul>
     <p>Each gem can be used to create storage blocks of itself.</p>
     <div class="grid grid-cols-2 gap-4">

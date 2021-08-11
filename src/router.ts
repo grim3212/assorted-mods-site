@@ -5,10 +5,14 @@ const Home = () => import('./views/Home.vue')
 const About = () => import('./views/About.vue')
 const NotFound = () => import('./views/NotFound.vue')
 const ModParent = () => import('./components/mods/ModParent.vue')
+
+// CORE
 const PageCoreHome = () => import('./views/mods/core/PageCoreHome.vue')
 const PageCoreChangelog = () => import('./views/mods/core/PageCoreChangelog.vue')
 const PageMachines = () => import('./views/mods/core/PageMachines.vue')
 const PageMaterials = () => import('./views/mods/core/PageMaterials.vue')
+
+// DECOR
 const PageDecorHome = () => import('./views/mods/decor/PageDecorHome.vue')
 const PageDecorChangelog = () => import('./views/mods/decor/PageDecorChangelog.vue')
 const PageColorizer = () => import('./views/mods/decor/PageColorizer.vue')
@@ -22,11 +26,23 @@ const PageHangeable = () => import('./views/mods/decor/PageHangeable.vue')
 const PageFluro = () => import('./views/mods/decor/PageFluro.vue')
 const PageWallpaper = () => import('./views/mods/decor/PageWallpaper.vue')
 const PageExtraDecor = () => import('./views/mods/decor/PageExtraDecor.vue')
+
+// STORAGE
 const PageStorageHome = () => import('./views/mods/storage/PageStorageHome.vue')
 const PageStorageChangelog = () => import('./views/mods/storage/PageStorageChangelog.vue')
 const PageLockeableStorage = () => import('./views/mods/storage/PageLockeableStorage.vue')
 const PageItemTower = () => import('./views/mods/storage/PageItemTower.vue')
 const PageLocksmith = () => import('./views/mods/storage/PageLocksmith.vue')
+
+// TECH
+const PageTechHome = () => import('./views/mods/tech/PageTechHome.vue')
+const PageTechChangelog = () => import('./views/mods/tech/PageTechChangelog.vue')
+const PageFans = () => import('./views/mods/tech/PageFans.vue')
+const PageSensors = () => import('./views/mods/tech/PageSensors.vue')
+const PageSpikes = () => import('./views/mods/tech/PageSpikes.vue')
+const PageTorches = () => import('./views/mods/tech/PageTorches.vue')
+
+// TOOLS
 const PageToolsHome = () => import('./views/mods/tools/PageToolsHome.vue')
 const PageToolsChangelog = () => import('./views/mods/tools/PageToolsChangelog.vue')
 const PageHammers = () => import('./views/mods/tools/PageHammers.vue')
@@ -38,6 +54,8 @@ const PageChickenSuit = () => import('./views/mods/tools/PageChickenSuit.vue')
 const PageWands = () => import('./views/mods/tools/PageWands.vue')
 const PageSpears = () => import('./views/mods/tools/PageSpears.vue')
 const PageMaterialConfig = () => import('./views/mods/tools/PageMaterialConfig.vue')
+
+// WORLD
 const PageWorldHome = () => import('./views/mods/world/PageWorldHome.vue')
 const PageWorldChangelog = () => import('./views/mods/world/PageWorldChangelog.vue')
 const PageRandomite = () => import('./views/mods/world/PageRandomite.vue')
@@ -265,6 +283,60 @@ const routes: RouteRecordRaw[] = [
             component: PageItemTower,
             meta: {
               title: 'Storage | Item Tower',
+            },
+          },
+        ],
+      },
+      {
+        path: 'tech',
+        component: ModParent,
+        children: [
+          {
+            path: '',
+            name: 'TechHome',
+            component: PageTechHome,
+            meta: {
+              title: 'Tech',
+            },
+          },
+          {
+            path: 'changelog',
+            name: 'TechChangelog',
+            component: PageTechChangelog,
+            meta: {
+              title: 'Tech | Changelog',
+            },
+          },
+          {
+            path: 'fans',
+            name: 'Fans',
+            component: PageFans,
+            meta: {
+              title: 'Tech | Fans',
+            },
+          },
+          {
+            path: 'sensors',
+            name: 'Sensors',
+            component: PageSensors,
+            meta: {
+              title: 'Tech | Sensors',
+            },
+          },
+          {
+            path: 'spikes',
+            name: 'Spikes',
+            component: PageSpikes,
+            meta: {
+              title: 'Tech | Spikes',
+            },
+          },
+          {
+            path: 'torches',
+            name: 'Torches',
+            component: PageTorches,
+            meta: {
+              title: 'Tech | Torches',
             },
           },
         ],

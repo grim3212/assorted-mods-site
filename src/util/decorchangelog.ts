@@ -2,6 +2,18 @@ import { ChangelogEntry } from './changelog'
 
 export const DecorChangelog: ChangelogEntry[] = [
   {
+    name: '1.16.5-2.0.14',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3402377',
+    date: '07/26/2021 5:56 PM',
+    changes: ['Fix tables and stools from crashing.'],
+  },
+  {
+    name: '1.17.1-3.0.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3402360',
+    date: '07/26/2021 5:33 PM',
+    changes: ['Initial release to 1.17.1.'],
+  },
+  {
     name: '1.16.5-2.0.13',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3323558',
     date: '05/24/2021 1:55 PM',
