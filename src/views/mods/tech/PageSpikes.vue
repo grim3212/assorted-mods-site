@@ -11,7 +11,7 @@
     <p>
       All spikes follow the same basic pattern as seen below. Assorted Tech currently supports all
       vanilla materials as well as all of the materials from
-      <router-link to="Materials">Assorted Core</router-link>.
+      <router-link to="Materials" class="page-link">Assorted Core</router-link>.
     </p>
     <div class="grid grid-cols-2 gap-4">
       <img src="\mods\tech\spike_recipe.png" />

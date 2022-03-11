@@ -20,7 +20,7 @@
     <h2><a name="stool">Colorizer Stool</a></h2>
     <p>
       Stools are smaller than chairs and go quite well when a
-      <router-link class="text-blue-300" :to="{ name: 'Planter' }">Planter Pot</router-link> is
+      <router-link class="page-link" :to="{ name: 'Planter' }">Planter Pot</router-link> is
       placed on top of them.
     </p>
     <img src="\mods\decor\stool_recipe.png" />

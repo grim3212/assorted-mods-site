@@ -3,9 +3,9 @@
     <h1><a name="core_support">Core Support</a></h1>
     <p>
       Assorted Tools supports every material that
-      <router-link to="Materials">Assorted Core</router-link> adds as well as adding in Emerald
+      <router-link to="Materials" class="page-link">Assorted Core</router-link> adds as well as adding in Emerald
       tools and armor as well. If enabled Assorted Tools will create Pickaxes, Axes, Shovels, Hoes,
-      Swords, Hammers, MultiTools, Helmets, Chestplates, Leggings, and Boots for each material.
+      Swords, Hammers, MultiTools, Helmets, Chestplates, Leggings, Boots, Spears, Buckets, and Shears for each material.
     </p>
     <img src="\mods\tools\armors.png" />
     <img src="\mods\tools\material_tab_example.png" />
@@ -32,6 +32,9 @@
       <img src="\mods\tools\material_chestplate_example.png" />
       <img src="\mods\tools\material_leggings_example.png" />
       <img src="\mods\tools\material_boots_example.png" />
+      <img src="\mods\tools\material_spear_example.png" />
+      <img src="\mods\tools\material_shears_example.png" />
+      <img src="\mods\tools\material_bucket_example.png" />
     </div>
   </div>
 </template>

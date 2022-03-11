@@ -2,9 +2,62 @@ import { ChangelogEntry } from './changelog'
 
 export const ToolsChangelog: ChangelogEntry[] = [
   {
+    name: '1.18.2-5.2.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3684122',
+    date: '03/10/2022',
+    changes: [
+      'Add in Shears for each material.',
+      'A new shear enchantment for being able to harvest Coral',
+      'MultiTools actually supporting any Enchantments that a Sword, Shovel, Pickaxe, Axe, or Hoe can',
+      'Fixed the off by one error in the Mining Wands max range',
+      'Better Buckets should now dispense out of Dispensers better',
+      'Added a couple missing gold tools to the Piglin loved tag'
+    ],
+  },
+  {
+    name: '1.18.2-5.1.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3671701',
+    date: '03/03/2022',
+    changes: [
+      'Add in new items Better Buckets which allow for storing multiple buckets of a fluid in one bucket.'
+    ],
+  },
+  {
+    name: '1.18.2-5.0.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3670649',
+    date: '03/02/2022',
+    changes: [
+      'Initial update to 1.18.2.'
+    ],
+  },
+  {
+    name: '1.18.1-4.1.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3567093',
+    date: '12/14/2021',
+    changes: [
+      'Update to 1.18.1.'
+    ],
+  },
+  {
+    name: '1.18-4.0.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3545314',
+    date: '12/02/2021',
+    changes: [
+      'Initial update to 1.18.'
+    ],
+  },
+  {
+    name: '1.17.1-3.0.2',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3431062',
+    date: '08/18/2021',
+    changes: [
+      'Update to support new tool system from vanilla/forge.'
+    ],
+  },
+  {
     name: '1.17.1-3.0.1',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3406996',
-    date: '07/30/2021 5:13 PM',
+    date: '07/30/2021',
     changes: [
       'Update textures for Amethyst and Copper to be closer to vanilla.',
       'Add in recipes for copper and amethyst tools/armor since they are now apart of vanilla.',
@@ -14,7 +67,7 @@ export const ToolsChangelog: ChangelogEntry[] = [
   {
     name: '1.17.1-3.0.0',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3402441',
-    date: '07/26/2021 7:15 PM',
+    date: '07/26/2021',
     changes: ['Initial release to 1.17.1.'],
   },
   {

@@ -11,7 +11,7 @@
     <img src="\mods\decor\iron_frame_recipe.png" />
     <p>
       Similar to
-      <router-link class="text-blue-300" :to="{ name: 'Wallpaper' }">Wallpaper</router-link>, once
+      <router-link class="page-link" :to="{ name: 'Wallpaper' }">Wallpaper</router-link>, once
       placed keep right clicking for available patterns, it will automatically cycle through only
       those that fit the given area.
     </p>

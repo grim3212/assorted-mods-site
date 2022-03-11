@@ -14,7 +14,7 @@
     <p>
       The <i>Quartz Door</i> can be locked like the Vanilla Doors if you have
       <router-link
-        class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
+         class="page-link"
         :to="{ name: 'Locksmith' }"
         >Assorted Storage</router-link
       >

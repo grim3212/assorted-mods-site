@@ -444,6 +444,20 @@
                 <li>
                   <router-link
                     class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Shears' }"
+                    >Shears</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Buckets' }"
+                    >Buckets</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
                     :to="{ name: 'MultiTools' }"
                     >MultiTools</router-link
                   >
@@ -553,6 +567,13 @@
                     class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
                     :to="{ name: 'LockeableStorage' }"
                     >Lockeable Storage</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'LockedEnderChest' }"
+                    >Locked Ender Chest</router-link
                   >
                 </li>
                 <li>

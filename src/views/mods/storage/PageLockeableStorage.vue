@@ -4,7 +4,7 @@
     <p>
       All the blocks on this page are able to be locked using the
       <router-link
-        class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
+         class="page-link"
         :to="{ name: 'Locksmith' }"
         >Locksmith tools</router-link
       >. All of these blocks also support hoppers and pipes to insert and export items.

@@ -25,6 +25,19 @@
       storage blocks that are locked with its code.
     </p>
     <img src="\mods\storage\key_recipe.png" />
+    <h2><a name="key_ring">Key Ring</a></h2>
+    <p>
+      If you have a ton of spare keys lying around taking up your inventory there is a simple
+      solution the <b>Key Ring</b>. This neat item allows you to store up to 12 seperate keys in one
+      item and will allow you to unlock any block just the same as if you had each key seperate.
+    </p>
+    <img src="\mods\storage\key_ring_recipe.png" />
+    <p>
+      To use it just right click it in your inventory and a GUI will open. Drag any keys you would
+      like to store over and then you are good to go. It only supports 1 key in each slot.
+    </p>
+    <img src="\mods\storage\key_ring_gui.png" />
+
     <h2><a name="doors">Locking Doors</a></h2>
     <p>
       Using the <i>Locksmith Lock</i> you are also able to lock all of the Vanilla doors so that you
@@ -32,7 +45,7 @@
       <u>If they are locked they will no longer be able to be activated by redstone.</u>
       If you have
       <router-link
-        class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
+         class="page-link"
         :to="{ name: 'ExtraDecor' }"
         >Assorted Decor</router-link
       >

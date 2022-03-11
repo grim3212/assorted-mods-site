@@ -5,7 +5,7 @@
         <a
           :name="entry.name"
           :href="entry.url"
-          class="font-bold underline text-indigo-500 hover:text-indigo-800 visited:text-purple-600"
+          class="changelog font-bold underline text-indigo-500 hover:text-indigo-800 visited:text-purple-600"
           >{{ entry.name }}</a
         >
       </h2>

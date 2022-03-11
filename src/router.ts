@@ -31,6 +31,7 @@ const PageExtraDecor = () => import('./views/mods/decor/PageExtraDecor.vue')
 const PageStorageHome = () => import('./views/mods/storage/PageStorageHome.vue')
 const PageStorageChangelog = () => import('./views/mods/storage/PageStorageChangelog.vue')
 const PageLockeableStorage = () => import('./views/mods/storage/PageLockeableStorage.vue')
+const PageLockedEnderChest = () => import('./views/mods/storage/PageLockedEnderChest.vue')
 const PageItemTower = () => import('./views/mods/storage/PageItemTower.vue')
 const PageLocksmith = () => import('./views/mods/storage/PageLocksmith.vue')
 
@@ -46,6 +47,8 @@ const PageTorches = () => import('./views/mods/tech/PageTorches.vue')
 const PageToolsHome = () => import('./views/mods/tools/PageToolsHome.vue')
 const PageToolsChangelog = () => import('./views/mods/tools/PageToolsChangelog.vue')
 const PageHammers = () => import('./views/mods/tools/PageHammers.vue')
+const PageShears = () => import('./views/mods/tools/PageShears.vue')
+const PageBuckets = () => import('./views/mods/tools/PageBuckets.vue')
 const PageCoreSupport = () => import('./views/mods/tools/PageCoreSupport.vue')
 const PageMultiTools = () => import('./views/mods/tools/PageMultiTools.vue')
 const PageBoomerang = () => import('./views/mods/tools/PageBoomerang.vue')
@@ -278,6 +281,14 @@ const routes: RouteRecordRaw[] = [
             },
           },
           {
+            path: 'enderchest',
+            name: 'LockedEnderChest',
+            component: PageLockedEnderChest,
+            meta: {
+              title: 'Storage | Locked Ender Chest',
+            },
+          },
+          {
             path: 'item-tower',
             name: 'ItemTower',
             component: PageItemTower,
@@ -367,6 +378,22 @@ const routes: RouteRecordRaw[] = [
             component: PageHammers,
             meta: {
               title: 'Tools | Hammers',
+            },
+          },
+          {
+            path: 'shears',
+            name: 'Shears',
+            component: PageShears,
+            meta: {
+              title: 'Tools | Shears',
+            },
+          },
+          {
+            path: 'buckets',
+            name: 'Buckets',
+            component: PageBuckets,
+            meta: {
+              title: 'Tools | Buckets',
             },
           },
           {

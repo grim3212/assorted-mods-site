@@ -2,10 +2,61 @@ import { ChangelogEntry } from './changelog'
 
 export const StorageChangelog: ChangelogEntry[] = [
   {
+    name: '1.18.2-5.0.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3670962',
+    date: '03/03/2022',
+    changes: ['Initial update to 1.18.2.'],
+  },
+  {
+    name: '1.18.1-4.2.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3681479',
+    date: '03/07/2022',
+    changes: [
+      'Fixed locked blocks not saving properly.',
+      'Adjust the save file for Locked Ender Chest to be correct as it was using an unaccepted format (it should automatically migrate you to this new name).'
+    ],
+  },
+  {
+    name: '1.18.1-4.1.1',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3668034',
+    date: '02/28/2022',
+    changes: ['Fix a dupe bug with Locksmith Workbenches.'],
+  },
+  {
+    name: '1.18.1-4.1.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3567090',
+    date: '12/14/2021',
+    changes: ['Update to 1.18.1.'],
+  },
+  {
+    name: '1.18-4.0.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3545514',
+    date: '12/02/2021',
+    changes: ['Initial update to 1.18.'],
+  },
+  {
+    name: '1.17.1-3.1.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3462223',
+    date: '09/17/2021 12:45 PM',
+    changes: ['Add in new item Key Ring and new Locked Ender Chest block.'],
+  },
+  {
+    name: '1.17.1-3.0.1',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3431026',
+    date: '08/18/2021 8:04 PM',
+    changes: ['Update to support new tool system from vanilla/forge'],
+  },
+  {
     name: '1.17.1-3.0.0',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3406455',
     date: '07/30/2021 6:58 AM',
     changes: ['Initial update to 1.17.1'],
+  },
+  {
+    name: '1.16.5-2.2.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3462220',
+    date: '09/17/2021 12:44 PM',
+    changes: ['Add in new item Key Ring and new Locked Ender Chest block.'],
   },
   {
     name: '1.16.4-2.1.8',

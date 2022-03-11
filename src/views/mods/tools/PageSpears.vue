@@ -3,7 +3,7 @@
     <h1><a name="spears">Spears</a></h1>
     <p>
       This mod adds Spears with any default Minecraft tool material as well as all of the tool
-      materials provided in <router-link to="Materials">Assorted Core</router-link> materials. These
+      materials provided in <router-link to="Materials" class="page-link">Assorted Core</router-link> materials. These
       spears function similar to tridents in the fact that they can damage entities by swinging as
       well as they are able to be thrown from the hand. All spears recipes for each material can use
       one or the other recipes shown below as an example.

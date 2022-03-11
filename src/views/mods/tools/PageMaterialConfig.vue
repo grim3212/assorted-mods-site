@@ -8,11 +8,8 @@
     <h2><a name="armor">Armor Materials</a></h2>
     <p>
       You are able to configure the armor materials in <i>Assorted Tools</i> though it is only the
-      <router-link
-        class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
-        :to="{ name: 'ChickenSuit' }"
-        >Chicken Suit</router-link
-      >. These armor configurations can be found under the armor section in the
+      <router-link class="page-link" :to="{ name: 'ChickenSuit' }">Chicken Suit</router-link>. These
+      armor configurations can be found under the armor section in the
       <i class="text-gray-600">assortedtools-common.toml</i> config file.
     </p>
     <img src="\mods\tools\armor_config.png" />
@@ -50,17 +47,14 @@
     <h2><a name="tiers">Item Tiers</a></h2>
     <p>
       You are able to configure the tool materials used in <i>Assorted Tools</i> currently used by
-      <router-link
-        class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
-        :to="{ name: 'Hammers' }"
-        >Hammers</router-link
-      >
+      <router-link class="page-link" :to="{ name: 'Hammers' }">Hammers</router-link>
       and
-      <router-link
-        class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
-        :to="{ name: 'MultiTools' }"
-        >MultiTools</router-link
-      >. These configurations can be found under the <i>Item Tiers</i> section in the
+      <router-link class="page-link" :to="{ name: 'MultiTools' }">MultiTools</router-link>
+      and
+      <router-link class="page-link" :to="{ name: 'Shears' }">Shears</router-link>
+      and
+      <router-link class="page-link" :to="{ name: 'Buckets' }">Buckets</router-link>. These
+      configurations can be found under the <i>Item Tiers</i> section in the
       <i class="text-gray-600">assortedtools-common.toml</i> config file.
     </p>
     <br />
@@ -82,6 +76,18 @@
       <li>
         <i>enchantability</i> refers to how enchantible the material is. The higher the number the
         better enchantments are likely to appear.
+      </li>
+      <li><i>axeDamage</i> is the damage modifier for axes in each material.</li>
+      <li><i>axeSpeed</i> is the speed modifier for axes in each material.</li>
+      <li><i>maxBuckets</i> the maximum number of buckets that this materials bucket can hold.</li>
+      <li>
+        <i>milkingLevel</i> the milking level that will be set for this materials bucket. By default
+        only 0-3. Being able to milk a sheep would be a level of 0, Sheep is 1, and Pig is 2.
+      </li>
+      <li><i>maxPickupTemp</i> the maximum temp of a fluid this materials bucket can pickup.</li>
+      <li>
+        <i>breaksAfterUse</i> is this material so weak that the bucket will break after placing a
+        fluid.
       </li>
     </ul>
   </div>

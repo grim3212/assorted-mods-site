@@ -41,21 +41,21 @@
     <ul class="list-disc list-inside">
       <li>
         <router-link
-          class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
+           class="page-link"
           :to="{ name: 'Furniture' }"
           >Furniture</router-link
         >
       </li>
       <li>
         <router-link
-          class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
+           class="page-link"
           :to="{ name: 'Fireplaces' }"
           >Fireplaces</router-link
         >
       </li>
       <li>
         <router-link
-          class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
+           class="page-link"
           :to="{ name: 'Slopes' }"
           >Slopes</router-link
         >
