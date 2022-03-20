@@ -2,6 +2,24 @@ import { ChangelogEntry } from './changelog'
 
 export const DecorChangelog: ChangelogEntry[] = [
   {
+    name: '1.18.2-5.1.0',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3704236',
+    date: '03/19/2022',
+    changes: [
+      'Adds in many new blocks',
+      '- Sidewalks, Stone paths, and Decorative Stone',
+      '- Roadway, Roadway Manholes, Roadway Lights',
+      '- Vertical and Horizontal Siding',
+      '- Illumination Plates',
+      '- Bone and Clay Decorations',
+      '- Paper, Bone, and Iron Lanterns',
+      '- Glass, Steel, and Chain Link Doors',
+      '- Chain Link Fence',
+      '- Fountain',
+      '- Paint Rollers (The ability to color roadways, wool, concrete, concrete powder, carpet, fluro blocks)',
+    ],
+  },
+  {
     name: '1.18.2-5.0.0',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor/files/3670642',
     date: '03/02/2022',

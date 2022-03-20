@@ -26,6 +26,9 @@ const PageHangeable = () => import('./views/mods/decor/PageHangeable.vue')
 const PageFluro = () => import('./views/mods/decor/PageFluro.vue')
 const PageWallpaper = () => import('./views/mods/decor/PageWallpaper.vue')
 const PageExtraDecor = () => import('./views/mods/decor/PageExtraDecor.vue')
+const PagePainting = () => import('./views/mods/decor/PagePainting.vue')
+const PageRoadways = () => import('./views/mods/decor/PageRoadways.vue')
+const PageDecorations = () => import('./views/mods/decor/PageDecorations.vue')
 
 // STORAGE
 const PageStorageHome = () => import('./views/mods/storage/PageStorageHome.vue')
@@ -42,6 +45,9 @@ const PageFans = () => import('./views/mods/tech/PageFans.vue')
 const PageSensors = () => import('./views/mods/tech/PageSensors.vue')
 const PageSpikes = () => import('./views/mods/tech/PageSpikes.vue')
 const PageTorches = () => import('./views/mods/tech/PageTorches.vue')
+const PageBridges = () => import('./views/mods/tech/PageBridges.vue')
+const PageGravity = () => import('./views/mods/tech/PageGravity.vue')
+const PageAlarm = () => import('./views/mods/tech/PageAlarm.vue')
 
 // TOOLS
 const PageToolsHome = () => import('./views/mods/tools/PageToolsHome.vue')
@@ -242,6 +248,30 @@ const routes: RouteRecordRaw[] = [
               title: 'Decor | Extras',
             },
           },
+          {
+            path: 'painting',
+            name: 'Painting',
+            component: PagePainting,
+            meta: {
+              title: 'Decor | Painting',
+            },
+          },
+          {
+            path: 'roadways',
+            name: 'Roadways',
+            component: PageRoadways,
+            meta: {
+              title: 'Decor | Roadways',
+            },
+          },
+          {
+            path: 'decorations',
+            name: 'Decorations',
+            component: PageDecorations,
+            meta: {
+              title: 'Decor | Decorations',
+            },
+          },
         ],
       },
       {
@@ -340,6 +370,30 @@ const routes: RouteRecordRaw[] = [
             component: PageSpikes,
             meta: {
               title: 'Tech | Spikes',
+            },
+          },
+          {
+            path: 'bridges',
+            name: 'Bridges',
+            component: PageBridges,
+            meta: {
+              title: 'Tech | Bridges',
+            },
+          },
+          {
+            path: 'gravity',
+            name: 'Gravity',
+            component: PageGravity,
+            meta: {
+              title: 'Tech | Gravity',
+            },
+          },
+          {
+            path: 'alarm',
+            name: 'Alarm',
+            component: PageAlarm,
+            meta: {
+              title: 'Tech | Alarm',
             },
           },
           {

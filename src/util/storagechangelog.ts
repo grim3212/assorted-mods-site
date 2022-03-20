@@ -2,6 +2,12 @@ import { ChangelogEntry } from './changelog'
 
 export const StorageChangelog: ChangelogEntry[] = [
   {
+    name: '1.18.2-5.0.1',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3704237',
+    date: '03/19/2022',
+    changes: ['Add support for new Doors added to Assorted Decor'],
+  },
+  {
     name: '1.18.2-5.0.0',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage/files/3670962',
     date: '03/03/2022',

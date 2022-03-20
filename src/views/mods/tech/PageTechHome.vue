@@ -31,6 +31,27 @@
         <li>
           <router-link
             class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            :to="{ name: 'Bridges' }"
+            >Bridges</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            :to="{ name: 'Gravity' }"
+            >Gravity</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            :to="{ name: 'Alarm' }"
+            >Alarm</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
             :to="{ name: 'Torches' }"
             >Torches</router-link
           >

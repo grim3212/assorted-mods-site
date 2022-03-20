@@ -2,6 +2,30 @@ import { ChangelogEntry } from './changelog'
 
 export const ToolsChangelog: ChangelogEntry[] = [
   {
+    name: '1.18.2-5.2.3',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3696676',
+    date: '03/17/2022',
+    changes: [
+      'Fix crash on Forge version 40.0.18'
+    ],
+  },
+  {
+    name: '1.18.2-5.2.2',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3686757',
+    date: '03/12/2022',
+    changes: [
+      'Support enchanting Efficiency and Unbreaking on Shears at the enchantment table'
+    ],
+  },
+  {
+    name: '1.18.2-5.2.1',
+    url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3684718',
+    date: '03/11/2022',
+    changes: [
+      'Add in missing Smithing recipes for buckets and shears'
+    ],
+  },
+  {
     name: '1.18.2-5.2.0',
     url: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools/files/3684122',
     date: '03/10/2022',

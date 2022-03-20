@@ -80,6 +80,27 @@
         <li>
           <router-link
             class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            :to="{ name: 'Roadways' }"
+            >Roadways</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            :to="{ name: 'Painting' }"
+            >Painting</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            :to="{ name: 'Decorations' }"
+            >Decorations</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
             :to="{ name: 'ExtraDecor' }"
             >Extras</router-link
           >
