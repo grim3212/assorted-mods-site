@@ -337,6 +337,13 @@
                 <li>
                   <router-link
                     class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'Cage' }"
+                    >Cage</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
                     :to="{ name: 'ExtraDecor' }"
                     >Extras</router-link
                   >
@@ -595,6 +602,13 @@
                     class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
                     :to="{ name: 'LockedEnderChest' }"
                     >Locked Ender Chest</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'BetterStorage' }"
+                    >Better Storage</router-link
                   >
                 </li>
                 <li>

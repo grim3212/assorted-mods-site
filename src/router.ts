@@ -29,6 +29,7 @@ const PageExtraDecor = () => import('./views/mods/decor/PageExtraDecor.vue')
 const PagePainting = () => import('./views/mods/decor/PagePainting.vue')
 const PageRoadways = () => import('./views/mods/decor/PageRoadways.vue')
 const PageDecorations = () => import('./views/mods/decor/PageDecorations.vue')
+const PageCage = () => import('./views/mods/decor/PageCage.vue')
 
 // STORAGE
 const PageStorageHome = () => import('./views/mods/storage/PageStorageHome.vue')
@@ -37,6 +38,7 @@ const PageLockeableStorage = () => import('./views/mods/storage/PageLockeableSto
 const PageLockedEnderChest = () => import('./views/mods/storage/PageLockedEnderChest.vue')
 const PageItemTower = () => import('./views/mods/storage/PageItemTower.vue')
 const PageLocksmith = () => import('./views/mods/storage/PageLocksmith.vue')
+const PageBetterStorage = () => import('./views/mods/storage/PageBetterStorage.vue')
 
 // TECH
 const PageTechHome = () => import('./views/mods/tech/PageTechHome.vue')
@@ -272,6 +274,14 @@ const routes: RouteRecordRaw[] = [
               title: 'Decor | Decorations',
             },
           },
+          {
+            path: 'cage',
+            name: 'Cage',
+            component: PageCage,
+            meta: {
+              title: 'Decor | Cage',
+            },
+          },
         ],
       },
       {
@@ -316,6 +326,14 @@ const routes: RouteRecordRaw[] = [
             component: PageLockedEnderChest,
             meta: {
               title: 'Storage | Locked Ender Chest',
+            },
+          },
+          {
+            path: 'betterstorage',
+            name: 'BetterStorage',
+            component: PageBetterStorage,
+            meta: {
+              title: 'Storage | BetterStorage',
             },
           },
           {

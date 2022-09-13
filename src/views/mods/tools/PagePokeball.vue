@@ -7,5 +7,13 @@
       mobs data when captured and will be released exactly as before.
     </p>
     <img src="\mods\tools\pokeball_recipe.png" />
+    <h2><a name="displaying">Displaying</a></h2>
+    <p>
+      If you would like to be able to display your captured mobs you can do so via the
+      <router-link class="page-link" :to="{ name: 'Cage' }">Cage</router-link> that
+      <router-link class="page-link" :to="{ name: 'DecorHome' }">Assorted Decor</router-link> adds.
+      The exact mob will be displayed even if it is a baby or some variant the one stored in the
+      Pokeball will be shown.
+    </p>
   </div>
 </template>
