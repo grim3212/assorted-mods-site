@@ -64,6 +64,7 @@ const PagePokeball = () => import('./views/mods/tools/PagePokeball.vue')
 const PageChickenSuit = () => import('./views/mods/tools/PageChickenSuit.vue')
 const PageWands = () => import('./views/mods/tools/PageWands.vue')
 const PageSpears = () => import('./views/mods/tools/PageSpears.vue')
+const PageUltimateFist = () => import('./views/mods/tools/PageUltimateFist.vue')
 const PageMaterialConfig = () => import('./views/mods/tools/PageMaterialConfig.vue')
 
 // WORLD
@@ -474,6 +475,14 @@ const routes: RouteRecordRaw[] = [
             component: PageMultiTools,
             meta: {
               title: 'Tools | MultiTools',
+            },
+          },
+          {
+            path: 'ultimatefist',
+            name: 'UltimateFist',
+            component: PageUltimateFist,
+            meta: {
+              title: 'Tools | Ultimate Fist',
             },
           },
           {

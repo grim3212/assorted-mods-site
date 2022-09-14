@@ -486,6 +486,13 @@
                 <li>
                   <router-link
                     class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="{ name: 'UltimateFist' }"
+                    >Ultimate Fist</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
                     :to="{ name: 'MultiTools' }"
                     >MultiTools</router-link
                   >
