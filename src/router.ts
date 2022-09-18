@@ -39,6 +39,7 @@ const PageLockedEnderChest = () => import('./views/mods/storage/PageLockedEnderC
 const PageItemTower = () => import('./views/mods/storage/PageItemTower.vue')
 const PageLocksmith = () => import('./views/mods/storage/PageLocksmith.vue')
 const PageBetterStorage = () => import('./views/mods/storage/PageBetterStorage.vue')
+const PageBags = () => import('./views/mods/storage/PageBags.vue')
 
 // TECH
 const PageTechHome = () => import('./views/mods/tech/PageTechHome.vue')
@@ -327,6 +328,14 @@ const routes: RouteRecordRaw[] = [
             component: PageLockedEnderChest,
             meta: {
               title: 'Storage | Locked Ender Chest',
+            },
+          },
+          {
+            path: 'bags',
+            name: 'Bags',
+            component: PageBags,
+            meta: {
+              title: 'Storage | Bags',
             },
           },
           {
