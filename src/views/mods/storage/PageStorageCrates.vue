@@ -96,6 +96,14 @@
     </p>
     <img src="\mods\storage\crate_interface.png" />
 
+    <h3><a name="item_locking">Item Locking</a></h3>
+    <p>
+      Within the Storage Crate interface you can click the checkbox for a specific slot to lock the
+      item in it. So even if you run out new items will not be able to take it's place.
+      <i>For Compacting Crates the checkbox is for the whole Crate rather than just one slot</i>.
+    </p>
+    <br />
+
     <h3><a name="void_upgrade">Void Upgrade</a></h3>
     <p>
       The Void Upgrade will allow you to still be able to input new items in the Storage Crate but
