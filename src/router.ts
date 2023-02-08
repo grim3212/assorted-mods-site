@@ -39,6 +39,7 @@ const PageLockedEnderChest = () => import('./views/mods/storage/PageLockedEnderC
 const PageItemTower = () => import('./views/mods/storage/PageItemTower.vue')
 const PageLocksmith = () => import('./views/mods/storage/PageLocksmith.vue')
 const PageBetterStorage = () => import('./views/mods/storage/PageBetterStorage.vue')
+const PageStorageCrates = () => import('./views/mods/storage/PageStorageCrates.vue')
 const PageBags = () => import('./views/mods/storage/PageBags.vue')
 
 // TECH
@@ -343,7 +344,15 @@ const routes: RouteRecordRaw[] = [
             name: 'BetterStorage',
             component: PageBetterStorage,
             meta: {
-              title: 'Storage | BetterStorage',
+              title: 'Storage | Better Storage',
+            },
+          },
+          {
+            path: 'storage-crates',
+            name: 'StorageCrates',
+            component: PageStorageCrates,
+            meta: {
+              title: 'Storage | Storage Crates',
             },
           },
           {
