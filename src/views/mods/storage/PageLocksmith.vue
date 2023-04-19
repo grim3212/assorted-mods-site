@@ -45,7 +45,7 @@
       <u>If they are locked they will no longer be able to be activated by redstone.</u>
       If you have
       <router-link class="page-link" :to="{ name: 'ExtraDecor' }">Assorted Decor</router-link>
-      installed you will also be able to lock the 4 days that it adds (Quartz, Steel, Glass, Chain
+      installed you will also be able to lock the 4 doors that it adds (Quartz, Steel, Glass, Chain
       Link).
     </p>
     <img src="\mods\storage\locked_doors.png" />

@@ -1,7 +1,7 @@
 <template>
   <footer class="flex flex-col justify-center items-center bg-gray-800 text-gray-300 py-2">
     <div>
-      &copy; 2021 Dakota Pierone (Grim3212). Built using
+      &copy; 2023 Dakota Pierone (Grim3212). Built using
       <a
         class="font-bold underline text-gray-500 hover:text-black visited:text-purple-600"
         href="https://v3.vuejs.org/"

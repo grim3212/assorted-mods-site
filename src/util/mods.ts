@@ -1,75 +1,72 @@
 export type ModDetails = {
   name: String
   description: String
-  downloadLink: String
+  modId: String
   githubLink: String
   homeRoute: String
-  changelogName: String
+}
+
+export const Constants = {
+  CurseUrl: 'https://www.curseforge.com/minecraft/mc-mods/',
+  ModrinthUrl: 'https://modrinth.com/mod/'
 }
 
 const EMPTY: ModDetails = {
   name: '',
   description: '',
-  downloadLink: '',
+  modId: '',
   githubLink: '',
-  homeRoute: '/',
-  changelogName: '',
+  homeRoute: '/'
 }
 
 const CORE: ModDetails = {
   name: 'Assorted Core',
   description: 'Adds an assortment of items and blocks to be used by the other Assorted Mods.',
-  downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-core',
+  modId: 'assorted-core',
   githubLink: 'https://github.com/grim3212/AssortedCore',
-  homeRoute: '/core',
-  changelogName: 'CoreChangelog',
+  homeRoute: '/core'
 }
 
 const DECOR: ModDetails = {
   name: 'Assorted Decor',
   description: 'An assortment of various decorations to improve the look of your Minecraft world.',
-  downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-decor',
+  modId: 'assorted-decor',
   githubLink: 'https://github.com/grim3212/AssortedDecor',
-  homeRoute: '/decor',
-  changelogName: 'DecorChangelog',
+  homeRoute: '/decor'
 }
 
 const STORAGE: ModDetails = {
   name: 'Assorted Storage',
   description: 'Assorted blocks and items useful for storage.',
-  downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-storage',
+  modId: 'assorted-storage',
   githubLink: 'https://github.com/grim3212/AssortedStorage',
-  homeRoute: '/storage',
-  changelogName: 'StorageChangelog',
+  homeRoute: '/storage'
 }
 
 const TECH: ModDetails = {
   name: 'Assorted Tech',
   description:
     'Contains an assorted group of additions based around technology, machines, and logic.',
-  downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tech',
+  modId: 'assorted-tech',
   githubLink: 'https://github.com/grim3212/AssortedTech',
-  homeRoute: '/tech',
-  changelogName: 'TechChangelog',
+  homeRoute: '/tech'
 }
 
 const TOOLS: ModDetails = {
   name: 'Assorted Tools',
   description: 'An assortment of various helpful tools to add to your Minecraft world.',
-  downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-tools',
+  modId: 'assorted-tools',
   githubLink: 'https://github.com/grim3212/AssortedTools',
-  homeRoute: '/tools',
-  changelogName: 'ToolsChangelog',
+  homeRoute: '/tools'
 }
 
 const WORLD: ModDetails = {
   name: 'Assorted World',
   description:
     'An assortment of various additions based around world generation that are added to the Minecraft world.',
-  downloadLink: 'https://www.curseforge.com/minecraft/mc-mods/assorted-world',
+  modId: 'assorted-world',
   githubLink: 'https://github.com/grim3212/AssortedWorld',
-  homeRoute: '/world',
-  changelogName: 'WorldChangelog',
+  homeRoute: '/world'
 }
 
 export const MODS = {

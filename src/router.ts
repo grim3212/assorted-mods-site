@@ -8,13 +8,11 @@ const ModParent = () => import('./components/mods/ModParent.vue')
 
 // CORE
 const PageCoreHome = () => import('./views/mods/core/PageCoreHome.vue')
-const PageCoreChangelog = () => import('./views/mods/core/PageCoreChangelog.vue')
 const PageMachines = () => import('./views/mods/core/PageMachines.vue')
 const PageMaterials = () => import('./views/mods/core/PageMaterials.vue')
 
 // DECOR
 const PageDecorHome = () => import('./views/mods/decor/PageDecorHome.vue')
-const PageDecorChangelog = () => import('./views/mods/decor/PageDecorChangelog.vue')
 const PageColorizer = () => import('./views/mods/decor/PageColorizer.vue')
 const PageFurniture = () => import('./views/mods/decor/PageFurniture.vue')
 const PageFireplaces = () => import('./views/mods/decor/PageFireplaces.vue')
@@ -33,7 +31,6 @@ const PageCage = () => import('./views/mods/decor/PageCage.vue')
 
 // STORAGE
 const PageStorageHome = () => import('./views/mods/storage/PageStorageHome.vue')
-const PageStorageChangelog = () => import('./views/mods/storage/PageStorageChangelog.vue')
 const PageLockeableStorage = () => import('./views/mods/storage/PageLockeableStorage.vue')
 const PageLockedEnderChest = () => import('./views/mods/storage/PageLockedEnderChest.vue')
 const PageItemTower = () => import('./views/mods/storage/PageItemTower.vue')
@@ -44,7 +41,6 @@ const PageBags = () => import('./views/mods/storage/PageBags.vue')
 
 // TECH
 const PageTechHome = () => import('./views/mods/tech/PageTechHome.vue')
-const PageTechChangelog = () => import('./views/mods/tech/PageTechChangelog.vue')
 const PageFans = () => import('./views/mods/tech/PageFans.vue')
 const PageSensors = () => import('./views/mods/tech/PageSensors.vue')
 const PageSpikes = () => import('./views/mods/tech/PageSpikes.vue')
@@ -55,7 +51,6 @@ const PageAlarm = () => import('./views/mods/tech/PageAlarm.vue')
 
 // TOOLS
 const PageToolsHome = () => import('./views/mods/tools/PageToolsHome.vue')
-const PageToolsChangelog = () => import('./views/mods/tools/PageToolsChangelog.vue')
 const PageHammers = () => import('./views/mods/tools/PageHammers.vue')
 const PageShears = () => import('./views/mods/tools/PageShears.vue')
 const PageBuckets = () => import('./views/mods/tools/PageBuckets.vue')
@@ -71,7 +66,6 @@ const PageMaterialConfig = () => import('./views/mods/tools/PageMaterialConfig.v
 
 // WORLD
 const PageWorldHome = () => import('./views/mods/world/PageWorldHome.vue')
-const PageWorldChangelog = () => import('./views/mods/world/PageWorldChangelog.vue')
 const PageRandomite = () => import('./views/mods/world/PageRandomite.vue')
 const PageRuins = () => import('./views/mods/world/PageRuins.vue')
 
@@ -120,14 +114,6 @@ const routes: RouteRecordRaw[] = [
             },
           },
           {
-            path: 'changelog',
-            name: 'CoreChangelog',
-            component: PageCoreChangelog,
-            meta: {
-              title: 'Core | Changelog',
-            },
-          },
-          {
             path: 'machines',
             name: 'Machines',
             component: PageMachines,
@@ -155,14 +141,6 @@ const routes: RouteRecordRaw[] = [
             component: PageDecorHome,
             meta: {
               title: 'Decor',
-            },
-          },
-          {
-            path: 'changelog',
-            name: 'DecorChangelog',
-            component: PageDecorChangelog,
-            meta: {
-              title: 'Decor | Changelog',
             },
           },
           {
@@ -300,14 +278,6 @@ const routes: RouteRecordRaw[] = [
             },
           },
           {
-            path: 'changelog',
-            name: 'StorageChangelog',
-            component: PageStorageChangelog,
-            meta: {
-              title: 'Storage | Changelog',
-            },
-          },
-          {
             path: 'locksmith',
             name: 'Locksmith',
             component: PageLocksmith,
@@ -378,14 +348,6 @@ const routes: RouteRecordRaw[] = [
             },
           },
           {
-            path: 'changelog',
-            name: 'TechChangelog',
-            component: PageTechChangelog,
-            meta: {
-              title: 'Tech | Changelog',
-            },
-          },
-          {
             path: 'fans',
             name: 'Fans',
             component: PageFans,
@@ -453,14 +415,6 @@ const routes: RouteRecordRaw[] = [
             component: PageToolsHome,
             meta: {
               title: 'Tools',
-            },
-          },
-          {
-            path: 'changelog',
-            name: 'ToolsChangelog',
-            component: PageToolsChangelog,
-            meta: {
-              title: 'Tools | Changelog',
             },
           },
           {
@@ -571,14 +525,6 @@ const routes: RouteRecordRaw[] = [
             component: PageWorldHome,
             meta: {
               title: 'World',
-            },
-          },
-          {
-            path: 'changelog',
-            name: 'WorldChangelog',
-            component: PageWorldChangelog,
-            meta: {
-              title: 'World | Changelog',
             },
           },
           {
