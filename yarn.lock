@@ -56,6 +56,11 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@csstools/selector-specificity@^2.0.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.2.0.tgz#2cbcf822bf3764c9658c4d2e568bd0c0cb748016"
+  integrity sha512-+OJ9konv95ClSTOJCmMZqpd5+YGsB2S+x6w3E1oaM8UuR5j8nTNHYSz8c9BEPGDOCMQYIEEGlVPj/VY64iTbGw==
+
 "@esbuild/android-arm64@0.17.17":
   version "0.17.17"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.17.17.tgz#164b054d58551f8856285f386e1a8f45d9ba3a31"
@@ -2136,10 +2141,13 @@ postcss-nested@6.0.0:
   dependencies:
     postcss-selector-parser "^6.0.10"
 
-postcss-nesting@~8.0:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-nesting/-/postcss-nesting-8.0.1.tgz#4a8ab3c540a0f138fd3f5d2ee65e4a24d1888024"
-  integrity sha512-cHPNhW5VvRQjszFDxmy16mis9qFQqQLBNw6KVmueLqqE3M182ZAk9+QoxGqbGVryzLVhannw2B5Yhosqq522fA==
+postcss-nesting@~11.2:
+  version "11.2.2"
+  resolved "https://registry.yarnpkg.com/postcss-nesting/-/postcss-nesting-11.2.2.tgz#ddedfea5a1fdcd8d753298d82297ad15d5640c0f"
+  integrity sha512-aOTiUniAB1bcPE6GGiynWRa6PZFPhOTAm5q3q5cem6QeSijIHHkWr6gs65ukCZMXeak8yXeZVbBJET3VM+HlhA==
+  dependencies:
+    "@csstools/selector-specificity" "^2.0.0"
+    postcss-selector-parser "^6.0.10"
 
 postcss-selector-parser@6.0.10:
   version "6.0.10"
