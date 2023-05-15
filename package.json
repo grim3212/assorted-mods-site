@@ -7,7 +7,7 @@
     "start": "yarn dev & wait-on tcp:3000 -v"
   },
   "dependencies": {
-    "vue": "~3.2",
+    "vue": "~3.3",
     "vue-router": "~4.1"
   },
   "devDependencies": {
