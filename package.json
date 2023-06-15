@@ -13,7 +13,7 @@
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/tailwindcss": "^6.7.2",
-    "@types/node": "^18",
+    "@types/node": "^20",
     "eslint": "^8.42.0",
     "nuxt": "^3.5.2",
     "nuxt-link-checker": "^1.0.4",
