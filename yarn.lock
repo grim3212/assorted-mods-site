@@ -5641,10 +5641,10 @@ nuxt-simple-robots@^2.3.0:
     pathe "^1.1.0"
     ufo "^1.1.1"
 
-nuxt-simple-sitemap@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/nuxt-simple-sitemap/-/nuxt-simple-sitemap-2.6.2.tgz#911aa9ea4c68998034fdb33f147f0b656750c5ea"
-  integrity sha512-jM1uiIqRuVGiGOUtpq4ZveZjb2QbA9EyqxAeh87lOey+2CjvStIKqIwWmkAN77nYdDoYPMLnIgEkfatdBPoi6g==
+nuxt-simple-sitemap@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/nuxt-simple-sitemap/-/nuxt-simple-sitemap-2.7.0.tgz#c5b0576d438951b577afdd338e557506e7cc1f1f"
+  integrity sha512-qQ6TZU9rXVA7YjM1cHaELn13oP6w9y3KKs6a0t4ZVkQVnRbmtD8YJqk5TeuXamzPwwCPSoY2v6R16s+qKaha2g==
   dependencies:
     "@nuxt/kit" "3.5.3"
     chalk "^5.2.0"
