@@ -713,19 +713,19 @@
   resolved "https://registry.yarnpkg.com/@nuxt/devalue/-/devalue-2.0.2.tgz#5749f04df13bda4c863338d8dabaf370f45ef7c7"
   integrity sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==
 
-"@nuxt/devtools-kit@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/devtools-kit/-/devtools-kit-0.6.0.tgz#4ae416fd9aa8c2723883d7d0e2c87027a70ce483"
-  integrity sha512-Vh/W80lf3HTGmGNq+rydKlBNQtzh3o9spiMtnEu0S3y3dh6bdumZ9vrcOzwfsgou95hm+YYAnmXIK5Ct89/TUw==
+"@nuxt/devtools-kit@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/devtools-kit/-/devtools-kit-0.6.1.tgz#815edc070ae2c25234af44e369da5aed1cd4e037"
+  integrity sha512-4x4f9MynFGRajUx91sh5GuDQGoZlmDxF4JOhTN/s90x5wkjRLN4hIb988E7NZ2ak3iH4+DTh7VQWZTBfLaBqlA==
   dependencies:
     "@nuxt/kit" "^3.5.3"
     "@nuxt/schema" "^3.5.3"
     execa "^7.1.1"
 
-"@nuxt/devtools-wizard@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/devtools-wizard/-/devtools-wizard-0.6.0.tgz#00e1ba125920ad22e9b0bb2b5e16936431310b3b"
-  integrity sha512-qtSRiBS3uWaldsRCtd/jeKM31uAvMUTjbHLTZvSvZwLw0msRNAdwyscteRGF1lx2HzlYGehI0+lN8R+8qEK0kA==
+"@nuxt/devtools-wizard@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/devtools-wizard/-/devtools-wizard-0.6.1.tgz#c5f24e3f11ae19acfab5aed7bb815f67b80cab36"
+  integrity sha512-eQVYNZHw8wrVyZXeQpTAv4jc08VVNV7Db2D2KmMO08DipkrCqzCf7c6sFtcSmNIlGArm6lcObszTOpdZPhWTHw==
   dependencies:
     consola "^3.1.0"
     diff "^5.1.0"
@@ -740,12 +740,12 @@
     semver "^7.5.1"
 
 "@nuxt/devtools@latest":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/devtools/-/devtools-0.6.0.tgz#138f67f9701f8a59736cd54bc0ae4d4164462c1a"
-  integrity sha512-6Pmq/q+IGeXj8Dut2Nx7M3PximyABrKPWFt4rfxkEGLbMzZYb3nkToL2M1Lg9DHBZKNEal03OduKXaEhlx4KAQ==
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/devtools/-/devtools-0.6.1.tgz#f48eed5dafb6904a4aa5168104eb7fb5780f76e5"
+  integrity sha512-nz1FCJ2WViQWKUG9dTjwib/XZ7/dzeaP/r+++Y7W6a70y3ME5q58YldSNhNKJZXcbYWAU5UFzsoaslB5SWrlhw==
   dependencies:
-    "@nuxt/devtools-kit" "0.6.0"
-    "@nuxt/devtools-wizard" "0.6.0"
+    "@nuxt/devtools-kit" "0.6.1"
+    "@nuxt/devtools-wizard" "0.6.1"
     "@nuxt/kit" "^3.5.3"
     birpc "^0.2.12"
     boxen "^7.1.0"
