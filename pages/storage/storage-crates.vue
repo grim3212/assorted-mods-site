@@ -13,7 +13,7 @@
 
     <h2><a name="crates">Crates</a></h2>
     <p>
-      You are able to create Storage Crates from every type of Wood that vanilla Minecraft supports.
+      You are able to create Storage Crates from all 12 vanilla wood types.
     </p>
     <p>
       There are 4 different basic Storage Crates that you are able to make each has a different

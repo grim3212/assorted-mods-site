@@ -7,7 +7,8 @@
         Assorted Core
       </NuxtLink> adds as well as adding in Emerald
       tools and armor as well. If enabled Assorted Tools will create Pickaxes, Axes, Shovels, Hoes,
-      Swords, Hammers, MultiTools, Helmets, Chestplates, Leggings, Boots, Spears, Buckets, and Shears for each material.
+      Swords, Hammers, MultiTools, Helmets, Chestplates, Leggings, Boots, Spears, Throwing Spears,
+      Buckets, and Shears for each material.
     </p>
     <img src="\mods\tools\armors.png">
     <img src="\mods\tools\material_tab_example.png">
@@ -35,6 +36,7 @@
       <img src="\mods\tools\material_leggings_example.png">
       <img src="\mods\tools\material_boots_example.png">
       <img src="\mods\tools\material_spear_example.png">
+      <img src="\mods\tools\material_throwing_spear_example.png">
       <img src="\mods\tools\material_shears_example.png">
       <img src="\mods\tools\material_bucket_example.png">
     </div>

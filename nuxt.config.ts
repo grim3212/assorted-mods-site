@@ -5,8 +5,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/eslint-module',
     'nuxt-link-checker',
-    'nuxt-simple-robots',
-    'nuxt-simple-sitemap'
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap'
   ],
   app: {
     rootId: 'app'
@@ -19,10 +19,12 @@ export default defineNuxtConfig({
       ]
     }
   },
-  runtimeConfig: {
-    public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://assortedmods.com',
-    },
-    indexable: true,
+  routeRules: {
+    '/tools/spears': { redirect: { to: '/tools/throwing-spears', statusCode: 301 } }
   },
+  site: {
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://assortedmods.com',
+    name: 'Assorted Mods',
+    indexable: true
+  }
 })

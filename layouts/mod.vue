@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex flex-col min-h-full">
     <nav
       class="
           fixed
@@ -125,10 +125,10 @@
       </div>
     </nav>
 
-    <div class="container mx-auto pt-12">
+    <div class="container mx-auto pt-12 mb-auto">
       <div class="flex flex-wrap">
-        <div class="w-full sm:w-3/12 lg:w-2/12 pr-4 tex-left">
-          <div class="block overflow-y-auto pt-8 pb-4">
+        <div class="w-full sm:w-3/12 lg:w-2/12 pr-4 tex-left sm:sticky sm:self-start sm:top-16">
+          <div class="sidebar-scroll block overflow-y-auto pt-8 pb-4 sm:max-h-[calc(100vh-4rem)]">
             <div class="mb-6">
               <NuxtLink
                 class="
@@ -453,9 +453,9 @@
                 <li>
                   <NuxtLink
                     class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
-                    to="/tools/spears"
+                    to="/tools/throwing-spears"
                   >
-                    Spears
+                    Throwing Spears
                   </NuxtLink>
                 </li>
                 <li>
@@ -884,6 +884,14 @@
                   </NuxtLink>
                 </li>
                 <li>
+                  <NuxtLink
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    to="/world/gunpowder-reed"
+                  >
+                    Gunpowder Reed
+                  </NuxtLink>
+                </li>
+                <li>
                   <a
                     class="flex
                         items-center
@@ -949,6 +957,8 @@
         <div class="w-full lg:w-2/12 px-4 hidden lg:block" />
       </div>
     </div>
+
+    <MyFooter />
   </div>
 </template>
 
@@ -963,6 +973,19 @@ function toggleMenu() {
 </script>
 
 <style lang="postcss">
+.sidebar-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.gray.600') transparent;
+}
+.sidebar-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  @apply bg-gray-600 rounded-full;
+}
 .router-link-exact-active:not(.toplevel-route) {
     @apply text-blue-600 border-l-2 border-solid border-blue-600 pl-1;
 }

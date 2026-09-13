@@ -26,9 +26,9 @@
         <li>
           <NuxtLink
             class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/tools/spears"
+            to="/tools/throwing-spears"
           >
-            Spears
+            Throwing Spears
           </NuxtLink>
         </li>
         <li>

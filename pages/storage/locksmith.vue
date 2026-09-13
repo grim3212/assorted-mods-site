@@ -52,9 +52,9 @@
     </p>
     <img src="\mods\storage\locked_doors.png">
     <p>
-      To lock the Iron, Quartz, and Steel doors you can either right click with a
-      <i>Locksmith Lock</i> that has a combination or shift-right click.
-      <b>To lock all of the wooden doors you will need to shift-right click</b>.
+      Doors that do not open by hand, like Iron, Quartz, and Steel, can be locked with a right click
+      using a <i>Locksmith Lock</i> that has a combination.
+      <b>Doors that do open by hand, including the wooden and copper ones, need a shift-right click</b>.
     </p>
     <br>
     <p>

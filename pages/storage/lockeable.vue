@@ -12,8 +12,8 @@
     </p>
     <h2><a name="crates">Warehouse Crates</a></h2>
     <p>
-      Warehouse crates are simple storage blocks that have 27 slots for items. There are variants
-      for each vanilla wood type.
+      Warehouse crates are simple storage blocks that have 27 slots for items. There is one for each
+      of the 12 vanilla wood types, and each takes any log of its own wood.
     </p>
 
     <div class="grid grid-cols-3 gap-4">

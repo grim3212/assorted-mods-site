@@ -7,12 +7,18 @@
     </p>
     <h2><a name="armor">Armor Materials</a></h2>
     <p>
-      You are able to configure the armor materials in <i>Assorted Tools</i> though it is only the
+      You are able to configure the armor materials in <i>Assorted Tools</i>. The
       <NuxtLink class="page-link" to="/tools/chicken-suit">
         Chicken Suit
-      </NuxtLink>. These
-      armor configurations can be found under the armor section in the
-      <i class="text-gray-600">assortedtools-common.toml</i> config file.
+      </NuxtLink>
+      is under <i>chicken_suit</i> and every
+      <NuxtLink class="page-link" to="/core/materials">
+        Assorted Core
+      </NuxtLink>
+      material is under <i>modded_armor_overrides</i>. Both live in the
+      <i class="text-gray-600">assortedtools-common.toml</i> config file on NeoForge, or
+      <i class="text-gray-600">assortedtools-common.json</i> on Fabric. Values are read once at
+      startup, so changes need a restart.
     </p>
     <img src="\mods\tools\armor_config.png">
     <p>The following values can be configured:</p>
@@ -30,9 +36,9 @@
         </div>
       </li>
       <li>
-        <i>reductionAmounts</i> refers to the number of armor points the player gets for wearing
-        each piece of armor. Follows the same pattern of first helmet, then chestplate, leggings,
-        and finally boots.
+        <i>helmetReductionAmount</i>, <i>chestPlateReductionAmount</i>,
+        <i>leggingsReductionAmount</i>, and <i>bootsReductionAmount</i> refer to the number of armor
+        points the player gets for wearing that piece.
       </li>
       <li>
         <i>enchantibility</i> refers to how enchantible the material is. The higher the number the
@@ -48,37 +54,43 @@
     </ul>
     <h2><a name="tiers">Item Tiers</a></h2>
     <p>
-      You are able to configure the tool materials used in <i>Assorted Tools</i> currently used by
+      You are able to configure the tool materials used by every tool in <i>Assorted Tools</i>,
+      including
       <NuxtLink class="page-link" to="/tools/hammers">
         Hammers
-      </NuxtLink>
-      and
+      </NuxtLink>,
       <NuxtLink class="page-link" to="/tools/multitools">
         MultiTools
-      </NuxtLink>
-      and
+      </NuxtLink>,
       <NuxtLink class="page-link" to="/tools/shears">
         Shears
-      </NuxtLink>
-      and
+      </NuxtLink>,
+      <NuxtLink class="page-link" to="/tools/throwing-spears">
+        Throwing Spears
+      </NuxtLink>, and
       <NuxtLink class="page-link" to="/tools/buckets">
         Buckets
-      </NuxtLink>. These
-      configurations can be found under the <i>Item Tiers</i> section in the
-      <i class="text-gray-600">assortedtools-common.toml</i> config file.
+      </NuxtLink>.
     </p>
     <br>
     <p>
-      Currently the only options to configure are Vanilla Item Tiers. Vanilla tools will not be
-      affected by the configuration changes and only the tools in <i>Assorted Tools</i> will be
-      updated. The default values for the Vanilla Item Tiers is what the original levels would be.
+      There are three sections. <i>vanilla_tool_overrides</i> covers the vanilla materials,
+      <i>modded_tool_overrides</i> covers every
+      <NuxtLink class="page-link" to="/core/materials">
+        Assorted Core
+      </NuxtLink>
+      material, and <i>ultimate_fist</i> covers the
+      <NuxtLink class="page-link" to="/tools/ultimate-fist">
+        Ultimate Fist
+      </NuxtLink>. Vanilla tools are not affected, only the tools in <i>Assorted Tools</i>. The
+      defaults match the original values. Values are read once at startup, so changes need a restart.
     </p>
     <img src="\mods\tools\tool_config.png">
     <p>The following values can be configured:</p>
     <ul class="list-disc list-outer mx-6">
       <li>
-        <i>harvestLevel</i> for tools, refers to what blocks it can break (a higher level is higher
-        tier blocks).
+        <i>harvestLevel</i> for tools, refers to what blocks it can break. 0 is wood, 1 stone,
+        2 iron, 3 diamond, 4 and above netherite.
       </li>
       <li><i>maxUses</i> refers to how many uses it has before it breaks.</li>
       <li><i>efficiency</i> for tools, refers to how quickly the material can break blocks.</li>
@@ -99,7 +111,17 @@
         <i>breaksAfterUse</i> is this material so weak that the bucket will break after placing a
         fluid.
       </li>
+      <li>
+        <i>multiToolModifier</i> is multiplied by <i>maxUses</i> to give the MultiTool its
+        durability.
+      </li>
     </ul>
+    <p>
+      Materials under <i>modded_tool_overrides</i> also have a <i>spear</i> group with the nine
+      values Minecraft tunes per spear material: <i>swingSeconds</i>, <i>damageMultiplier</i>,
+      <i>delaySeconds</i>, <i>dismountSeconds</i>, <i>dismountSpeed</i>, <i>knockbackSeconds</i>,
+      <i>knockbackSpeed</i>, <i>damageSeconds</i>, and <i>damageSpeed</i>.
+    </p>
   </div>
 </template>
 

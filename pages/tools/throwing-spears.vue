@@ -1,29 +1,33 @@
 <template>
   <div id="content">
-    <h1><a name="spears">Spears</a></h1>
+    <h1><a name="throwing_spears">Throwing Spears</a></h1>
     <p>
-      This mod adds Spears with any default Minecraft tool material as well as all of the tool
-      materials provided in <NuxtLink class="page-link" to="/core/materials">
+      This mod adds Throwing Spears with any default Minecraft tool material as well as all of the
+      tool materials provided in <NuxtLink class="page-link" to="/core/materials">
         Assorted Core
-      </NuxtLink> materials. These
-      spears function similar to tridents in the fact that they can damage entities by swinging as
-      well as they are able to be thrown from the hand. All spears recipes for each material can use
-      one or the other recipes shown below as an example.
+      </NuxtLink>. These
+      throwing spears function similar to tridents in the fact that they can damage entities by
+      swinging as well as they are able to be thrown from the hand. Every material uses the same
+      recipe, two sticks and the material, shown below for a vanilla one and an Assorted Core one.
     </p>
-    <img src="\mods\tools\spears_all.png">
+    <p>
+      Minecraft has its own plain Spear for each of its tool materials. Assorted Tools adds a
+      matching plain Spear for every Assorted Core material so the extra materials are not left out.
+      Those are separate items from the Throwing Spears on this page, and they use the vanilla
+      spear recipe instead.
+    </p>
+    <img src="\mods\tools\throwing_spears_all.png">
     <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\tools\spear_recipe.png">
-      <img src="\mods\tools\spear_recipe_alt.png">
-      <img src="\mods\tools\other_spear_recipe.png">
-      <img src="\mods\tools\other_spear_recipe_alt.png">
+      <img src="\mods\tools\throwing_spear_recipe.png">
+      <img src="\mods\tools\throwing_spear_recipe_alt.png">
     </div>
-    <p>The Diamond Spear is also able to upgraded to the Netherite Spear using a smithing table.</p>
+    <p>The Diamond Throwing Spear is also able to upgraded to the Netherite Throwing Spear using a smithing table.</p>
     <img src="\mods\tools\netherite_spear_smithing.png">
     <h2><a name="enchantments">Enchantments</a></h2>
     <p>
-      Besides just the being able to throw the spears you are also able to enchantment them with an
-      assortment of different enchantments. Some of the enchantments only spears are able to get.
-      The current list of enchanments is below:
+      Besides just the being able to throw them you are also able to enchant Throwing Spears with an
+      assortment of different enchantments. Some of the enchantments only Throwing Spears are able to
+      get. The current list of enchanments is below:
     </p>
     <ul class="list-disc list-inside">
       <li>Curse of Vanishing</li>
@@ -42,10 +46,9 @@
       Impaling and Loyalty function just like they would on a Trident. So, if you have Loyalty it
       will come back to you, and Impaling does extra damage on Water creatures.
     </p>
-    <h2><a name="spear-enchants">Spear Enchantments</a></h2>
+    <h2><a name="throwing-spear-enchants">Throwing Spear Enchantments</a></h2>
     <p>
-      The bottom 4 enchantments are added just for the spears themselves. Each is very similar to
-      old functionality from a previous version of the spears.
+      The bottom 4 enchantments are added just for the Throwing Spears themselves.
     </p>
     <ul class="list-disc list-inside">
       <li>
@@ -55,7 +58,7 @@
       <li>
         <b>Unstable</b> (max-level:2) - When it hits a block or an entity it will cause an
         explosion. The size of the explosion is determined by the level. Unstable is not compatible
-        with any of the 4 added enchantments.
+        with the other 3 added enchantments.
       </li>
       <li>
         <b>Conductive</b> (max-level:3) - When it hits a block or an entity it will try and cause a
@@ -72,6 +75,6 @@
 
 <script setup lang="ts">
 definePageMeta({
-  pageTitle: 'Tools | Spears'
+  pageTitle: 'Tools | Throwing Spears'
 })
 </script>

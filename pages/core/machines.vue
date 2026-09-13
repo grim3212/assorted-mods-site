@@ -31,8 +31,8 @@
     </p>
 
     <p>
-      The grinding mill requires a tool with harvest level >= 2. This will allow it to be able to
-      break open the ores. Besides a tool you will need a fuel source to power it. This can be any
+      The grinding mill requires an iron tier or better pickaxe in the tool slot. This will allow it
+      to be able to break open the ores. Besides a tool you will need a fuel source to power it. This can be any
       fuel that furnaces can use. You are able to pipe in items via the top and sides with hoppers.
       You can use a hopper underneath the Grinding Mill to pull out the output.
     </p>

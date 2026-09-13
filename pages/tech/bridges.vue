@@ -16,7 +16,6 @@
     <div class="grid grid-cols-2 gap-4">
       <img src="\mods\tech\death_bridge_recipe.png">
       <img src="\mods\tech\gravity_bridge_recipe.png">
-      <img src="\mods\tech\trick_bridge_recipe.png">
     </div>
 
     <p>

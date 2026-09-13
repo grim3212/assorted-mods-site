@@ -1,63 +1,48 @@
-# Nuxt 3 Minimal Starter
+# Assorted Mods
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Documentation site for the "Assorted" Minecraft mod series by Grim3212, published at
+[assortedmods.com](https://assortedmods.com).
+
+Built with [Nuxt 3](https://nuxt.com/docs/getting-started/introduction) and prerendered to static
+files.
 
 ## Setup
 
-Make sure to install the dependencies:
-
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
 yarn install
 ```
 
-## Development Server
+## Development server
 
-Start the development server on `http://localhost:3000`:
+Runs on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
 yarn dev
 ```
 
-## Production
-
-Build the application for production:
+## Build
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
+yarn generate   # static site into .output/public
+yarn preview    # serve the built site locally
+yarn lint
 ```
 
-Locally preview production build:
+## Deploy
+
+The site is hosted as a static S3 website in the `www.assortedmods.com` bucket. To build and publish
+in one step:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
+yarn deploy
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+That runs `nuxt generate`, then syncs `.output/public` to the bucket in two passes: the hashed
+`_nuxt` bundles with a one year immutable cache, then everything else with a five minute cache.
+Both passes use `--delete`, so files removed from the site are removed from the bucket.
+
+It needs the AWS CLI installed and credentials that can write to the bucket, for example through
+`aws configure` or `AWS_PROFILE`.
+
+The same deploy is available in GitHub Actions as a manual run: **Actions -> Deploy -> Run
+workflow**. It needs `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` set as repository secrets.
