@@ -13,7 +13,7 @@
       </div>
       <div class="inline-flex w-full place-content-center">
         <a
-          class="inline-flex items-center text-sm px-1 py-1 mt-4 rounded hover:bg-gray-300 mr-6 hover:text-teal-500"
+          class="inline-flex items-center text-sm px-1 py-1 mt-4 rounded-sm hover:bg-gray-300 mr-6 hover:text-teal-500"
           :href="details.githubLink"
           target="_default"
         >
@@ -30,7 +30,7 @@
           GitHub
         </a>
         <a
-          class="inline-flex items-center text-sm px-1 py-1 mt-4 rounded hover:bg-gray-300 mr-6 hover:text-teal-500"
+          class="inline-flex items-center text-sm px-1 py-1 mt-4 rounded-sm hover:bg-gray-300 mr-6 hover:text-teal-500"
           :href="curseUrl"
           target="_default"
         >
@@ -48,7 +48,7 @@
           CurseForge
         </a>
         <a
-          class="inline-flex items-center text-sm px-1 py-1 mt-4 rounded hover:bg-gray-300 mr-6 hover:text-teal-500"
+          class="inline-flex items-center text-sm px-1 py-1 mt-4 rounded-sm hover:bg-gray-300 mr-6 hover:text-teal-500"
           :href="modrinthUrl"
           target="_default"
         >

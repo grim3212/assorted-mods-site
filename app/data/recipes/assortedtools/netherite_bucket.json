@@ -1,0 +1,78 @@
+{
+  "id": "assortedtools:netherite_bucket",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:netherite_bucket",
+        "name": "Netherite Bucket",
+        "icon": {
+          "src": "/icons/assortedtools/netherite_bucket.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:ingots/netherite",
+        "label": "netherite ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:netherite_ingot",
+            "name": "Netherite Ingot",
+            "icon": {
+              "src": "/icons/minecraft/netherite_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/netherite",
+        "label": "netherite ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:netherite_ingot",
+            "name": "Netherite Ingot",
+            "icon": {
+              "src": "/icons/minecraft/netherite_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/netherite",
+        "label": "netherite ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:netherite_ingot",
+            "name": "Netherite Ingot",
+            "icon": {
+              "src": "/icons/minecraft/netherite_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

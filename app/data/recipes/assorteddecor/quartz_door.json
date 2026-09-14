@@ -1,0 +1,111 @@
+{
+  "id": "assorteddecor:quartz_door",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 3,
+    "items": [
+      {
+        "id": "assorteddecor:quartz_door",
+        "name": "Quartz Door",
+        "icon": {
+          "src": "/icons/assorteddecor/quartz_door.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 2,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:quartz",
+            "name": "Nether Quartz",
+            "icon": {
+              "src": "/icons/minecraft/quartz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:quartz",
+            "name": "Nether Quartz",
+            "icon": {
+              "src": "/icons/minecraft/quartz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:quartz",
+            "name": "Nether Quartz",
+            "icon": {
+              "src": "/icons/minecraft/quartz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:quartz",
+            "name": "Nether Quartz",
+            "icon": {
+              "src": "/icons/minecraft/quartz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:quartz",
+            "name": "Nether Quartz",
+            "icon": {
+              "src": "/icons/minecraft/quartz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:quartz",
+            "name": "Nether Quartz",
+            "icon": {
+              "src": "/icons/minecraft/quartz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

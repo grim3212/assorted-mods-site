@@ -5,7 +5,7 @@
       Fans are blocks that allow you to push/pull or blow/suck entities. It does this by the power
       of AIR!
     </p>
-    <img src="\mods\tech\fan_recipe.png">
+    <Recipe id="assortedtech:fan" />
 
     <p>
       Fans can be configured however you like by using the GUI that opens when you right click on a

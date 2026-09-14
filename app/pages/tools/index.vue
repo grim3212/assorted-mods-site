@@ -2,7 +2,10 @@
   <div>
     <ModHome mod="tools" />
     <div class="flex justify-center">
-      <img class="border-black border-2 py-0" src="\mods\tools\tools.png">
+      <img
+        class="border-black border-2 py-0"
+        src="\mods\tools\tools.png"
+      >
     </div>
     <br>
     <div class="flex justify-center">

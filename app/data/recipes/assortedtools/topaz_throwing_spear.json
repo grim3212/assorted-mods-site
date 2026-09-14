@@ -1,0 +1,75 @@
+{
+  "id": "assortedtools:topaz_throwing_spear",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:topaz_throwing_spear",
+        "name": "Topaz Throwing Spear",
+        "icon": {
+          "src": "/icons/assortedtools/topaz_throwing_spear.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 1,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/topaz",
+        "label": "topaz gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:topaz",
+            "name": "Topaz",
+            "icon": {
+              "src": "/icons/assortedcore/topaz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

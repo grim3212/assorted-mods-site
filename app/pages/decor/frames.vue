@@ -6,16 +6,24 @@
       either wood or iron. Frames are stronger then wallpaper so if their supporting block is
       removed they will still be there. To dye a frame you just need to right click with a dye in
       your hand on them. These support
-      <NuxtLink class="page-link" to="/decor/painting">
+      <NuxtLink
+        class="page-link"
+        to="/decor/painting"
+      >
         Paint Rollers
       </NuxtLink> to dye
       them. To break frames use an axe for wooden and a pickaxe for the iron variant.
     </p>
-    <img src="\mods\decor\wood_frame_recipe.png">
-    <img src="\mods\decor\iron_frame_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:wood_frame" />
+      <Recipe id="assorteddecor:iron_frame" />
+    </div>
     <p>
       Similar to
-      <NuxtLink class="page-link" to="/decor/wallpaper">
+      <NuxtLink
+        class="page-link"
+        to="/decor/wallpaper"
+      >
         Wallpaper
       </NuxtLink>, once
       placed keep right clicking for available patterns, it will automatically cycle through only

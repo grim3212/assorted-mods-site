@@ -1,0 +1,111 @@
+{
+  "id": "assorteddecor:chain_link_aluminum",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 4,
+    "items": [
+      {
+        "id": "assorteddecor:chain_link",
+        "name": "Chain Link",
+        "icon": {
+          "src": "/icons/assorteddecor/chain_link.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:nuggets/aluminum",
+        "label": "aluminum nuggets",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:aluminum_nugget",
+            "name": "Aluminum Nugget",
+            "icon": {
+              "src": "/icons/assortedcore/aluminum_nugget.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:nuggets/aluminum",
+        "label": "aluminum nuggets",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:aluminum_nugget",
+            "name": "Aluminum Nugget",
+            "icon": {
+              "src": "/icons/assortedcore/aluminum_nugget.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/aluminum",
+        "label": "aluminum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:aluminum_ingot",
+            "name": "Aluminum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/aluminum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:nuggets/aluminum",
+        "label": "aluminum nuggets",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:aluminum_nugget",
+            "name": "Aluminum Nugget",
+            "icon": {
+              "src": "/icons/assortedcore/aluminum_nugget.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:nuggets/aluminum",
+        "label": "aluminum nuggets",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:aluminum_nugget",
+            "name": "Aluminum Nugget",
+            "icon": {
+              "src": "/icons/assortedcore/aluminum_nugget.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

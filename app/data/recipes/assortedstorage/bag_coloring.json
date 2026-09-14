@@ -1,0 +1,752 @@
+{
+  "id": "assortedstorage:bag_coloring",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:bag",
+        "name": "Bag",
+        "icon": {
+          "src": "/icons/assortedstorage/bag.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "note": "Any bag with one or two dyes. A dye in the bag's column or to its right sets the primary colour; a dye in the column to its left sets the secondary colour. The bag keeps its material, lock and contents.",
+  "ingredients": [
+    {
+      "kind": "tag",
+      "tag": "assortedstorage:bags",
+      "label": "bags",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedstorage:ender_bag",
+          "name": "Ender Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/ender_bag.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_stone",
+          "name": "Stone Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_stone.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag",
+          "name": "Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_copper",
+          "name": "Copper Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_copper.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_iron",
+          "name": "Iron Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_iron.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_aluminum",
+          "name": "Aluminum Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_aluminum.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_tin",
+          "name": "Tin Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_tin.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_topaz",
+          "name": "Topaz Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_topaz.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_amethyst",
+          "name": "Amethyst Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_amethyst.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_emerald",
+          "name": "Emerald Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_emerald.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_peridot",
+          "name": "Peridot Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_peridot.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_lead",
+          "name": "Lead Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_lead.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_nickel",
+          "name": "Nickel Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_nickel.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_sapphire",
+          "name": "Sapphire Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_sapphire.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_gold",
+          "name": "Gold Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_gold.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_bronze",
+          "name": "Bronze Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_bronze.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_ruby",
+          "name": "Ruby Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_ruby.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_silver",
+          "name": "Silver Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_silver.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_diamond",
+          "name": "Diamond Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_diamond.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_invar",
+          "name": "Invar Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_invar.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_electrum",
+          "name": "Electrum Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_electrum.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_steel",
+          "name": "Steel Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_steel.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_platinum",
+          "name": "Platinum Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_platinum.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assortedstorage:bag_netherite",
+          "name": "Netherite Bag",
+          "icon": {
+            "src": "/icons/assortedstorage/bag_netherite.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:dyes",
+      "label": "dyes",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:white_dye",
+          "name": "White Dye",
+          "icon": {
+            "src": "/icons/minecraft/white_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:orange_dye",
+          "name": "Orange Dye",
+          "icon": {
+            "src": "/icons/minecraft/orange_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:magenta_dye",
+          "name": "Magenta Dye",
+          "icon": {
+            "src": "/icons/minecraft/magenta_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:light_blue_dye",
+          "name": "Light Blue Dye",
+          "icon": {
+            "src": "/icons/minecraft/light_blue_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:yellow_dye",
+          "name": "Yellow Dye",
+          "icon": {
+            "src": "/icons/minecraft/yellow_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:lime_dye",
+          "name": "Lime Dye",
+          "icon": {
+            "src": "/icons/minecraft/lime_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:pink_dye",
+          "name": "Pink Dye",
+          "icon": {
+            "src": "/icons/minecraft/pink_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:gray_dye",
+          "name": "Gray Dye",
+          "icon": {
+            "src": "/icons/minecraft/gray_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:light_gray_dye",
+          "name": "Light Gray Dye",
+          "icon": {
+            "src": "/icons/minecraft/light_gray_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:cyan_dye",
+          "name": "Cyan Dye",
+          "icon": {
+            "src": "/icons/minecraft/cyan_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:purple_dye",
+          "name": "Purple Dye",
+          "icon": {
+            "src": "/icons/minecraft/purple_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:blue_dye",
+          "name": "Blue Dye",
+          "icon": {
+            "src": "/icons/minecraft/blue_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:brown_dye",
+          "name": "Brown Dye",
+          "icon": {
+            "src": "/icons/minecraft/brown_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:green_dye",
+          "name": "Green Dye",
+          "icon": {
+            "src": "/icons/minecraft/green_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:red_dye",
+          "name": "Red Dye",
+          "icon": {
+            "src": "/icons/minecraft/red_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:black_dye",
+          "name": "Black Dye",
+          "icon": {
+            "src": "/icons/minecraft/black_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_white",
+          "name": "White Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_white.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_orange",
+          "name": "Orange Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_orange.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_magenta",
+          "name": "Magenta Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_magenta.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_light_blue",
+          "name": "Light Blue Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_light_blue.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_yellow",
+          "name": "Yellow Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_yellow.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_lime",
+          "name": "Lime Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_lime.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_pink",
+          "name": "Pink Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_pink.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_gray",
+          "name": "Gray Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_gray.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_light_gray",
+          "name": "Light Gray Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_light_gray.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_cyan",
+          "name": "Cyan Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_cyan.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_purple",
+          "name": "Purple Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_purple.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_blue",
+          "name": "Blue Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_blue.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_brown",
+          "name": "Brown Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_brown.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_green",
+          "name": "Green Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_green.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_red",
+          "name": "Red Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_red.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_black",
+          "name": "Black Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_black.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:dyes",
+      "label": "dyes",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:white_dye",
+          "name": "White Dye",
+          "icon": {
+            "src": "/icons/minecraft/white_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:orange_dye",
+          "name": "Orange Dye",
+          "icon": {
+            "src": "/icons/minecraft/orange_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:magenta_dye",
+          "name": "Magenta Dye",
+          "icon": {
+            "src": "/icons/minecraft/magenta_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:light_blue_dye",
+          "name": "Light Blue Dye",
+          "icon": {
+            "src": "/icons/minecraft/light_blue_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:yellow_dye",
+          "name": "Yellow Dye",
+          "icon": {
+            "src": "/icons/minecraft/yellow_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:lime_dye",
+          "name": "Lime Dye",
+          "icon": {
+            "src": "/icons/minecraft/lime_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:pink_dye",
+          "name": "Pink Dye",
+          "icon": {
+            "src": "/icons/minecraft/pink_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:gray_dye",
+          "name": "Gray Dye",
+          "icon": {
+            "src": "/icons/minecraft/gray_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:light_gray_dye",
+          "name": "Light Gray Dye",
+          "icon": {
+            "src": "/icons/minecraft/light_gray_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:cyan_dye",
+          "name": "Cyan Dye",
+          "icon": {
+            "src": "/icons/minecraft/cyan_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:purple_dye",
+          "name": "Purple Dye",
+          "icon": {
+            "src": "/icons/minecraft/purple_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:blue_dye",
+          "name": "Blue Dye",
+          "icon": {
+            "src": "/icons/minecraft/blue_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:brown_dye",
+          "name": "Brown Dye",
+          "icon": {
+            "src": "/icons/minecraft/brown_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:green_dye",
+          "name": "Green Dye",
+          "icon": {
+            "src": "/icons/minecraft/green_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:red_dye",
+          "name": "Red Dye",
+          "icon": {
+            "src": "/icons/minecraft/red_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:black_dye",
+          "name": "Black Dye",
+          "icon": {
+            "src": "/icons/minecraft/black_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_white",
+          "name": "White Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_white.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_orange",
+          "name": "Orange Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_orange.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_magenta",
+          "name": "Magenta Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_magenta.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_light_blue",
+          "name": "Light Blue Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_light_blue.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_yellow",
+          "name": "Yellow Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_yellow.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_lime",
+          "name": "Lime Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_lime.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_pink",
+          "name": "Pink Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_pink.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_gray",
+          "name": "Gray Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_gray.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_light_gray",
+          "name": "Light Gray Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_light_gray.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_cyan",
+          "name": "Cyan Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_cyan.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_purple",
+          "name": "Purple Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_purple.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_blue",
+          "name": "Blue Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_blue.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_brown",
+          "name": "Brown Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_brown.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_green",
+          "name": "Green Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_green.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_red",
+          "name": "Red Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_red.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_black",
+          "name": "Black Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_black.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

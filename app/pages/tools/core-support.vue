@@ -3,7 +3,10 @@
     <h1><a name="core_support">Core Support</a></h1>
     <p>
       Assorted Tools supports every material that
-      <NuxtLink class="page-link" to="/core/materials">
+      <NuxtLink
+        class="page-link"
+        to="/core/materials"
+      >
         Assorted Core
       </NuxtLink> adds as well as adding in Emerald
       tools and armor as well. If enabled Assorted Tools will create Pickaxes, Axes, Shovels, Hoes,
@@ -23,22 +26,22 @@
       If you forgot what the recipes look like or maybe just want a refresher here you go. Replace
       the Topaz Gem with the material of your choice to craft any of the tools or armor.
     </p>
-    <div class="grid grid-cols-3 gap-4">
-      <img src="\mods\tools\material_pickaxe_example.png">
-      <img src="\mods\tools\material_axe_example.png">
-      <img src="\mods\tools\material_shovel_example.png">
-      <img src="\mods\tools\material_hoe_example.png">
-      <img src="\mods\tools\material_sword_example.png">
-      <img src="\mods\tools\material_hammer_example.png">
-      <img src="\mods\tools\material_multitool_example.png">
-      <img src="\mods\tools\material_helmet_example.png">
-      <img src="\mods\tools\material_chestplate_example.png">
-      <img src="\mods\tools\material_leggings_example.png">
-      <img src="\mods\tools\material_boots_example.png">
-      <img src="\mods\tools\material_spear_example.png">
-      <img src="\mods\tools\material_throwing_spear_example.png">
-      <img src="\mods\tools\material_shears_example.png">
-      <img src="\mods\tools\material_bucket_example.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+      <Recipe id="assortedtools:topaz_pickaxe" />
+      <Recipe id="assortedtools:topaz_axe" />
+      <Recipe id="assortedtools:topaz_shovel" />
+      <Recipe id="assortedtools:topaz_hoe" />
+      <Recipe id="assortedtools:topaz_sword" />
+      <Recipe id="assortedtools:topaz_hammer" />
+      <Recipe id="assortedtools:topaz_multitool" />
+      <Recipe id="assortedtools:topaz_helmet" />
+      <Recipe id="assortedtools:topaz_chestplate" />
+      <Recipe id="assortedtools:topaz_leggings" />
+      <Recipe id="assortedtools:topaz_boots" />
+      <Recipe id="assortedtools:topaz_spear" />
+      <Recipe id="assortedtools:topaz_throwing_spear" />
+      <Recipe id="assortedtools:topaz_shears" />
+      <Recipe id="assortedtools:topaz_bucket" />
     </div>
   </div>
 </template>

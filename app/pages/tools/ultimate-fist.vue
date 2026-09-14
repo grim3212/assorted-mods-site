@@ -5,13 +5,16 @@
       The Ultimate Fist is an overpowered tool left behind by an ancient civilization. The fragments
       of which can be found across all three dimensions and are required to be able to craft it.
     </p>
-    <img src="\mods\tools\ultimate_fist_recipe.png">
+    <Recipe id="assortedtools:ultimate_fist" />
 
     <p>
       The Ultimate Fist by default is absurdly powerful and can break blocks extremely fast and one
       shot many mobs. All of the tools are configurable using the same configuration that is
       explained at
-      <NuxtLink class="page-link" to="/tools/material-config">
+      <NuxtLink
+        class="page-link"
+        to="/tools/material-config"
+      >
         Material Config
       </NuxtLink>.
       <br>

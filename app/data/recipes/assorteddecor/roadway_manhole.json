@@ -1,0 +1,57 @@
+{
+  "id": "assorteddecor:roadway_manhole",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:roadway_manhole",
+        "name": "Roadway Manhole",
+        "icon": {
+          "src": "/icons/assorteddecor/roadway_manhole.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:roadway",
+            "name": "Roadway",
+            "icon": {
+              "src": "/icons/assorteddecor/roadway.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

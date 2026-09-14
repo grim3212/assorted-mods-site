@@ -1,0 +1,109 @@
+{
+  "id": "assortedcore:expert_grinding_mill",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcore:expert_grinding_mill",
+        "name": "Expert Grinding Mill",
+        "icon": {
+          "src": "/icons/assortedcore/expert_grinding_mill.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/platinum",
+        "label": "platinum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:platinum_ingot",
+            "name": "Platinum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/platinum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/platinum",
+        "label": "platinum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:platinum_ingot",
+            "name": "Platinum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/platinum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:advanced_grinding_mill",
+            "name": "Advanced Grinding Mill",
+            "icon": {
+              "src": "/icons/assortedcore/advanced_grinding_mill.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/platinum",
+        "label": "platinum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:platinum_ingot",
+            "name": "Platinum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/platinum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/platinum",
+        "label": "platinum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:platinum_ingot",
+            "name": "Platinum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/platinum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

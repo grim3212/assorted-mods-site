@@ -1,0 +1,169 @@
+{
+  "id": "assortedcore:intermediate_alloy_forge",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcore:intermediate_alloy_forge",
+        "name": "Intermediate Alloy Forge",
+        "icon": {
+          "src": "/icons/assortedcore/intermediate_alloy_forge.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:basic_alloy_forge",
+            "name": "Basic Alloy Forge",
+            "icon": {
+              "src": "/icons/assortedcore/basic_alloy_forge.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

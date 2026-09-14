@@ -1,0 +1,396 @@
+{
+  "id": "assortedstorage:oak_crate_quadruple",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:oak_crate_quadruple",
+        "name": "Oak Quadruple Storage Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/oak_crate_quadruple.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:chests/wooden",
+        "label": "wooden chests",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:chest",
+            "name": "Chest",
+            "icon": {
+              "src": "/icons/minecraft/chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:trapped_chest",
+            "name": "Trapped Chest",
+            "icon": {
+              "src": "/icons/minecraft/trapped_chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:locked_chest",
+            "name": "Locked Chest",
+            "icon": {
+              "src": "/icons/assortedstorage/locked_chest.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:deepslate",
+        "label": "deepslate",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_bricks",
+            "name": "Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_bricks",
+            "name": "Cracked Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_tiles",
+            "name": "Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_tiles",
+            "name": "Cracked Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:chiseled_deepslate",
+            "name": "Chiseled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/chiseled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:reinforced_deepslate",
+            "name": "Reinforced Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/reinforced_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:chests/wooden",
+        "label": "wooden chests",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:chest",
+            "name": "Chest",
+            "icon": {
+              "src": "/icons/minecraft/chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:trapped_chest",
+            "name": "Trapped Chest",
+            "icon": {
+              "src": "/icons/minecraft/trapped_chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:locked_chest",
+            "name": "Locked Chest",
+            "icon": {
+              "src": "/icons/assortedstorage/locked_chest.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:oak_logs",
+        "label": "oak logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_log",
+            "name": "Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:oak_wood",
+            "name": "Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/oak_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_oak_log",
+            "name": "Stripped Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_oak_wood",
+            "name": "Stripped Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_oak_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "minecraft:oak_logs",
+        "label": "oak logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_log",
+            "name": "Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:oak_wood",
+            "name": "Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/oak_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_oak_log",
+            "name": "Stripped Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_oak_wood",
+            "name": "Stripped Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_oak_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:chests/wooden",
+        "label": "wooden chests",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:chest",
+            "name": "Chest",
+            "icon": {
+              "src": "/icons/minecraft/chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:trapped_chest",
+            "name": "Trapped Chest",
+            "icon": {
+              "src": "/icons/minecraft/trapped_chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:locked_chest",
+            "name": "Locked Chest",
+            "icon": {
+              "src": "/icons/assortedstorage/locked_chest.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:deepslate",
+        "label": "deepslate",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_bricks",
+            "name": "Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_bricks",
+            "name": "Cracked Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_tiles",
+            "name": "Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_tiles",
+            "name": "Cracked Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:chiseled_deepslate",
+            "name": "Chiseled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/chiseled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:reinforced_deepslate",
+            "name": "Reinforced Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/reinforced_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:chests/wooden",
+        "label": "wooden chests",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:chest",
+            "name": "Chest",
+            "icon": {
+              "src": "/icons/minecraft/chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:trapped_chest",
+            "name": "Trapped Chest",
+            "icon": {
+              "src": "/icons/minecraft/trapped_chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:locked_chest",
+            "name": "Locked Chest",
+            "icon": {
+              "src": "/icons/assortedstorage/locked_chest.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

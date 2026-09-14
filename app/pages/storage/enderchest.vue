@@ -12,7 +12,7 @@
       Ender Chest and a <b>Locksmith Lock</b> with a saved code. One without a code will not work.
       Then you will get a Locked Ender Chest locked with that code.
     </p>
-    <img src="\mods\storage\locked_ender_chest_recipe.png">
+    <Recipe id="assortedstorage:locked_ender_chest" />
     <p>
       The second option is to just <b>Shift+Right Click</b> an Ender Chest with a
       <b>Locksmith Lock</b> with a saved code. This will turn the Ender Chest into a Locked Ender

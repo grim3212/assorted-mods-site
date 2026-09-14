@@ -1,0 +1,477 @@
+{
+  "id": "assorteddecor:wallpaper",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:wallpaper",
+        "name": "Wallpaper",
+        "icon": {
+          "src": "/icons/assorteddecor/wallpaper.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 2,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:wool",
+        "label": "wool",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:white_wool",
+            "name": "White Wool",
+            "icon": {
+              "src": "/icons/minecraft/white_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:orange_wool",
+            "name": "Orange Wool",
+            "icon": {
+              "src": "/icons/minecraft/orange_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:magenta_wool",
+            "name": "Magenta Wool",
+            "icon": {
+              "src": "/icons/minecraft/magenta_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_blue_wool",
+            "name": "Light Blue Wool",
+            "icon": {
+              "src": "/icons/minecraft/light_blue_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:yellow_wool",
+            "name": "Yellow Wool",
+            "icon": {
+              "src": "/icons/minecraft/yellow_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:lime_wool",
+            "name": "Lime Wool",
+            "icon": {
+              "src": "/icons/minecraft/lime_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pink_wool",
+            "name": "Pink Wool",
+            "icon": {
+              "src": "/icons/minecraft/pink_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:gray_wool",
+            "name": "Gray Wool",
+            "icon": {
+              "src": "/icons/minecraft/gray_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_gray_wool",
+            "name": "Light Gray Wool",
+            "icon": {
+              "src": "/icons/minecraft/light_gray_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cyan_wool",
+            "name": "Cyan Wool",
+            "icon": {
+              "src": "/icons/minecraft/cyan_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:purple_wool",
+            "name": "Purple Wool",
+            "icon": {
+              "src": "/icons/minecraft/purple_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blue_wool",
+            "name": "Blue Wool",
+            "icon": {
+              "src": "/icons/minecraft/blue_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:brown_wool",
+            "name": "Brown Wool",
+            "icon": {
+              "src": "/icons/minecraft/brown_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:green_wool",
+            "name": "Green Wool",
+            "icon": {
+              "src": "/icons/minecraft/green_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:red_wool",
+            "name": "Red Wool",
+            "icon": {
+              "src": "/icons/minecraft/red_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:black_wool",
+            "name": "Black Wool",
+            "icon": {
+              "src": "/icons/minecraft/black_wool.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:wool",
+        "label": "wool",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:white_wool",
+            "name": "White Wool",
+            "icon": {
+              "src": "/icons/minecraft/white_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:orange_wool",
+            "name": "Orange Wool",
+            "icon": {
+              "src": "/icons/minecraft/orange_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:magenta_wool",
+            "name": "Magenta Wool",
+            "icon": {
+              "src": "/icons/minecraft/magenta_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_blue_wool",
+            "name": "Light Blue Wool",
+            "icon": {
+              "src": "/icons/minecraft/light_blue_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:yellow_wool",
+            "name": "Yellow Wool",
+            "icon": {
+              "src": "/icons/minecraft/yellow_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:lime_wool",
+            "name": "Lime Wool",
+            "icon": {
+              "src": "/icons/minecraft/lime_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pink_wool",
+            "name": "Pink Wool",
+            "icon": {
+              "src": "/icons/minecraft/pink_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:gray_wool",
+            "name": "Gray Wool",
+            "icon": {
+              "src": "/icons/minecraft/gray_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_gray_wool",
+            "name": "Light Gray Wool",
+            "icon": {
+              "src": "/icons/minecraft/light_gray_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cyan_wool",
+            "name": "Cyan Wool",
+            "icon": {
+              "src": "/icons/minecraft/cyan_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:purple_wool",
+            "name": "Purple Wool",
+            "icon": {
+              "src": "/icons/minecraft/purple_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blue_wool",
+            "name": "Blue Wool",
+            "icon": {
+              "src": "/icons/minecraft/blue_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:brown_wool",
+            "name": "Brown Wool",
+            "icon": {
+              "src": "/icons/minecraft/brown_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:green_wool",
+            "name": "Green Wool",
+            "icon": {
+              "src": "/icons/minecraft/green_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:red_wool",
+            "name": "Red Wool",
+            "icon": {
+              "src": "/icons/minecraft/red_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:black_wool",
+            "name": "Black Wool",
+            "icon": {
+              "src": "/icons/minecraft/black_wool.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:wool",
+        "label": "wool",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:white_wool",
+            "name": "White Wool",
+            "icon": {
+              "src": "/icons/minecraft/white_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:orange_wool",
+            "name": "Orange Wool",
+            "icon": {
+              "src": "/icons/minecraft/orange_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:magenta_wool",
+            "name": "Magenta Wool",
+            "icon": {
+              "src": "/icons/minecraft/magenta_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_blue_wool",
+            "name": "Light Blue Wool",
+            "icon": {
+              "src": "/icons/minecraft/light_blue_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:yellow_wool",
+            "name": "Yellow Wool",
+            "icon": {
+              "src": "/icons/minecraft/yellow_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:lime_wool",
+            "name": "Lime Wool",
+            "icon": {
+              "src": "/icons/minecraft/lime_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pink_wool",
+            "name": "Pink Wool",
+            "icon": {
+              "src": "/icons/minecraft/pink_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:gray_wool",
+            "name": "Gray Wool",
+            "icon": {
+              "src": "/icons/minecraft/gray_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_gray_wool",
+            "name": "Light Gray Wool",
+            "icon": {
+              "src": "/icons/minecraft/light_gray_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cyan_wool",
+            "name": "Cyan Wool",
+            "icon": {
+              "src": "/icons/minecraft/cyan_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:purple_wool",
+            "name": "Purple Wool",
+            "icon": {
+              "src": "/icons/minecraft/purple_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blue_wool",
+            "name": "Blue Wool",
+            "icon": {
+              "src": "/icons/minecraft/blue_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:brown_wool",
+            "name": "Brown Wool",
+            "icon": {
+              "src": "/icons/minecraft/brown_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:green_wool",
+            "name": "Green Wool",
+            "icon": {
+              "src": "/icons/minecraft/green_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:red_wool",
+            "name": "Red Wool",
+            "icon": {
+              "src": "/icons/minecraft/red_wool.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:black_wool",
+            "name": "Black Wool",
+            "icon": {
+              "src": "/icons/minecraft/black_wool.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -28,7 +28,7 @@
                 inline-block
                 mr-4
                 py-2
-                whitespace-no-wrap
+                whitespace-nowrap
                 uppercase
                 text-gray-300
               "
@@ -44,12 +44,12 @@
                 px-3
                 py-1
                 border border-solid border-transparent
-                rounded
+                rounded-sm
                 bg-transparent
                 block
                 lg:hidden
-                outline-none
-                focus:outline-none
+                outline-hidden
+                focus:outline-hidden
               "
             type="button"
             @click="toggleMenu"
@@ -70,7 +70,10 @@
             </svg>
           </button>
         </div>
-        <div class="lg:flex flex-grow items-center" :class="menuOpened ? 'flex' : 'hidden'">
+        <div
+          class="lg:flex grow items-center"
+          :class="menuOpened ? 'flex' : 'hidden'"
+        >
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li class="nav-item">
               <a
@@ -972,10 +975,12 @@ function toggleMenu() {
 }
 </script>
 
-<style lang="postcss">
+<style>
+@reference "~/assets/css/tailwind.css";
+
 .sidebar-scroll {
   scrollbar-width: thin;
-  scrollbar-color: theme('colors.gray.600') transparent;
+  scrollbar-color: var(--color-gray-600) transparent;
 }
 .sidebar-scroll::-webkit-scrollbar {
   width: 6px;

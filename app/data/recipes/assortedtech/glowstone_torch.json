@@ -1,0 +1,75 @@
+{
+  "id": "assortedtech:glowstone_torch",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtech:glowstone_torch",
+        "name": "Glowstone Torch",
+        "icon": {
+          "src": "/icons/assortedtech/glowstone_torch.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:dusts/glowstone",
+        "label": "glowstone dusts",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:glowstone_dust",
+            "name": "Glowstone Dust",
+            "icon": {
+              "src": "/icons/minecraft/glowstone_dust.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:dusts/redstone",
+        "label": "redstone dusts",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:redstone",
+            "name": "Redstone Dust",
+            "icon": {
+              "src": "/icons/minecraft/redstone.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

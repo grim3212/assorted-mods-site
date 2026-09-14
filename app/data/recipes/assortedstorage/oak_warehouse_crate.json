@@ -1,0 +1,218 @@
+{
+  "id": "assortedstorage:oak_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:oak_warehouse_crate",
+        "name": "Oak Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/oak_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:oak_logs",
+        "label": "oak logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_log",
+            "name": "Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:oak_wood",
+            "name": "Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/oak_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_oak_log",
+            "name": "Stripped Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_oak_wood",
+            "name": "Stripped Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_oak_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:oak_logs",
+        "label": "oak logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_log",
+            "name": "Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:oak_wood",
+            "name": "Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/oak_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_oak_log",
+            "name": "Stripped Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_oak_wood",
+            "name": "Stripped Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_oak_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:oak_logs",
+        "label": "oak logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_log",
+            "name": "Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:oak_wood",
+            "name": "Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/oak_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_oak_log",
+            "name": "Stripped Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_oak_wood",
+            "name": "Stripped Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_oak_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "name": "Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "name": "Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "name": "Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "name": "Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "name": "Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

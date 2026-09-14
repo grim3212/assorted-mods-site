@@ -1,0 +1,78 @@
+{
+  "id": "assortedtools:topaz_bucket",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:topaz_bucket",
+        "name": "Topaz Bucket",
+        "icon": {
+          "src": "/icons/assortedtools/topaz_bucket.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:gems/topaz",
+        "label": "topaz gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:topaz",
+            "name": "Topaz",
+            "icon": {
+              "src": "/icons/assortedcore/topaz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:gems/topaz",
+        "label": "topaz gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:topaz",
+            "name": "Topaz",
+            "icon": {
+              "src": "/icons/assortedcore/topaz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:gems/topaz",
+        "label": "topaz gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:topaz",
+            "name": "Topaz",
+            "icon": {
+              "src": "/icons/assortedcore/topaz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

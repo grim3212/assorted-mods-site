@@ -1,0 +1,140 @@
+{
+  "id": "assorteddecor:cage",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:cage",
+        "name": "Cage",
+        "icon": {
+          "src": "/icons/assorteddecor/cage.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_bars",
+            "name": "Iron Bars",
+            "icon": {
+              "src": "/icons/minecraft/iron_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_bars",
+            "name": "Iron Bars",
+            "icon": {
+              "src": "/icons/minecraft/iron_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_bars",
+            "name": "Iron Bars",
+            "icon": {
+              "src": "/icons/minecraft/iron_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_bars",
+            "name": "Iron Bars",
+            "icon": {
+              "src": "/icons/minecraft/iron_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_bars",
+            "name": "Iron Bars",
+            "icon": {
+              "src": "/icons/minecraft/iron_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_bars",
+            "name": "Iron Bars",
+            "icon": {
+              "src": "/icons/minecraft/iron_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_bars",
+            "name": "Iron Bars",
+            "icon": {
+              "src": "/icons/minecraft/iron_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_bars",
+            "name": "Iron Bars",
+            "icon": {
+              "src": "/icons/minecraft/iron_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

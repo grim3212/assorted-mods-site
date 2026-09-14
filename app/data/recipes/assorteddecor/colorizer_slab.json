@@ -1,0 +1,69 @@
+{
+  "id": "assorteddecor:colorizer_slab",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 6,
+    "items": [
+      {
+        "id": "assorteddecor:colorizer_slab",
+        "name": "Colorizer Slab",
+        "icon": {
+          "src": "/icons/assorteddecor/colorizer_slab.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 1,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

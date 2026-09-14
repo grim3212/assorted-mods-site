@@ -10,38 +10,65 @@
     </p>
     <h2><a name="slope">Colorizer Slope</a></h2>
     <p>Slopes are half of a full block and operate the same as straight stairs.</p>
-    <img src="\mods\decor\slope_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_slope" />
+      <Recipe id="assorteddecor:colorizer_slope_stonecutting" />
+    </div>
     <h2><a name="sloped_angle">Colorizer Sloped Angle</a></h2>
     <p>Sloped angles point towards a corner and can be waled up like a corner stair.</p>
-    <img src="\mods\decor\sloped_angle_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_sloped_angle" />
+      <Recipe id="assorteddecor:colorizer_sloped_angle_stonecutting" />
+    </div>
     <h2><a name="slanted_corner">Colorizer Slanted Corner</a></h2>
     <p>Slanted corners are a sharper incline the sloped angles but can still be walked up.</p>
-    <img src="\mods\decor\slanted_corner_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_slanted_corner" />
+      <Recipe id="assorteddecor:colorizer_slanted_corner_stonecutting" />
+    </div>
     <h2><a name="corner">Colorizer Corner</a></h2>
     <p>Corners are a sideways cut of a full block.</p>
-    <img src="\mods\decor\corner_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_corner" />
+      <Recipe id="assorteddecor:colorizer_corner_stonecutting" />
+    </div>
     <h2><a name="oblique_slope">Colorizer Oblique Slope</a></h2>
     <p>
       Oblique slopes act as a corner piece on stairs and are basically missing a slanted corner.
     </p>
-    <img src="\mods\decor\oblique_slope_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_oblique_slope" />
+      <Recipe id="assorteddecor:colorizer_oblique_slope_stonecutting" />
+    </div>
     <h2><a name="sloped_intersection">Colorizer Sloped Intersection</a></h2>
     <p>
       Sloped intersections are what would happen if two slopes were combined and act as corner
       stairs.
     </p>
-    <img src="\mods\decor\sloped_intersection_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_sloped_intersection" />
+      <Recipe id="assorteddecor:colorizer_sloped_intersection_stonecutting" />
+    </div>
     <h2><a name="pyramid">Colorizer Pyramid</a></h2>
     <p>Pyramids only count as half a block, and are just a small pyramid.</p>
-    <img src="\mods\decor\pyramid_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_pyramid" />
+      <Recipe id="assorteddecor:colorizer_pyramid_stonecutting" />
+    </div>
     <h2><a name="full_pyramid">Colorizer Full Pyramid</a></h2>
     <p>
       Large pyramids can be climbed up but the highest point is in the middle as you would suspect.
     </p>
-    <img src="\mods\decor\full_pyramid_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_full_pyramid" />
+      <Recipe id="assorteddecor:colorizer_full_pyramid_stonecutting" />
+    </div>
     <h2><a name="sloped_post">Colorizer Sloped Post</a></h2>
     <p>Sloped post can not be climbed up and are just a large post.</p>
-    <img src="\mods\decor\sloped_post_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_sloped_post" />
+      <Recipe id="assorteddecor:colorizer_sloped_post_stonecutting" />
+    </div>
   </div>
 </template>
 

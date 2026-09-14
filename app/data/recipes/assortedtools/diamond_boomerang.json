@@ -1,0 +1,121 @@
+{
+  "id": "assortedtools:diamond_boomerang",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:diamond_boomerang",
+        "name": "Diamond Boomerang",
+        "icon": {
+          "src": "/icons/assortedtools/diamond_boomerang.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 2,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedtools:wood_boomerang",
+            "name": "Wooden Boomerang",
+            "icon": {
+              "src": "/icons/assortedtools/wood_boomerang.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "id": "assortedstorage:redstone_upgrade",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "assortedstorage:redstone_upgrade",
+        "name": "Redstone Upgrade",
+        "icon": {
+          "src": "/icons/assortedstorage/redstone_upgrade.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:dusts/redstone",
+        "label": "redstone dusts",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:redstone",
+            "name": "Redstone Dust",
+            "icon": {
+              "src": "/icons/minecraft/redstone.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:comparator",
+            "name": "Redstone Comparator",
+            "icon": {
+              "src": "/icons/minecraft/comparator.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:dusts/redstone",
+        "label": "redstone dusts",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:redstone",
+            "name": "Redstone Dust",
+            "icon": {
+              "src": "/icons/minecraft/redstone.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:repeater",
+            "name": "Redstone Repeater",
+            "icon": {
+              "src": "/icons/minecraft/repeater.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedstorage:blank_upgrade",
+            "name": "Blank Upgrade",
+            "icon": {
+              "src": "/icons/assortedstorage/blank_upgrade.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:repeater",
+            "name": "Redstone Repeater",
+            "icon": {
+              "src": "/icons/minecraft/repeater.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:dusts/redstone",
+        "label": "redstone dusts",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:redstone",
+            "name": "Redstone Dust",
+            "icon": {
+              "src": "/icons/minecraft/redstone.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:comparator",
+            "name": "Redstone Comparator",
+            "icon": {
+              "src": "/icons/minecraft/comparator.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:dusts/redstone",
+        "label": "redstone dusts",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:redstone",
+            "name": "Redstone Dust",
+            "icon": {
+              "src": "/icons/minecraft/redstone.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

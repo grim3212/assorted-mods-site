@@ -1,0 +1,98 @@
+{
+  "id": "assorteddecor:unfired_planter_pot",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:unfired_planter_pot",
+        "name": "Unfired Planter Pot",
+        "icon": {
+          "src": "/icons/assorteddecor/unfired_planter_pot.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

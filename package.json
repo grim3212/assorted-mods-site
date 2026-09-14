@@ -1,27 +1,39 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint --ext .vue,.ts .",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck",
+    "recipes": "node scripts/build-recipes.mjs",
     "deploy": "nuxt generate && npm run deploy:assets && npm run deploy:rest",
     "deploy:assets": "aws s3 sync .output/public/_nuxt s3://www.assortedmods.com/_nuxt --delete --cache-control \"public,max-age=31536000,immutable\"",
     "deploy:rest": "aws s3 sync .output/public s3://www.assortedmods.com --delete --exclude \"_nuxt/*\" --cache-control \"public,max-age=300\""
   },
+  "dependencies": {
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.42",
+    "vue-router": "^5.2.0"
+  },
   "devDependencies": {
-    "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "@nuxtjs/eslint-module": "^4.1.0",
-    "@nuxtjs/robots": "^5.4.0",
-    "@nuxtjs/sitemap": "^7.4.3",
-    "@nuxtjs/tailwindcss": "^6.14.0",
-    "@types/node": "^20.19.43",
-    "eslint": "^8.57.1",
-    "nuxt": "^3.21.11",
-    "nuxt-link-checker": "^4.3.1",
-    "typescript": "^5.9.3"
-  }
+    "@napi-rs/canvas": "^1.0.9",
+    "@nuxt/eslint": "^1.17.0",
+    "@nuxtjs/robots": "^6.2.2",
+    "@nuxtjs/sitemap": "^8.5.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.0.0",
+    "eslint": "^10.10.0",
+    "fflate": "^0.8.3",
+    "nuxt-link-checker": "^5.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.11",
+    "zod": "^4.6.4"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }

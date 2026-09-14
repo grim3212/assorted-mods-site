@@ -1,0 +1,179 @@
+{
+  "id": "assortedstorage:ender_bag",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:ender_bag",
+        "name": "Ender Bag",
+        "icon": {
+          "src": "/icons/assortedstorage/ender_bag.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:strings",
+        "label": "strings",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:string",
+            "name": "String",
+            "icon": {
+              "src": "/icons/minecraft/string.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:strings",
+        "label": "strings",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:string",
+            "name": "String",
+            "icon": {
+              "src": "/icons/minecraft/string.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:chests/ender",
+        "label": "ender chests",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:ender_chest",
+            "name": "Ender Chest",
+            "icon": {
+              "src": "/icons/minecraft/ender_chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:locked_ender_chest",
+            "name": "Locked Ender Chest",
+            "icon": {
+              "src": "/icons/assortedstorage/locked_ender_chest.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

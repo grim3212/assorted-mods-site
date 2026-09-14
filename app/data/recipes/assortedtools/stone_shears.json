@@ -1,0 +1,108 @@
+{
+  "id": "assortedtools:stone_shears",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:stone_shears",
+        "name": "Stone Shears",
+        "icon": {
+          "src": "/icons/assortedtools/stone_shears.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 2,
+    "height": 2,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "minecraft:stone_tool_materials",
+        "label": "stone tool materials",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blackstone",
+            "name": "Blackstone",
+            "icon": {
+              "src": "/icons/minecraft/blackstone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:stone_tool_materials",
+        "label": "stone tool materials",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blackstone",
+            "name": "Blackstone",
+            "icon": {
+              "src": "/icons/minecraft/blackstone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

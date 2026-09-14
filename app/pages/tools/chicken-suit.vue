@@ -6,11 +6,11 @@
       With these you can 'fly' around as good as a chicken and get the chicken glide effect rather
       than falling to your death.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\tools\chicken_hat_recipe.png">
-      <img src="\mods\tools\chicken_chest_recipe.png">
-      <img src="\mods\tools\chicken_legs_recipe.png">
-      <img src="\mods\tools\chicken_boots_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedtools:chicken_suit_helmet" />
+      <Recipe id="assortedtools:chicken_suit_chestplate" />
+      <Recipe id="assortedtools:chicken_suit_leggings" />
+      <Recipe id="assortedtools:chicken_suit_boots" />
     </div>
     <h2><a name="enchantment">Chicken Jump Enchantment</a></h2>
     <p>
@@ -19,7 +19,7 @@
       book. Or using your already made <i>Chicken Suit</i> and combining it with another piece of
       armor of the same type.
     </p>
-    <div class="grid grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <img src="\mods\tools\chicken_jump_enchantment_book.png">
       <img src="\mods\tools\chicken_jump_enchantment_armor.png">
     </div>

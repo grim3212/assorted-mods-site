@@ -1,0 +1,169 @@
+{
+  "id": "assortedtech:bridge_control_gravity",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtech:bridge_control_gravity",
+        "name": "Gravity Lift Control",
+        "icon": {
+          "src": "/icons/assortedtech/bridge_control_gravity.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedtech:bridge_control_laser",
+            "name": "Laser Bridge Control",
+            "icon": {
+              "src": "/icons/assortedtech/bridge_control_laser.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ender_pearls",
+        "label": "ender pearls",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:ender_pearl",
+            "name": "Ender Pearl",
+            "icon": {
+              "src": "/icons/minecraft/ender_pearl.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

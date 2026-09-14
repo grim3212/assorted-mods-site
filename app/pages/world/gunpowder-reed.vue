@@ -29,9 +29,9 @@
       If you would rather start a patch from what you already have, eight gunpowder around a sugar
       cane makes a Gunpowder Reed.
     </p>
-    <img src="\mods\world\gunpowder_reed_recipe.png">
+    <Recipe id="assortedworld:gunpowder_reed" />
     <p>A single reed on its own turns back into one gunpowder.</p>
-    <img src="\mods\world\gunpowder_recipe.png">
+    <Recipe id="assortedworld:gunpowder" />
   </div>
 </template>
 

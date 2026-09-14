@@ -1,0 +1,188 @@
+{
+  "id": "assortedstorage:bag",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:bag",
+        "name": "Bag",
+        "icon": {
+          "src": "/icons/assortedstorage/bag.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "note": "Keeps the lock, code and contents of the storage being upgraded.",
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:strings",
+        "label": "strings",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:string",
+            "name": "String",
+            "icon": {
+              "src": "/icons/minecraft/string.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:strings",
+        "label": "strings",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:string",
+            "name": "String",
+            "icon": {
+              "src": "/icons/minecraft/string.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:chests/wooden",
+        "label": "wooden chests",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:chest",
+            "name": "Chest",
+            "icon": {
+              "src": "/icons/minecraft/chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:trapped_chest",
+            "name": "Trapped Chest",
+            "icon": {
+              "src": "/icons/minecraft/trapped_chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:locked_chest",
+            "name": "Locked Chest",
+            "icon": {
+              "src": "/icons/assortedstorage/locked_chest.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

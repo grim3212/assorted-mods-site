@@ -1,0 +1,159 @@
+{
+  "id": "assortedstorage:obsidian_safe",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:obsidian_safe",
+        "name": "§5Obsidian Safe",
+        "icon": {
+          "src": "/icons/assortedstorage/obsidian_safe.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:chests/wooden",
+        "label": "wooden chests",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:chest",
+            "name": "Chest",
+            "icon": {
+              "src": "/icons/minecraft/chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:trapped_chest",
+            "name": "Trapped Chest",
+            "icon": {
+              "src": "/icons/minecraft/trapped_chest.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:locked_chest",
+            "name": "Locked Chest",
+            "icon": {
+              "src": "/icons/assortedstorage/locked_chest.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

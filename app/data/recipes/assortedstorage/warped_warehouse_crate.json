@@ -1,0 +1,218 @@
+{
+  "id": "assortedstorage:warped_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:warped_warehouse_crate",
+        "name": "Warped Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/warped_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:warped_stems",
+        "label": "warped stems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:warped_stem",
+            "name": "Warped Stem",
+            "icon": {
+              "src": "/icons/minecraft/warped_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_warped_stem",
+            "name": "Stripped Warped Stem",
+            "icon": {
+              "src": "/icons/minecraft/stripped_warped_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:warped_hyphae",
+            "name": "Warped Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/warped_hyphae.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_warped_hyphae",
+            "name": "Stripped Warped Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/stripped_warped_hyphae.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:warped_stems",
+        "label": "warped stems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:warped_stem",
+            "name": "Warped Stem",
+            "icon": {
+              "src": "/icons/minecraft/warped_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_warped_stem",
+            "name": "Stripped Warped Stem",
+            "icon": {
+              "src": "/icons/minecraft/stripped_warped_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:warped_hyphae",
+            "name": "Warped Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/warped_hyphae.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_warped_hyphae",
+            "name": "Stripped Warped Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/stripped_warped_hyphae.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:warped_stems",
+        "label": "warped stems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:warped_stem",
+            "name": "Warped Stem",
+            "icon": {
+              "src": "/icons/minecraft/warped_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_warped_stem",
+            "name": "Stripped Warped Stem",
+            "icon": {
+              "src": "/icons/minecraft/stripped_warped_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:warped_hyphae",
+            "name": "Warped Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/warped_hyphae.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_warped_hyphae",
+            "name": "Stripped Warped Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/stripped_warped_hyphae.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:warped_planks",
+            "name": "Warped Planks",
+            "icon": {
+              "src": "/icons/minecraft/warped_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:warped_planks",
+            "name": "Warped Planks",
+            "icon": {
+              "src": "/icons/minecraft/warped_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:warped_planks",
+            "name": "Warped Planks",
+            "icon": {
+              "src": "/icons/minecraft/warped_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:warped_planks",
+            "name": "Warped Planks",
+            "icon": {
+              "src": "/icons/minecraft/warped_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:warped_planks",
+            "name": "Warped Planks",
+            "icon": {
+              "src": "/icons/minecraft/warped_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

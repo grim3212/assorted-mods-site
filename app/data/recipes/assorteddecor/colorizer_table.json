@@ -1,0 +1,127 @@
+{
+  "id": "assorteddecor:colorizer_table",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 4,
+    "items": [
+      {
+        "id": "assorteddecor:colorizer_table",
+        "name": "Colorizer Table",
+        "icon": {
+          "src": "/icons/assorteddecor/colorizer_table.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "id": "assortedtools:stone_multitool",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:stone_multitool",
+        "name": "Stone MultiTool",
+        "icon": {
+          "src": "/icons/assortedtools/stone_multitool.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:stone_pickaxe",
+          "name": "Stone Pickaxe",
+          "icon": {
+            "src": "/icons/minecraft/stone_pickaxe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:stone_shovel",
+          "name": "Stone Shovel",
+          "icon": {
+            "src": "/icons/minecraft/stone_shovel.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:stone_axe",
+          "name": "Stone Axe",
+          "icon": {
+            "src": "/icons/minecraft/stone_axe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:stone_hoe",
+          "name": "Stone Hoe",
+          "icon": {
+            "src": "/icons/minecraft/stone_hoe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:stone_sword",
+          "name": "Stone Sword",
+          "icon": {
+            "src": "/icons/minecraft/stone_sword.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "minecraft:stone_tool_materials",
+      "label": "stone tool materials",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:cobblestone",
+          "name": "Cobblestone",
+          "icon": {
+            "src": "/icons/minecraft/cobblestone.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:blackstone",
+          "name": "Blackstone",
+          "icon": {
+            "src": "/icons/minecraft/blackstone.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:cobbled_deepslate",
+          "name": "Cobbled Deepslate",
+          "icon": {
+            "src": "/icons/minecraft/cobbled_deepslate.png",
+            "pixelated": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "minecraft:stone_tool_materials",
+      "label": "stone tool materials",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:cobblestone",
+          "name": "Cobblestone",
+          "icon": {
+            "src": "/icons/minecraft/cobblestone.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:blackstone",
+          "name": "Blackstone",
+          "icon": {
+            "src": "/icons/minecraft/blackstone.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:cobbled_deepslate",
+          "name": "Cobbled Deepslate",
+          "icon": {
+            "src": "/icons/minecraft/cobbled_deepslate.png",
+            "pixelated": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "minecraft:stone_tool_materials",
+      "label": "stone tool materials",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:cobblestone",
+          "name": "Cobblestone",
+          "icon": {
+            "src": "/icons/minecraft/cobblestone.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:blackstone",
+          "name": "Blackstone",
+          "icon": {
+            "src": "/icons/minecraft/blackstone.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:cobbled_deepslate",
+          "name": "Cobbled Deepslate",
+          "icon": {
+            "src": "/icons/minecraft/cobbled_deepslate.png",
+            "pixelated": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "minecraft:stone_tool_materials",
+      "label": "stone tool materials",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:cobblestone",
+          "name": "Cobblestone",
+          "icon": {
+            "src": "/icons/minecraft/cobblestone.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:blackstone",
+          "name": "Blackstone",
+          "icon": {
+            "src": "/icons/minecraft/blackstone.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:cobbled_deepslate",
+          "name": "Cobbled Deepslate",
+          "icon": {
+            "src": "/icons/minecraft/cobbled_deepslate.png",
+            "pixelated": false
+          }
+        }
+      ]
+    }
+  ]
+}

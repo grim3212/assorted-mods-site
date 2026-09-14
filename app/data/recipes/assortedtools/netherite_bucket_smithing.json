@@ -1,0 +1,65 @@
+{
+  "id": "assortedtools:netherite_bucket_smithing",
+  "type": "smithing",
+  "typeLabel": "Smithing",
+  "station": "Smithing Table",
+  "gui": "smithing",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:netherite_bucket",
+        "name": "Netherite Bucket",
+        "icon": {
+          "src": "/icons/assortedtools/netherite_bucket.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "template": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:netherite_upgrade_smithing_template",
+        "name": "Smithing Template",
+        "icon": {
+          "src": "/icons/minecraft/netherite_upgrade_smithing_template.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "base": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:diamond_bucket",
+        "name": "Diamond Bucket",
+        "icon": {
+          "src": "/icons/assortedtools/diamond_bucket.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "addition": {
+    "kind": "tag",
+    "tag": "c:ingots/netherite",
+    "label": "netherite ingots",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:netherite_ingot",
+        "name": "Netherite Ingot",
+        "icon": {
+          "src": "/icons/minecraft/netherite_ingot.png",
+          "pixelated": true
+        }
+      }
+    ]
+  }
+}

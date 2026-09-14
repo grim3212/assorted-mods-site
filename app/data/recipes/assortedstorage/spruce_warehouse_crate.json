@@ -1,0 +1,218 @@
+{
+  "id": "assortedstorage:spruce_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:spruce_warehouse_crate",
+        "name": "Spruce Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/spruce_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:spruce_logs",
+        "label": "spruce logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:spruce_log",
+            "name": "Spruce Log",
+            "icon": {
+              "src": "/icons/minecraft/spruce_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:spruce_wood",
+            "name": "Spruce Wood",
+            "icon": {
+              "src": "/icons/minecraft/spruce_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_spruce_log",
+            "name": "Stripped Spruce Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_spruce_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_spruce_wood",
+            "name": "Stripped Spruce Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_spruce_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:spruce_logs",
+        "label": "spruce logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:spruce_log",
+            "name": "Spruce Log",
+            "icon": {
+              "src": "/icons/minecraft/spruce_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:spruce_wood",
+            "name": "Spruce Wood",
+            "icon": {
+              "src": "/icons/minecraft/spruce_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_spruce_log",
+            "name": "Stripped Spruce Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_spruce_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_spruce_wood",
+            "name": "Stripped Spruce Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_spruce_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:spruce_logs",
+        "label": "spruce logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:spruce_log",
+            "name": "Spruce Log",
+            "icon": {
+              "src": "/icons/minecraft/spruce_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:spruce_wood",
+            "name": "Spruce Wood",
+            "icon": {
+              "src": "/icons/minecraft/spruce_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_spruce_log",
+            "name": "Stripped Spruce Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_spruce_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_spruce_wood",
+            "name": "Stripped Spruce Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_spruce_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:spruce_planks",
+            "name": "Spruce Planks",
+            "icon": {
+              "src": "/icons/minecraft/spruce_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:spruce_planks",
+            "name": "Spruce Planks",
+            "icon": {
+              "src": "/icons/minecraft/spruce_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:spruce_planks",
+            "name": "Spruce Planks",
+            "icon": {
+              "src": "/icons/minecraft/spruce_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:spruce_planks",
+            "name": "Spruce Planks",
+            "icon": {
+              "src": "/icons/minecraft/spruce_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:spruce_planks",
+            "name": "Spruce Planks",
+            "icon": {
+              "src": "/icons/minecraft/spruce_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

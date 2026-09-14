@@ -16,9 +16,9 @@
     <img src="\mods\tech\sensors_visible_range.png">
     <br>
     <p>There are many different types of sensors each one follows the same recipe pattern.</p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\tech\iron_sensor_recipe.png">
-      <img src="\mods\tech\emerald_sensor_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedtech:iron_sensor" />
+      <Recipe id="assortedtech:emerald_sensor" />
     </div>
     <h2><a name="types">Types</a></h2>
     <p>

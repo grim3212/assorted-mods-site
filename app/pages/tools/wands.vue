@@ -20,20 +20,20 @@
       will not give any drops. The Mining Wand helps mine and will make blocks drop. The Building
       Wand helps you build with different modes for different ways to fill in the area given.
     </p>
-    <div class="grid grid-cols-3 gap-4">
-      <img src="\mods\tools\building_wand_recipe.png">
-      <img src="\mods\tools\breaking_wand_recipe.png">
-      <img src="\mods\tools\mining_wand_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+      <Recipe id="assortedtools:building_wand" />
+      <Recipe id="assortedtools:breaking_wand" />
+      <Recipe id="assortedtools:mining_wand" />
     </div>
     <h2><a name="basic">Reinforced Wands</a></h2>
     <p>
       These are the 3 types of reinforced wands available. These wands allow you to work more by
       giving the wands more uses as well as adding extras to the possible modes.
     </p>
-    <div class="grid grid-cols-3 gap-4">
-      <img src="\mods\tools\reinforced_building_wand_recipe.png">
-      <img src="\mods\tools\reinforced_breaking_wand_recipe.png">
-      <img src="\mods\tools\reinforced_mining_wand_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+      <Recipe id="assortedtools:reinforced_building_wand" />
+      <Recipe id="assortedtools:reinforced_breaking_wand" />
+      <Recipe id="assortedtools:reinforced_mining_wand" />
     </div>
   </div>
 </template>

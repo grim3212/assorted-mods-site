@@ -10,14 +10,14 @@
       This is the basic Paint Roller with no color applied to it. It is effectively useless as you
       can't do anything with it but craft the colored Paint Rollers.
     </p>
-    <img src="\mods\decor\paint_roller_recipe.png">
+    <Recipe id="assorteddecor:paint_roller" />
     <h2><a name="colors">Paint Roller Colors</a></h2>
     <p>
       These are the all powerful Paint Rollers that can apply all 16 default colors in Minecraft to
       a multitude of blocks. They are crafted with a matching dye and the basic Paint Roller above.
       They also have 64 uses to color 64 different things.
     </p>
-    <img src="\mods\decor\paint_roller_color_recipe.png">
+    <Recipe id="assorteddecor:paint_roller_orange" />
 
     <p>
       They have a number of uses. They can color blocks in world, they can color blocks in crafting
@@ -26,22 +26,34 @@
     </p>
     <ul class="list-disc list-inside">
       <li>
-        <NuxtLink class="page-link" to="/decor/roadways">
+        <NuxtLink
+          class="page-link"
+          to="/decor/roadways"
+        >
           Roadways
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink class="page-link" to="/decor/fluro">
+        <NuxtLink
+          class="page-link"
+          to="/decor/fluro"
+        >
           Fluro
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink class="page-link" to="/decor/frames">
+        <NuxtLink
+          class="page-link"
+          to="/decor/frames"
+        >
           Frames
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink class="page-link" to="/decor/wallpaper">
+        <NuxtLink
+          class="page-link"
+          to="/decor/wallpaper"
+        >
           Wallpaper
         </NuxtLink>
       </li>
@@ -52,7 +64,12 @@
       <li>Concrete</li>
       <li>Dye Sheep</li>
     </ul>
-    <img src="\mods\decor\paint_uses_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:orange_wool_paint_roll" />
+      <Recipe id="assorteddecor:orange_carpet_paint_roll" />
+      <Recipe id="assorteddecor:orange_concrete_paint_roll" />
+      <Recipe id="assorteddecor:orange_concrete_powder_paint_roll" />
+    </div>
 
     <h2><a name="siding">Siding</a></h2>
     <img src="\mods\decor\siding_example.png">
@@ -60,9 +77,9 @@
       To go with the Paint Rollers are some basic design blocks that can be painted using these
       Paint Rollers. These are aptly named <i>Horizontal Siding</i> and <i>Vertical Siding</i>.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\decor\horizontal_siding_recipe.png">
-      <img src="\mods\decor\vertical_siding_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assorteddecor:siding_horizontal_orange" />
+      <Recipe id="assorteddecor:siding_vertical_orange" />
     </div>
   </div>
 </template>

@@ -1,0 +1,157 @@
+{
+  "id": "assortedtools:diamond_multitool",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:diamond_multitool",
+        "name": "Diamond MultiTool",
+        "icon": {
+          "src": "/icons/assortedtools/diamond_multitool.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:diamond_pickaxe",
+          "name": "Diamond Pickaxe",
+          "icon": {
+            "src": "/icons/minecraft/diamond_pickaxe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:diamond_shovel",
+          "name": "Diamond Shovel",
+          "icon": {
+            "src": "/icons/minecraft/diamond_shovel.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:diamond_axe",
+          "name": "Diamond Axe",
+          "icon": {
+            "src": "/icons/minecraft/diamond_axe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:diamond_hoe",
+          "name": "Diamond Hoe",
+          "icon": {
+            "src": "/icons/minecraft/diamond_hoe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:diamond_sword",
+          "name": "Diamond Sword",
+          "icon": {
+            "src": "/icons/minecraft/diamond_sword.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:gems/diamond",
+      "label": "diamond gems",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:diamond",
+          "name": "Diamond",
+          "icon": {
+            "src": "/icons/minecraft/diamond.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:gems/diamond",
+      "label": "diamond gems",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:diamond",
+          "name": "Diamond",
+          "icon": {
+            "src": "/icons/minecraft/diamond.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:gems/diamond",
+      "label": "diamond gems",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:diamond",
+          "name": "Diamond",
+          "icon": {
+            "src": "/icons/minecraft/diamond.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:gems/diamond",
+      "label": "diamond gems",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:diamond",
+          "name": "Diamond",
+          "icon": {
+            "src": "/icons/minecraft/diamond.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

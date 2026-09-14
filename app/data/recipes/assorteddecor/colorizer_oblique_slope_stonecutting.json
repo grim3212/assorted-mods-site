@@ -1,0 +1,35 @@
+{
+  "id": "assorteddecor:colorizer_oblique_slope_stonecutting",
+  "type": "stonecutting",
+  "typeLabel": "Stonecutting",
+  "station": "Stonecutter",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:colorizer_oblique_slope",
+        "name": "Colorizer Oblique Slope",
+        "icon": {
+          "src": "/icons/assorteddecor/colorizer_oblique_slope.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:colorizer",
+        "name": "Colorizer",
+        "icon": {
+          "src": "/icons/assorteddecor/colorizer.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

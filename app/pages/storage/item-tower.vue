@@ -7,7 +7,7 @@
       them from the one you open. When hoppers or pipes are involved they also have access to all of
       the towers.
     </p>
-    <img src="\mods\storage\item_tower_recipe.png">
+    <Recipe id="assortedstorage:item_tower" />
     <img src="\mods\storage\item_tower_inventory.png">
     <img src="\mods\storage\item_tower.png">
   </div>

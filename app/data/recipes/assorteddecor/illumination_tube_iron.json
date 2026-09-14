@@ -1,0 +1,383 @@
+{
+  "id": "assorteddecor:illumination_tube_iron",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 4,
+    "items": [
+      {
+        "id": "assorteddecor:illumination_tube",
+        "name": "Illumination Tube",
+        "icon": {
+          "src": "/icons/assorteddecor/illumination_tube.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:glass_blocks",
+        "label": "glass blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:glass",
+            "name": "Glass",
+            "icon": {
+              "src": "/icons/minecraft/glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:white_stained_glass",
+            "name": "White Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/white_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:orange_stained_glass",
+            "name": "Orange Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/orange_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:magenta_stained_glass",
+            "name": "Magenta Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/magenta_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_blue_stained_glass",
+            "name": "Light Blue Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/light_blue_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:yellow_stained_glass",
+            "name": "Yellow Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/yellow_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:lime_stained_glass",
+            "name": "Lime Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/lime_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pink_stained_glass",
+            "name": "Pink Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/pink_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:gray_stained_glass",
+            "name": "Gray Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/gray_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_gray_stained_glass",
+            "name": "Light Gray Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/light_gray_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cyan_stained_glass",
+            "name": "Cyan Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/cyan_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:purple_stained_glass",
+            "name": "Purple Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/purple_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blue_stained_glass",
+            "name": "Blue Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/blue_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:brown_stained_glass",
+            "name": "Brown Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/brown_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:green_stained_glass",
+            "name": "Green Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/green_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:red_stained_glass",
+            "name": "Red Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/red_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:black_stained_glass",
+            "name": "Black Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/black_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tinted_glass",
+            "name": "Tinted Glass",
+            "icon": {
+              "src": "/icons/minecraft/tinted_glass.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:dusts/glowstone",
+        "label": "glowstone dusts",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:glowstone_dust",
+            "name": "Glowstone Dust",
+            "icon": {
+              "src": "/icons/minecraft/glowstone_dust.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:glass_blocks",
+        "label": "glass blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:glass",
+            "name": "Glass",
+            "icon": {
+              "src": "/icons/minecraft/glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:white_stained_glass",
+            "name": "White Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/white_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:orange_stained_glass",
+            "name": "Orange Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/orange_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:magenta_stained_glass",
+            "name": "Magenta Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/magenta_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_blue_stained_glass",
+            "name": "Light Blue Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/light_blue_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:yellow_stained_glass",
+            "name": "Yellow Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/yellow_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:lime_stained_glass",
+            "name": "Lime Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/lime_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pink_stained_glass",
+            "name": "Pink Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/pink_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:gray_stained_glass",
+            "name": "Gray Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/gray_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_gray_stained_glass",
+            "name": "Light Gray Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/light_gray_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cyan_stained_glass",
+            "name": "Cyan Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/cyan_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:purple_stained_glass",
+            "name": "Purple Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/purple_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blue_stained_glass",
+            "name": "Blue Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/blue_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:brown_stained_glass",
+            "name": "Brown Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/brown_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:green_stained_glass",
+            "name": "Green Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/green_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:red_stained_glass",
+            "name": "Red Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/red_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:black_stained_glass",
+            "name": "Black Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/black_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tinted_glass",
+            "name": "Tinted Glass",
+            "icon": {
+              "src": "/icons/minecraft/tinted_glass.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

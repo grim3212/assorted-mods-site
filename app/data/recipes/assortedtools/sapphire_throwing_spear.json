@@ -1,0 +1,75 @@
+{
+  "id": "assortedtools:sapphire_throwing_spear",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:sapphire_throwing_spear",
+        "name": "Sapphire Throwing Spear",
+        "icon": {
+          "src": "/icons/assortedtools/sapphire_throwing_spear.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 1,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/sapphire",
+        "label": "sapphire gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:sapphire",
+            "name": "Sapphire",
+            "icon": {
+              "src": "/icons/assortedcore/sapphire.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

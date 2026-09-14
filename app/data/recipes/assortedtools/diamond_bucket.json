@@ -1,0 +1,78 @@
+{
+  "id": "assortedtools:diamond_bucket",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:diamond_bucket",
+        "name": "Diamond Bucket",
+        "icon": {
+          "src": "/icons/assortedtools/diamond_bucket.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

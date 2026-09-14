@@ -5,14 +5,23 @@
       Bags are a super convenient way for storing items on the go. Think of them as a Shulker Box
       that you do not need to place to open and access the inventory. You are able to craft a Bag
       from any of the
-      <NuxtLink class="page-link" to="/core/materials">
+      <NuxtLink
+        class="page-link"
+        to="/core/materials"
+      >
         materials
       </NuxtLink> from
-      <NuxtLink class="page-link" to="/core">
+      <NuxtLink
+        class="page-link"
+        to="/core"
+      >
         Assorted Core
       </NuxtLink>. In
       addition the Bags can all be locked using the
-      <NuxtLink class="page-link" to="/storage/locksmith">
+      <NuxtLink
+        class="page-link"
+        to="/storage/locksmith"
+      >
         Locksmith Tools
       </NuxtLink>.
     </p>
@@ -23,14 +32,17 @@
       To start off you will need to craft a basic bag which has the same inventory space as a normal
       chest.
     </p>
-    <img src="\mods\storage\bag_recipe.png">
+    <Recipe id="assortedstorage:bag" />
 
     <p>
       You are also able to upgrade that bag to the next Storage Level or craft a material bag
       directly using a chest made out of the material you would like.
     </p>
 
-    <img src="\mods\storage\iron_bag_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assortedstorage:bag_iron" />
+      <Recipe id="assortedstorage:bag_iron_chest" />
+    </div>
 
     <h2><a name="dyeing">Dyeing</a></h2>
     <p>
@@ -39,9 +51,8 @@
       primary color. The column to the left of the bag will be the secondary color. You can dye
       material based bags as well.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\storage\bag_dye_recipe.png">
-      <img src="\mods\storage\iron_bag_dye_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedstorage:bag_coloring" />
     </div>
 
     <h2><a name="locking">Locking</a></h2>
@@ -55,7 +66,7 @@
       Unlike other Storage items the tooltip will not show what the lock code is just that it is
       locked. And the bag's texture will have a little lock icon.
     </p>
-    <div class="grid grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <img src="\mods\storage\bag_inventory.png">
       <img src="\mods\storage\bag_tooltip.png">
     </div>
@@ -74,7 +85,7 @@
       Locked Ender Chest tied to that code. If you want to go back to the Vanilla Ender Chest just
       take the lock out and <b>re-open</b> again.
     </p>
-    <img src="\mods\storage\ender_bag_recipe.png">
+    <Recipe id="assortedstorage:ender_bag" />
   </div>
 </template>
 

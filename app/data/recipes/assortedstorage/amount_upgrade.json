@@ -1,0 +1,149 @@
+{
+  "id": "assortedstorage:amount_upgrade",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:amount_upgrade",
+        "name": "Amount Upgrade",
+        "icon": {
+          "src": "/icons/assortedstorage/amount_upgrade.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedstorage:blank_upgrade",
+          "name": "Blank Upgrade",
+          "icon": {
+            "src": "/icons/assortedstorage/blank_upgrade.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "minecraft:signs",
+      "label": "signs",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:oak_sign",
+          "name": "Oak Sign",
+          "icon": {
+            "src": "/icons/minecraft/oak_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:spruce_sign",
+          "name": "Spruce Sign",
+          "icon": {
+            "src": "/icons/minecraft/spruce_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:birch_sign",
+          "name": "Birch Sign",
+          "icon": {
+            "src": "/icons/minecraft/birch_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:acacia_sign",
+          "name": "Acacia Sign",
+          "icon": {
+            "src": "/icons/minecraft/acacia_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:jungle_sign",
+          "name": "Jungle Sign",
+          "icon": {
+            "src": "/icons/minecraft/jungle_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:dark_oak_sign",
+          "name": "Dark Oak Sign",
+          "icon": {
+            "src": "/icons/minecraft/dark_oak_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:pale_oak_sign",
+          "name": "Pale Oak Sign",
+          "icon": {
+            "src": "/icons/minecraft/pale_oak_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:crimson_sign",
+          "name": "Crimson Sign",
+          "icon": {
+            "src": "/icons/minecraft/crimson_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:warped_sign",
+          "name": "Warped Sign",
+          "icon": {
+            "src": "/icons/minecraft/warped_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:mangrove_sign",
+          "name": "Mangrove Sign",
+          "icon": {
+            "src": "/icons/minecraft/mangrove_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:bamboo_sign",
+          "name": "Bamboo Sign",
+          "icon": {
+            "src": "/icons/minecraft/bamboo_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:cherry_sign",
+          "name": "Cherry Sign",
+          "icon": {
+            "src": "/icons/minecraft/cherry_sign.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:neon_sign",
+          "name": "Neon Sign",
+          "icon": {
+            "src": "/icons/assorteddecor/neon_sign.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "assortedstorage:crimson_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:crimson_warehouse_crate",
+        "name": "Crimson Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/crimson_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:crimson_stems",
+        "label": "crimson stems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:crimson_stem",
+            "name": "Crimson Stem",
+            "icon": {
+              "src": "/icons/minecraft/crimson_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_crimson_stem",
+            "name": "Stripped Crimson Stem",
+            "icon": {
+              "src": "/icons/minecraft/stripped_crimson_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crimson_hyphae",
+            "name": "Crimson Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/crimson_hyphae.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_crimson_hyphae",
+            "name": "Stripped Crimson Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/stripped_crimson_hyphae.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:crimson_stems",
+        "label": "crimson stems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:crimson_stem",
+            "name": "Crimson Stem",
+            "icon": {
+              "src": "/icons/minecraft/crimson_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_crimson_stem",
+            "name": "Stripped Crimson Stem",
+            "icon": {
+              "src": "/icons/minecraft/stripped_crimson_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crimson_hyphae",
+            "name": "Crimson Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/crimson_hyphae.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_crimson_hyphae",
+            "name": "Stripped Crimson Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/stripped_crimson_hyphae.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:crimson_stems",
+        "label": "crimson stems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:crimson_stem",
+            "name": "Crimson Stem",
+            "icon": {
+              "src": "/icons/minecraft/crimson_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_crimson_stem",
+            "name": "Stripped Crimson Stem",
+            "icon": {
+              "src": "/icons/minecraft/stripped_crimson_stem.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crimson_hyphae",
+            "name": "Crimson Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/crimson_hyphae.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_crimson_hyphae",
+            "name": "Stripped Crimson Hyphae",
+            "icon": {
+              "src": "/icons/minecraft/stripped_crimson_hyphae.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:crimson_planks",
+            "name": "Crimson Planks",
+            "icon": {
+              "src": "/icons/minecraft/crimson_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:crimson_planks",
+            "name": "Crimson Planks",
+            "icon": {
+              "src": "/icons/minecraft/crimson_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:crimson_planks",
+            "name": "Crimson Planks",
+            "icon": {
+              "src": "/icons/minecraft/crimson_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:crimson_planks",
+            "name": "Crimson Planks",
+            "icon": {
+              "src": "/icons/minecraft/crimson_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:crimson_planks",
+            "name": "Crimson Planks",
+            "icon": {
+              "src": "/icons/minecraft/crimson_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

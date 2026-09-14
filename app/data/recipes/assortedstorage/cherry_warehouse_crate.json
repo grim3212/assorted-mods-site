@@ -1,0 +1,218 @@
+{
+  "id": "assortedstorage:cherry_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:cherry_warehouse_crate",
+        "name": "Cherry Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/cherry_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:cherry_logs",
+        "label": "cherry logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cherry_log",
+            "name": "Cherry Log",
+            "icon": {
+              "src": "/icons/minecraft/cherry_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cherry_wood",
+            "name": "Cherry Wood",
+            "icon": {
+              "src": "/icons/minecraft/cherry_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_cherry_log",
+            "name": "Stripped Cherry Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_cherry_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_cherry_wood",
+            "name": "Stripped Cherry Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_cherry_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:cherry_logs",
+        "label": "cherry logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cherry_log",
+            "name": "Cherry Log",
+            "icon": {
+              "src": "/icons/minecraft/cherry_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cherry_wood",
+            "name": "Cherry Wood",
+            "icon": {
+              "src": "/icons/minecraft/cherry_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_cherry_log",
+            "name": "Stripped Cherry Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_cherry_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_cherry_wood",
+            "name": "Stripped Cherry Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_cherry_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:cherry_logs",
+        "label": "cherry logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cherry_log",
+            "name": "Cherry Log",
+            "icon": {
+              "src": "/icons/minecraft/cherry_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cherry_wood",
+            "name": "Cherry Wood",
+            "icon": {
+              "src": "/icons/minecraft/cherry_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_cherry_log",
+            "name": "Stripped Cherry Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_cherry_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_cherry_wood",
+            "name": "Stripped Cherry Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_cherry_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cherry_planks",
+            "name": "Cherry Planks",
+            "icon": {
+              "src": "/icons/minecraft/cherry_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cherry_planks",
+            "name": "Cherry Planks",
+            "icon": {
+              "src": "/icons/minecraft/cherry_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cherry_planks",
+            "name": "Cherry Planks",
+            "icon": {
+              "src": "/icons/minecraft/cherry_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cherry_planks",
+            "name": "Cherry Planks",
+            "icon": {
+              "src": "/icons/minecraft/cherry_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cherry_planks",
+            "name": "Cherry Planks",
+            "icon": {
+              "src": "/icons/minecraft/cherry_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

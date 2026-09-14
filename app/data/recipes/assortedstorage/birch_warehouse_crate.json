@@ -1,0 +1,218 @@
+{
+  "id": "assortedstorage:birch_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:birch_warehouse_crate",
+        "name": "Birch Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/birch_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:birch_logs",
+        "label": "birch logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:birch_log",
+            "name": "Birch Log",
+            "icon": {
+              "src": "/icons/minecraft/birch_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:birch_wood",
+            "name": "Birch Wood",
+            "icon": {
+              "src": "/icons/minecraft/birch_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_birch_log",
+            "name": "Stripped Birch Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_birch_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_birch_wood",
+            "name": "Stripped Birch Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_birch_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:birch_logs",
+        "label": "birch logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:birch_log",
+            "name": "Birch Log",
+            "icon": {
+              "src": "/icons/minecraft/birch_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:birch_wood",
+            "name": "Birch Wood",
+            "icon": {
+              "src": "/icons/minecraft/birch_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_birch_log",
+            "name": "Stripped Birch Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_birch_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_birch_wood",
+            "name": "Stripped Birch Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_birch_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:birch_logs",
+        "label": "birch logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:birch_log",
+            "name": "Birch Log",
+            "icon": {
+              "src": "/icons/minecraft/birch_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:birch_wood",
+            "name": "Birch Wood",
+            "icon": {
+              "src": "/icons/minecraft/birch_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_birch_log",
+            "name": "Stripped Birch Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_birch_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_birch_wood",
+            "name": "Stripped Birch Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_birch_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:birch_planks",
+            "name": "Birch Planks",
+            "icon": {
+              "src": "/icons/minecraft/birch_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:birch_planks",
+            "name": "Birch Planks",
+            "icon": {
+              "src": "/icons/minecraft/birch_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:birch_planks",
+            "name": "Birch Planks",
+            "icon": {
+              "src": "/icons/minecraft/birch_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:birch_planks",
+            "name": "Birch Planks",
+            "icon": {
+              "src": "/icons/minecraft/birch_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:birch_planks",
+            "name": "Birch Planks",
+            "icon": {
+              "src": "/icons/minecraft/birch_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

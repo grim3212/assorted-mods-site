@@ -1,0 +1,167 @@
+{
+  "id": "assortedcore:silver_block",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcore:silver_block",
+        "name": "Block of Silver",
+        "icon": {
+          "src": "/icons/assortedcore/silver_block.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "tag",
+      "tag": "c:ingots/silver",
+      "label": "silver ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcore:silver_ingot",
+          "name": "Silver Ingot",
+          "icon": {
+            "src": "/icons/assortedcore/silver_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/silver",
+      "label": "silver ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcore:silver_ingot",
+          "name": "Silver Ingot",
+          "icon": {
+            "src": "/icons/assortedcore/silver_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/silver",
+      "label": "silver ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcore:silver_ingot",
+          "name": "Silver Ingot",
+          "icon": {
+            "src": "/icons/assortedcore/silver_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/silver",
+      "label": "silver ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcore:silver_ingot",
+          "name": "Silver Ingot",
+          "icon": {
+            "src": "/icons/assortedcore/silver_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/silver",
+      "label": "silver ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcore:silver_ingot",
+          "name": "Silver Ingot",
+          "icon": {
+            "src": "/icons/assortedcore/silver_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/silver",
+      "label": "silver ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcore:silver_ingot",
+          "name": "Silver Ingot",
+          "icon": {
+            "src": "/icons/assortedcore/silver_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/silver",
+      "label": "silver ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcore:silver_ingot",
+          "name": "Silver Ingot",
+          "icon": {
+            "src": "/icons/assortedcore/silver_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/silver",
+      "label": "silver ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcore:silver_ingot",
+          "name": "Silver Ingot",
+          "icon": {
+            "src": "/icons/assortedcore/silver_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/silver",
+      "label": "silver ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcore:silver_ingot",
+          "name": "Silver Ingot",
+          "icon": {
+            "src": "/icons/assortedcore/silver_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

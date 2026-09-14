@@ -1,0 +1,109 @@
+{
+  "id": "assorteddecor:colorizer_brush",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:colorizer_brush",
+        "name": "Colorizer Brush",
+        "icon": {
+          "src": "/icons/assorteddecor/colorizer_brush.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:strings",
+        "label": "strings",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:string",
+            "name": "String",
+            "icon": {
+              "src": "/icons/minecraft/string.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:strings",
+        "label": "strings",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:string",
+            "name": "String",
+            "icon": {
+              "src": "/icons/minecraft/string.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

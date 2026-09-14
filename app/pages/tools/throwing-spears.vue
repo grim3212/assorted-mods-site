@@ -3,7 +3,10 @@
     <h1><a name="throwing_spears">Throwing Spears</a></h1>
     <p>
       This mod adds Throwing Spears with any default Minecraft tool material as well as all of the
-      tool materials provided in <NuxtLink class="page-link" to="/core/materials">
+      tool materials provided in <NuxtLink
+        class="page-link"
+        to="/core/materials"
+      >
         Assorted Core
       </NuxtLink>. These
       throwing spears function similar to tridents in the fact that they can damage entities by
@@ -17,12 +20,12 @@
       spear recipe instead.
     </p>
     <img src="\mods\tools\throwing_spears_all.png">
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\tools\throwing_spear_recipe.png">
-      <img src="\mods\tools\throwing_spear_recipe_alt.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedtools:diamond_throwing_spear" />
+      <Recipe id="assortedtools:sapphire_throwing_spear" />
     </div>
     <p>The Diamond Throwing Spear is also able to upgraded to the Netherite Throwing Spear using a smithing table.</p>
-    <img src="\mods\tools\netherite_spear_smithing.png">
+    <Recipe id="assortedtools:netherite_throwing_spear_smithing" />
     <h2><a name="enchantments">Enchantments</a></h2>
     <p>
       Besides just the being able to throw them you are also able to enchant Throwing Spears with an

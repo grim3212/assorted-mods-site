@@ -1,0 +1,172 @@
+{
+  "id": "assortedstorage:shulker_box_iron",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:shulker_box_iron",
+        "name": "Iron Shulker Box",
+        "icon": {
+          "src": "/icons/assortedstorage/shulker_box_iron.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "note": "Keeps the lock, code and contents of the storage being upgraded.",
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "assortedstorage:shulkers/level_0",
+        "label": "level 0 shulkers",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedstorage:shulker_box_stone",
+            "name": "Stone Shulker Box",
+            "icon": {
+              "src": "/icons/assortedstorage/shulker_box_stone.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

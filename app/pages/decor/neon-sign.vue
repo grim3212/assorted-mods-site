@@ -6,7 +6,7 @@
       to get the text to look just the way you want it. It also comes with three different
       backgrounds.
     </p>
-    <img src="\mods\decor\neon_sign_recipe.png">
+    <Recipe id="assorteddecor:neon_sign" />
     <img src="\mods\decor\neon_sign_gui.png">
     <img src="\mods\decor\neon_signs.png">
   </div>

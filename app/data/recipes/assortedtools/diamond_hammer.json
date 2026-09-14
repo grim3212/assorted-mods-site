@@ -1,0 +1,141 @@
+{
+  "id": "assortedtools:diamond_hammer",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:diamond_hammer",
+        "name": "Diamond Hammer",
+        "icon": {
+          "src": "/icons/assortedtools/diamond_hammer.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

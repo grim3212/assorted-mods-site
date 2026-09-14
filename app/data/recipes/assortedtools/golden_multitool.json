@@ -1,0 +1,157 @@
+{
+  "id": "assortedtools:golden_multitool",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:golden_multitool",
+        "name": "Golden MultiTool",
+        "icon": {
+          "src": "/icons/assortedtools/golden_multitool.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:golden_pickaxe",
+          "name": "Golden Pickaxe",
+          "icon": {
+            "src": "/icons/minecraft/golden_pickaxe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:golden_shovel",
+          "name": "Golden Shovel",
+          "icon": {
+            "src": "/icons/minecraft/golden_shovel.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:golden_axe",
+          "name": "Golden Axe",
+          "icon": {
+            "src": "/icons/minecraft/golden_axe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:golden_hoe",
+          "name": "Golden Hoe",
+          "icon": {
+            "src": "/icons/minecraft/golden_hoe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:golden_sword",
+          "name": "Golden Sword",
+          "icon": {
+            "src": "/icons/minecraft/golden_sword.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/gold",
+      "label": "gold ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:gold_ingot",
+          "name": "Gold Ingot",
+          "icon": {
+            "src": "/icons/minecraft/gold_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/gold",
+      "label": "gold ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:gold_ingot",
+          "name": "Gold Ingot",
+          "icon": {
+            "src": "/icons/minecraft/gold_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/gold",
+      "label": "gold ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:gold_ingot",
+          "name": "Gold Ingot",
+          "icon": {
+            "src": "/icons/minecraft/gold_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/gold",
+      "label": "gold ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:gold_ingot",
+          "name": "Gold Ingot",
+          "icon": {
+            "src": "/icons/minecraft/gold_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "assortedstorage:jungle_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:jungle_warehouse_crate",
+        "name": "Jungle Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/jungle_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:jungle_logs",
+        "label": "jungle logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:jungle_log",
+            "name": "Jungle Log",
+            "icon": {
+              "src": "/icons/minecraft/jungle_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:jungle_wood",
+            "name": "Jungle Wood",
+            "icon": {
+              "src": "/icons/minecraft/jungle_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_jungle_log",
+            "name": "Stripped Jungle Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_jungle_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_jungle_wood",
+            "name": "Stripped Jungle Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_jungle_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:jungle_logs",
+        "label": "jungle logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:jungle_log",
+            "name": "Jungle Log",
+            "icon": {
+              "src": "/icons/minecraft/jungle_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:jungle_wood",
+            "name": "Jungle Wood",
+            "icon": {
+              "src": "/icons/minecraft/jungle_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_jungle_log",
+            "name": "Stripped Jungle Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_jungle_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_jungle_wood",
+            "name": "Stripped Jungle Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_jungle_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:jungle_logs",
+        "label": "jungle logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:jungle_log",
+            "name": "Jungle Log",
+            "icon": {
+              "src": "/icons/minecraft/jungle_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:jungle_wood",
+            "name": "Jungle Wood",
+            "icon": {
+              "src": "/icons/minecraft/jungle_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_jungle_log",
+            "name": "Stripped Jungle Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_jungle_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_jungle_wood",
+            "name": "Stripped Jungle Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_jungle_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:jungle_planks",
+            "name": "Jungle Planks",
+            "icon": {
+              "src": "/icons/minecraft/jungle_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:jungle_planks",
+            "name": "Jungle Planks",
+            "icon": {
+              "src": "/icons/minecraft/jungle_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:jungle_planks",
+            "name": "Jungle Planks",
+            "icon": {
+              "src": "/icons/minecraft/jungle_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:jungle_planks",
+            "name": "Jungle Planks",
+            "icon": {
+              "src": "/icons/minecraft/jungle_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:jungle_planks",
+            "name": "Jungle Planks",
+            "icon": {
+              "src": "/icons/minecraft/jungle_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

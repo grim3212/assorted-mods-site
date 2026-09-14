@@ -1,0 +1,111 @@
+{
+  "id": "assorteddecor:chain_link_door",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 3,
+    "items": [
+      {
+        "id": "assorteddecor:chain_link_door",
+        "name": "Chain Link Door",
+        "icon": {
+          "src": "/icons/assorteddecor/chain_link_door.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 2,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:chain_link",
+            "name": "Chain Link",
+            "icon": {
+              "src": "/icons/assorteddecor/chain_link.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:chain_link",
+            "name": "Chain Link",
+            "icon": {
+              "src": "/icons/assorteddecor/chain_link.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:chain_link",
+            "name": "Chain Link",
+            "icon": {
+              "src": "/icons/assorteddecor/chain_link.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:chain_link",
+            "name": "Chain Link",
+            "icon": {
+              "src": "/icons/assorteddecor/chain_link.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:chain_link",
+            "name": "Chain Link",
+            "icon": {
+              "src": "/icons/assorteddecor/chain_link.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:chain_link",
+            "name": "Chain Link",
+            "icon": {
+              "src": "/icons/assorteddecor/chain_link.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "assortedcore:machine_core",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcore:machine_core",
+        "name": "Machine Core",
+        "icon": {
+          "src": "/icons/assortedcore/machine_core.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/aluminum",
+        "label": "aluminum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:aluminum_ingot",
+            "name": "Aluminum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/aluminum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/aluminum",
+        "label": "aluminum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:aluminum_ingot",
+            "name": "Aluminum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/aluminum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gear/copper",
+        "label": "copper gear",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:copper_gear",
+            "name": "Copper Gear",
+            "icon": {
+              "src": "/icons/assortedcore/copper_gear.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/aluminum",
+        "label": "aluminum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:aluminum_ingot",
+            "name": "Aluminum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/aluminum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/aluminum",
+        "label": "aluminum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:aluminum_ingot",
+            "name": "Aluminum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/aluminum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

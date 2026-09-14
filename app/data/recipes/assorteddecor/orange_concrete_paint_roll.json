@@ -1,0 +1,173 @@
+{
+  "id": "assorteddecor:orange_concrete_paint_roll",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:orange_concrete",
+        "name": "Orange Concrete",
+        "icon": {
+          "src": "/icons/minecraft/orange_concrete.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assorteddecor:paint_roller_orange",
+          "name": "Orange Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_orange.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:concretes",
+      "label": "concretes",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:white_concrete",
+          "name": "White Concrete",
+          "icon": {
+            "src": "/icons/minecraft/white_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:orange_concrete",
+          "name": "Orange Concrete",
+          "icon": {
+            "src": "/icons/minecraft/orange_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:magenta_concrete",
+          "name": "Magenta Concrete",
+          "icon": {
+            "src": "/icons/minecraft/magenta_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:light_blue_concrete",
+          "name": "Light Blue Concrete",
+          "icon": {
+            "src": "/icons/minecraft/light_blue_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:yellow_concrete",
+          "name": "Yellow Concrete",
+          "icon": {
+            "src": "/icons/minecraft/yellow_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:lime_concrete",
+          "name": "Lime Concrete",
+          "icon": {
+            "src": "/icons/minecraft/lime_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:pink_concrete",
+          "name": "Pink Concrete",
+          "icon": {
+            "src": "/icons/minecraft/pink_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:gray_concrete",
+          "name": "Gray Concrete",
+          "icon": {
+            "src": "/icons/minecraft/gray_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:light_gray_concrete",
+          "name": "Light Gray Concrete",
+          "icon": {
+            "src": "/icons/minecraft/light_gray_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:cyan_concrete",
+          "name": "Cyan Concrete",
+          "icon": {
+            "src": "/icons/minecraft/cyan_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:purple_concrete",
+          "name": "Purple Concrete",
+          "icon": {
+            "src": "/icons/minecraft/purple_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:blue_concrete",
+          "name": "Blue Concrete",
+          "icon": {
+            "src": "/icons/minecraft/blue_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:brown_concrete",
+          "name": "Brown Concrete",
+          "icon": {
+            "src": "/icons/minecraft/brown_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:green_concrete",
+          "name": "Green Concrete",
+          "icon": {
+            "src": "/icons/minecraft/green_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:red_concrete",
+          "name": "Red Concrete",
+          "icon": {
+            "src": "/icons/minecraft/red_concrete.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:black_concrete",
+          "name": "Black Concrete",
+          "icon": {
+            "src": "/icons/minecraft/black_concrete.png",
+            "pixelated": false
+          }
+        }
+      ]
+    }
+  ]
+}

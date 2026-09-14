@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#assortedstorage:bags",
+    "#c:dyes",
+    "#c:dyes"
+  ],
+  "result": {
+    "id": "assortedstorage:bag"
+  },
+  "site": {
+    "note": "Any bag with one or two dyes. A dye in the bag's column or to its right sets the primary colour; a dye in the column to its left sets the secondary colour. The bag keeps its material, lock and contents."
+  }
+}

@@ -10,7 +10,10 @@
       <p class="mt-7">
         {{ error.message }}
       </p>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-4" @click="handleError">
+      <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-sm m-4 cursor-pointer"
+        @click="handleError"
+      >
         Go Home
       </button>
     </div>
@@ -20,13 +23,13 @@
 
 <script setup lang="ts">
 interface IError {
-    statusCode: number
-    statusMessage: string
-    message: string
+  statusCode: number
+  statusMessage: string
+  message: string
 }
 
 const props = defineProps<{
-    error: IError
+  error: IError
 }>()
 
 const handleError = () => clearError({ redirect: '/' })

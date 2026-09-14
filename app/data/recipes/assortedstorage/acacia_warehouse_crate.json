@@ -1,0 +1,218 @@
+{
+  "id": "assortedstorage:acacia_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:acacia_warehouse_crate",
+        "name": "Acacia Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/acacia_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:acacia_logs",
+        "label": "acacia logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:acacia_log",
+            "name": "Acacia Log",
+            "icon": {
+              "src": "/icons/minecraft/acacia_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:acacia_wood",
+            "name": "Acacia Wood",
+            "icon": {
+              "src": "/icons/minecraft/acacia_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_acacia_log",
+            "name": "Stripped Acacia Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_acacia_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_acacia_wood",
+            "name": "Stripped Acacia Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_acacia_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:acacia_logs",
+        "label": "acacia logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:acacia_log",
+            "name": "Acacia Log",
+            "icon": {
+              "src": "/icons/minecraft/acacia_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:acacia_wood",
+            "name": "Acacia Wood",
+            "icon": {
+              "src": "/icons/minecraft/acacia_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_acacia_log",
+            "name": "Stripped Acacia Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_acacia_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_acacia_wood",
+            "name": "Stripped Acacia Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_acacia_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:acacia_logs",
+        "label": "acacia logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:acacia_log",
+            "name": "Acacia Log",
+            "icon": {
+              "src": "/icons/minecraft/acacia_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:acacia_wood",
+            "name": "Acacia Wood",
+            "icon": {
+              "src": "/icons/minecraft/acacia_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_acacia_log",
+            "name": "Stripped Acacia Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_acacia_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_acacia_wood",
+            "name": "Stripped Acacia Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_acacia_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:acacia_planks",
+            "name": "Acacia Planks",
+            "icon": {
+              "src": "/icons/minecraft/acacia_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:acacia_planks",
+            "name": "Acacia Planks",
+            "icon": {
+              "src": "/icons/minecraft/acacia_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:acacia_planks",
+            "name": "Acacia Planks",
+            "icon": {
+              "src": "/icons/minecraft/acacia_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:acacia_planks",
+            "name": "Acacia Planks",
+            "icon": {
+              "src": "/icons/minecraft/acacia_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:acacia_planks",
+            "name": "Acacia Planks",
+            "icon": {
+              "src": "/icons/minecraft/acacia_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

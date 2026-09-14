@@ -11,13 +11,16 @@
     <p>
       All spikes follow the same basic pattern as seen below. Assorted Tech currently supports all
       vanilla materials as well as all of the materials from
-      <NuxtLink class="page-link" to="/core/materials">
+      <NuxtLink
+        class="page-link"
+        to="/core/materials"
+      >
         Assorted Core
       </NuxtLink>.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\tech\spike_recipe.png">
-      <img src="\mods\tech\spike_gold_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedtech:iron_spike" />
+      <Recipe id="assortedtech:gold_spike" />
     </div>
   </div>
 </template>

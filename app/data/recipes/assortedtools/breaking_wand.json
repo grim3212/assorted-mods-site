@@ -1,0 +1,699 @@
+{
+  "id": "assortedtools:breaking_wand",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:breaking_wand",
+        "name": "Breaking Wand",
+        "icon": {
+          "src": "/icons/assortedtools/breaking_wand.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:planks",
+        "label": "planks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "name": "Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:spruce_planks",
+            "name": "Spruce Planks",
+            "icon": {
+              "src": "/icons/minecraft/spruce_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:birch_planks",
+            "name": "Birch Planks",
+            "icon": {
+              "src": "/icons/minecraft/birch_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:jungle_planks",
+            "name": "Jungle Planks",
+            "icon": {
+              "src": "/icons/minecraft/jungle_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:acacia_planks",
+            "name": "Acacia Planks",
+            "icon": {
+              "src": "/icons/minecraft/acacia_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:dark_oak_planks",
+            "name": "Dark Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pale_oak_planks",
+            "name": "Pale Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crimson_planks",
+            "name": "Crimson Planks",
+            "icon": {
+              "src": "/icons/minecraft/crimson_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:warped_planks",
+            "name": "Warped Planks",
+            "icon": {
+              "src": "/icons/minecraft/warped_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mangrove_planks",
+            "name": "Mangrove Planks",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:bamboo_planks",
+            "name": "Bamboo Planks",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cherry_planks",
+            "name": "Cherry Planks",
+            "icon": {
+              "src": "/icons/minecraft/cherry_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:planks",
+        "label": "planks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "name": "Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:spruce_planks",
+            "name": "Spruce Planks",
+            "icon": {
+              "src": "/icons/minecraft/spruce_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:birch_planks",
+            "name": "Birch Planks",
+            "icon": {
+              "src": "/icons/minecraft/birch_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:jungle_planks",
+            "name": "Jungle Planks",
+            "icon": {
+              "src": "/icons/minecraft/jungle_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:acacia_planks",
+            "name": "Acacia Planks",
+            "icon": {
+              "src": "/icons/minecraft/acacia_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:dark_oak_planks",
+            "name": "Dark Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pale_oak_planks",
+            "name": "Pale Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crimson_planks",
+            "name": "Crimson Planks",
+            "icon": {
+              "src": "/icons/minecraft/crimson_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:warped_planks",
+            "name": "Warped Planks",
+            "icon": {
+              "src": "/icons/minecraft/warped_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mangrove_planks",
+            "name": "Mangrove Planks",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:bamboo_planks",
+            "name": "Bamboo Planks",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cherry_planks",
+            "name": "Cherry Planks",
+            "icon": {
+              "src": "/icons/minecraft/cherry_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:planks",
+        "label": "planks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "name": "Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:spruce_planks",
+            "name": "Spruce Planks",
+            "icon": {
+              "src": "/icons/minecraft/spruce_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:birch_planks",
+            "name": "Birch Planks",
+            "icon": {
+              "src": "/icons/minecraft/birch_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:jungle_planks",
+            "name": "Jungle Planks",
+            "icon": {
+              "src": "/icons/minecraft/jungle_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:acacia_planks",
+            "name": "Acacia Planks",
+            "icon": {
+              "src": "/icons/minecraft/acacia_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:dark_oak_planks",
+            "name": "Dark Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pale_oak_planks",
+            "name": "Pale Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crimson_planks",
+            "name": "Crimson Planks",
+            "icon": {
+              "src": "/icons/minecraft/crimson_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:warped_planks",
+            "name": "Warped Planks",
+            "icon": {
+              "src": "/icons/minecraft/warped_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mangrove_planks",
+            "name": "Mangrove Planks",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:bamboo_planks",
+            "name": "Bamboo Planks",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cherry_planks",
+            "name": "Cherry Planks",
+            "icon": {
+              "src": "/icons/minecraft/cherry_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:planks",
+        "label": "planks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "name": "Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:spruce_planks",
+            "name": "Spruce Planks",
+            "icon": {
+              "src": "/icons/minecraft/spruce_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:birch_planks",
+            "name": "Birch Planks",
+            "icon": {
+              "src": "/icons/minecraft/birch_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:jungle_planks",
+            "name": "Jungle Planks",
+            "icon": {
+              "src": "/icons/minecraft/jungle_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:acacia_planks",
+            "name": "Acacia Planks",
+            "icon": {
+              "src": "/icons/minecraft/acacia_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:dark_oak_planks",
+            "name": "Dark Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pale_oak_planks",
+            "name": "Pale Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crimson_planks",
+            "name": "Crimson Planks",
+            "icon": {
+              "src": "/icons/minecraft/crimson_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:warped_planks",
+            "name": "Warped Planks",
+            "icon": {
+              "src": "/icons/minecraft/warped_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mangrove_planks",
+            "name": "Mangrove Planks",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:bamboo_planks",
+            "name": "Bamboo Planks",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cherry_planks",
+            "name": "Cherry Planks",
+            "icon": {
+              "src": "/icons/minecraft/cherry_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:planks",
+        "label": "planks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "name": "Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:spruce_planks",
+            "name": "Spruce Planks",
+            "icon": {
+              "src": "/icons/minecraft/spruce_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:birch_planks",
+            "name": "Birch Planks",
+            "icon": {
+              "src": "/icons/minecraft/birch_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:jungle_planks",
+            "name": "Jungle Planks",
+            "icon": {
+              "src": "/icons/minecraft/jungle_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:acacia_planks",
+            "name": "Acacia Planks",
+            "icon": {
+              "src": "/icons/minecraft/acacia_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:dark_oak_planks",
+            "name": "Dark Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pale_oak_planks",
+            "name": "Pale Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crimson_planks",
+            "name": "Crimson Planks",
+            "icon": {
+              "src": "/icons/minecraft/crimson_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:warped_planks",
+            "name": "Warped Planks",
+            "icon": {
+              "src": "/icons/minecraft/warped_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mangrove_planks",
+            "name": "Mangrove Planks",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:bamboo_planks",
+            "name": "Bamboo Planks",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cherry_planks",
+            "name": "Cherry Planks",
+            "icon": {
+              "src": "/icons/minecraft/cherry_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:planks",
+        "label": "planks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_planks",
+            "name": "Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:spruce_planks",
+            "name": "Spruce Planks",
+            "icon": {
+              "src": "/icons/minecraft/spruce_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:birch_planks",
+            "name": "Birch Planks",
+            "icon": {
+              "src": "/icons/minecraft/birch_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:jungle_planks",
+            "name": "Jungle Planks",
+            "icon": {
+              "src": "/icons/minecraft/jungle_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:acacia_planks",
+            "name": "Acacia Planks",
+            "icon": {
+              "src": "/icons/minecraft/acacia_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:dark_oak_planks",
+            "name": "Dark Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pale_oak_planks",
+            "name": "Pale Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crimson_planks",
+            "name": "Crimson Planks",
+            "icon": {
+              "src": "/icons/minecraft/crimson_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:warped_planks",
+            "name": "Warped Planks",
+            "icon": {
+              "src": "/icons/minecraft/warped_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mangrove_planks",
+            "name": "Mangrove Planks",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:bamboo_planks",
+            "name": "Bamboo Planks",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_planks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cherry_planks",
+            "name": "Cherry Planks",
+            "icon": {
+              "src": "/icons/minecraft/cherry_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -5,14 +5,23 @@
       A number of vanilla blocks have been brought to Assorted Storage and provide more storage the
       higher the storage level of the material they are crafted with is. Every block can be crafted
       with any of the
-      <NuxtLink class="page-link" to="/core/materials">
+      <NuxtLink
+        class="page-link"
+        to="/core/materials"
+      >
         materials
       </NuxtLink> from
-      <NuxtLink class="page-link" to="/core">
+      <NuxtLink
+        class="page-link"
+        to="/core"
+      >
         Assorted Core
       </NuxtLink>. In
       addition every block added can also be locked using the
-      <NuxtLink class="page-link" to="/storage/locksmith">
+      <NuxtLink
+        class="page-link"
+        to="/storage/locksmith"
+      >
         Locksmith Tools
       </NuxtLink>.
     </p>
@@ -35,11 +44,11 @@
       inventory and surround it with a material of the next tier. Or you can build and use on of the
       upgrades below.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\storage\iron_chest_recipe.png">
-      <img src="\mods\storage\iron_barrel_recipe.png">
-      <img src="\mods\storage\iron_shulker_recipe.png">
-      <img src="\mods\storage\iron_hopper_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedstorage:chest_iron" />
+      <Recipe id="assortedstorage:barrel_iron" />
+      <Recipe id="assortedstorage:shulker_box_iron" />
+      <Recipe id="assortedstorage:hopper_iron" />
     </div>
 
     <h2><a name="upgrades">Upgrades</a></h2>
@@ -49,9 +58,9 @@
       <b>shift-right clicking</b> on the block you want to upgrade. These will only allow you to
       move up one level. You can't skip storage levels with the upgrades 😅.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\storage\blank_upgrade_recipe.png">
-      <img src="\mods\storage\iron_upgrade_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedstorage:blank_upgrade" />
+      <Recipe id="assortedstorage:level_upgrade_iron" />
     </div>
 
     <p>

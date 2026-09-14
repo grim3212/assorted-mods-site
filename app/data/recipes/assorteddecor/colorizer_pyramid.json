@@ -1,0 +1,85 @@
+{
+  "id": "assorteddecor:colorizer_pyramid",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 4,
+    "items": [
+      {
+        "id": "assorteddecor:colorizer_pyramid",
+        "name": "Colorizer Pyramid",
+        "icon": {
+          "src": "/icons/assorteddecor/colorizer_pyramid.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

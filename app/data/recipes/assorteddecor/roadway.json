@@ -1,0 +1,97 @@
+{
+  "id": "assorteddecor:roadway",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:roadway",
+        "name": "Roadway",
+        "icon": {
+          "src": "/icons/assorteddecor/roadway.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:asphalt",
+            "name": "Asphalt",
+            "icon": {
+              "src": "/icons/assorteddecor/asphalt.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:stones",
+        "label": "stones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:andesite",
+            "name": "Andesite",
+            "icon": {
+              "src": "/icons/minecraft/andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:diorite",
+            "name": "Diorite",
+            "icon": {
+              "src": "/icons/minecraft/diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:granite",
+            "name": "Granite",
+            "icon": {
+              "src": "/icons/minecraft/granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stone",
+            "name": "Stone",
+            "icon": {
+              "src": "/icons/minecraft/stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tuff",
+            "name": "Tuff",
+            "icon": {
+              "src": "/icons/minecraft/tuff.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

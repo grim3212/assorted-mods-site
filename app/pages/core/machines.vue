@@ -11,18 +11,18 @@
       Basic, Intermediate, Advanced, and Expert. <b>All machines are setup to support JEI.</b>
     </p>
     <h2><a name="machine_core">Machine Core</a></h2>
-    <img src="\mods\core\machine_core_recipe.png">
+    <Recipe id="assortedcore:machine_core" />
     <p>
       To get started building the machines you will first need to craft a machine core that is used
       as the base for all machines.
     </p>
 
     <h2><a name="grinding_mill">Grinding Mill</a></h2>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\core\basic_grinding_mill_recipe.png">
-      <img src="\mods\core\intermediate_grinding_mill_recipe.png">
-      <img src="\mods\core\advanced_grinding_mill_recipe.png">
-      <img src="\mods\core\expert_grinding_mill_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedcore:basic_grinding_mill" />
+      <Recipe id="assortedcore:intermediate_grinding_mill" />
+      <Recipe id="assortedcore:advanced_grinding_mill" />
+      <Recipe id="assortedcore:expert_grinding_mill" />
     </div>
     <p>
       The grinding mill can be used to break ores and ingots down farther. If using an ore it will
@@ -38,14 +38,17 @@
     </p>
 
     <h3>Example Grinding Mill recipe:</h3>
-    <img src="\mods\core\grinding_mill_example.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assortedcore:iron_dust_from_ingot" />
+      <Recipe id="assortedcore:iron_dust" />
+    </div>
 
     <h2><a name="alloy_forge">Alloy Forge</a></h2>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\core\basic_alloy_forge_recipe.png">
-      <img src="\mods\core\intermediate_alloy_forge_recipe.png">
-      <img src="\mods\core\advanced_alloy_forge_recipe.png">
-      <img src="\mods\core\expert_alloy_forge_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedcore:basic_alloy_forge" />
+      <Recipe id="assortedcore:intermediate_alloy_forge" />
+      <Recipe id="assortedcore:advanced_alloy_forge" />
+      <Recipe id="assortedcore:expert_alloy_forge" />
     </div>
 
     <p>
@@ -63,11 +66,11 @@
     <p>
       Assorted Core adds support for the Alloy Forge to create Bronze, Electrum, Invar, and Steel alloys. They are shown below.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\core\bronze_alloy_recipe.png">
-      <img src="\mods\core\electrum_alloy_recipe.png">
-      <img src="\mods\core\invar_alloy_recipe.png">
-      <img src="\mods\core\steel_alloy_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedcore:bronze_ingot" />
+      <Recipe id="assortedcore:electrum_ingot" />
+      <Recipe id="assortedcore:invar_ingot" />
+      <Recipe id="assortedcore:steel_ingot" />
     </div>
   </div>
 </template>

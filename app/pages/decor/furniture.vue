@@ -12,30 +12,39 @@
       cereal. Tables will adjust the legs no matter what side of a block the table was placed on so
       even upside down and on the sides it will look like the table was just flipped or on its side.
     </p>
-    <img src="\mods\decor\table_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_table" />
+      <Recipe id="assorteddecor:colorizer_table_stonecutting" />
+    </div>
     <h2><a name="chair">Colorizer Chair</a></h2>
     <p>Chairs go with your tables. These chairs re-orient depending on which way you place them.</p>
-    <img src="\mods\decor\chair_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_chair" />
+      <Recipe id="assorteddecor:colorizer_chair_stonecutting" />
+    </div>
     <img src="\mods\decor\chairs_tables.png">
     <h2><a name="stool">Colorizer Stool</a></h2>
     <p>
       Stools are smaller than chairs and go quite well when a
-      <NuxtLink class="page-link" to="/decor/planter">
+      <NuxtLink
+        class="page-link"
+        to="/decor/planter"
+      >
         Planter Pot
       </NuxtLink> is
       placed on top of them.
     </p>
-    <img src="\mods\decor\stool_recipe.png">
+    <Recipe id="assorteddecor:colorizer_stool" />
     <img src="\mods\decor\stool_pot.png">
     <h2><a name="counter">Colorizer Counter</a></h2>
     <p>Counters are like the tables except without the legs so they just kinda float there.</p>
-    <img src="\mods\decor\counter_recipe.png">
+    <Recipe id="assorteddecor:colorizer_counter" />
     <h2><a name="lamppost">Colorizer Lamp Post</a></h2>
     <p>
       Lamp Posts are 3 blocks tall when placed and emit light from the top block. If you break any
       of the 3 blocks they all break. They are a good way to make nice looking lighting.
     </p>
-    <img src="\mods\decor\lamp_post_recipe.png">
+    <Recipe id="assorteddecor:colorizer_lamp_post" />
     <img src="\mods\decor\lamp_posts.png">
     <h1><a name="vanilla">Vanilla Alternatives</a></h1>
     <p>
@@ -43,26 +52,38 @@
       vanilla counterparts but can be colorized just like any of the other colorizer blocks.
     </p>
     <h2><a name="door">Colorizer Door</a></h2>
-    <img src="\mods\decor\door_recipe.png">
+    <Recipe id="assorteddecor:colorizer_door" />
     <h2><a name="trapdoor">Colorizer Trap Door</a></h2>
-    <img src="\mods\decor\trapdoor_recipe.png">
+    <Recipe id="assorteddecor:colorizer_trap_door" />
     <h2><a name="fence">Colorizer Fence</a></h2>
-    <img src="\mods\decor\fence_recipe.png">
+    <Recipe id="assorteddecor:colorizer_fence" />
     <h2><a name="fencegate">Colorizer Fence Gate</a></h2>
-    <img src="\mods\decor\fencegate_recipe.png">
+    <Recipe id="assorteddecor:colorizer_fence_gate" />
     <h2><a name="wall">Colorizer Wall</a></h2>
-    <img src="\mods\decor\wall_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_wall" />
+      <Recipe id="assorteddecor:colorizer_walls_stonecutting" />
+    </div>
     <h2><a name="stairs">Colorizer Stairs</a></h2>
-    <img src="\mods\decor\stairs_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_stairs" />
+      <Recipe id="assorteddecor:colorizer_stairs_stonecutting" />
+    </div>
     <h2><a name="slab">Colorizer Slab</a></h2>
-    <img src="\mods\decor\slab_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_slab" />
+      <Recipe id="assorteddecor:colorizer_slab_stonecutting" />
+    </div>
     <h2><a name="vertical_slab">Colorizer Vertical Slab</a></h2>
     <p>
       Lastly there is a new block which is just a Vertical version of a normal vanilla slab. You can
       place these on the sides of blocks as well as combine them if you want into a full block like
       normal.
     </p>
-    <img src="\mods\decor\vertical_slab_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assorteddecor:colorizer_vertical_slab" />
+      <Recipe id="assorteddecor:colorizer_vertical_slab_stonecutting" />
+    </div>
   </div>
 </template>
 

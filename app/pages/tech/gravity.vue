@@ -15,9 +15,9 @@
       signal. The directional variant only pulls entities in the range in the direction the block is
       placed.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\tech\attractor_recipe.png">
-      <img src="\mods\tech\attractor_directional_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedtech:attractor" />
+      <Recipe id="assortedtech:attractor_directional" />
     </div>
 
     <h2><a name="repulsor">Repulsor</a></h2>
@@ -26,9 +26,9 @@
       signal. The directional variant only pushes entities in the range in the direction the block
       is placed.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\tech\repulsor_recipe.png">
-      <img src="\mods\tech\repulsor_directional_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedtech:repulsor" />
+      <Recipe id="assortedtech:repulsor_directional" />
     </div>
 
     <h2><a name="gravitor">Gravitor</a></h2>
@@ -36,20 +36,23 @@
       The Gravitor is a block that when powered makes entities float inside the range. The
       directional variant only floats entities in the range in the direction the block is placed.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\tech\gravitor_recipe.png">
-      <img src="\mods\tech\gravitor_directional_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedtech:gravitor" />
+      <Recipe id="assortedtech:gravitor_directional" />
     </div>
 
     <h2><a name="gravity_boots">Gravity Boots</a></h2>
     <p>
       Gravity Boots if they are on a player will stop the effects of the all of the gravity blocks
       from doing anything to the player. They also will negate the Gravity Lift from
-      <NuxtLink class="page-link" to="/tech/bridges">
+      <NuxtLink
+        class="page-link"
+        to="/tech/bridges"
+      >
         Bridges
       </NuxtLink>.
     </p>
-    <img src="\mods\tech\gravity_boots_recipe.png">
+    <Recipe id="assortedtech:gravity_boots" />
   </div>
 </template>
 

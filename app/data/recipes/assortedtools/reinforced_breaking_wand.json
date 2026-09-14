@@ -1,0 +1,219 @@
+{
+  "id": "assortedtools:reinforced_breaking_wand",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:reinforced_breaking_wand",
+        "name": "Reinforced Breaking Wand",
+        "icon": {
+          "src": "/icons/assortedtools/reinforced_breaking_wand.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:storage_blocks/iron",
+        "label": "iron storage blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_block",
+            "name": "Block of Iron",
+            "icon": {
+              "src": "/icons/minecraft/iron_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:storage_blocks/iron",
+        "label": "iron storage blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_block",
+            "name": "Block of Iron",
+            "icon": {
+              "src": "/icons/minecraft/iron_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:storage_blocks/iron",
+        "label": "iron storage blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_block",
+            "name": "Block of Iron",
+            "icon": {
+              "src": "/icons/minecraft/iron_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

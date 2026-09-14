@@ -8,11 +8,17 @@
     <h2><a name="armor">Armor Materials</a></h2>
     <p>
       You are able to configure the armor materials in <i>Assorted Tools</i>. The
-      <NuxtLink class="page-link" to="/tools/chicken-suit">
+      <NuxtLink
+        class="page-link"
+        to="/tools/chicken-suit"
+      >
         Chicken Suit
       </NuxtLink>
       is under <i>chicken_suit</i> and every
-      <NuxtLink class="page-link" to="/core/materials">
+      <NuxtLink
+        class="page-link"
+        to="/core/materials"
+      >
         Assorted Core
       </NuxtLink>
       material is under <i>modded_armor_overrides</i>. Both live in the
@@ -22,12 +28,12 @@
     </p>
     <img src="\mods\tools\armor_config.png">
     <p>The following values can be configured:</p>
-    <ul class="list-disc list-outer mx-6">
+    <ul class="list-disc list-outside mx-6">
       <li>
         <i>durability</i> refers to how long the armor will last. This value is multiplied
         differently for each piece.
         <div class="mx-6">
-          <ul class="list-square list-inside">
+          <ul class="list-[square] list-inside">
             <li>durability * 11 for the helmet</li>
             <li>durability * 16 for the chestplate</li>
             <li>durability * 15 for the leggings</li>
@@ -56,19 +62,34 @@
     <p>
       You are able to configure the tool materials used by every tool in <i>Assorted Tools</i>,
       including
-      <NuxtLink class="page-link" to="/tools/hammers">
+      <NuxtLink
+        class="page-link"
+        to="/tools/hammers"
+      >
         Hammers
       </NuxtLink>,
-      <NuxtLink class="page-link" to="/tools/multitools">
+      <NuxtLink
+        class="page-link"
+        to="/tools/multitools"
+      >
         MultiTools
       </NuxtLink>,
-      <NuxtLink class="page-link" to="/tools/shears">
+      <NuxtLink
+        class="page-link"
+        to="/tools/shears"
+      >
         Shears
       </NuxtLink>,
-      <NuxtLink class="page-link" to="/tools/throwing-spears">
+      <NuxtLink
+        class="page-link"
+        to="/tools/throwing-spears"
+      >
         Throwing Spears
       </NuxtLink>, and
-      <NuxtLink class="page-link" to="/tools/buckets">
+      <NuxtLink
+        class="page-link"
+        to="/tools/buckets"
+      >
         Buckets
       </NuxtLink>.
     </p>
@@ -76,18 +97,24 @@
     <p>
       There are three sections. <i>vanilla_tool_overrides</i> covers the vanilla materials,
       <i>modded_tool_overrides</i> covers every
-      <NuxtLink class="page-link" to="/core/materials">
+      <NuxtLink
+        class="page-link"
+        to="/core/materials"
+      >
         Assorted Core
       </NuxtLink>
       material, and <i>ultimate_fist</i> covers the
-      <NuxtLink class="page-link" to="/tools/ultimate-fist">
+      <NuxtLink
+        class="page-link"
+        to="/tools/ultimate-fist"
+      >
         Ultimate Fist
       </NuxtLink>. Vanilla tools are not affected, only the tools in <i>Assorted Tools</i>. The
       defaults match the original values. Values are read once at startup, so changes need a restart.
     </p>
     <img src="\mods\tools\tool_config.png">
     <p>The following values can be configured:</p>
-    <ul class="list-disc list-outer mx-6">
+    <ul class="list-disc list-outside mx-6">
       <li>
         <i>harvestLevel</i> for tools, refers to what blocks it can break. 0 is wood, 1 stone,
         2 iron, 3 diamond, 4 and above netherite.

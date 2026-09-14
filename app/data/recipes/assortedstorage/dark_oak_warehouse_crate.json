@@ -1,0 +1,218 @@
+{
+  "id": "assortedstorage:dark_oak_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:dark_oak_warehouse_crate",
+        "name": "Dark Oak Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/dark_oak_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:dark_oak_logs",
+        "label": "dark oak logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:dark_oak_log",
+            "name": "Dark Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:dark_oak_wood",
+            "name": "Dark Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_dark_oak_log",
+            "name": "Stripped Dark Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_dark_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_dark_oak_wood",
+            "name": "Stripped Dark Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_dark_oak_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:dark_oak_logs",
+        "label": "dark oak logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:dark_oak_log",
+            "name": "Dark Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:dark_oak_wood",
+            "name": "Dark Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_dark_oak_log",
+            "name": "Stripped Dark Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_dark_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_dark_oak_wood",
+            "name": "Stripped Dark Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_dark_oak_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:dark_oak_logs",
+        "label": "dark oak logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:dark_oak_log",
+            "name": "Dark Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:dark_oak_wood",
+            "name": "Dark Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_dark_oak_log",
+            "name": "Stripped Dark Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_dark_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_dark_oak_wood",
+            "name": "Stripped Dark Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_dark_oak_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:dark_oak_planks",
+            "name": "Dark Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:dark_oak_planks",
+            "name": "Dark Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:dark_oak_planks",
+            "name": "Dark Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:dark_oak_planks",
+            "name": "Dark Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:dark_oak_planks",
+            "name": "Dark Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

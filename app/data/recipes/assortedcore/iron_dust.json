@@ -1,0 +1,127 @@
+{
+  "id": "assortedcore:iron_dust",
+  "type": "grinding_mill",
+  "typeLabel": "Grinding",
+  "station": "Grinding Mill",
+  "gui": "grinding_mill",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "assortedcore:iron_dust",
+        "name": "Iron Dust",
+        "icon": {
+          "src": "/icons/assortedcore/iron_dust.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "tag",
+    "tag": "c:ores/iron",
+    "label": "iron ores",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:iron_ore",
+        "name": "Iron Ore",
+        "icon": {
+          "src": "/icons/minecraft/iron_ore.png",
+          "pixelated": false
+        }
+      },
+      {
+        "id": "minecraft:deepslate_iron_ore",
+        "name": "Deepslate Iron Ore",
+        "icon": {
+          "src": "/icons/minecraft/deepslate_iron_ore.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "tool": {
+    "kind": "items",
+    "label": "an iron pickaxe or better",
+    "note": "Any pickaxe of iron tier or better, including the ones other mods add. It is not used up.",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:iron_pickaxe",
+        "name": "Iron Pickaxe",
+        "icon": {
+          "src": "/icons/minecraft/iron_pickaxe.png",
+          "pixelated": true
+        }
+      },
+      {
+        "id": "minecraft:diamond_pickaxe",
+        "name": "Diamond Pickaxe",
+        "icon": {
+          "src": "/icons/minecraft/diamond_pickaxe.png",
+          "pixelated": true
+        }
+      },
+      {
+        "id": "minecraft:netherite_pickaxe",
+        "name": "Netherite Pickaxe",
+        "icon": {
+          "src": "/icons/minecraft/netherite_pickaxe.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "fuel": {
+    "kind": "items",
+    "label": "any furnace fuel",
+    "note": "Anything a furnace burns, such as coal, charcoal, wood or a lava bucket.",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:coal",
+        "name": "Coal",
+        "icon": {
+          "src": "/icons/minecraft/coal.png",
+          "pixelated": true
+        }
+      },
+      {
+        "id": "minecraft:charcoal",
+        "name": "Charcoal",
+        "icon": {
+          "src": "/icons/minecraft/charcoal.png",
+          "pixelated": true
+        }
+      },
+      {
+        "id": "minecraft:coal_block",
+        "name": "Block of Coal",
+        "icon": {
+          "src": "/icons/minecraft/coal_block.png",
+          "pixelated": false
+        }
+      },
+      {
+        "id": "minecraft:lava_bucket",
+        "name": "Lava Bucket",
+        "icon": {
+          "src": "/icons/minecraft/lava_bucket.png",
+          "pixelated": true
+        }
+      },
+      {
+        "id": "minecraft:blaze_rod",
+        "name": "Blaze Rod",
+        "icon": {
+          "src": "/icons/minecraft/blaze_rod.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "experience": 0.2,
+  "time": 30
+}

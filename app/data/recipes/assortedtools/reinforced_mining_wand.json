@@ -1,0 +1,219 @@
+{
+  "id": "assortedtools:reinforced_mining_wand",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:reinforced_mining_wand",
+        "name": "Reinforced Mining Wand",
+        "icon": {
+          "src": "/icons/assortedtools/reinforced_mining_wand.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:storage_blocks/diamond",
+        "label": "diamond storage blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond_block",
+            "name": "Block of Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:storage_blocks/diamond",
+        "label": "diamond storage blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond_block",
+            "name": "Block of Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:storage_blocks/diamond",
+        "label": "diamond storage blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond_block",
+            "name": "Block of Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

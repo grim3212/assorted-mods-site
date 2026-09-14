@@ -1,0 +1,54 @@
+{
+  "id": "assorteddecor:paint_roller_orange",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:paint_roller_orange",
+        "name": "Orange Paint Roller",
+        "icon": {
+          "src": "/icons/assorteddecor/paint_roller_orange.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assorteddecor:paint_roller",
+          "name": "Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:dyes/orange",
+      "label": "orange dyes",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:orange_dye",
+          "name": "Orange Dye",
+          "icon": {
+            "src": "/icons/minecraft/orange_dye.png",
+            "pixelated": true
+          }
+        }
+      ],
+      "note": "Excluding paint rollers."
+    }
+  ]
+}

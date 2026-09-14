@@ -1,0 +1,176 @@
+{
+  "id": "assorteddecor:roadway_wash",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:roadway",
+        "name": "Roadway",
+        "icon": {
+          "src": "/icons/assorteddecor/roadway.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "tag",
+      "tag": "assorteddecor:roadways/color",
+      "label": "color roadways",
+      "count": 1,
+      "items": [
+        {
+          "id": "assorteddecor:roadway_white",
+          "name": "White Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_white.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_orange",
+          "name": "Orange Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_orange.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_magenta",
+          "name": "Magenta Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_magenta.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_light_blue",
+          "name": "Light Blue Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_light_blue.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_yellow",
+          "name": "Yellow Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_yellow.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_lime",
+          "name": "Lime Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_lime.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_pink",
+          "name": "Pink Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_pink.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_gray",
+          "name": "Gray Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_gray.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_light_gray",
+          "name": "Light Gray Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_light_gray.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_cyan",
+          "name": "Cyan Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_cyan.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_purple",
+          "name": "Purple Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_purple.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_blue",
+          "name": "Blue Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_blue.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_brown",
+          "name": "Brown Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_brown.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_green",
+          "name": "Green Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_green.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_red",
+          "name": "Red Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_red.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assorteddecor:roadway_black",
+          "name": "Black Roadway",
+          "icon": {
+            "src": "/icons/assorteddecor/roadway_black.png",
+            "pixelated": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "fluid",
+      "fluid": "minecraft:water",
+      "label": "Water (any container)",
+      "note": "Any item holding water works, such as a Water Bucket. The container is given back.",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:water_bucket",
+          "name": "Water Bucket",
+          "icon": {
+            "src": "/icons/minecraft/water_bucket.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

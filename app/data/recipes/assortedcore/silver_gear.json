@@ -1,0 +1,111 @@
+{
+  "id": "assortedcore:silver_gear",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcore:silver_gear",
+        "name": "Silver Gear",
+        "icon": {
+          "src": "/icons/assortedcore/silver_gear.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/silver",
+        "label": "silver ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:silver_ingot",
+            "name": "Silver Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/silver_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/silver",
+        "label": "silver ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:silver_ingot",
+            "name": "Silver Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/silver_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/silver",
+        "label": "silver ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:silver_ingot",
+            "name": "Silver Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/silver_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/silver",
+        "label": "silver ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:silver_ingot",
+            "name": "Silver Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/silver_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

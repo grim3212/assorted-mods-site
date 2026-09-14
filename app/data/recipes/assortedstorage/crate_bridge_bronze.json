@@ -1,0 +1,871 @@
+{
+  "id": "assortedstorage:crate_bridge_bronze",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:crate_bridge",
+        "name": "Storage Crate Bridge",
+        "icon": {
+          "src": "/icons/assortedstorage/crate_bridge.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:deepslate",
+        "label": "deepslate",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_bricks",
+            "name": "Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_bricks",
+            "name": "Cracked Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_tiles",
+            "name": "Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_tiles",
+            "name": "Cracked Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:chiseled_deepslate",
+            "name": "Chiseled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/chiseled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:reinforced_deepslate",
+            "name": "Reinforced Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/reinforced_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:deepslate",
+        "label": "deepslate",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_bricks",
+            "name": "Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_bricks",
+            "name": "Cracked Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_tiles",
+            "name": "Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_tiles",
+            "name": "Cracked Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:chiseled_deepslate",
+            "name": "Chiseled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/chiseled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:reinforced_deepslate",
+            "name": "Reinforced Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/reinforced_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:deepslate",
+        "label": "deepslate",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_bricks",
+            "name": "Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_bricks",
+            "name": "Cracked Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_tiles",
+            "name": "Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_tiles",
+            "name": "Cracked Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:chiseled_deepslate",
+            "name": "Chiseled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/chiseled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:reinforced_deepslate",
+            "name": "Reinforced Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/reinforced_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:repeater",
+            "name": "Redstone Repeater",
+            "icon": {
+              "src": "/icons/minecraft/repeater.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "assortedstorage:crates",
+        "label": "crates",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedstorage:crate_compacting",
+            "name": "Compacting Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/crate_compacting.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:oak_crate",
+            "name": "Oak Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/oak_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:oak_crate_double",
+            "name": "Oak Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/oak_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:oak_crate_triple",
+            "name": "Oak Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/oak_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:oak_crate_quadruple",
+            "name": "Oak Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/oak_crate_quadruple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:spruce_crate",
+            "name": "Spruce Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/spruce_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:spruce_crate_double",
+            "name": "Spruce Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/spruce_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:spruce_crate_triple",
+            "name": "Spruce Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/spruce_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:spruce_crate_quadruple",
+            "name": "Spruce Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/spruce_crate_quadruple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:birch_crate",
+            "name": "Birch Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/birch_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:birch_crate_double",
+            "name": "Birch Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/birch_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:birch_crate_triple",
+            "name": "Birch Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/birch_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:birch_crate_quadruple",
+            "name": "Birch Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/birch_crate_quadruple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:acacia_crate",
+            "name": "Acacia Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/acacia_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:acacia_crate_double",
+            "name": "Acacia Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/acacia_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:acacia_crate_triple",
+            "name": "Acacia Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/acacia_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:acacia_crate_quadruple",
+            "name": "Acacia Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/acacia_crate_quadruple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:cherry_crate",
+            "name": "Cherry Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/cherry_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:cherry_crate_double",
+            "name": "Cherry Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/cherry_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:cherry_crate_triple",
+            "name": "Cherry Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/cherry_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:cherry_crate_quadruple",
+            "name": "Cherry Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/cherry_crate_quadruple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:jungle_crate",
+            "name": "Jungle Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/jungle_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:jungle_crate_double",
+            "name": "Jungle Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/jungle_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:jungle_crate_triple",
+            "name": "Jungle Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/jungle_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:jungle_crate_quadruple",
+            "name": "Jungle Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/jungle_crate_quadruple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:dark_oak_crate",
+            "name": "Dark Oak Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/dark_oak_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:dark_oak_crate_double",
+            "name": "Dark Oak Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/dark_oak_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:dark_oak_crate_triple",
+            "name": "Dark Oak Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/dark_oak_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:dark_oak_crate_quadruple",
+            "name": "Dark Oak Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/dark_oak_crate_quadruple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:pale_oak_crate",
+            "name": "Pale Oak Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/pale_oak_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:pale_oak_crate_double",
+            "name": "Pale Oak Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/pale_oak_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:pale_oak_crate_triple",
+            "name": "Pale Oak Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/pale_oak_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:pale_oak_crate_quadruple",
+            "name": "Pale Oak Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/pale_oak_crate_quadruple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:crimson_crate",
+            "name": "Crimson Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/crimson_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:crimson_crate_double",
+            "name": "Crimson Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/crimson_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:crimson_crate_triple",
+            "name": "Crimson Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/crimson_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:crimson_crate_quadruple",
+            "name": "Crimson Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/crimson_crate_quadruple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:warped_crate",
+            "name": "Warped Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/warped_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:warped_crate_double",
+            "name": "Warped Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/warped_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:warped_crate_triple",
+            "name": "Warped Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/warped_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:warped_crate_quadruple",
+            "name": "Warped Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/warped_crate_quadruple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:mangrove_crate",
+            "name": "Mangrove Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/mangrove_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:mangrove_crate_double",
+            "name": "Mangrove Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/mangrove_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:mangrove_crate_triple",
+            "name": "Mangrove Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/mangrove_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:mangrove_crate_quadruple",
+            "name": "Mangrove Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/mangrove_crate_quadruple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:bamboo_crate",
+            "name": "Bamboo Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/bamboo_crate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:bamboo_crate_double",
+            "name": "Bamboo Double Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/bamboo_crate_double.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:bamboo_crate_triple",
+            "name": "Bamboo Triple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/bamboo_crate_triple.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedstorage:bamboo_crate_quadruple",
+            "name": "Bamboo Quadruple Storage Crate",
+            "icon": {
+              "src": "/icons/assortedstorage/bamboo_crate_quadruple.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:repeater",
+            "name": "Redstone Repeater",
+            "icon": {
+              "src": "/icons/minecraft/repeater.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:deepslate",
+        "label": "deepslate",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_bricks",
+            "name": "Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_bricks",
+            "name": "Cracked Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_tiles",
+            "name": "Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_tiles",
+            "name": "Cracked Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:chiseled_deepslate",
+            "name": "Chiseled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/chiseled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:reinforced_deepslate",
+            "name": "Reinforced Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/reinforced_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/bronze",
+        "label": "bronze ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:bronze_ingot",
+            "name": "Bronze Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/bronze_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:deepslate",
+        "label": "deepslate",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_bricks",
+            "name": "Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_bricks",
+            "name": "Cracked Deepslate Bricks",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_bricks.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate_tiles",
+            "name": "Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cracked_deepslate_tiles",
+            "name": "Cracked Deepslate Tiles",
+            "icon": {
+              "src": "/icons/minecraft/cracked_deepslate_tiles.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:chiseled_deepslate",
+            "name": "Chiseled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/chiseled_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:reinforced_deepslate",
+            "name": "Reinforced Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/reinforced_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

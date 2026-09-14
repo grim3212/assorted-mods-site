@@ -1,0 +1,169 @@
+{
+  "id": "assortedworld:gunpowder_reed",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedworld:gunpowder_reed",
+        "name": "Gunpowder Reed",
+        "icon": {
+          "src": "/icons/assortedworld/gunpowder_reed.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:gunpowders",
+        "label": "gunpowders",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gunpowder",
+            "name": "Gunpowder",
+            "icon": {
+              "src": "/icons/minecraft/gunpowder.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gunpowders",
+        "label": "gunpowders",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gunpowder",
+            "name": "Gunpowder",
+            "icon": {
+              "src": "/icons/minecraft/gunpowder.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gunpowders",
+        "label": "gunpowders",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gunpowder",
+            "name": "Gunpowder",
+            "icon": {
+              "src": "/icons/minecraft/gunpowder.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gunpowders",
+        "label": "gunpowders",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gunpowder",
+            "name": "Gunpowder",
+            "icon": {
+              "src": "/icons/minecraft/gunpowder.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:sugar_cane",
+            "name": "Sugar Cane",
+            "icon": {
+              "src": "/icons/minecraft/sugar_cane.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gunpowders",
+        "label": "gunpowders",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gunpowder",
+            "name": "Gunpowder",
+            "icon": {
+              "src": "/icons/minecraft/gunpowder.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gunpowders",
+        "label": "gunpowders",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gunpowder",
+            "name": "Gunpowder",
+            "icon": {
+              "src": "/icons/minecraft/gunpowder.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gunpowders",
+        "label": "gunpowders",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gunpowder",
+            "name": "Gunpowder",
+            "icon": {
+              "src": "/icons/minecraft/gunpowder.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gunpowders",
+        "label": "gunpowders",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gunpowder",
+            "name": "Gunpowder",
+            "icon": {
+              "src": "/icons/minecraft/gunpowder.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

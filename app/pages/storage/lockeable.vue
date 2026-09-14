@@ -16,20 +16,24 @@
       of the 12 vanilla wood types, and each takes any log of its own wood.
     </p>
 
-    <div class="grid grid-cols-3 gap-4">
-      <img src="\mods\storage\oak_crate_recipe.png">
-      <img src="\mods\storage\birch_crate_recipe.png">
-      <img src="\mods\storage\spruce_crate_recipe.png">
-      <img src="\mods\storage\jungle_crate_recipe.png">
-      <img src="\mods\storage\acacia_crate_recipe.png">
-      <img src="\mods\storage\dark_oak_crate_recipe.png">
-      <img src="\mods\storage\warped_crate_recipe.png">
-      <img src="\mods\storage\crimson_crate_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+      <Recipe id="assortedstorage:oak_warehouse_crate" />
+      <Recipe id="assortedstorage:birch_warehouse_crate" />
+      <Recipe id="assortedstorage:spruce_warehouse_crate" />
+      <Recipe id="assortedstorage:jungle_warehouse_crate" />
+      <Recipe id="assortedstorage:acacia_warehouse_crate" />
+      <Recipe id="assortedstorage:dark_oak_warehouse_crate" />
+      <Recipe id="assortedstorage:warped_warehouse_crate" />
+      <Recipe id="assortedstorage:crimson_warehouse_crate" />
+      <Recipe id="assortedstorage:mangrove_warehouse_crate" />
+      <Recipe id="assortedstorage:cherry_warehouse_crate" />
+      <Recipe id="assortedstorage:bamboo_warehouse_crate" />
+      <Recipe id="assortedstorage:pale_oak_warehouse_crate" />
     </div>
 
     <h2><a name="obsidian_safe">Obsidian Safe</a></h2>
     <p>The obsidian safe is resitant to explosions and has 27 slots for storage.</p>
-    <img src="\mods\storage\obsidian_safe_recipe.png">
+    <Recipe id="assortedstorage:obsidian_safe" />
 
     <h2><a name="gold_safe">Gold Safe</a></h2>
     <p>
@@ -37,16 +41,16 @@
       inventory. Once placed again the invetory will still remain when you open it up. The gold safe
       is an upgrade to the Obsidian Safe so is just as strong as well as has 36 slots instead of 27.
     </p>
-    <img src="\mods\storage\gold_safe_recipe.png">
+    <Recipe id="assortedstorage:gold_safe" />
 
     <h2><a name="cabinets">Cabinets</a></h2>
     <p>
       Cabinets are similar to the warehouse crates where they store a single chests worth of items
       and can be locked but they come in two varieties and open from the front instead of the top.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\storage\wood_cabinet_recipe.png">
-      <img src="\mods\storage\glass_cabinet_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedstorage:wood_cabinet" />
+      <Recipe id="assortedstorage:glass_cabinet" />
     </div>
 
     <h2><a name="lockers">Lockers</a></h2>
@@ -55,7 +59,7 @@
       items. Similar to a double chest but on it's side. The inventory for the locker scrolls and
       you can use the right side buttons to navigate as well.
     </p>
-    <img src="\mods\storage\locker_recipe.png">
+    <Recipe id="assortedstorage:locker" />
     <img src="\mods\storage\locker.png">
   </div>
 </template>

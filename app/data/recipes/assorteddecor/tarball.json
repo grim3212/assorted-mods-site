@@ -1,0 +1,84 @@
+{
+  "id": "assorteddecor:tarball",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 16,
+    "items": [
+      {
+        "id": "assorteddecor:tarball",
+        "name": "Tarball",
+        "icon": {
+          "src": "/icons/assorteddecor/tarball.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:coals",
+        "label": "coals",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:coal",
+            "name": "Coal",
+            "icon": {
+              "src": "/icons/minecraft/coal.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:charcoal",
+            "name": "Charcoal",
+            "icon": {
+              "src": "/icons/minecraft/charcoal.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gravels",
+        "label": "gravels",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gravel",
+            "name": "Gravel",
+            "icon": {
+              "src": "/icons/minecraft/gravel.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "fluid",
+        "fluid": "minecraft:water",
+        "label": "Water (any container)",
+        "note": "Any item holding water works, such as a Water Bucket. The container is given back.",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:water_bucket",
+            "name": "Water Bucket",
+            "icon": {
+              "src": "/icons/minecraft/water_bucket.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

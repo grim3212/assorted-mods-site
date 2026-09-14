@@ -2,7 +2,10 @@
   <div>
     <ModHome mod="storage" />
     <div class="flex justify-center">
-      <img class="border-black border-2 py-0" src="\mods\storage\storage.png">
+      <img
+        class="border-black border-2 py-0"
+        src="\mods\storage\storage.png"
+      >
     </div>
     <br>
     <div class="flex justify-center">

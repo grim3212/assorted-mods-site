@@ -18,12 +18,12 @@
       The clay decoration you will need to make sure that you smelt the unfired version to be able
       to place the fired version.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\decor\unfired_craft_recipe.png">
-      <img src="\mods\decor\clay_decoration_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assorteddecor:unfired_clay_decoration" />
+      <Recipe id="assorteddecor:clay_decoration" />
     </div>
     <h3><a name="bone_decoration">Bone</a></h3>
-    <img src="\mods\decor\bone_decoration_recipe.png">
+    <Recipe id="assorteddecor:bone_decoration" />
 
     <h2><a name="lanterns">Lanterns</a></h2>
     <p>
@@ -32,17 +32,16 @@
     </p>
     <br>
     <h3><a name="paper_lantern">Paper</a></h3>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\decor\paper_lantern_recipe.png">
-      <img src="\mods\decor\paper_lantern_recipe_torch.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assorteddecor:paper_lantern" />
     </div>
     <h3><a name="bone_lantern">Bone</a></h3>
-    <img src="\mods\decor\bone_lantern_recipe.png">
+    <Recipe id="assorteddecor:bone_lantern" />
     <h3><a name="iron_lantern">Iron</a></h3>
-    <img src="\mods\decor\iron_lantern_recipe.png">
+    <Recipe id="assorteddecor:iron_lantern" />
 
     <h2><a name="fountain">Fountain</a></h2>
-    <img src="\mods\decor\fountain_recipe.png">
+    <Recipe id="assorteddecor:fountain" />
     <p>
       The Fountain is a block that when powered provides a tiny little splash of water effect.
     </p>
@@ -55,9 +54,9 @@
     </p>
     <br>
     <h3><a name="decorative_stone">Decorative Stone</a></h3>
-    <img src="\mods\decor\decorative_stone_recipe.png">
+    <Recipe id="assorteddecor:decorative_path_stonecutting" />
     <h3><a name="stone_path">Stone Path</a></h3>
-    <img src="\mods\decor\stone_path_recipe.png">
+    <Recipe id="assorteddecor:stone_path_stonecutting" />
   </div>
 </template>
 

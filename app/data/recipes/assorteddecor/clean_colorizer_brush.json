@@ -1,0 +1,54 @@
+{
+  "id": "assorteddecor:clean_colorizer_brush",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:colorizer_brush",
+        "name": "Colorizer Brush",
+        "icon": {
+          "src": "/icons/assorteddecor/colorizer_brush.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "fluid",
+      "fluid": "minecraft:water",
+      "label": "Water (any container)",
+      "note": "Any item holding water works, such as a Water Bucket. The container is given back.",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:water_bucket",
+          "name": "Water Bucket",
+          "icon": {
+            "src": "/icons/minecraft/water_bucket.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assorteddecor:colorizer_brush",
+          "name": "Colorizer Brush",
+          "icon": {
+            "src": "/icons/assorteddecor/colorizer_brush.png",
+            "pixelated": false
+          }
+        }
+      ]
+    }
+  ]
+}

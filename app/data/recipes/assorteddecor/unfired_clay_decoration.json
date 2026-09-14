@@ -1,0 +1,127 @@
+{
+  "id": "assorteddecor:unfired_clay_decoration",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:unfired_clay_decoration",
+        "name": "Unfired Clay Decoration",
+        "icon": {
+          "src": "/icons/assorteddecor/unfired_clay_decoration.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:clay_ball",
+            "name": "Clay Ball",
+            "icon": {
+              "src": "/icons/minecraft/clay_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

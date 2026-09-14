@@ -1,0 +1,218 @@
+{
+  "id": "assortedstorage:mangrove_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:mangrove_warehouse_crate",
+        "name": "Mangrove Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/mangrove_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:mangrove_logs",
+        "label": "mangrove logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:mangrove_log",
+            "name": "Mangrove Log",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mangrove_wood",
+            "name": "Mangrove Wood",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_mangrove_log",
+            "name": "Stripped Mangrove Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_mangrove_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_mangrove_wood",
+            "name": "Stripped Mangrove Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_mangrove_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:mangrove_logs",
+        "label": "mangrove logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:mangrove_log",
+            "name": "Mangrove Log",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mangrove_wood",
+            "name": "Mangrove Wood",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_mangrove_log",
+            "name": "Stripped Mangrove Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_mangrove_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_mangrove_wood",
+            "name": "Stripped Mangrove Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_mangrove_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:mangrove_logs",
+        "label": "mangrove logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:mangrove_log",
+            "name": "Mangrove Log",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mangrove_wood",
+            "name": "Mangrove Wood",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_mangrove_log",
+            "name": "Stripped Mangrove Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_mangrove_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_mangrove_wood",
+            "name": "Stripped Mangrove Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_mangrove_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:mangrove_planks",
+            "name": "Mangrove Planks",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:mangrove_planks",
+            "name": "Mangrove Planks",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:mangrove_planks",
+            "name": "Mangrove Planks",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:mangrove_planks",
+            "name": "Mangrove Planks",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:mangrove_planks",
+            "name": "Mangrove Planks",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

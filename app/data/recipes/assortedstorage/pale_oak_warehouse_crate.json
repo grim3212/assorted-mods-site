@@ -1,0 +1,218 @@
+{
+  "id": "assortedstorage:pale_oak_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:pale_oak_warehouse_crate",
+        "name": "Pale Oak Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/pale_oak_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:pale_oak_logs",
+        "label": "pale oak logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:pale_oak_log",
+            "name": "Pale Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pale_oak_wood",
+            "name": "Pale Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_pale_oak_log",
+            "name": "Stripped Pale Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_pale_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_pale_oak_wood",
+            "name": "Stripped Pale Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_pale_oak_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:pale_oak_logs",
+        "label": "pale oak logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:pale_oak_log",
+            "name": "Pale Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pale_oak_wood",
+            "name": "Pale Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_pale_oak_log",
+            "name": "Stripped Pale Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_pale_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_pale_oak_wood",
+            "name": "Stripped Pale Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_pale_oak_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:pale_oak_logs",
+        "label": "pale oak logs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:pale_oak_log",
+            "name": "Pale Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pale_oak_wood",
+            "name": "Pale Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_wood.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_pale_oak_log",
+            "name": "Stripped Pale Oak Log",
+            "icon": {
+              "src": "/icons/minecraft/stripped_pale_oak_log.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_pale_oak_wood",
+            "name": "Stripped Pale Oak Wood",
+            "icon": {
+              "src": "/icons/minecraft/stripped_pale_oak_wood.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:pale_oak_planks",
+            "name": "Pale Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:pale_oak_planks",
+            "name": "Pale Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:pale_oak_planks",
+            "name": "Pale Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:pale_oak_planks",
+            "name": "Pale Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:pale_oak_planks",
+            "name": "Pale Oak Planks",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:chests/ender",
+    "assortedstorage:locksmith_lock"
+  ],
+  "result": {
+    "id": "assortedstorage:locked_ender_chest"
+  },
+  "site": {
+    "note": "The lock needs a code set on a Locksmith Workbench first. The chest is locked with that code."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "assorteddecor:colorizer_chimney",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 6,
+    "items": [
+      {
+        "id": "assorteddecor:colorizer_chimney",
+        "name": "Colorizer Chimney",
+        "icon": {
+          "src": "/icons/assorteddecor/colorizer_chimney.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/iron",
+        "label": "iron ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_ingot",
+            "name": "Iron Ingot",
+            "icon": {
+              "src": "/icons/minecraft/iron_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assorteddecor:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assorteddecor/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

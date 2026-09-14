@@ -1,0 +1,51 @@
+{
+  "id": "assortedstorage:glow_upgrade",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:glow_upgrade",
+        "name": "Glow Upgrade",
+        "icon": {
+          "src": "/icons/assortedstorage/glow_upgrade.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedstorage:blank_upgrade",
+          "name": "Blank Upgrade",
+          "icon": {
+            "src": "/icons/assortedstorage/blank_upgrade.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:glow_ink_sac",
+          "name": "Glow Ink Sac",
+          "icon": {
+            "src": "/icons/minecraft/glow_ink_sac.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

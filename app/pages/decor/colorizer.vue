@@ -12,9 +12,9 @@
       possible. The red, green, and blue dye are required while the other can be substituted with
       any dye. The can be any stone.
     </p>
-    <img src="\mods\decor\colorizer_recipe.png">
+    <Recipe id="assorteddecor:colorizer" />
     <h2><a name="brush">Colorizer Brush</a></h2>
-    <img src="\mods\decor\brush_recipe.png">
+    <Recipe id="assorteddecor:colorizer_brush" />
     <p>
       The <i>Colorizer Brush</i> is the method that you use to texture all of the different
       colorizer blocks. You can right click on a block you want to use and if you don't already have
@@ -28,7 +28,7 @@
       version. If you need to clear the selected block before the uses are up you can put the brush
       in a crafting table with a bucket of water.
     </p>
-    <img src="\mods\decor\brush_wash_recipe.png">
+    <Recipe id="assorteddecor:clean_colorizer_brush" />
     <p>
       If you are in creative mode you can shift-right click to change to a new block without needing
       to wash the brush.

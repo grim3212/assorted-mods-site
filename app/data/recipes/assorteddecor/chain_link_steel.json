@@ -1,0 +1,111 @@
+{
+  "id": "assorteddecor:chain_link_steel",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 4,
+    "items": [
+      {
+        "id": "assorteddecor:chain_link",
+        "name": "Chain Link",
+        "icon": {
+          "src": "/icons/assorteddecor/chain_link.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:nuggets/steel",
+        "label": "steel nuggets",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_nugget",
+            "name": "Steel Nugget",
+            "icon": {
+              "src": "/icons/assortedcore/steel_nugget.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:nuggets/steel",
+        "label": "steel nuggets",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_nugget",
+            "name": "Steel Nugget",
+            "icon": {
+              "src": "/icons/assortedcore/steel_nugget.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:nuggets/steel",
+        "label": "steel nuggets",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_nugget",
+            "name": "Steel Nugget",
+            "icon": {
+              "src": "/icons/assortedcore/steel_nugget.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:nuggets/steel",
+        "label": "steel nuggets",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:steel_nugget",
+            "name": "Steel Nugget",
+            "icon": {
+              "src": "/icons/assortedcore/steel_nugget.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "assorteddecor:orange_carpet_paint_roll",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:orange_carpet",
+        "name": "Orange Carpet",
+        "icon": {
+          "src": "/icons/minecraft/orange_carpet.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assorteddecor:paint_roller_orange",
+          "name": "Orange Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_orange.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "minecraft:wool_carpets",
+      "label": "wool carpets",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:white_carpet",
+          "name": "White Carpet",
+          "icon": {
+            "src": "/icons/minecraft/white_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:orange_carpet",
+          "name": "Orange Carpet",
+          "icon": {
+            "src": "/icons/minecraft/orange_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:magenta_carpet",
+          "name": "Magenta Carpet",
+          "icon": {
+            "src": "/icons/minecraft/magenta_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:light_blue_carpet",
+          "name": "Light Blue Carpet",
+          "icon": {
+            "src": "/icons/minecraft/light_blue_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:yellow_carpet",
+          "name": "Yellow Carpet",
+          "icon": {
+            "src": "/icons/minecraft/yellow_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:lime_carpet",
+          "name": "Lime Carpet",
+          "icon": {
+            "src": "/icons/minecraft/lime_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:pink_carpet",
+          "name": "Pink Carpet",
+          "icon": {
+            "src": "/icons/minecraft/pink_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:gray_carpet",
+          "name": "Gray Carpet",
+          "icon": {
+            "src": "/icons/minecraft/gray_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:light_gray_carpet",
+          "name": "Light Gray Carpet",
+          "icon": {
+            "src": "/icons/minecraft/light_gray_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:cyan_carpet",
+          "name": "Cyan Carpet",
+          "icon": {
+            "src": "/icons/minecraft/cyan_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:purple_carpet",
+          "name": "Purple Carpet",
+          "icon": {
+            "src": "/icons/minecraft/purple_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:blue_carpet",
+          "name": "Blue Carpet",
+          "icon": {
+            "src": "/icons/minecraft/blue_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:brown_carpet",
+          "name": "Brown Carpet",
+          "icon": {
+            "src": "/icons/minecraft/brown_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:green_carpet",
+          "name": "Green Carpet",
+          "icon": {
+            "src": "/icons/minecraft/green_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:red_carpet",
+          "name": "Red Carpet",
+          "icon": {
+            "src": "/icons/minecraft/red_carpet.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:black_carpet",
+          "name": "Black Carpet",
+          "icon": {
+            "src": "/icons/minecraft/black_carpet.png",
+            "pixelated": false
+          }
+        }
+      ]
+    }
+  ]
+}

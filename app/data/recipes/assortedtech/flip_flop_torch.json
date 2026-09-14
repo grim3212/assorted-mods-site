@@ -1,0 +1,83 @@
+{
+  "id": "assortedtech:flip_flop_torch",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtech:flip_flop_torch",
+        "name": "Flip Flop Torch",
+        "icon": {
+          "src": "/icons/assortedtech/flip_flop_torch.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:dyes/blue",
+        "label": "blue dyes",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:blue_dye",
+            "name": "Blue Dye",
+            "icon": {
+              "src": "/icons/minecraft/blue_dye.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assorteddecor:paint_roller_blue",
+            "name": "Blue Paint Roller",
+            "icon": {
+              "src": "/icons/assorteddecor/paint_roller_blue.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:dusts/redstone",
+        "label": "redstone dusts",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:redstone",
+            "name": "Redstone Dust",
+            "icon": {
+              "src": "/icons/minecraft/redstone.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

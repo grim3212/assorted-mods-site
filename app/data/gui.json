@@ -1,0 +1,192 @@
+{
+  "crafting": {
+    "image": "/icons/gui/crafting.png",
+    "width": 128,
+    "height": 66,
+    "slots": {
+      "grid": [
+        [
+          7,
+          7
+        ],
+        [
+          25,
+          7
+        ],
+        [
+          43,
+          7
+        ],
+        [
+          7,
+          25
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          43,
+          25
+        ],
+        [
+          7,
+          43
+        ],
+        [
+          25,
+          43
+        ],
+        [
+          43,
+          43
+        ]
+      ],
+      "result": [
+        101,
+        25
+      ]
+    }
+  },
+  "furnace": {
+    "image": "/icons/gui/furnace.png",
+    "width": 94,
+    "height": 77,
+    "slots": {
+      "input": [
+        7,
+        7
+      ],
+      "fuel": [
+        7,
+        43
+      ],
+      "result": [
+        67,
+        25
+      ]
+    }
+  },
+  "blast_furnace": {
+    "image": "/icons/gui/blast_furnace.png",
+    "width": 94,
+    "height": 77,
+    "slots": {
+      "input": [
+        7,
+        7
+      ],
+      "fuel": [
+        7,
+        43
+      ],
+      "result": [
+        67,
+        25
+      ]
+    }
+  },
+  "smoker": {
+    "image": "/icons/gui/smoker.png",
+    "width": 94,
+    "height": 77,
+    "slots": {
+      "input": [
+        7,
+        7
+      ],
+      "fuel": [
+        7,
+        43
+      ],
+      "result": [
+        67,
+        25
+      ]
+    }
+  },
+  "stonecutter": {
+    "image": "/icons/gui/stonecutter.png",
+    "width": 80,
+    "height": 36,
+    "slots": {
+      "input": [
+        8,
+        10
+      ],
+      "result": [
+        56,
+        10
+      ]
+    }
+  },
+  "smithing": {
+    "image": "/icons/gui/smithing.png",
+    "width": 125,
+    "height": 34,
+    "slots": {
+      "template": [
+        9,
+        9
+      ],
+      "base": [
+        27,
+        9
+      ],
+      "addition": [
+        45,
+        9
+      ],
+      "result": [
+        99,
+        9
+      ]
+    }
+  },
+  "grinding_mill": {
+    "image": "/icons/gui/grinding_mill.png",
+    "width": 98,
+    "height": 98,
+    "slots": {
+      "input": [
+        7,
+        29
+      ],
+      "tool": [
+        36,
+        7
+      ],
+      "fuel": [
+        36,
+        64
+      ],
+      "result": [
+        71,
+        29
+      ]
+    }
+  },
+  "alloy_forge": {
+    "image": "/icons/gui/alloy_forge.png",
+    "width": 117,
+    "height": 80,
+    "slots": {
+      "input1": [
+        7,
+        11
+      ],
+      "input2": [
+        31,
+        11
+      ],
+      "fuel": [
+        55,
+        46
+      ],
+      "result": [
+        90,
+        11
+      ]
+    }
+  }
+}

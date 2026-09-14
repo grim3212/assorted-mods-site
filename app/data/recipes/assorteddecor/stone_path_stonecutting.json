@@ -1,0 +1,35 @@
+{
+  "id": "assorteddecor:stone_path_stonecutting",
+  "type": "stonecutting",
+  "typeLabel": "Stonecutting",
+  "station": "Stonecutter",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:stone_path",
+        "name": "Stone Path",
+        "icon": {
+          "src": "/icons/assorteddecor/stone_path.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:stone",
+        "name": "Stone",
+        "icon": {
+          "src": "/icons/minecraft/stone.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

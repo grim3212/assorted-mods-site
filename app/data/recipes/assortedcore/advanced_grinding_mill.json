@@ -1,0 +1,169 @@
+{
+  "id": "assortedcore:advanced_grinding_mill",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcore:advanced_grinding_mill",
+        "name": "Advanced Grinding Mill",
+        "icon": {
+          "src": "/icons/assortedcore/advanced_grinding_mill.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:ingots/invar",
+        "label": "invar ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:invar_ingot",
+            "name": "Invar Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/invar_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/electrum",
+        "label": "electrum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:electrum_ingot",
+            "name": "Electrum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/electrum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/invar",
+        "label": "invar ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:invar_ingot",
+            "name": "Invar Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/invar_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/electrum",
+        "label": "electrum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:electrum_ingot",
+            "name": "Electrum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/electrum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:intermediate_grinding_mill",
+            "name": "Intermediate Grinding Mill",
+            "icon": {
+              "src": "/icons/assortedcore/intermediate_grinding_mill.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/electrum",
+        "label": "electrum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:electrum_ingot",
+            "name": "Electrum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/electrum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/invar",
+        "label": "invar ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:invar_ingot",
+            "name": "Invar Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/invar_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/electrum",
+        "label": "electrum ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:electrum_ingot",
+            "name": "Electrum Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/electrum_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/invar",
+        "label": "invar ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:invar_ingot",
+            "name": "Invar Ingot",
+            "icon": {
+              "src": "/icons/assortedcore/invar_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

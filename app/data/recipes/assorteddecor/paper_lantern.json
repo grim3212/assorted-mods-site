@@ -1,0 +1,239 @@
+{
+  "id": "assorteddecor:paper_lantern",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:paper_lantern",
+        "name": "Paper Lantern",
+        "icon": {
+          "src": "/icons/assorteddecor/paper_lantern.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "assorteddecor:lantern_source",
+        "label": "lantern source",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:candle",
+            "name": "Candle",
+            "icon": {
+              "src": "/icons/minecraft/candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:white_candle",
+            "name": "White Candle",
+            "icon": {
+              "src": "/icons/minecraft/white_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:orange_candle",
+            "name": "Orange Candle",
+            "icon": {
+              "src": "/icons/minecraft/orange_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:magenta_candle",
+            "name": "Magenta Candle",
+            "icon": {
+              "src": "/icons/minecraft/magenta_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:light_blue_candle",
+            "name": "Light Blue Candle",
+            "icon": {
+              "src": "/icons/minecraft/light_blue_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:yellow_candle",
+            "name": "Yellow Candle",
+            "icon": {
+              "src": "/icons/minecraft/yellow_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:lime_candle",
+            "name": "Lime Candle",
+            "icon": {
+              "src": "/icons/minecraft/lime_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:pink_candle",
+            "name": "Pink Candle",
+            "icon": {
+              "src": "/icons/minecraft/pink_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:gray_candle",
+            "name": "Gray Candle",
+            "icon": {
+              "src": "/icons/minecraft/gray_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:light_gray_candle",
+            "name": "Light Gray Candle",
+            "icon": {
+              "src": "/icons/minecraft/light_gray_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:cyan_candle",
+            "name": "Cyan Candle",
+            "icon": {
+              "src": "/icons/minecraft/cyan_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:purple_candle",
+            "name": "Purple Candle",
+            "icon": {
+              "src": "/icons/minecraft/purple_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:blue_candle",
+            "name": "Blue Candle",
+            "icon": {
+              "src": "/icons/minecraft/blue_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:brown_candle",
+            "name": "Brown Candle",
+            "icon": {
+              "src": "/icons/minecraft/brown_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:green_candle",
+            "name": "Green Candle",
+            "icon": {
+              "src": "/icons/minecraft/green_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:red_candle",
+            "name": "Red Candle",
+            "icon": {
+              "src": "/icons/minecraft/red_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:black_candle",
+            "name": "Black Candle",
+            "icon": {
+              "src": "/icons/minecraft/black_candle.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:torch",
+            "name": "Torch",
+            "icon": {
+              "src": "/icons/minecraft/torch.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:soul_torch",
+            "name": "Soul Torch",
+            "icon": {
+              "src": "/icons/minecraft/soul_torch.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assorteddecor:illumination_tube",
+            "name": "Illumination Tube",
+            "icon": {
+              "src": "/icons/assorteddecor/illumination_tube.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

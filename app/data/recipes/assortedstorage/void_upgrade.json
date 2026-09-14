@@ -1,0 +1,233 @@
+{
+  "id": "assortedstorage:void_upgrade",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:void_upgrade",
+        "name": "Void Upgrade",
+        "icon": {
+          "src": "/icons/assortedstorage/void_upgrade.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedstorage:blank_upgrade",
+            "name": "Blank Upgrade",
+            "icon": {
+              "src": "/icons/assortedstorage/blank_upgrade.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:obsidians",
+        "label": "obsidians",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:obsidian",
+            "name": "Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/obsidian.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

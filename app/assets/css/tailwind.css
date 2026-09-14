@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 html,
 body,
@@ -18,5 +16,3 @@ html {
 #app {
   @apply h-full;
 }
-
-

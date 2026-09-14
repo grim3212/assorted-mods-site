@@ -5,7 +5,7 @@
       Alarms are blocks that when powered with redstone will play a predefined sound that you set.
       They can also be placed on any side of a block as well as be waterlogged.
     </p>
-    <img src="\mods\tech\alarm_recipe.png">
+    <Recipe id="assortedtech:alarm" />
     <img src="\mods\tech\alarm.png">
 
     <p>

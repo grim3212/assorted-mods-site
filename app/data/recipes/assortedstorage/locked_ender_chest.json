@@ -1,0 +1,62 @@
+{
+  "id": "assortedstorage:locked_ender_chest",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:locked_ender_chest",
+        "name": "Locked Ender Chest",
+        "icon": {
+          "src": "/icons/assortedstorage/locked_ender_chest.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "note": "The lock needs a code set on a Locksmith Workbench first. The chest is locked with that code.",
+  "ingredients": [
+    {
+      "kind": "tag",
+      "tag": "c:chests/ender",
+      "label": "ender chests",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:ender_chest",
+          "name": "Ender Chest",
+          "icon": {
+            "src": "/icons/minecraft/ender_chest.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedstorage:locked_ender_chest",
+          "name": "Locked Ender Chest",
+          "icon": {
+            "src": "/icons/assortedstorage/locked_ender_chest.png",
+            "pixelated": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedstorage:locksmith_lock",
+          "name": "Locksmith Lock",
+          "icon": {
+            "src": "/icons/assortedstorage/locksmith_lock.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

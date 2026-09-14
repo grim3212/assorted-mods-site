@@ -1,0 +1,105 @@
+{
+  "id": "assortedcore:electrum_ingot",
+  "type": "alloy_forge",
+  "typeLabel": "Alloying",
+  "station": "Alloy Forge",
+  "gui": "alloy_forge",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "assortedcore:electrum_ingot",
+        "name": "Electrum Ingot",
+        "icon": {
+          "src": "/icons/assortedcore/electrum_ingot.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "kind": "tag",
+      "tag": "c:dusts/silver",
+      "label": "silver dusts",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcore:silver_dust",
+          "name": "Silver Dust",
+          "icon": {
+            "src": "/icons/assortedcore/silver_dust.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:dusts/gold",
+      "label": "gold dusts",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcore:gold_dust",
+          "name": "Gold Dust",
+          "icon": {
+            "src": "/icons/assortedcore/gold_dust.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ],
+  "fuel": {
+    "kind": "items",
+    "label": "any furnace fuel",
+    "note": "Anything a furnace burns, such as coal, charcoal, wood or a lava bucket.",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:coal",
+        "name": "Coal",
+        "icon": {
+          "src": "/icons/minecraft/coal.png",
+          "pixelated": true
+        }
+      },
+      {
+        "id": "minecraft:charcoal",
+        "name": "Charcoal",
+        "icon": {
+          "src": "/icons/minecraft/charcoal.png",
+          "pixelated": true
+        }
+      },
+      {
+        "id": "minecraft:coal_block",
+        "name": "Block of Coal",
+        "icon": {
+          "src": "/icons/minecraft/coal_block.png",
+          "pixelated": false
+        }
+      },
+      {
+        "id": "minecraft:lava_bucket",
+        "name": "Lava Bucket",
+        "icon": {
+          "src": "/icons/minecraft/lava_bucket.png",
+          "pixelated": true
+        }
+      },
+      {
+        "id": "minecraft:blaze_rod",
+        "name": "Blaze Rod",
+        "icon": {
+          "src": "/icons/minecraft/blaze_rod.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "experience": 0.7,
+  "time": 10
+}

@@ -1,0 +1,35 @@
+{
+  "id": "assorteddecor:colorizer_chair_stonecutting",
+  "type": "stonecutting",
+  "typeLabel": "Stonecutting",
+  "station": "Stonecutter",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:colorizer_chair",
+        "name": "Colorizer Chair",
+        "icon": {
+          "src": "/icons/assorteddecor/colorizer_chair.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:colorizer",
+        "name": "Colorizer",
+        "icon": {
+          "src": "/icons/assorteddecor/colorizer.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

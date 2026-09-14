@@ -1,0 +1,157 @@
+{
+  "id": "assortedtools:netherite_multitool",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:netherite_multitool",
+        "name": "Netherite MultiTool",
+        "icon": {
+          "src": "/icons/assortedtools/netherite_multitool.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:netherite_pickaxe",
+          "name": "Netherite Pickaxe",
+          "icon": {
+            "src": "/icons/minecraft/netherite_pickaxe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:netherite_shovel",
+          "name": "Netherite Shovel",
+          "icon": {
+            "src": "/icons/minecraft/netherite_shovel.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:netherite_axe",
+          "name": "Netherite Axe",
+          "icon": {
+            "src": "/icons/minecraft/netherite_axe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:netherite_hoe",
+          "name": "Netherite Hoe",
+          "icon": {
+            "src": "/icons/minecraft/netherite_hoe.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:netherite_sword",
+          "name": "Netherite Sword",
+          "icon": {
+            "src": "/icons/minecraft/netherite_sword.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/netherite",
+      "label": "netherite ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:netherite_ingot",
+          "name": "Netherite Ingot",
+          "icon": {
+            "src": "/icons/minecraft/netherite_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/netherite",
+      "label": "netherite ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:netherite_ingot",
+          "name": "Netherite Ingot",
+          "icon": {
+            "src": "/icons/minecraft/netherite_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/netherite",
+      "label": "netherite ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:netherite_ingot",
+          "name": "Netherite Ingot",
+          "icon": {
+            "src": "/icons/minecraft/netherite_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:ingots/netherite",
+      "label": "netherite ingots",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:netherite_ingot",
+          "name": "Netherite Ingot",
+          "icon": {
+            "src": "/icons/minecraft/netherite_ingot.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

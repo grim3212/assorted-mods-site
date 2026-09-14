@@ -28,11 +28,11 @@
     </ul>
     <p>All the metals listed can be used to create ingots, nuggets, dusts, gears, and storage blocks.</p>
     <img src="\mods\core\metal_options.png">
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\core\storage_example.png">
-      <img src="\mods\core\storage_from_ingot_example.png">
-      <img src="\mods\core\nugget_from_ingot_example.png">
-      <img src="\mods\core\gear_example.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedcore:silver_ingot_storage_block" />
+      <Recipe id="assortedcore:silver_block" />
+      <Recipe id="assortedcore:silver_nugget" />
+      <Recipe id="assortedcore:silver_gear" />
     </div>
     <h2><a name="gems">Gems</a></h2>
     <ul class="list-disc list-inside">
@@ -42,9 +42,9 @@
       <li>Peridot</li>
     </ul>
     <p>Each gem can be used to create storage blocks of itself.</p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\core\storage_from_gem_example.png">
-      <img src="\mods\core\gem_from_storage_example.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedcore:topaz_block" />
+      <Recipe id="assortedcore:topaz_storage_block" />
     </div>
   </div>
 </template>

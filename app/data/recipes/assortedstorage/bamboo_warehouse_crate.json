@@ -1,0 +1,170 @@
+{
+  "id": "assortedstorage:bamboo_warehouse_crate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedstorage:bamboo_warehouse_crate",
+        "name": "Bamboo Warehouse Crate",
+        "icon": {
+          "src": "/icons/assortedstorage/bamboo_warehouse_crate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "minecraft:bamboo_blocks",
+        "label": "bamboo blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bamboo_block",
+            "name": "Block of Bamboo",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_block.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_bamboo_block",
+            "name": "Block of Stripped Bamboo",
+            "icon": {
+              "src": "/icons/minecraft/stripped_bamboo_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:bamboo_blocks",
+        "label": "bamboo blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bamboo_block",
+            "name": "Block of Bamboo",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_block.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_bamboo_block",
+            "name": "Block of Stripped Bamboo",
+            "icon": {
+              "src": "/icons/minecraft/stripped_bamboo_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:bamboo_blocks",
+        "label": "bamboo blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bamboo_block",
+            "name": "Block of Bamboo",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_block.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stripped_bamboo_block",
+            "name": "Block of Stripped Bamboo",
+            "icon": {
+              "src": "/icons/minecraft/stripped_bamboo_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bamboo_planks",
+            "name": "Bamboo Planks",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bamboo_planks",
+            "name": "Bamboo Planks",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bamboo_planks",
+            "name": "Bamboo Planks",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bamboo_planks",
+            "name": "Bamboo Planks",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bamboo_planks",
+            "name": "Bamboo Planks",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_planks.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

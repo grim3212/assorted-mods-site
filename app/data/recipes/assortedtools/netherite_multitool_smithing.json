@@ -1,0 +1,63 @@
+{
+  "id": "assortedtools:netherite_multitool_smithing",
+  "type": "smithing",
+  "typeLabel": "Smithing",
+  "station": "Smithing Table",
+  "gui": "smithing",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:netherite_multitool",
+        "name": "Netherite MultiTool",
+        "icon": {
+          "src": "/icons/assortedtools/netherite_multitool.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "template": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:netherite_upgrade_smithing_template",
+        "name": "Smithing Template",
+        "icon": {
+          "src": "/icons/minecraft/netherite_upgrade_smithing_template.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "base": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:diamond_multitool",
+        "name": "Diamond MultiTool",
+        "icon": {
+          "src": "/icons/assortedtools/diamond_multitool.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "addition": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:netherite_block",
+        "name": "Block of Netherite",
+        "icon": {
+          "src": "/icons/minecraft/netherite_block.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

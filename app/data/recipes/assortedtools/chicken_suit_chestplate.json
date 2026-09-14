@@ -1,0 +1,156 @@
+{
+  "id": "assortedtools:chicken_suit_chestplate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:chicken_suit_chestplate",
+        "name": "Chicken Suit",
+        "icon": {
+          "src": "/icons/assortedtools/chicken_suit_chestplate.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:feathers",
+        "label": "feathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:feather",
+            "name": "Feather",
+            "icon": {
+              "src": "/icons/minecraft/feather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:feathers",
+        "label": "feathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:feather",
+            "name": "Feather",
+            "icon": {
+              "src": "/icons/minecraft/feather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:feathers",
+        "label": "feathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:feather",
+            "name": "Feather",
+            "icon": {
+              "src": "/icons/minecraft/feather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:feathers",
+        "label": "feathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:feather",
+            "name": "Feather",
+            "icon": {
+              "src": "/icons/minecraft/feather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:feathers",
+        "label": "feathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:feather",
+            "name": "Feather",
+            "icon": {
+              "src": "/icons/minecraft/feather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:feathers",
+        "label": "feathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:feather",
+            "name": "Feather",
+            "icon": {
+              "src": "/icons/minecraft/feather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:feathers",
+        "label": "feathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:feather",
+            "name": "Feather",
+            "icon": {
+              "src": "/icons/minecraft/feather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:feathers",
+        "label": "feathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:feather",
+            "name": "Feather",
+            "icon": {
+              "src": "/icons/minecraft/feather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

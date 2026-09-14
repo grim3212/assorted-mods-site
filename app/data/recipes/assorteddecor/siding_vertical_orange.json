@@ -1,0 +1,93 @@
+{
+  "id": "assorteddecor:siding_vertical_orange",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 4,
+    "items": [
+      {
+        "id": "assorteddecor:siding_vertical",
+        "name": "Orange Vertical Siding",
+        "icon": {
+          "src": "/icons/assorteddecor/siding_vertical--color-orange.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "tag",
+      "tag": "c:tar",
+      "label": "tar",
+      "count": 1,
+      "items": [
+        {
+          "id": "assorteddecor:tarball",
+          "name": "Tarball",
+          "icon": {
+            "src": "/icons/assorteddecor/tarball.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:cobblestones",
+      "label": "cobblestones",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:cobblestone",
+          "name": "Cobblestone",
+          "icon": {
+            "src": "/icons/minecraft/cobblestone.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:infested_cobblestone",
+          "name": "Infested Cobblestone",
+          "icon": {
+            "src": "/icons/minecraft/infested_cobblestone.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:mossy_cobblestone",
+          "name": "Mossy Cobblestone",
+          "icon": {
+            "src": "/icons/minecraft/mossy_cobblestone.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "minecraft:cobbled_deepslate",
+          "name": "Cobbled Deepslate",
+          "icon": {
+            "src": "/icons/minecraft/cobbled_deepslate.png",
+            "pixelated": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assorteddecor:paint_roller_orange",
+          "name": "Orange Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_orange.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -8,14 +8,14 @@
     <img src="\mods\tech\bridges.png">
 
     <h2><a name="attractor">Bridges</a></h2>
-    <div class="grid grid-cols-3 gap-4">
-      <img src="\mods\tech\laser_bridge_recipe.png">
-      <img src="\mods\tech\accel_bridge_recipe.png">
-      <img src="\mods\tech\trick_bridge_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+      <Recipe id="assortedtech:bridge_control_laser" />
+      <Recipe id="assortedtech:bridge_control_accel" />
+      <Recipe id="assortedtech:bridge_control_trick" />
     </div>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\tech\death_bridge_recipe.png">
-      <img src="\mods\tech\gravity_bridge_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedtech:bridge_control_death" />
+      <Recipe id="assortedtech:bridge_control_gravity" />
     </div>
 
     <p>

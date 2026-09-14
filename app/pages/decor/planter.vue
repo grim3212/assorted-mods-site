@@ -8,11 +8,11 @@
       that is trying to be placed is supported. Other checks like if water is nearby still come into
       play.
     </p>
-    <img src="\mods\decor\unfired_planter_pot_recipe.png">
+    <Recipe id="assorteddecor:unfired_planter_pot" />
     <p>
       You will need to smelt and unfired planter pot to get a block you can actually place.
     </p>
-    <img src="\mods\decor\planter_pot_smelting.png">
+    <Recipe id="assorteddecor:planter_pot" />
     <img src="\mods\decor\planter_pot.png">
   </div>
 </template>

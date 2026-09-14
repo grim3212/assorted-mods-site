@@ -5,7 +5,10 @@
       If you have ever used any barrel or drawer mod this will be very familiar. These allow you to
       store many stacks of the same item and you are able to add and remove items from it all
       without needing to go into the GUI. In addition every block added can also be locked using the
-      <NuxtLink class="page-link" to="/storage/locksmith">
+      <NuxtLink
+        class="page-link"
+        to="/storage/locksmith"
+      >
         Locksmith Tools
       </NuxtLink>.
     </p>
@@ -19,11 +22,11 @@
       There are 4 different basic Storage Crates that you are able to make each has a different
       number of slots for items. Single, Double, Triple, and Quadruple slot variants.
     </p>
-    <div class="grid grid-cols-2 gap-4">
-      <img src="\mods\storage\single_crate_recipe.png">
-      <img src="\mods\storage\double_crate_recipe.png">
-      <img src="\mods\storage\triple_crate_recipe.png">
-      <img src="\mods\storage\quadruple_crate_recipe.png">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedstorage:oak_crate" />
+      <Recipe id="assortedstorage:oak_crate_double" />
+      <Recipe id="assortedstorage:oak_crate_triple" />
+      <Recipe id="assortedstorage:oak_crate_quadruple" />
     </div>
 
     <h3><a name="interacting">Interacting</a></h3>
@@ -65,7 +68,11 @@
       The crate only supports up to 3 levels. As such the recipe requires any
       <strong>Triple</strong> slot Storage Crate
     </p>
-    <img src="\mods\storage\compacting_crate_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assortedstorage:crate_compacting_iron" />
+      <Recipe id="assortedstorage:crate_compacting_aluminum" />
+      <Recipe id="assortedstorage:crate_compacting_steel" />
+    </div>
 
     <h2><a name="controller">Controller</a></h2>
     <p>
@@ -77,7 +84,7 @@
       Storage Crates will automatically be connected to the controller as long as their is a direct
       connection of Crates back to the Controller.
     </p>
-    <img src="\mods\storage\crate_controller_recipe.png">
+    <Recipe id="assortedstorage:crate_controller" />
 
     <h3><a name="bridge">Bridge</a></h3>
     <p>
@@ -85,7 +92,11 @@
       connection you can join them using the Storage Bridge to "bridge" the gap and have those
       Storage Crates still connected.
     </p>
-    <img src="\mods\storage\crate_bridge_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assortedstorage:crate_bridge_gold" />
+      <Recipe id="assortedstorage:crate_bridge_copper" />
+      <Recipe id="assortedstorage:crate_bridge_bronze" />
+    </div>
 
     <h2><a name="upgrades">Upgrades</a></h2>
     <p>
@@ -114,7 +125,7 @@
       The Void Upgrade will allow you to still be able to input new items in the Storage Crate but
       each one past the maximum will get "voided" and you will not be able to recover them.
     </p>
-    <img src="\mods\storage\void_upgrade_recipe.png">
+    <Recipe id="assortedstorage:void_upgrade" />
 
     <h3><a name="redstone_upgrade">Redstone Upgrade</a></h3>
     <p>
@@ -141,7 +152,7 @@
         storage and current amount stored in that slot
       </li>
     </ul>
-    <img src="\mods\storage\redstone_upgrade_recipe.png">
+    <Recipe id="assortedstorage:redstone_upgrade" />
 
     <h3><a name="amount_upgrade">Amount Upgrade</a></h3>
     <p>
@@ -149,7 +160,7 @@
       has two modes, <strong>Simple</strong> will show only the amount in each slot
       <strong>Full</strong> will show the amount out of the total allowed in that slot.
     </p>
-    <img src="\mods\storage\amount_upgrade_recipe.png">
+    <Recipe id="assortedstorage:amount_upgrade" />
     <img src="\mods\storage\amount_upgrade.png">
 
     <h3><a name="glow_upgrade">Glow Upgrade</a></h3>
@@ -157,7 +168,10 @@
       The Glow Upgrade will light the items stored in the slots when it is dark so that it is a bit
       easier to see what is stored in each Crate.
     </p>
-    <img src="\mods\storage\glow_upgrade_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assortedstorage:glow_upgrade" />
+      <Recipe id="assortedstorage:glow_upgrade_glowstone" />
+    </div>
     <img src="\mods\storage\glow_upgrade.png">
 
     <h3><a name="level_upgrades">Level Upgrades</a></h3>
@@ -179,7 +193,10 @@
     <p>
       You are able to lock Storage Controllers, Storage Crates, and Compacting Storage Crates using
       the
-      <NuxtLink class="page-link" to="/storage/locksmith">
+      <NuxtLink
+        class="page-link"
+        to="/storage/locksmith"
+      >
         Locksmith Tools
       </NuxtLink>.
       These will allow you to restrict access to your crates and storage crate system.
@@ -192,7 +209,10 @@
       allow it. But you are also able to rotate the items in each slot of a Storage Crate. Maybe you
       want to place a crate on the ceiling this will allow for easier visibility.
     </p>
-    <img src="\mods\storage\rotator_majig_recipe.png">
+    <div class="flex flex-wrap gap-4">
+      <Recipe id="assortedstorage:rotator_majig_iron" />
+      <Recipe id="assortedstorage:rotator_majig_iron_alt" />
+    </div>
   </div>
 </template>
 
