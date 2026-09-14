@@ -13,7 +13,7 @@
         "name": "Colorizer Brush",
         "icon": {
           "src": "/icons/assorteddecor/colorizer_brush.png",
-          "pixelated": false
+          "pixelated": true
         }
       }
     ]

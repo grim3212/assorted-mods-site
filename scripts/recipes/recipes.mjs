@@ -48,11 +48,10 @@ export class RecipeExporter {
     return this.lang[`item.${ns}.${path}`] || this.lang[`block.${ns}.${path}`] || humanize(path).replace(/\b\w/g, c => c.toUpperCase())
   }
 
-  async item(itemId, variant = null) {
+  // `variant` names a component-dependent icon and `components` is what renders it.
+  async item(itemId, variant = null, components = null) {
     const id = normalizeId(itemId)
-    const icon = await this.icons.icon(id, variant)
-    if (!this.res.has(`assets/${parseId(id).ns}/items/${parseId(id).path}.json`)) this.warn(`unknown item ${id}`)
-    return { id, name: this.itemName(id), icon }
+    return { id, name: this.itemName(id), icon: this.icons.icon(id, variant, components) }
   }
 
   async items(ids) {
@@ -125,7 +124,7 @@ export class RecipeExporter {
     const fluid = normalizeId(fluidId || 'minecraft:water')
     const { path } = parseId(fluid)
     const bucket = `minecraft:${path}_bucket`
-    const items = this.res.has(`assets/minecraft/items/${path}_bucket.json`) ? [await this.item(bucket)] : []
+    const items = this.icons.find(bucket) ? [await this.item(bucket)] : []
     const name = this.itemName(fluid)
     return {
       kind: 'fluid',
@@ -144,7 +143,7 @@ export class RecipeExporter {
     const components = typeof raw === 'object' ? raw.components : undefined
     const color = components?.['minecraft:block_state']?.color
     const variant = color ? { color } : null
-    const item = await this.item(id, variant)
+    const item = await this.item(id, variant, variant ? components : null)
     if (color) item.name = `${humanize(color).replace(/\b\w/g, c => c.toUpperCase())} ${item.name}`
     return { kind: 'item', count, items: [item] }
   }

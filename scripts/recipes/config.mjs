@@ -2,7 +2,7 @@
 // overridden with an environment variable so the script also runs on another checkout.
 import { existsSync, readdirSync } from 'node:fs'
 import { homedir } from 'node:os'
-import { join, resolve } from 'node:path'
+import { delimiter, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const here = fileURLToPath(new URL('.', import.meta.url))
@@ -20,7 +20,7 @@ function firstExisting(candidates) {
   return candidates.find(p => p && existsSync(p)) || null
 }
 
-// The vanilla client jar carries the item definitions, models, textures, tags and en_us lang.
+// The vanilla client jar carries the container GUI textures, item tags and en_us lang.
 export const clientJar = firstExisting([
   process.env.MC_CLIENT_JAR,
   join(gradle, 'caches', 'neoformruntime', 'artifacts', `minecraft_${minecraftVersion}_client.jar`),
@@ -51,5 +51,11 @@ export const pagesDir = join(siteRoot, 'app', 'pages')
 export const extraRecipesDir = join(here, 'extra')
 export const iconOverridesDir = join(here, 'icon-overrides')
 
-// Rendered size of a 3D icon. Flat items keep their native texture size and are scaled by CSS.
-export const renderSize = 128
+// The icon exports: each mod's `./gradlew :neoforge:runExportIcons` renders every item it loads
+// into neoforge/build/icons. ICON_EXPORT_DIRS (path-separator delimited) overrides the list.
+export const iconExportDirs = process.env.ICON_EXPORT_DIRS
+  ? process.env.ICON_EXPORT_DIRS.split(delimiter).filter(Boolean)
+  : mods.map(mod => join(modsRoot, mod, 'neoforge', 'build', 'icons'))
+
+// Component-dependent icons the pages need (a coloured siding); the export runs read this file.
+export const iconStacksFile = join(here, 'icon-stacks.json')

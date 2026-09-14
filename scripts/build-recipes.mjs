@@ -1,16 +1,20 @@
 #!/usr/bin/env node
-// Exports every recipe the site pages reference into app/data/recipes and renders the item
-// icons they need into public/icons. Reads the sibling mod checkouts plus the Minecraft client
-// and NeoForge jars from the gradle cache (see scripts/recipes/config.mjs for overrides).
+// Exports every recipe the site pages reference into app/data/recipes and copies the item icons
+// they need into public/icons. Reads the sibling mod checkouts (recipes, tags, lang and their
+// icon exports) plus the Minecraft client and NeoForge jars from the gradle cache (see
+// scripts/recipes/config.mjs for overrides).
 //
 //   yarn recipes            export everything the pages use
 //   yarn recipes --check    only report what would be exported and any problems
+//
+// The icons come from the mods' own exports: `./gradlew :neoforge:runExportIcons` in a mod
+// checkout has the game render every item it loads into neoforge/build/icons. Rerun that in a
+// mod whenever its models change, then this.
 import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs'
 import { dirname, join, relative, sep } from 'node:path'
 import * as cfg from './recipes/config.mjs'
 import { exportGuis } from './recipes/gui.mjs'
 import { Icons } from './recipes/icons.mjs'
-import { Models } from './recipes/models.mjs'
 import { RecipeExporter } from './recipes/recipes.mjs'
 import { Resources, gameJarFilter, loaderJarFilter, normalizeId, parseId } from './recipes/resources.mjs'
 import { Tags } from './recipes/tags.mjs'
@@ -71,11 +75,9 @@ async function main() {
     for (const raw of res.readAll(path).reverse()) Object.assign(lang, JSON.parse(raw.toString('utf8')))
   }
 
-  const models = new Models(res)
   const textures = new Textures(res)
   const tags = new Tags(res)
-  const iconOut = checkOnly ? join(cfg.siteRoot, 'node_modules', '.cache', 'recipe-icons') : cfg.iconDir
-  const icons = new Icons({ res, models, textures, outDir: iconOut, overridesDir: cfg.iconOverridesDir, renderSize: cfg.renderSize })
+  const icons = new Icons({ exportDirs: cfg.iconExportDirs, outDir: cfg.iconDir, overridesDir: cfg.iconOverridesDir, stacksFile: cfg.iconStacksFile, dryRun: checkOnly })
   const exporter = new RecipeExporter({ res, tags, icons, lang })
 
   const ids = referencedRecipes()
@@ -92,7 +94,8 @@ async function main() {
   }
 
   // The GUI backgrounds the component draws the slots on.
-  const guis = await exportGuis(res, join(iconOut, 'gui'), textures)
+  const guiOut = checkOnly ? join(cfg.siteRoot, 'node_modules', '.cache', 'recipe-gui') : join(cfg.iconDir, 'gui')
+  const guis = await exportGuis(res, guiOut, textures)
 
   if (!checkOnly) {
     rmSync(cfg.recipeDataDir, { recursive: true, force: true })
@@ -103,8 +106,9 @@ async function main() {
       mkdirSync(dirname(file), { recursive: true })
       writeFileSync(file, JSON.stringify(data, null, 2) + '\n')
     }
+    icons.writeStacks()
     // Drop icons nothing references any more.
-    const wanted = new Set([...icons.cache.values()].filter(Boolean).map(i => i.src.replace(/^\/icons\//, '')))
+    const wanted = new Set(icons.files())
     for (const gui of Object.values(guis)) wanted.add(gui.image.replace(/^\/icons\//, ''))
     for (const file of walk(cfg.iconDir)) {
       const rel = relative(cfg.iconDir, file).split(sep).join('/')
@@ -115,11 +119,10 @@ async function main() {
   const warnings = [
     ...missing.map(id => `recipe not found: ${id}`),
     ...exporter.warnings,
-    ...models.warnings,
     ...icons.warnings,
     ...[...textures.missing].map(t => `missing texture ${t}`)
   ]
-  console.log(`${exported.size} recipes from ${ids.length} references, ${[...icons.cache.values()].filter(Boolean).length} icons`)
+  console.log(`${exported.size} recipes from ${ids.length} references, ${icons.files().length} icons`)
   if (warnings.length) {
     console.log(`${warnings.length} warning(s):`)
     for (const w of warnings) console.log('  - ' + w)

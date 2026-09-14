@@ -1,0 +1,24 @@
+[
+  {
+    "key": "assorteddecor:siding_horizontal--color-orange",
+    "stack": {
+      "id": "assorteddecor:siding_horizontal",
+      "components": {
+        "minecraft:block_state": {
+          "color": "orange"
+        }
+      }
+    }
+  },
+  {
+    "key": "assorteddecor:siding_vertical--color-orange",
+    "stack": {
+      "id": "assorteddecor:siding_vertical",
+      "components": {
+        "minecraft:block_state": {
+          "color": "orange"
+        }
+      }
+    }
+  }
+]

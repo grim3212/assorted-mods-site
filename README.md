@@ -34,7 +34,7 @@ yarn lint
 
 Recipes on the pages are `<Recipe id="assortedcore:machine_core" />` components. They read
 `app/data/recipes/<namespace>/<path>.json` and the item icons in `public/icons`, both generated
-from the mods' datagen output by:
+from the mods' datagen output and icon exports by:
 
 ```bash
 yarn recipes          # regenerate app/data/recipes and public/icons
@@ -42,17 +42,29 @@ yarn recipes --check  # only report what would change and any problems
 ```
 
 The script scans the pages for every `<Recipe id>`, reads the recipe from the sibling mod
-checkout (`../Assorted*/common/src/generated/server`), resolves tags and names, and renders the
-icons itself: flat items are copied at texture resolution, blocks and the storage models are
-drawn from their model files the way the inventory shows them. The recipe backgrounds in
-`public/icons/gui` are the real container GUI textures (crafting table, furnaces, stonecutter,
-smithing table, grinding mill, alloy forge) cropped to the recipe area, with the slot positions
-written to `app/data/gui.json`; `scripts/recipes/gui.mjs` is where a new station gets added. It needs the mod repos next to
-this one and the Minecraft client jar plus NeoForge jar from the gradle cache (built once by
-any mod build). `scripts/recipes/config.mjs` lists the environment variables that override
-those locations. Special recipe types the game does not describe in JSON (bag dyeing, locking an
+checkout (`../Assorted*/common/src/generated/server`), resolves tags and names, and copies the
+icons out of the mods' icon exports. The icons are rendered by the game itself: in a mod
+checkout,
+
+```bash
+./gradlew :neoforge:runExportIcons
+```
+
+starts the client with the `IconExporter` from AssortedLib armed, which joins a throwaway flat
+world, draws every loaded item the way the inventory does (models, block entity renderers,
+tints, lighting) into `neoforge/build/icons` and quits. Rerun it in a mod whenever its models
+or textures change, then `yarn recipes`. Items whose icon depends on components (the coloured
+sidings) are listed in `scripts/recipes/icon-stacks.json`, which `yarn recipes` maintains and the
+export runs read, so a new variant takes one more export run after the page referencing it is
+added. The recipe backgrounds in `public/icons/gui` are the real container GUI textures
+(crafting table, furnaces, stonecutter, smithing table, grinding mill, alloy forge) cropped to
+the recipe area, with the slot positions written to `app/data/gui.json`;
+`scripts/recipes/gui.mjs` is where a new station gets added. It needs the mod repos next to this
+one and the Minecraft client jar plus NeoForge jar from the gradle cache (built once by any mod
+build). `scripts/recipes/config.mjs` lists the environment variables that override those
+locations. Special recipe types the game does not describe in JSON (bag dyeing, locking an
 ender chest) live in `scripts/recipes/extra`, and a PNG dropped into
-`scripts/recipes/icon-overrides/<namespace>/<item>.png` replaces a rendered icon.
+`scripts/recipes/icon-overrides/<namespace>/<item>.png` replaces an exported icon.
 
 Both outputs are committed, so a deploy does not need the mods or the game.
 

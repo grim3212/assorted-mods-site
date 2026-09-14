@@ -114,13 +114,7 @@ export function normalizeId(id) {
 // Only the parts of a jar the exporter reads, to keep memory sensible.
 export function gameJarFilter(name) {
   return (
-    name.startsWith('assets/minecraft/items/')
-    || name.startsWith('assets/minecraft/models/')
-    || name.startsWith('assets/minecraft/textures/block/')
-    || name.startsWith('assets/minecraft/textures/item/')
-    || name.startsWith('assets/minecraft/textures/entity/chest/')
-    || name.startsWith('assets/minecraft/textures/entity/shulker/')
-    || name.startsWith('assets/minecraft/textures/gui/container/')
+    name.startsWith('assets/minecraft/textures/gui/container/')
     || name === 'assets/minecraft/lang/en_us.json'
     || name.startsWith('data/minecraft/tags/item/')
   )
