@@ -1,0 +1,153 @@
+{
+  "id": "assortedcuisine:cheese_block",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:cheese_block",
+        "name": "Cheese Block",
+        "icon": {
+          "src": "/icons/assortedcuisine/cheese_block.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

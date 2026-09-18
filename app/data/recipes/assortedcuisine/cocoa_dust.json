@@ -1,0 +1,53 @@
+{
+  "id": "assortedcuisine:cocoa_dust",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "assortedcuisine:cocoa_dust",
+        "name": "Cocoa Dust",
+        "icon": {
+          "src": "/icons/assortedcuisine/cocoa_dust.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:cocoa_beans",
+          "name": "Cocoa Beans",
+          "icon": {
+            "src": "/icons/minecraft/cocoa_beans.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:tools/mortar_and_pestle",
+      "label": "mortar and pestle tools",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcuisine:mortar_and_pestle",
+          "name": "Mortar and Pestle",
+          "icon": {
+            "src": "/icons/assortedcuisine/mortar_and_pestle.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

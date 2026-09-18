@@ -1,0 +1,69 @@
+{
+  "id": "assortedcuisine:bandage",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "assortedcuisine:bandage",
+        "name": "Bandage",
+        "icon": {
+          "src": "/icons/assortedcuisine/bandage.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 1,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:white_wool",
+            "name": "White Wool",
+            "icon": {
+              "src": "/icons/minecraft/white_wool.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

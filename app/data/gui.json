@@ -188,5 +188,24 @@
         11
       ]
     }
+  },
+  "cuisine_machine": {
+    "image": "/icons/gui/cuisine_machine.png",
+    "width": 110,
+    "height": 49,
+    "slots": {
+      "station": [
+        11,
+        11
+      ],
+      "input": [
+        33,
+        11
+      ],
+      "result": [
+        83,
+        11
+      ]
+    }
   }
 }

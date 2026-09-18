@@ -1,0 +1,279 @@
+{
+  "id": "assortedcuisine:chocolate_bowl",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:chocolate_bowl",
+        "name": "Bowl of Chocolate",
+        "icon": {
+          "src": "/icons/assortedcuisine/chocolate_bowl.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cocoa_dust",
+            "name": "Cocoa Dust",
+            "icon": {
+              "src": "/icons/assortedcuisine/cocoa_dust.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cocoa_dust",
+            "name": "Cocoa Dust",
+            "icon": {
+              "src": "/icons/assortedcuisine/cocoa_dust.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:sugar",
+            "name": "Sugar",
+            "icon": {
+              "src": "/icons/minecraft/sugar.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cocoa_dust",
+            "name": "Cocoa Dust",
+            "icon": {
+              "src": "/icons/assortedcuisine/cocoa_dust.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:buckets/milk",
+        "label": "milk buckets",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:milk_bucket",
+            "name": "Milk Bucket",
+            "icon": {
+              "src": "/icons/minecraft/milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:wood_milk_bucket",
+            "name": "Wooden Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/wood_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:stone_milk_bucket",
+            "name": "Stone Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/stone_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:gold_milk_bucket",
+            "name": "Golden Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/gold_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:diamond_milk_bucket",
+            "name": "Diamond Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/diamond_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:netherite_milk_bucket",
+            "name": "Netherite Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/netherite_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:nickel_milk_bucket",
+            "name": "Nickel Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/nickel_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:electrum_milk_bucket",
+            "name": "Electrum Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/electrum_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:steel_milk_bucket",
+            "name": "Steel Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/steel_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:aluminum_milk_bucket",
+            "name": "Aluminum Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/aluminum_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:amethyst_milk_bucket",
+            "name": "Amethyst Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/amethyst_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:lead_milk_bucket",
+            "name": "Lead Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/lead_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:bronze_milk_bucket",
+            "name": "Bronze Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/bronze_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:ruby_milk_bucket",
+            "name": "Ruby Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/ruby_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:platinum_milk_bucket",
+            "name": "Platinum Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/platinum_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:peridot_milk_bucket",
+            "name": "Peridot Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/peridot_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:tin_milk_bucket",
+            "name": "Tin Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/tin_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:topaz_milk_bucket",
+            "name": "Topaz Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/topaz_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:copper_milk_bucket",
+            "name": "Copper Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/copper_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:invar_milk_bucket",
+            "name": "Invar Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/invar_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:silver_milk_bucket",
+            "name": "Silver Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/silver_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:emerald_milk_bucket",
+            "name": "Emerald Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/emerald_milk_bucket.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedtools:sapphire_milk_bucket",
+            "name": "Sapphire Milk Bucket",
+            "icon": {
+              "src": "/icons/assortedtools/sapphire_milk_bucket.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "assortedcuisine:raw_empty_pie",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:raw_empty_pie",
+        "name": "Unbaked Pie Shell",
+        "icon": {
+          "src": "/icons/assortedcuisine/raw_empty_pie.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:foods/dough",
+        "label": "dough foods",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:dough",
+            "name": "Dough",
+            "icon": {
+              "src": "/icons/assortedcuisine/dough.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:pan",
+            "name": "Pie Pan",
+            "icon": {
+              "src": "/icons/assortedcuisine/pan.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -61,6 +61,14 @@ export const GUI_LAYOUTS = {
     crop: { texture: 'assortedcore:gui/container/alloy_forge', x: 31, y: 22, width: 105, height: 57 },
     footer: true,
     slots: { input1: [1, 5], input2: [25, 5], fuel: [49, 40], result: [84, 5] }
+  },
+  // The three cuisine machines have no screen of their own; the strip is the one their JEI
+  // category and the instruction manual both draw, already sized to the recipe
+  // (CuisineMachineRecipeCategory: 98x26, station 5, input 27, output 77, all at y 5).
+  cuisine_machine: {
+    crop: { texture: 'assortedcuisine:gui/container/cuisine_machine', x: 0, y: 0, width: 98, height: 26 },
+    footer: true,
+    slots: { station: [5, 5], input: [27, 5], result: [77, 5] }
   }
 }
 

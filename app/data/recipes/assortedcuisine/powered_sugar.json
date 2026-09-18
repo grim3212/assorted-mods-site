@@ -1,0 +1,53 @@
+{
+  "id": "assortedcuisine:powered_sugar",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:powered_sugar",
+        "name": "Powered Sugar",
+        "icon": {
+          "src": "/icons/assortedcuisine/powered_sugar.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "tag",
+      "tag": "c:dusts/redstone",
+      "label": "redstone dusts",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:redstone",
+          "name": "Redstone Dust",
+          "icon": {
+            "src": "/icons/minecraft/redstone.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:sugar",
+          "name": "Sugar",
+          "icon": {
+            "src": "/icons/minecraft/sugar.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "assortedcuisine:raw_apple_pie",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:raw_apple_pie",
+        "name": "Unbaked Apple Pie",
+        "icon": {
+          "src": "/icons/assortedcuisine/raw_apple_pie.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:foods/dough",
+        "label": "dough foods",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:dough",
+            "name": "Dough",
+            "icon": {
+              "src": "/icons/assortedcuisine/dough.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:apple",
+            "name": "Apple",
+            "icon": {
+              "src": "/icons/minecraft/apple.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:apple",
+            "name": "Apple",
+            "icon": {
+              "src": "/icons/minecraft/apple.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:apple",
+            "name": "Apple",
+            "icon": {
+              "src": "/icons/minecraft/apple.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:raw_empty_pie",
+            "name": "Unbaked Pie Shell",
+            "icon": {
+              "src": "/icons/assortedcuisine/raw_empty_pie.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

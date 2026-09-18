@@ -1,0 +1,322 @@
+{
+  "id": "assortedcuisine:cheese_maker",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:cheese_maker",
+        "name": "Cheese Maker",
+        "icon": {
+          "src": "/icons/assortedcuisine/cheese_maker.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:cobblestones",
+        "label": "cobblestones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_cobblestone",
+            "name": "Infested Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/infested_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mossy_cobblestone",
+            "name": "Mossy Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/mossy_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:cobblestones",
+        "label": "cobblestones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_cobblestone",
+            "name": "Infested Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/infested_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mossy_cobblestone",
+            "name": "Mossy Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/mossy_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:cobblestones",
+        "label": "cobblestones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_cobblestone",
+            "name": "Infested Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/infested_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mossy_cobblestone",
+            "name": "Mossy Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/mossy_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bucket",
+            "name": "Bucket",
+            "icon": {
+              "src": "/icons/minecraft/bucket.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:cobblestones",
+        "label": "cobblestones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_cobblestone",
+            "name": "Infested Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/infested_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mossy_cobblestone",
+            "name": "Mossy Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/mossy_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:cobblestones",
+        "label": "cobblestones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_cobblestone",
+            "name": "Infested Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/infested_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mossy_cobblestone",
+            "name": "Mossy Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/mossy_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:cobblestones",
+        "label": "cobblestones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_cobblestone",
+            "name": "Infested Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/infested_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mossy_cobblestone",
+            "name": "Mossy Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/mossy_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:cobblestones",
+        "label": "cobblestones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_cobblestone",
+            "name": "Infested Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/infested_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:mossy_cobblestone",
+            "name": "Mossy Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/mossy_cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -13,6 +13,7 @@
       </div>
       <div class="flex flex-wrap -m-4">
         <ModCard mod="core" />
+        <ModCard mod="cuisine" />
         <ModCard mod="decor" />
         <ModCard mod="storage" />
         <ModCard mod="tech" />

@@ -1,0 +1,127 @@
+{
+  "id": "assortedcuisine:hot_cheese",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:hot_cheese",
+        "name": "Cheese Sandwich",
+        "icon": {
+          "src": "/icons/assortedcuisine/hot_cheese.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:foods/bread",
+        "label": "bread foods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bread",
+            "name": "Bread",
+            "icon": {
+              "src": "/icons/minecraft/bread.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedcuisine:bread_slice",
+            "name": "Bread Slice",
+            "icon": {
+              "src": "/icons/assortedcuisine/bread_slice.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:foods/cheese",
+        "label": "cheese foods",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:foods/cheese",
+        "label": "cheese foods",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:foods/cheese",
+        "label": "cheese foods",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:cheese",
+            "name": "Cheese",
+            "icon": {
+              "src": "/icons/assortedcuisine/cheese.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:foods/bread",
+        "label": "bread foods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bread",
+            "name": "Bread",
+            "icon": {
+              "src": "/icons/minecraft/bread.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assortedcuisine:bread_slice",
+            "name": "Bread Slice",
+            "icon": {
+              "src": "/icons/assortedcuisine/bread_slice.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

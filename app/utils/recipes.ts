@@ -55,6 +55,9 @@ export function describeRecipe(recipe: RecipeData): string {
     case 'alloy_forge':
       parts.push(`Inputs: ${(recipe.inputs || []).map(describeSlot).join(' and ')}. Fuel: ${describeSlot(recipe.fuel ?? null)}. Gives ${recipe.experience} experience.`)
       break
+    case 'cuisine_machine':
+      parts.push(`Input: ${describeSlot(recipe.input ?? null)}. Takes ${recipe.time} seconds in a placed ${recipe.station}.`)
+      break
   }
   parts.push(`Makes ${describeResult(recipe.result)}.`)
   if (recipe.note) parts.push(recipe.note)

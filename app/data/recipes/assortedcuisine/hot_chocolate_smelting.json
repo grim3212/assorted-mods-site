@@ -1,0 +1,85 @@
+{
+  "id": "assortedcuisine:hot_chocolate_smelting",
+  "type": "cooking",
+  "typeLabel": "Smelting",
+  "station": "Furnace",
+  "gui": "furnace",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:hot_chocolate",
+        "name": "Hot Chocolate",
+        "icon": {
+          "src": "/icons/assortedcuisine/hot_chocolate.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:chocolate_bowl",
+        "name": "Bowl of Chocolate",
+        "icon": {
+          "src": "/icons/assortedcuisine/chocolate_bowl.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "fuel": {
+    "kind": "items",
+    "label": "any furnace fuel",
+    "note": "Anything a furnace burns, such as coal, charcoal, wood or a lava bucket.",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:coal",
+        "name": "Coal",
+        "icon": {
+          "src": "/icons/minecraft/coal.png",
+          "pixelated": true
+        }
+      },
+      {
+        "id": "minecraft:charcoal",
+        "name": "Charcoal",
+        "icon": {
+          "src": "/icons/minecraft/charcoal.png",
+          "pixelated": true
+        }
+      },
+      {
+        "id": "minecraft:coal_block",
+        "name": "Block of Coal",
+        "icon": {
+          "src": "/icons/minecraft/coal_block.png",
+          "pixelated": false
+        }
+      },
+      {
+        "id": "minecraft:lava_bucket",
+        "name": "Lava Bucket",
+        "icon": {
+          "src": "/icons/minecraft/lava_bucket.png",
+          "pixelated": true
+        }
+      },
+      {
+        "id": "minecraft:blaze_rod",
+        "name": "Blaze Rod",
+        "icon": {
+          "src": "/icons/minecraft/blaze_rod.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "experience": 0.3,
+  "time": 10
+}

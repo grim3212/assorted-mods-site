@@ -1,0 +1,55 @@
+{
+  "id": "assortedcuisine:soda_mushroom",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:soda_mushroom",
+        "name": "Mushroom Soda",
+        "icon": {
+          "src": "/icons/assortedcuisine/soda_mushroom.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:red_mushroom",
+            "name": "Red Mushroom",
+            "icon": {
+              "src": "/icons/minecraft/red_mushroom.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:soda_carbonated_water",
+            "name": "Carbonated Water",
+            "icon": {
+              "src": "/icons/assortedcuisine/soda_carbonated_water.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

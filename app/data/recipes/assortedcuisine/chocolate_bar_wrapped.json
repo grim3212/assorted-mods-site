@@ -1,0 +1,51 @@
+{
+  "id": "assortedcuisine:chocolate_bar_wrapped",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:chocolate_bar_wrapped",
+        "name": "Chocolate Bar Wrapped",
+        "icon": {
+          "src": "/icons/assortedcuisine/chocolate_bar_wrapped.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcuisine:chocolate_bar",
+          "name": "Chocolate Bar",
+          "icon": {
+            "src": "/icons/assortedcuisine/chocolate_bar.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcuisine:wrapper",
+          "name": "Wrapper",
+          "icon": {
+            "src": "/icons/assortedcuisine/wrapper.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

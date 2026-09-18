@@ -1,0 +1,101 @@
+{
+  "id": "assortedcuisine:healthpack_super",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:healthpack_super",
+        "name": "Super Health Pack",
+        "icon": {
+          "src": "/icons/assortedcuisine/healthpack_super.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:white_wool",
+            "name": "White Wool",
+            "icon": {
+              "src": "/icons/minecraft/white_wool.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:white_wool",
+            "name": "White Wool",
+            "icon": {
+              "src": "/icons/minecraft/white_wool.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:powered_sugar",
+            "name": "Powered Sugar",
+            "icon": {
+              "src": "/icons/assortedcuisine/powered_sugar.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:white_wool",
+            "name": "White Wool",
+            "icon": {
+              "src": "/icons/minecraft/white_wool.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:white_wool",
+            "name": "White Wool",
+            "icon": {
+              "src": "/icons/minecraft/white_wool.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

@@ -204,16 +204,24 @@ const placedSlots = computed<PlacedSlot[]>(() => {
       out.push(place('input2', r.inputs?.[1], 'Second input', 'input2'))
       out.push(place('fuel', r.fuel, 'Fuel', 'fuel'))
       break
+    case 'cuisine_machine':
+      out.push(place('machine', r.machine, 'Machine', 'station'))
+      out.push(place('input', r.input, 'Input', 'input'))
+      break
   }
   out.push(place('result', r.result, 'Result', 'result', 0, true))
   return out.filter(p => p.entry)
 })
 
-// Experience only: how long a recipe takes depends on the machine tier, so it is not shown.
+// Experience, and a time only where it is fixed. A furnace or a mill runs at a speed that depends
+// on the machine tier, but a cuisine machine always takes the same number of ticks.
 const meta = computed(() => {
   const r = recipe.value
-  if (!r || !r.experience) return []
-  return [`${r.experience} XP`]
+  if (!r) return []
+  const out: string[] = []
+  if (r.type === 'cuisine_machine' && r.time) out.push(`${r.time} seconds`)
+  if (r.experience) out.push(`${r.experience} XP`)
+  return out
 })
 </script>
 

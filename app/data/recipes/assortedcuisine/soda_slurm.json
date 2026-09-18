@@ -1,0 +1,57 @@
+{
+  "id": "assortedcuisine:soda_slurm",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:soda_slurm",
+        "name": "Slurm",
+        "icon": {
+          "src": "/icons/assortedcuisine/soda_slurm.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:slime_balls",
+        "label": "slime balls",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:slime_ball",
+            "name": "Slimeball",
+            "icon": {
+              "src": "/icons/minecraft/slime_ball.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:soda_carbonated_water",
+            "name": "Carbonated Water",
+            "icon": {
+              "src": "/icons/assortedcuisine/soda_carbonated_water.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

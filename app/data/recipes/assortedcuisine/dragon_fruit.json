@@ -1,0 +1,53 @@
+{
+  "id": "assortedcuisine:dragon_fruit",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:dragon_fruit",
+        "name": "Dragon Fruit",
+        "icon": {
+          "src": "/icons/assortedcuisine/dragon_fruit.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:cactus",
+          "name": "Cactus",
+          "icon": {
+            "src": "/icons/minecraft/cactus.png",
+            "pixelated": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:tools/knife",
+      "label": "knife tools",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcuisine:knife",
+          "name": "Knife",
+          "icon": {
+            "src": "/icons/assortedcuisine/knife.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

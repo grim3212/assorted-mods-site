@@ -1,0 +1,123 @@
+{
+  "id": "assortedcuisine:eggs_unmixed",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:eggs_unmixed",
+        "name": "Cracked Eggs",
+        "icon": {
+          "src": "/icons/assortedcuisine/eggs_unmixed.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:eggs",
+        "label": "eggs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:egg",
+            "name": "Egg",
+            "icon": {
+              "src": "/icons/minecraft/egg.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:brown_egg",
+            "name": "Brown Egg",
+            "icon": {
+              "src": "/icons/minecraft/brown_egg.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:blue_egg",
+            "name": "Blue Egg",
+            "icon": {
+              "src": "/icons/minecraft/blue_egg.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:foods/butter",
+        "label": "butter foods",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:butter",
+            "name": "Butter",
+            "icon": {
+              "src": "/icons/assortedcuisine/butter.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:eggs",
+        "label": "eggs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:egg",
+            "name": "Egg",
+            "icon": {
+              "src": "/icons/minecraft/egg.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:brown_egg",
+            "name": "Brown Egg",
+            "icon": {
+              "src": "/icons/minecraft/brown_egg.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:blue_egg",
+            "name": "Blue Egg",
+            "icon": {
+              "src": "/icons/minecraft/blue_egg.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:bowl",
+            "name": "Bowl",
+            "icon": {
+              "src": "/icons/minecraft/bowl.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

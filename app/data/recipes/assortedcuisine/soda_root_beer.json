@@ -1,0 +1,55 @@
+{
+  "id": "assortedcuisine:soda_root_beer",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:soda_root_beer",
+        "name": "Root Beer",
+        "icon": {
+          "src": "/icons/assortedcuisine/soda_root_beer.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:wheat_seeds",
+            "name": "Wheat Seeds",
+            "icon": {
+              "src": "/icons/minecraft/wheat_seeds.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:soda_carbonated_water",
+            "name": "Carbonated Water",
+            "icon": {
+              "src": "/icons/assortedcuisine/soda_carbonated_water.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

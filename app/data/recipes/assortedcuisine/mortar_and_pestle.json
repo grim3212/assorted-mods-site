@@ -1,0 +1,375 @@
+{
+  "id": "assortedcuisine:mortar_and_pestle",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:mortar_and_pestle",
+        "name": "Mortar and Pestle",
+        "icon": {
+          "src": "/icons/assortedcuisine/mortar_and_pestle.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:stones",
+        "label": "stones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:andesite",
+            "name": "Andesite",
+            "icon": {
+              "src": "/icons/minecraft/andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:diorite",
+            "name": "Diorite",
+            "icon": {
+              "src": "/icons/minecraft/diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:granite",
+            "name": "Granite",
+            "icon": {
+              "src": "/icons/minecraft/granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_stone",
+            "name": "Infested Stone",
+            "icon": {
+              "src": "/icons/minecraft/infested_stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stone",
+            "name": "Stone",
+            "icon": {
+              "src": "/icons/minecraft/stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_andesite",
+            "name": "Polished Andesite",
+            "icon": {
+              "src": "/icons/minecraft/polished_andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_diorite",
+            "name": "Polished Diorite",
+            "icon": {
+              "src": "/icons/minecraft/polished_diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_granite",
+            "name": "Polished Granite",
+            "icon": {
+              "src": "/icons/minecraft/polished_granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_deepslate",
+            "name": "Infested Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/infested_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tuff",
+            "name": "Tuff",
+            "icon": {
+              "src": "/icons/minecraft/tuff.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:stones",
+        "label": "stones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:andesite",
+            "name": "Andesite",
+            "icon": {
+              "src": "/icons/minecraft/andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:diorite",
+            "name": "Diorite",
+            "icon": {
+              "src": "/icons/minecraft/diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:granite",
+            "name": "Granite",
+            "icon": {
+              "src": "/icons/minecraft/granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_stone",
+            "name": "Infested Stone",
+            "icon": {
+              "src": "/icons/minecraft/infested_stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stone",
+            "name": "Stone",
+            "icon": {
+              "src": "/icons/minecraft/stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_andesite",
+            "name": "Polished Andesite",
+            "icon": {
+              "src": "/icons/minecraft/polished_andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_diorite",
+            "name": "Polished Diorite",
+            "icon": {
+              "src": "/icons/minecraft/polished_diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_granite",
+            "name": "Polished Granite",
+            "icon": {
+              "src": "/icons/minecraft/polished_granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_deepslate",
+            "name": "Infested Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/infested_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tuff",
+            "name": "Tuff",
+            "icon": {
+              "src": "/icons/minecraft/tuff.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:stones",
+        "label": "stones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:andesite",
+            "name": "Andesite",
+            "icon": {
+              "src": "/icons/minecraft/andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:diorite",
+            "name": "Diorite",
+            "icon": {
+              "src": "/icons/minecraft/diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:granite",
+            "name": "Granite",
+            "icon": {
+              "src": "/icons/minecraft/granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_stone",
+            "name": "Infested Stone",
+            "icon": {
+              "src": "/icons/minecraft/infested_stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stone",
+            "name": "Stone",
+            "icon": {
+              "src": "/icons/minecraft/stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_andesite",
+            "name": "Polished Andesite",
+            "icon": {
+              "src": "/icons/minecraft/polished_andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_diorite",
+            "name": "Polished Diorite",
+            "icon": {
+              "src": "/icons/minecraft/polished_diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_granite",
+            "name": "Polished Granite",
+            "icon": {
+              "src": "/icons/minecraft/polished_granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_deepslate",
+            "name": "Infested Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/infested_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tuff",
+            "name": "Tuff",
+            "icon": {
+              "src": "/icons/minecraft/tuff.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

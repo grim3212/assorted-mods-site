@@ -78,6 +78,6 @@ const props = defineProps<{
 }>()
 
 const details = computed(() => getModDetails(props.mod))
-const curseUrl = computed(() => Constants.CurseUrl + details.value.modId)
-const modrinthUrl = computed(() => Constants.ModrinthUrl + details.value.modId)
+const curseUrl = computed(() => Constants.CurseUrl + details.value.curseforgeSlug)
+const modrinthUrl = computed(() => Constants.ModrinthUrl + details.value.modrinthSlug)
 </script>

@@ -29,6 +29,14 @@
         "count": 1,
         "items": [
           {
+            "id": "minecraft:glass_pane",
+            "name": "Glass Pane",
+            "icon": {
+              "src": "/icons/minecraft/glass_pane.png",
+              "pixelated": true
+            }
+          },
+          {
             "id": "minecraft:white_stained_glass_pane",
             "name": "White Stained Glass Pane",
             "icon": {
@@ -153,14 +161,6 @@
             "name": "Black Stained Glass Pane",
             "icon": {
               "src": "/icons/minecraft/black_stained_glass_pane.png",
-              "pixelated": true
-            }
-          },
-          {
-            "id": "minecraft:glass_pane",
-            "name": "Glass Pane",
-            "icon": {
-              "src": "/icons/minecraft/glass_pane.png",
               "pixelated": true
             }
           }
@@ -173,6 +173,14 @@
         "count": 1,
         "items": [
           {
+            "id": "minecraft:glass_pane",
+            "name": "Glass Pane",
+            "icon": {
+              "src": "/icons/minecraft/glass_pane.png",
+              "pixelated": true
+            }
+          },
+          {
             "id": "minecraft:white_stained_glass_pane",
             "name": "White Stained Glass Pane",
             "icon": {
@@ -297,14 +305,6 @@
             "name": "Black Stained Glass Pane",
             "icon": {
               "src": "/icons/minecraft/black_stained_glass_pane.png",
-              "pixelated": true
-            }
-          },
-          {
-            "id": "minecraft:glass_pane",
-            "name": "Glass Pane",
-            "icon": {
-              "src": "/icons/minecraft/glass_pane.png",
               "pixelated": true
             }
           }
@@ -317,6 +317,14 @@
         "count": 1,
         "items": [
           {
+            "id": "minecraft:glass_pane",
+            "name": "Glass Pane",
+            "icon": {
+              "src": "/icons/minecraft/glass_pane.png",
+              "pixelated": true
+            }
+          },
+          {
             "id": "minecraft:white_stained_glass_pane",
             "name": "White Stained Glass Pane",
             "icon": {
@@ -441,14 +449,6 @@
             "name": "Black Stained Glass Pane",
             "icon": {
               "src": "/icons/minecraft/black_stained_glass_pane.png",
-              "pixelated": true
-            }
-          },
-          {
-            "id": "minecraft:glass_pane",
-            "name": "Glass Pane",
-            "icon": {
-              "src": "/icons/minecraft/glass_pane.png",
               "pixelated": true
             }
           }
@@ -507,6 +507,14 @@
         "count": 1,
         "items": [
           {
+            "id": "minecraft:glass_pane",
+            "name": "Glass Pane",
+            "icon": {
+              "src": "/icons/minecraft/glass_pane.png",
+              "pixelated": true
+            }
+          },
+          {
             "id": "minecraft:white_stained_glass_pane",
             "name": "White Stained Glass Pane",
             "icon": {
@@ -631,14 +639,6 @@
             "name": "Black Stained Glass Pane",
             "icon": {
               "src": "/icons/minecraft/black_stained_glass_pane.png",
-              "pixelated": true
-            }
-          },
-          {
-            "id": "minecraft:glass_pane",
-            "name": "Glass Pane",
-            "icon": {
-              "src": "/icons/minecraft/glass_pane.png",
               "pixelated": true
             }
           }
@@ -651,6 +651,14 @@
         "count": 1,
         "items": [
           {
+            "id": "minecraft:glass_pane",
+            "name": "Glass Pane",
+            "icon": {
+              "src": "/icons/minecraft/glass_pane.png",
+              "pixelated": true
+            }
+          },
+          {
             "id": "minecraft:white_stained_glass_pane",
             "name": "White Stained Glass Pane",
             "icon": {
@@ -775,14 +783,6 @@
             "name": "Black Stained Glass Pane",
             "icon": {
               "src": "/icons/minecraft/black_stained_glass_pane.png",
-              "pixelated": true
-            }
-          },
-          {
-            "id": "minecraft:glass_pane",
-            "name": "Glass Pane",
-            "icon": {
-              "src": "/icons/minecraft/glass_pane.png",
               "pixelated": true
             }
           }
@@ -795,6 +795,14 @@
         "count": 1,
         "items": [
           {
+            "id": "minecraft:glass_pane",
+            "name": "Glass Pane",
+            "icon": {
+              "src": "/icons/minecraft/glass_pane.png",
+              "pixelated": true
+            }
+          },
+          {
             "id": "minecraft:white_stained_glass_pane",
             "name": "White Stained Glass Pane",
             "icon": {
@@ -919,14 +927,6 @@
             "name": "Black Stained Glass Pane",
             "icon": {
               "src": "/icons/minecraft/black_stained_glass_pane.png",
-              "pixelated": true
-            }
-          },
-          {
-            "id": "minecraft:glass_pane",
-            "name": "Glass Pane",
-            "icon": {
-              "src": "/icons/minecraft/glass_pane.png",
               "pixelated": true
             }
           }

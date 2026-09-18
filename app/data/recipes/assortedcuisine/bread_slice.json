@@ -1,0 +1,53 @@
+{
+  "id": "assortedcuisine:bread_slice",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "assortedcuisine:bread_slice",
+        "name": "Bread Slice",
+        "icon": {
+          "src": "/icons/assortedcuisine/bread_slice.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:bread",
+          "name": "Bread",
+          "icon": {
+            "src": "/icons/minecraft/bread.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:tools/knife",
+      "label": "knife tools",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcuisine:knife",
+          "name": "Knife",
+          "icon": {
+            "src": "/icons/assortedcuisine/knife.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

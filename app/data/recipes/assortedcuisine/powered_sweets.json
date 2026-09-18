@@ -1,0 +1,51 @@
+{
+  "id": "assortedcuisine:powered_sweets",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 8,
+    "items": [
+      {
+        "id": "assortedcuisine:powered_sweets",
+        "name": "Powered Sweets",
+        "icon": {
+          "src": "/icons/assortedcuisine/powered_sweets.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedcuisine:powered_sugar",
+          "name": "Powered Sugar",
+          "icon": {
+            "src": "/icons/assortedcuisine/powered_sugar.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:paper",
+          "name": "Paper",
+          "icon": {
+            "src": "/icons/minecraft/paper.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

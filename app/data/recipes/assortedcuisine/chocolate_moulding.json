@@ -1,0 +1,53 @@
+{
+  "id": "assortedcuisine:chocolate_moulding",
+  "type": "cuisine_machine",
+  "typeLabel": "Moulding",
+  "station": "Chocolate Bar Mould",
+  "gui": "cuisine_machine",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "assortedcuisine:chocolate_bar",
+        "name": "Chocolate Bar",
+        "icon": {
+          "src": "/icons/assortedcuisine/chocolate_bar.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "note": "Every block of ice or snow packed against the mould cools it faster.",
+  "machine": {
+    "kind": "item",
+    "label": "Chocolate Bar Mould",
+    "note": "The Chocolate Bar Mould does the work. It is placed in the world, not held.",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:chocolate_bar_mould",
+        "name": "Chocolate Bar Mould",
+        "icon": {
+          "src": "/icons/assortedcuisine/chocolate_bar_mould.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:hot_chocolate",
+        "name": "Hot Chocolate",
+        "icon": {
+          "src": "/icons/assortedcuisine/hot_chocolate.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "time": 20
+}

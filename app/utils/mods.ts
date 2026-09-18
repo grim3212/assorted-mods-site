@@ -1,7 +1,11 @@
 export type ModDetails = {
   name: string
   description: string
-  modId: string
+  /** Slug in the CurseForge project URL; matches `curseforge_slug` in the mod's gradle.properties. */
+  curseforgeSlug: string
+  /** Slug in the Modrinth project URL. Usually the same as the CurseForge one, but not always:
+      Assorted Cuisine could not have `assorted-cuisine`, which another author already holds. */
+  modrinthSlug: string
   githubLink: string
   homeRoute: string
 }
@@ -14,7 +18,8 @@ export const Constants = {
 const EMPTY: ModDetails = {
   name: '',
   description: '',
-  modId: '',
+  curseforgeSlug: '',
+  modrinthSlug: '',
   githubLink: '',
   homeRoute: '/'
 }
@@ -22,15 +27,26 @@ const EMPTY: ModDetails = {
 const CORE: ModDetails = {
   name: 'Assorted Core',
   description: 'Adds an assortment of items and blocks to be used by the other Assorted Mods.',
-  modId: 'assorted-core',
+  curseforgeSlug: 'assorted-core',
+  modrinthSlug: 'assorted-core',
   githubLink: 'https://github.com/grim3212/AssortedCore',
   homeRoute: '/core'
+}
+
+const CUISINE: ModDetails = {
+  name: 'Assorted Cuisine',
+  description: 'Cheese, chocolate, pies, sodas and other assorted foods to cook, bottle and eat.',
+  curseforgeSlug: 'assorted-cuisine',
+  modrinthSlug: 'assortedcuisine',
+  githubLink: 'https://github.com/grim3212/AssortedCuisine',
+  homeRoute: '/cuisine'
 }
 
 const DECOR: ModDetails = {
   name: 'Assorted Decor',
   description: 'An assortment of various decorations to improve the look of your Minecraft world.',
-  modId: 'assorted-decor',
+  curseforgeSlug: 'assorted-decor',
+  modrinthSlug: 'assorted-decor',
   githubLink: 'https://github.com/grim3212/AssortedDecor',
   homeRoute: '/decor'
 }
@@ -38,7 +54,8 @@ const DECOR: ModDetails = {
 const STORAGE: ModDetails = {
   name: 'Assorted Storage',
   description: 'Assorted blocks and items useful for storage.',
-  modId: 'assorted-storage',
+  curseforgeSlug: 'assorted-storage',
+  modrinthSlug: 'assorted-storage',
   githubLink: 'https://github.com/grim3212/AssortedStorage',
   homeRoute: '/storage'
 }
@@ -47,7 +64,8 @@ const TECH: ModDetails = {
   name: 'Assorted Tech',
   description:
     'Contains an assorted group of additions based around technology, machines, and logic.',
-  modId: 'assorted-tech',
+  curseforgeSlug: 'assorted-tech',
+  modrinthSlug: 'assorted-tech',
   githubLink: 'https://github.com/grim3212/AssortedTech',
   homeRoute: '/tech'
 }
@@ -55,7 +73,8 @@ const TECH: ModDetails = {
 const TOOLS: ModDetails = {
   name: 'Assorted Tools',
   description: 'An assortment of various helpful tools to add to your Minecraft world.',
-  modId: 'assorted-tools',
+  curseforgeSlug: 'assorted-tools',
+  modrinthSlug: 'assorted-tools',
   githubLink: 'https://github.com/grim3212/AssortedTools',
   homeRoute: '/tools'
 }
@@ -64,13 +83,15 @@ const WORLD: ModDetails = {
   name: 'Assorted World',
   description:
     'An assortment of various additions based around world generation that are added to the Minecraft world.',
-  modId: 'assorted-world',
+  curseforgeSlug: 'assorted-world',
+  modrinthSlug: 'assorted-world',
   githubLink: 'https://github.com/grim3212/AssortedWorld',
   homeRoute: '/world'
 }
 
 export const MODS = {
   core: CORE,
+  cuisine: CUISINE,
   decor: DECOR,
   storage: STORAGE,
   tech: TECH,
@@ -82,6 +103,8 @@ export function getModDetails(mod: string) {
   switch (mod) {
     case 'core':
       return CORE
+    case 'cuisine':
+      return CUISINE
     case 'decor':
       return DECOR
     case 'storage':

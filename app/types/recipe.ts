@@ -24,7 +24,7 @@ export interface RecipeSlot {
   items: RecipeItem[]
 }
 
-export type RecipeType = 'shaped' | 'shapeless' | 'cooking' | 'stonecutting' | 'smithing' | 'grinding_mill' | 'alloy_forge'
+export type RecipeType = 'shaped' | 'shapeless' | 'cooking' | 'stonecutting' | 'smithing' | 'grinding_mill' | 'alloy_forge' | 'cuisine_machine'
 
 export interface RecipeData {
   id: string
@@ -54,6 +54,8 @@ export interface RecipeData {
   tool?: RecipeSlot | null
   // alloy_forge
   inputs?: (RecipeSlot | null)[]
+  /** cuisine_machine: the block that does the work, shown in its own slot and never consumed. */
+  machine?: RecipeSlot | null
 }
 
 /** A cropped GUI texture and where its slots sit, in GUI pixels relative to the crop. */

@@ -1,0 +1,51 @@
+{
+  "id": "assortedcuisine:sweets",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 8,
+    "items": [
+      {
+        "id": "assortedcuisine:sweets",
+        "name": "Sugar Sweets",
+        "icon": {
+          "src": "/icons/assortedcuisine/sweets.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:sugar",
+          "name": "Sugar",
+          "icon": {
+            "src": "/icons/minecraft/sugar.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:paper",
+          "name": "Paper",
+          "icon": {
+            "src": "/icons/minecraft/paper.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

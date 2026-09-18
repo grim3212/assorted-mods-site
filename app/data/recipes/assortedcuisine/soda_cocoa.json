@@ -1,0 +1,55 @@
+{
+  "id": "assortedcuisine:soda_cocoa",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:soda_cocoa",
+        "name": "Cocoa Soda",
+        "icon": {
+          "src": "/icons/assortedcuisine/soda_cocoa.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cocoa_beans",
+            "name": "Cocoa Beans",
+            "icon": {
+              "src": "/icons/minecraft/cocoa_beans.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcuisine:soda_carbonated_water",
+            "name": "Carbonated Water",
+            "icon": {
+              "src": "/icons/assortedcuisine/soda_carbonated_water.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -67,6 +67,14 @@
             }
           },
           {
+            "id": "minecraft:infested_stone",
+            "name": "Infested Stone",
+            "icon": {
+              "src": "/icons/minecraft/infested_stone.png",
+              "pixelated": false
+            }
+          },
+          {
             "id": "minecraft:stone",
             "name": "Stone",
             "icon": {
@@ -75,10 +83,50 @@
             }
           },
           {
+            "id": "minecraft:polished_andesite",
+            "name": "Polished Andesite",
+            "icon": {
+              "src": "/icons/minecraft/polished_andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_diorite",
+            "name": "Polished Diorite",
+            "icon": {
+              "src": "/icons/minecraft/polished_diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_granite",
+            "name": "Polished Granite",
+            "icon": {
+              "src": "/icons/minecraft/polished_granite.png",
+              "pixelated": false
+            }
+          },
+          {
             "id": "minecraft:deepslate",
             "name": "Deepslate",
             "icon": {
               "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_deepslate",
+            "name": "Infested Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/infested_deepslate.png",
               "pixelated": false
             }
           },

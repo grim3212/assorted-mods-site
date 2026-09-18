@@ -143,6 +143,14 @@
             }
           },
           {
+            "id": "minecraft:tinted_glass",
+            "name": "Tinted Glass",
+            "icon": {
+              "src": "/icons/minecraft/tinted_glass.png",
+              "pixelated": false
+            }
+          },
+          {
             "id": "minecraft:white_stained_glass",
             "name": "White Stained Glass",
             "icon": {
@@ -267,14 +275,6 @@
             "name": "Black Stained Glass",
             "icon": {
               "src": "/icons/minecraft/black_stained_glass.png",
-              "pixelated": false
-            }
-          },
-          {
-            "id": "minecraft:tinted_glass",
-            "name": "Tinted Glass",
-            "icon": {
-              "src": "/icons/minecraft/tinted_glass.png",
               "pixelated": false
             }
           }
@@ -327,6 +327,14 @@
             }
           },
           {
+            "id": "minecraft:tinted_glass",
+            "name": "Tinted Glass",
+            "icon": {
+              "src": "/icons/minecraft/tinted_glass.png",
+              "pixelated": false
+            }
+          },
+          {
             "id": "minecraft:white_stained_glass",
             "name": "White Stained Glass",
             "icon": {
@@ -451,14 +459,6 @@
             "name": "Black Stained Glass",
             "icon": {
               "src": "/icons/minecraft/black_stained_glass.png",
-              "pixelated": false
-            }
-          },
-          {
-            "id": "minecraft:tinted_glass",
-            "name": "Tinted Glass",
-            "icon": {
-              "src": "/icons/minecraft/tinted_glass.png",
               "pixelated": false
             }
           }

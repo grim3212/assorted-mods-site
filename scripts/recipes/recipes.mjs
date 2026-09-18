@@ -15,7 +15,25 @@ const TYPE_INFO = {
   'minecraft:stonecutting': { kind: 'stonecutting', label: 'Stonecutting', station: 'Stonecutter', gui: 'stonecutter' },
   'minecraft:smithing_transform': { kind: 'smithing', label: 'Smithing', station: 'Smithing Table', gui: 'smithing' },
   'assortedcore:grinding_mill': { kind: 'grinding_mill', label: 'Grinding', station: 'Grinding Mill', gui: 'grinding_mill' },
-  'assortedcore:alloy_forge': { kind: 'alloy_forge', label: 'Alloying', station: 'Alloy Forge', gui: 'alloy_forge' }
+  'assortedcore:alloy_forge': { kind: 'alloy_forge', label: 'Alloying', station: 'Alloy Forge', gui: 'alloy_forge' },
+  // The cuisine machines work in the world rather than in a screen: right click to load, wait,
+  // right click again to take. `catalyst` is the block, shown in the left slot the way JEI does,
+  // and `time` is the machine's default in ticks (CuisineMachine).
+  'assortedcuisine:churning': {
+    kind: 'cuisine_machine', label: 'Churning', station: 'Butter Churn', gui: 'cuisine_machine',
+    catalyst: 'assortedcuisine:butter_churn', time: 400,
+    note: 'Right clicking the churn while it works turns the handle and hurries it along.'
+  },
+  'assortedcuisine:cheese_making': {
+    kind: 'cuisine_machine', label: 'Cheese making', station: 'Cheese Maker', gui: 'cuisine_machine',
+    catalyst: 'assortedcuisine:cheese_maker', time: 600,
+    note: 'The cheese maker cannot be hurried; watch it turn from pale to yellow orange.'
+  },
+  'assortedcuisine:chocolate_moulding': {
+    kind: 'cuisine_machine', label: 'Moulding', station: 'Chocolate Bar Mould', gui: 'cuisine_machine',
+    catalyst: 'assortedcuisine:chocolate_bar_mould', time: 400,
+    note: 'Every block of ice or snow packed against the mould cools it faster.'
+  }
 }
 
 function humanize(path) {
@@ -164,7 +182,7 @@ export class RecipeExporter {
       station: info.station,
       gui: info.gui,
       result: await this.result(json.result),
-      note: [info.keeps, site.note].filter(Boolean).join(' ') || undefined
+      note: [info.keeps, info.note, site.note].filter(Boolean).join(' ') || undefined
     }
     switch (info.kind) {
       case 'shaped': {
@@ -219,6 +237,11 @@ export class RecipeExporter {
         out.fuel = await this.fuelSlot()
         out.experience = json.experience ?? 0
         out.time = (json.cookingtime ?? 200) / 20
+        break
+      case 'cuisine_machine':
+        out.machine = { kind: 'item', label: info.station, note: `The ${info.station} does the work. It is placed in the world, not held.`, count: 1, items: [await this.item(info.catalyst)] }
+        out.input = await this.ingredient(json.ingredient)
+        out.time = (json.processtime ?? info.time) / 20
         break
     }
     return out

@@ -1,0 +1,61 @@
+{
+  "id": "assortedcuisine:wrapper",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcuisine:wrapper",
+        "name": "Wrapper",
+        "icon": {
+          "src": "/icons/assortedcuisine/wrapper.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:paper",
+          "name": "Paper",
+          "icon": {
+            "src": "/icons/minecraft/paper.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:dyes/blue",
+      "label": "blue dyes",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:blue_dye",
+          "name": "Blue Dye",
+          "icon": {
+            "src": "/icons/minecraft/blue_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "assorteddecor:paint_roller_blue",
+          "name": "Blue Paint Roller",
+          "icon": {
+            "src": "/icons/assorteddecor/paint_roller_blue.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}
