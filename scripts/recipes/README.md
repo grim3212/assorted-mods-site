@@ -9,7 +9,7 @@ yarn recipes          # regenerate everything the pages use
 yarn recipes --check  # only report problems, write nothing into the site
 ```
 
-Needs Node 24, the mod repos checked out next to this one (`../AssortedCore` and so on), and a
+Needs Node 26, the mod repos checked out next to this one (`../AssortedCore` and so on), and a
 gradle cache that has built any of the mods once, which is where the Minecraft client jar and
 the NeoForge jar come from. `config.mjs` lists the environment variables that point elsewhere
 (`ASSORTED_MODS_ROOT`, `MC_CLIENT_JAR`, `NEOFORGE_JAR`, `MC_VERSION`).

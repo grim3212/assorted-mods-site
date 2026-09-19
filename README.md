@@ -8,7 +8,8 @@ files.
 
 ## Setup
 
-Needs Node 24 (Nuxt 4 requires 22.19 or newer; `nvm use 24` if you use nvm).
+Needs Node 26, pinned in `.nvmrc` (`nvm use` if you use nvm). The deploy workflow reads the same file,
+and `@types/node` follows the same major.
 
 ```bash
 yarn install
