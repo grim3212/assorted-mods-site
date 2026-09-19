@@ -1,0 +1,73 @@
+{
+  "id": "assortedtools:phoenix_staff",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:phoenix_staff",
+        "name": "Phoenix Staff",
+        "icon": {
+          "src": "/icons/assortedtools/phoenix_staff.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:fire_charge",
+            "name": "Fire Charge",
+            "icon": {
+              "src": "/icons/minecraft/fire_charge.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/blaze",
+        "label": "blaze rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:blaze_rod",
+            "name": "Blaze Rod",
+            "icon": {
+              "src": "/icons/minecraft/blaze_rod.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "assortedtech:diamond_extruder",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtech:diamond_extruder",
+        "name": "Diamond Extruder",
+        "icon": {
+          "src": "/icons/assortedtech/diamond_extruder.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:pickaxes/diamond",
+        "label": "diamond pickaxes",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond_pickaxe",
+            "name": "Diamond Pickaxe",
+            "icon": {
+              "src": "/icons/minecraft/diamond_pickaxe.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:axes/diamond",
+        "label": "diamond axes",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond_axe",
+            "name": "Diamond Axe",
+            "icon": {
+              "src": "/icons/minecraft/diamond_axe.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "assortedtech:extruders/level_2",
+        "label": "level 2 extruders",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedtech:iron_extruder",
+            "name": "Iron Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/iron_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:amethyst_extruder",
+            "name": "Amethyst Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/amethyst_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:nickel_extruder",
+            "name": "Nickel Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/nickel_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:lead_extruder",
+            "name": "Lead Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/lead_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:bronze_extruder",
+            "name": "Bronze Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/bronze_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:invar_extruder",
+            "name": "Invar Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/invar_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:ruby_extruder",
+            "name": "Ruby Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/ruby_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:sapphire_extruder",
+            "name": "Sapphire Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/sapphire_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:topaz_extruder",
+            "name": "Topaz Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/topaz_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:peridot_extruder",
+            "name": "Peridot Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/peridot_extruder.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:shovels/diamond",
+        "label": "diamond shovels",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond_shovel",
+            "name": "Diamond Shovel",
+            "icon": {
+              "src": "/icons/minecraft/diamond_shovel.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

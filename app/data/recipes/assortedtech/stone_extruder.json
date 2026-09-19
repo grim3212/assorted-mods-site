@@ -1,0 +1,101 @@
+{
+  "id": "assortedtech:stone_extruder",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtech:stone_extruder",
+        "name": "Stone Extruder",
+        "icon": {
+          "src": "/icons/assortedtech/stone_extruder.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:pickaxes/stone",
+        "label": "stone pickaxes",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stone_pickaxe",
+            "name": "Stone Pickaxe",
+            "icon": {
+              "src": "/icons/minecraft/stone_pickaxe.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:axes/stone",
+        "label": "stone axes",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stone_axe",
+            "name": "Stone Axe",
+            "icon": {
+              "src": "/icons/minecraft/stone_axe.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "assortedtech:extruders/level_0",
+        "label": "level 0 extruders",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedtech:wood_extruder",
+            "name": "Wood Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/wood_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:gold_extruder",
+            "name": "Gold Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/gold_extruder.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:shovels/stone",
+        "label": "stone shovels",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stone_shovel",
+            "name": "Stone Shovel",
+            "icon": {
+              "src": "/icons/minecraft/stone_shovel.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

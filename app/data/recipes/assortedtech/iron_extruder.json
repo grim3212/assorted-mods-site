@@ -1,0 +1,117 @@
+{
+  "id": "assortedtech:iron_extruder",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtech:iron_extruder",
+        "name": "Iron Extruder",
+        "icon": {
+          "src": "/icons/assortedtech/iron_extruder.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:pickaxes/iron",
+        "label": "iron pickaxes",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_pickaxe",
+            "name": "Iron Pickaxe",
+            "icon": {
+              "src": "/icons/minecraft/iron_pickaxe.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:axes/iron",
+        "label": "iron axes",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_axe",
+            "name": "Iron Axe",
+            "icon": {
+              "src": "/icons/minecraft/iron_axe.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "assortedtech:extruders/level_1",
+        "label": "level 1 extruders",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedtech:stone_extruder",
+            "name": "Stone Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/stone_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:copper_extruder",
+            "name": "Copper Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/copper_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:tin_extruder",
+            "name": "Tin Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/tin_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedtech:aluminum_extruder",
+            "name": "Aluminum Extruder",
+            "icon": {
+              "src": "/icons/assortedtech/aluminum_extruder.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:shovels/iron",
+        "label": "iron shovels",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:iron_shovel",
+            "name": "Iron Shovel",
+            "icon": {
+              "src": "/icons/minecraft/iron_shovel.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

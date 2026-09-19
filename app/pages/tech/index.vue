@@ -66,6 +66,14 @@
             Torches
           </NuxtLink>
         </li>
+        <li>
+          <NuxtLink
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            to="/tech/extruder"
+          >
+            Extruder
+          </NuxtLink>
+        </li>
       </ul>
     </div>
   </div>

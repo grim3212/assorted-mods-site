@@ -1,0 +1,111 @@
+{
+  "id": "assortedtools:topaz_machete",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:topaz_machete",
+        "name": "Topaz Machete",
+        "icon": {
+          "src": "/icons/assortedtools/topaz_machete.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:gems/topaz",
+        "label": "topaz gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:topaz",
+            "name": "Topaz",
+            "icon": {
+              "src": "/icons/assortedcore/topaz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/topaz",
+        "label": "topaz gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:topaz",
+            "name": "Topaz",
+            "icon": {
+              "src": "/icons/assortedcore/topaz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/topaz",
+        "label": "topaz gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:topaz",
+            "name": "Topaz",
+            "icon": {
+              "src": "/icons/assortedcore/topaz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gems/topaz",
+        "label": "topaz gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcore:topaz",
+            "name": "Topaz",
+            "icon": {
+              "src": "/icons/assortedcore/topaz.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

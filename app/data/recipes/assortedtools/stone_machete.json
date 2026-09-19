@@ -1,0 +1,175 @@
+{
+  "id": "assortedtools:stone_machete",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:stone_machete",
+        "name": "Stone Machete",
+        "icon": {
+          "src": "/icons/assortedtools/stone_machete.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "minecraft:stone_tool_materials",
+        "label": "stone tool materials",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blackstone",
+            "name": "Blackstone",
+            "icon": {
+              "src": "/icons/minecraft/blackstone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:stone_tool_materials",
+        "label": "stone tool materials",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blackstone",
+            "name": "Blackstone",
+            "icon": {
+              "src": "/icons/minecraft/blackstone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:stone_tool_materials",
+        "label": "stone tool materials",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blackstone",
+            "name": "Blackstone",
+            "icon": {
+              "src": "/icons/minecraft/blackstone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:stone_tool_materials",
+        "label": "stone tool materials",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blackstone",
+            "name": "Blackstone",
+            "icon": {
+              "src": "/icons/minecraft/blackstone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cobbled_deepslate",
+            "name": "Cobbled Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/cobbled_deepslate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "assortedtools:neptune_staff",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:neptune_staff",
+        "name": "Neptune Staff",
+        "icon": {
+          "src": "/icons/assortedtools/neptune_staff.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedtools:ice_charge",
+            "name": "Ice Charge",
+            "icon": {
+              "src": "/icons/assortedtools/ice_charge.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/frost",
+        "label": "frost rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedtools:frost_rod",
+            "name": "Frost Rod",
+            "icon": {
+              "src": "/icons/assortedtools/frost_rod.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

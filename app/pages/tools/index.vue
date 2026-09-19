@@ -93,6 +93,30 @@
         <li>
           <NuxtLink
             class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            to="/tools/machetes"
+          >
+            Machetes
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            to="/tools/staffs"
+          >
+            Staffs
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            to="/tools/portable-workbench"
+          >
+            Portable Workbench
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
             to="/tools/core-support"
           >
             Core Support

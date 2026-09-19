@@ -125,6 +125,14 @@
         <li>
           <NuxtLink
             class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
+            to="/decor/gates"
+          >
+            Gates
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink
+            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
             to="/decor/extras"
           >
             Extras

@@ -1,0 +1,107 @@
+{
+  "id": "assortedtech:wood_extruder",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtech:wood_extruder",
+        "name": "Wood Extruder",
+        "icon": {
+          "src": "/icons/assortedtech/wood_extruder.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:pickaxes/wood",
+        "label": "wood pickaxes",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:wooden_pickaxe",
+            "name": "Wooden Pickaxe",
+            "icon": {
+              "src": "/icons/minecraft/wooden_pickaxe.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:axes/wood",
+        "label": "wood axes",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:wooden_axe",
+            "name": "Wooden Axe",
+            "icon": {
+              "src": "/icons/minecraft/wooden_axe.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:piston",
+            "name": "Piston",
+            "icon": {
+              "src": "/icons/minecraft/piston.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:shovels/wood",
+        "label": "wood shovels",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:wooden_shovel",
+            "name": "Wooden Shovel",
+            "icon": {
+              "src": "/icons/minecraft/wooden_shovel.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:dispenser",
+            "name": "Dispenser",
+            "icon": {
+              "src": "/icons/minecraft/dispenser.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

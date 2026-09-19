@@ -1,0 +1,165 @@
+{
+  "id": "assortedtech:upgraded_gps_sensor",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtech:upgraded_gps_sensor",
+        "name": "Upgraded GPS Sensor",
+        "icon": {
+          "src": "/icons/assortedtech/upgraded_gps_sensor.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:storage_blocks/gold",
+        "label": "gold storage blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_block",
+            "name": "Block of Gold",
+            "icon": {
+              "src": "/icons/minecraft/gold_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/gold",
+        "label": "gold ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_ingot",
+            "name": "Gold Ingot",
+            "icon": {
+              "src": "/icons/minecraft/gold_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:storage_blocks/gold",
+        "label": "gold storage blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_block",
+            "name": "Block of Gold",
+            "icon": {
+              "src": "/icons/minecraft/gold_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedtech:gps",
+            "name": "GPS",
+            "icon": {
+              "src": "/icons/assortedtech/gps.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedtech:gps_sensor",
+            "name": "GPS Sensor",
+            "icon": {
+              "src": "/icons/assortedtech/gps_sensor.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedtech:gps",
+            "name": "GPS",
+            "icon": {
+              "src": "/icons/assortedtech/gps.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:storage_blocks/gold",
+        "label": "gold storage blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_block",
+            "name": "Block of Gold",
+            "icon": {
+              "src": "/icons/minecraft/gold_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/gold",
+        "label": "gold ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_ingot",
+            "name": "Gold Ingot",
+            "icon": {
+              "src": "/icons/minecraft/gold_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:storage_blocks/gold",
+        "label": "gold storage blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_block",
+            "name": "Block of Gold",
+            "icon": {
+              "src": "/icons/minecraft/gold_block.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

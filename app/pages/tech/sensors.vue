@@ -42,6 +42,27 @@
       <li>Hay Bale - Any entities in the entity_type tag (<b>assortedtech:sensors/pets</b>)</li>
       <li>Feather - Any entities in the entity_type tag (<b>assortedtech:sensors/flying</b>)</li>
     </ul>
+    <h2><a name="gps">GPS Sensors</a></h2>
+    <p>
+      Right click a block with a GPS to store the space in front of it. Sneak and use it in the air
+      to forget it.
+    </p>
+    <Recipe id="assortedtech:gps" />
+    <p>
+      A GPS sensor watches the position a GPS stored rather than the space in front of it. Right click it and put the GPS in the slot at the top
+      right. From its screen you choose whether it detects players, mobs or items, and can narrow it
+      to one player, one kind of mob or one item.
+    </p>
+    <p>
+      The upgraded GPS sensor can sit farther from the position it watches and has an adjustable
+      range. Its filter takes a list of up to 6 entries, and an entry starting with <b>#</b> is a
+      tag, like <b>#minecraft:undead</b> for every undead mob or <b>#minecraft:logs</b> for every
+      log.
+    </p>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedtech:gps_sensor" />
+      <Recipe id="assortedtech:upgraded_gps_sensor" />
+    </div>
   </div>
 </template>
 

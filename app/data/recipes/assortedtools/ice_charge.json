@@ -1,0 +1,67 @@
+{
+  "id": "assortedtools:ice_charge",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 3,
+    "items": [
+      {
+        "id": "assortedtools:ice_charge",
+        "name": "Ice Charge",
+        "icon": {
+          "src": "/icons/assortedtools/ice_charge.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "tag",
+      "tag": "c:gunpowders",
+      "label": "gunpowders",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:gunpowder",
+          "name": "Gunpowder",
+          "icon": {
+            "src": "/icons/minecraft/gunpowder.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedtools:frost_powder",
+          "name": "Frost Powder",
+          "icon": {
+            "src": "/icons/assortedtools/frost_powder.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:snowball",
+          "name": "Snowball",
+          "icon": {
+            "src": "/icons/minecraft/snowball.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}
