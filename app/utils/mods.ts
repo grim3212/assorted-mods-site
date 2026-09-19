@@ -29,7 +29,7 @@ const CORE: ModDetails = {
   description: 'Adds an assortment of items and blocks to be used by the other Assorted Mods.',
   curseforgeSlug: 'assorted-core',
   modrinthSlug: 'assorted-core',
-  githubLink: 'https://github.com/grim3212/AssortedCore',
+  githubLink: 'https://github.com/AssortedMods/AssortedCore',
   homeRoute: '/core'
 }
 
@@ -38,7 +38,7 @@ const CUISINE: ModDetails = {
   description: 'Cheese, chocolate, pies, sodas and other assorted foods to cook, bottle and eat.',
   curseforgeSlug: 'assorted-cuisine',
   modrinthSlug: 'assortedcuisine',
-  githubLink: 'https://github.com/grim3212/AssortedCuisine',
+  githubLink: 'https://github.com/AssortedMods/AssortedCuisine',
   homeRoute: '/cuisine'
 }
 
@@ -47,7 +47,7 @@ const DECOR: ModDetails = {
   description: 'An assortment of various decorations to improve the look of your Minecraft world.',
   curseforgeSlug: 'assorted-decor',
   modrinthSlug: 'assorted-decor',
-  githubLink: 'https://github.com/grim3212/AssortedDecor',
+  githubLink: 'https://github.com/AssortedMods/AssortedDecor',
   homeRoute: '/decor'
 }
 
@@ -56,7 +56,7 @@ const STORAGE: ModDetails = {
   description: 'Assorted blocks and items useful for storage.',
   curseforgeSlug: 'assorted-storage',
   modrinthSlug: 'assorted-storage',
-  githubLink: 'https://github.com/grim3212/AssortedStorage',
+  githubLink: 'https://github.com/AssortedMods/AssortedStorage',
   homeRoute: '/storage'
 }
 
@@ -66,7 +66,7 @@ const TECH: ModDetails = {
     'Contains an assorted group of additions based around technology, machines, and logic.',
   curseforgeSlug: 'assorted-tech',
   modrinthSlug: 'assorted-tech',
-  githubLink: 'https://github.com/grim3212/AssortedTech',
+  githubLink: 'https://github.com/AssortedMods/AssortedTech',
   homeRoute: '/tech'
 }
 
@@ -75,7 +75,7 @@ const TOOLS: ModDetails = {
   description: 'An assortment of various helpful tools to add to your Minecraft world.',
   curseforgeSlug: 'assorted-tools',
   modrinthSlug: 'assorted-tools',
-  githubLink: 'https://github.com/grim3212/AssortedTools',
+  githubLink: 'https://github.com/AssortedMods/AssortedTools',
   homeRoute: '/tools'
 }
 
@@ -85,7 +85,7 @@ const WORLD: ModDetails = {
     'An assortment of various additions based around world generation that are added to the Minecraft world.',
   curseforgeSlug: 'assorted-world',
   modrinthSlug: 'assorted-world',
-  githubLink: 'https://github.com/grim3212/AssortedWorld',
+  githubLink: 'https://github.com/AssortedMods/AssortedWorld',
   homeRoute: '/world'
 }
 

@@ -10,7 +10,7 @@
     <div class="grid grid-cols-2 gap-4">
       <a
         class="px-3 py-2 flex items-center text-xs uppercase font-bold text-gray-300 hover:text-gray-500"
-        href="https://github.com/grim3212"
+        href="https://github.com/AssortedMods"
       ><svg
         class="fill-current w-5 h-5"
         xmlns="http://www.w3.org/2000/svg"
