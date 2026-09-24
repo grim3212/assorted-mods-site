@@ -23,7 +23,7 @@
   "devDependencies": {
     "@napi-rs/canvas": "^1.0.9",
     "@nuxt/eslint": "^1.17.0",
-    "@nuxtjs/robots": "^6.2.2",
+    "@nuxtjs/robots": "^6.2.3",
     "@nuxtjs/sitemap": "^8.5.1",
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^26.6.2",

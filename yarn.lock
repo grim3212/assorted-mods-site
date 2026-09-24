@@ -1180,10 +1180,10 @@
     vite-plugin-checker "^0.14.5"
     vue-bundle-renderer "^2.3.1"
 
-"@nuxtjs/robots@^6.2.2":
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/robots/-/robots-6.2.2.tgz#e6745f202aa65109c67c6de15eec854a1c93f2b9"
-  integrity sha512-2o+XTw8vmVMz3xxRVJ5pgTW8eP4qhzpk0Hkeyaj1c4+uRLea+2XkWhIvJhm9I8QijeIsWQqg9XFy4w4BzpmHKA==
+"@nuxtjs/robots@^6.2.3":
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/robots/-/robots-6.2.3.tgz#0f325c3922b74b263365cf85151b0ed7676db3a2"
+  integrity sha512-ivIlqDBoUPSnFcOjCDWHFqBkIgZraGbVlWE7P/x6UiHwdFMQPDgQ0K+dVq4e9dEnMUqb04lzpbQClXeI7gyszg==
   dependencies:
     "@fingerprintjs/botd" "^2.0.0"
     "@nuxt/kit" "^4.5.2"
@@ -1191,7 +1191,7 @@
     defu "^6.1.7"
     h3 "^1.15.11"
     nuxt-site-config "^4.2.3"
-    nuxtseo-shared "^5.3.14"
+    nuxtseo-shared "^5.3.16"
     pathe "^2.0.3"
     pkg-types "^2.3.1"
     ufo "^1.6.4"
@@ -2722,12 +2722,7 @@ confbox@^0.3.1:
   resolved "https://registry.yarnpkg.com/confbox/-/confbox-0.3.1.tgz#79aa91893791a202fb349fb367e7320423f7c76e"
   integrity sha512-cKUSoKa8YxFZZSmraVi7onONx3amu77ngK3kGpsYHDH7drPwCRkQE1RYMPlLRrMtnciRj274XNRxcHxnKmDSnA==
 
-consola@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-3.2.3.tgz#0741857aa88cfa0d6fd53f1cff0375136e98502f"
-  integrity sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==
-
-consola@^3.4.2:
+consola@^3.2.3, consola@^3.4.2:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/consola/-/consola-3.4.2.tgz#5af110145397bb67afdab77013fdc34cae590ea7"
   integrity sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==
