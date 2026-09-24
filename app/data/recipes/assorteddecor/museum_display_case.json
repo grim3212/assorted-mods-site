@@ -1,0 +1,1027 @@
+{
+  "id": "assorteddecor:museum_display_case",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:museum_display_case",
+        "name": "Museum Display Case",
+        "icon": {
+          "src": "/icons/assorteddecor/museum_display_case.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:glass_blocks",
+        "label": "glass blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:glass",
+            "name": "Glass",
+            "icon": {
+              "src": "/icons/minecraft/glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tinted_glass",
+            "name": "Tinted Glass",
+            "icon": {
+              "src": "/icons/minecraft/tinted_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:white_stained_glass",
+            "name": "White Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/white_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:orange_stained_glass",
+            "name": "Orange Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/orange_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:magenta_stained_glass",
+            "name": "Magenta Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/magenta_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_blue_stained_glass",
+            "name": "Light Blue Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/light_blue_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:yellow_stained_glass",
+            "name": "Yellow Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/yellow_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:lime_stained_glass",
+            "name": "Lime Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/lime_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pink_stained_glass",
+            "name": "Pink Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/pink_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:gray_stained_glass",
+            "name": "Gray Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/gray_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_gray_stained_glass",
+            "name": "Light Gray Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/light_gray_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cyan_stained_glass",
+            "name": "Cyan Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/cyan_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:purple_stained_glass",
+            "name": "Purple Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/purple_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blue_stained_glass",
+            "name": "Blue Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/blue_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:brown_stained_glass",
+            "name": "Brown Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/brown_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:green_stained_glass",
+            "name": "Green Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/green_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:red_stained_glass",
+            "name": "Red Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/red_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:black_stained_glass",
+            "name": "Black Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/black_stained_glass.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:glass_blocks",
+        "label": "glass blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:glass",
+            "name": "Glass",
+            "icon": {
+              "src": "/icons/minecraft/glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tinted_glass",
+            "name": "Tinted Glass",
+            "icon": {
+              "src": "/icons/minecraft/tinted_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:white_stained_glass",
+            "name": "White Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/white_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:orange_stained_glass",
+            "name": "Orange Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/orange_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:magenta_stained_glass",
+            "name": "Magenta Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/magenta_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_blue_stained_glass",
+            "name": "Light Blue Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/light_blue_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:yellow_stained_glass",
+            "name": "Yellow Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/yellow_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:lime_stained_glass",
+            "name": "Lime Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/lime_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pink_stained_glass",
+            "name": "Pink Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/pink_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:gray_stained_glass",
+            "name": "Gray Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/gray_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_gray_stained_glass",
+            "name": "Light Gray Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/light_gray_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cyan_stained_glass",
+            "name": "Cyan Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/cyan_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:purple_stained_glass",
+            "name": "Purple Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/purple_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blue_stained_glass",
+            "name": "Blue Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/blue_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:brown_stained_glass",
+            "name": "Brown Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/brown_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:green_stained_glass",
+            "name": "Green Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/green_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:red_stained_glass",
+            "name": "Red Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/red_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:black_stained_glass",
+            "name": "Black Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/black_stained_glass.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:glass_blocks",
+        "label": "glass blocks",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:glass",
+            "name": "Glass",
+            "icon": {
+              "src": "/icons/minecraft/glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tinted_glass",
+            "name": "Tinted Glass",
+            "icon": {
+              "src": "/icons/minecraft/tinted_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:white_stained_glass",
+            "name": "White Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/white_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:orange_stained_glass",
+            "name": "Orange Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/orange_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:magenta_stained_glass",
+            "name": "Magenta Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/magenta_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_blue_stained_glass",
+            "name": "Light Blue Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/light_blue_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:yellow_stained_glass",
+            "name": "Yellow Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/yellow_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:lime_stained_glass",
+            "name": "Lime Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/lime_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:pink_stained_glass",
+            "name": "Pink Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/pink_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:gray_stained_glass",
+            "name": "Gray Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/gray_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:light_gray_stained_glass",
+            "name": "Light Gray Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/light_gray_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:cyan_stained_glass",
+            "name": "Cyan Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/cyan_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:purple_stained_glass",
+            "name": "Purple Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/purple_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:blue_stained_glass",
+            "name": "Blue Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/blue_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:brown_stained_glass",
+            "name": "Brown Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/brown_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:green_stained_glass",
+            "name": "Green Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/green_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:red_stained_glass",
+            "name": "Red Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/red_stained_glass.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:black_stained_glass",
+            "name": "Black Stained Glass",
+            "icon": {
+              "src": "/icons/minecraft/black_stained_glass.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:stones",
+        "label": "stones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:andesite",
+            "name": "Andesite",
+            "icon": {
+              "src": "/icons/minecraft/andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:diorite",
+            "name": "Diorite",
+            "icon": {
+              "src": "/icons/minecraft/diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:granite",
+            "name": "Granite",
+            "icon": {
+              "src": "/icons/minecraft/granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_stone",
+            "name": "Infested Stone",
+            "icon": {
+              "src": "/icons/minecraft/infested_stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stone",
+            "name": "Stone",
+            "icon": {
+              "src": "/icons/minecraft/stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_andesite",
+            "name": "Polished Andesite",
+            "icon": {
+              "src": "/icons/minecraft/polished_andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_diorite",
+            "name": "Polished Diorite",
+            "icon": {
+              "src": "/icons/minecraft/polished_diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_granite",
+            "name": "Polished Granite",
+            "icon": {
+              "src": "/icons/minecraft/polished_granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_deepslate",
+            "name": "Infested Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/infested_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tuff",
+            "name": "Tuff",
+            "icon": {
+              "src": "/icons/minecraft/tuff.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/gold",
+        "label": "gold ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_ingot",
+            "name": "Gold Ingot",
+            "icon": {
+              "src": "/icons/minecraft/gold_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:stones",
+        "label": "stones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:andesite",
+            "name": "Andesite",
+            "icon": {
+              "src": "/icons/minecraft/andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:diorite",
+            "name": "Diorite",
+            "icon": {
+              "src": "/icons/minecraft/diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:granite",
+            "name": "Granite",
+            "icon": {
+              "src": "/icons/minecraft/granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_stone",
+            "name": "Infested Stone",
+            "icon": {
+              "src": "/icons/minecraft/infested_stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stone",
+            "name": "Stone",
+            "icon": {
+              "src": "/icons/minecraft/stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_andesite",
+            "name": "Polished Andesite",
+            "icon": {
+              "src": "/icons/minecraft/polished_andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_diorite",
+            "name": "Polished Diorite",
+            "icon": {
+              "src": "/icons/minecraft/polished_diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_granite",
+            "name": "Polished Granite",
+            "icon": {
+              "src": "/icons/minecraft/polished_granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_deepslate",
+            "name": "Infested Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/infested_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tuff",
+            "name": "Tuff",
+            "icon": {
+              "src": "/icons/minecraft/tuff.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:stones",
+        "label": "stones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:andesite",
+            "name": "Andesite",
+            "icon": {
+              "src": "/icons/minecraft/andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:diorite",
+            "name": "Diorite",
+            "icon": {
+              "src": "/icons/minecraft/diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:granite",
+            "name": "Granite",
+            "icon": {
+              "src": "/icons/minecraft/granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_stone",
+            "name": "Infested Stone",
+            "icon": {
+              "src": "/icons/minecraft/infested_stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stone",
+            "name": "Stone",
+            "icon": {
+              "src": "/icons/minecraft/stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_andesite",
+            "name": "Polished Andesite",
+            "icon": {
+              "src": "/icons/minecraft/polished_andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_diorite",
+            "name": "Polished Diorite",
+            "icon": {
+              "src": "/icons/minecraft/polished_diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_granite",
+            "name": "Polished Granite",
+            "icon": {
+              "src": "/icons/minecraft/polished_granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_deepslate",
+            "name": "Infested Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/infested_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tuff",
+            "name": "Tuff",
+            "icon": {
+              "src": "/icons/minecraft/tuff.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "minecraft:signs",
+        "label": "signs",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:oak_sign",
+            "name": "Oak Sign",
+            "icon": {
+              "src": "/icons/minecraft/oak_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:spruce_sign",
+            "name": "Spruce Sign",
+            "icon": {
+              "src": "/icons/minecraft/spruce_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:birch_sign",
+            "name": "Birch Sign",
+            "icon": {
+              "src": "/icons/minecraft/birch_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:acacia_sign",
+            "name": "Acacia Sign",
+            "icon": {
+              "src": "/icons/minecraft/acacia_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:jungle_sign",
+            "name": "Jungle Sign",
+            "icon": {
+              "src": "/icons/minecraft/jungle_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:dark_oak_sign",
+            "name": "Dark Oak Sign",
+            "icon": {
+              "src": "/icons/minecraft/dark_oak_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:pale_oak_sign",
+            "name": "Pale Oak Sign",
+            "icon": {
+              "src": "/icons/minecraft/pale_oak_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:crimson_sign",
+            "name": "Crimson Sign",
+            "icon": {
+              "src": "/icons/minecraft/crimson_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:warped_sign",
+            "name": "Warped Sign",
+            "icon": {
+              "src": "/icons/minecraft/warped_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:mangrove_sign",
+            "name": "Mangrove Sign",
+            "icon": {
+              "src": "/icons/minecraft/mangrove_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:bamboo_sign",
+            "name": "Bamboo Sign",
+            "icon": {
+              "src": "/icons/minecraft/bamboo_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "minecraft:cherry_sign",
+            "name": "Cherry Sign",
+            "icon": {
+              "src": "/icons/minecraft/cherry_sign.png",
+              "pixelated": true
+            }
+          },
+          {
+            "id": "assorteddecor:neon_sign",
+            "name": "Neon Sign",
+            "icon": {
+              "src": "/icons/assorteddecor/neon_sign.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:stones",
+        "label": "stones",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:andesite",
+            "name": "Andesite",
+            "icon": {
+              "src": "/icons/minecraft/andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:diorite",
+            "name": "Diorite",
+            "icon": {
+              "src": "/icons/minecraft/diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:granite",
+            "name": "Granite",
+            "icon": {
+              "src": "/icons/minecraft/granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_stone",
+            "name": "Infested Stone",
+            "icon": {
+              "src": "/icons/minecraft/infested_stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:stone",
+            "name": "Stone",
+            "icon": {
+              "src": "/icons/minecraft/stone.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_andesite",
+            "name": "Polished Andesite",
+            "icon": {
+              "src": "/icons/minecraft/polished_andesite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_diorite",
+            "name": "Polished Diorite",
+            "icon": {
+              "src": "/icons/minecraft/polished_diorite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_granite",
+            "name": "Polished Granite",
+            "icon": {
+              "src": "/icons/minecraft/polished_granite.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:deepslate",
+            "name": "Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:polished_deepslate",
+            "name": "Polished Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/polished_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:infested_deepslate",
+            "name": "Infested Deepslate",
+            "icon": {
+              "src": "/icons/minecraft/infested_deepslate.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "minecraft:tuff",
+            "name": "Tuff",
+            "icon": {
+              "src": "/icons/minecraft/tuff.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

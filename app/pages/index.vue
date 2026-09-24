@@ -15,6 +15,7 @@
         <ModCard mod="core" />
         <ModCard mod="cuisine" />
         <ModCard mod="decor" />
+        <ModCard mod="mobs" />
         <ModCard mod="storage" />
         <ModCard mod="tech" />
         <ModCard mod="tools" />

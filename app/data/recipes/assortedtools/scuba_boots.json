@@ -1,0 +1,108 @@
+{
+  "id": "assortedtools:scuba_boots",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:scuba_boots",
+        "name": "Scuba Fins",
+        "icon": {
+          "src": "/icons/assortedtools/scuba_boots.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:leathers",
+        "label": "leathers",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:leather",
+            "name": "Leather",
+            "icon": {
+              "src": "/icons/minecraft/leather.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

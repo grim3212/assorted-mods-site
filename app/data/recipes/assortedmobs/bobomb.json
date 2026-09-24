@@ -1,0 +1,73 @@
+{
+  "id": "assortedmobs:bobomb",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedmobs:bobomb",
+        "name": "Bob-omb",
+        "icon": {
+          "src": "/icons/assortedmobs/bobomb.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:dusts/redstone",
+        "label": "redstone dusts",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:redstone",
+            "name": "Redstone Dust",
+            "icon": {
+              "src": "/icons/minecraft/redstone.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:gunpowders",
+        "label": "gunpowders",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gunpowder",
+            "name": "Gunpowder",
+            "icon": {
+              "src": "/icons/minecraft/gunpowder.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:parabuzzy_shell",
+            "name": "Parabuzzy's Shell",
+            "icon": {
+              "src": "/icons/assortedmobs/parabuzzy_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

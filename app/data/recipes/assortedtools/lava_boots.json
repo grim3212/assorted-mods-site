@@ -1,0 +1,100 @@
+{
+  "id": "assortedtools:lava_boots",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:lava_boots",
+        "name": "Lava Boots",
+        "icon": {
+          "src": "/icons/assortedtools/lava_boots.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/blaze",
+        "label": "blaze rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:blaze_rod",
+            "name": "Blaze Rod",
+            "icon": {
+              "src": "/icons/minecraft/blaze_rod.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

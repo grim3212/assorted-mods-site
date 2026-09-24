@@ -1,0 +1,51 @@
+{
+  "id": "assorteddecor:waxed_oxidized_copper_display_case",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assorteddecor:waxed_oxidized_copper_display_case",
+        "name": "Waxed Oxidized Copper Display Case",
+        "icon": {
+          "src": "/icons/assorteddecor/waxed_oxidized_copper_display_case.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assorteddecor:oxidized_copper_display_case",
+          "name": "Oxidized Copper Display Case",
+          "icon": {
+            "src": "/icons/assorteddecor/oxidized_copper_display_case.png",
+            "pixelated": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:honeycomb",
+          "name": "Honeycomb",
+          "icon": {
+            "src": "/icons/minecraft/honeycomb.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "assortedtools:lava_chestplate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:lava_chestplate",
+        "name": "Lava Suit",
+        "icon": {
+          "src": "/icons/assortedtools/lava_chestplate.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/netherite",
+        "label": "netherite ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:netherite_ingot",
+            "name": "Netherite Ingot",
+            "icon": {
+              "src": "/icons/minecraft/netherite_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/blaze",
+        "label": "blaze rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:blaze_rod",
+            "name": "Blaze Rod",
+            "icon": {
+              "src": "/icons/minecraft/blaze_rod.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -10,7 +10,7 @@ export const siteRoot = resolve(here, '..', '..')
 
 // The sibling mod checkouts. Each contributes its hand-written and datagen'd resources.
 export const modsRoot = process.env.ASSORTED_MODS_ROOT || resolve(siteRoot, '..')
-export const mods = ['AssortedLib', 'AssortedCore', 'AssortedCuisine', 'AssortedDecor', 'AssortedStorage', 'AssortedTech', 'AssortedTools', 'AssortedWorld']
+export const mods = ['AssortedLib', 'AssortedCore', 'AssortedCuisine', 'AssortedDecor', 'AssortedMobs', 'AssortedStorage', 'AssortedTech', 'AssortedTools', 'AssortedWorld']
 
 export const minecraftVersion = process.env.MC_VERSION || '26.2'
 

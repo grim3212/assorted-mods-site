@@ -1,0 +1,71 @@
+{
+  "id": "assortedmobs:narwhal_sword",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedmobs:narwhal_sword",
+        "name": "Narwhal Sword",
+        "icon": {
+          "src": "/icons/assortedmobs/narwhal_sword.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:narwhal_horn",
+            "name": "Narwhal Horn",
+            "icon": {
+              "src": "/icons/assortedmobs/narwhal_horn.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:narwhal_horn",
+            "name": "Narwhal Horn",
+            "icon": {
+              "src": "/icons/assortedmobs/narwhal_horn.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

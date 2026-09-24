@@ -1,0 +1,140 @@
+{
+  "id": "assortedmobs:shell_chestplate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedmobs:shell_chestplate",
+        "name": "Shell Chestplate",
+        "icon": {
+          "src": "/icons/assortedmobs/shell_chestplate.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedmobs/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedmobs/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedmobs/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedmobs/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedmobs/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedmobs/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedmobs/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedmobs/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

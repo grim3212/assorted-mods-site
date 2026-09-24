@@ -1,0 +1,73 @@
+{
+  "id": "assortedmobs:shell_shovel",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedmobs:shell_shovel",
+        "name": "Shell Shovel",
+        "icon": {
+          "src": "/icons/assortedmobs/shell_shovel.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmobs:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedmobs/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -51,6 +51,15 @@ const DECOR: ModDetails = {
   homeRoute: '/decor'
 }
 
+const MOBS: ModDetails = {
+  name: 'Assorted Mobs',
+  description: 'Ice pixies, treasure mobs, Bob-ombs, parabuzzies, and seals, walruses, narwhals and sea otters.',
+  curseforgeSlug: 'assorted-mobs',
+  modrinthSlug: 'assorted-mobs',
+  githubLink: 'https://github.com/AssortedMods/AssortedMobs',
+  homeRoute: '/mobs'
+}
+
 const STORAGE: ModDetails = {
   name: 'Assorted Storage',
   description: 'Assorted blocks and items useful for storage.',
@@ -93,6 +102,7 @@ export const MODS = {
   core: CORE,
   cuisine: CUISINE,
   decor: DECOR,
+  mobs: MOBS,
   storage: STORAGE,
   tech: TECH,
   tools: TOOLS,
@@ -107,6 +117,8 @@ export function getModDetails(mod: string) {
       return CUISINE
     case 'decor':
       return DECOR
+    case 'mobs':
+      return MOBS
     case 'storage':
       return STORAGE
     case 'tech':

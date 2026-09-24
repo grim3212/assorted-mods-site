@@ -1,0 +1,111 @@
+{
+  "id": "assortedtools:lava_helmet",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedtools:lava_helmet",
+        "name": "Lava Hood",
+        "icon": {
+          "src": "/icons/assortedtools/lava_helmet.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:crying_obsidian",
+            "name": "Crying Obsidian",
+            "icon": {
+              "src": "/icons/minecraft/crying_obsidian.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:magma_cream",
+            "name": "Magma Cream",
+            "icon": {
+              "src": "/icons/minecraft/magma_cream.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
